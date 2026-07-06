@@ -13,6 +13,8 @@
   ].filter(Boolean);
 
   const DEFAULT_GROUP = "catalog";
+  const COVER_FOLDER = "covers";
+  const COVER_EXTENSION = "jpg";
 
   const SECTION_META = {
     main: {
@@ -59,6 +61,7 @@
   };
 
   const els = {};
+  const coverStatus = new Map();
   let letterObserver = null;
   let letterScrollHandler = null;
   let letterResizeHandler = null;
@@ -303,6 +306,8 @@
         };
 
         record.isRemastered = isRemasteredRecord(record);
+        record.coverPath = getCoverPath(row, record);
+        record.coverFile = record.coverPath ? record.coverPath.split("/").pop() : "";
 
         const sectionKey = detectSection(record);
         const sectionMeta = SECTION_META[sectionKey] ?? SECTION_META.main;
@@ -446,6 +451,7 @@
     });
 
     els.grid.replaceChildren(fragment);
+    setupCoverImages(els.grid);
     updateAlphabetNav(letterTargets, specialTargets);
     els.resultCount.textContent = `${numberFormatter.format(state.filtered.length)} ${state.filtered.length === 1 ? "risultato" : "risultati"}`;
     els.emptyState.hidden = state.filtered.length > 0;
@@ -1213,9 +1219,18 @@
         ${sectionChip}
         ${record.colori ? `<span class="chip is-special">${escapeHtml(record.colori)}</span>` : ""}
       </div>
-      <div class="card-vinyl vinyl-disc" aria-hidden="true"></div>
+      <div class="card-art" data-cover-frame aria-hidden="true" title="Cover attesa: ${escapeHtml(record.coverPath || "covers/artista_titolo.jpg")}">
+        <span class="card-cover-sleeve">
+          <img class="card-cover-img" data-cover-img data-cover-src="${escapeHtml(record.coverPath)}" alt="" loading="lazy" decoding="async" />
+          <span class="cover-overlay"></span>
+        </span>
+        <span class="card-cover-fallback">
+          <span class="card-vinyl vinyl-disc"></span>
+        </span>
+      </div>
     `;
 
+    setupCoverImages(button);
     button.addEventListener("click", () => openDetails(record));
     return button;
   }
@@ -1265,8 +1280,14 @@
     els.dialogContent.innerHTML = `
       <div class="dialog-layout">
         <div class="dialog-cover">
-          <div class="dialog-record-stage" style="--tile-a: ${tileA}; --tile-b: ${tileB};" aria-hidden="true">
-            <div class="dialog-vinyl vinyl-disc" style="--rotation: ${recordRotation(record)};"></div>
+          <div class="dialog-cover-stage" data-cover-frame style="--tile-a: ${tileA}; --tile-b: ${tileB};" title="Cover attesa: ${escapeHtml(record.coverPath || "covers/artista_titolo.jpg")}">
+            <img class="dialog-cover-img" data-cover-img data-cover-src="${escapeHtml(record.coverPath)}" alt="Copertina di ${escapeHtml(record.titolo || "Senza titolo")} - ${escapeHtml(record.artista || "Artista sconosciuto")}" decoding="async" />
+            <span class="cover-overlay" aria-hidden="true"></span>
+            <div class="dialog-cover-fallback" aria-hidden="true">
+              <div class="dialog-record-stage" style="--tile-a: ${tileA}; --tile-b: ${tileB};">
+                <div class="dialog-vinyl vinyl-disc" style="--rotation: ${recordRotation(record)};"></div>
+              </div>
+            </div>
           </div>
         </div>
         <div class="dialog-body">
@@ -1281,6 +1302,8 @@
         </div>
       </div>
     `;
+
+    setupCoverImages(els.dialogContent);
 
     if (els.detailDialog.open && typeof els.detailDialog.close === "function") {
       els.detailDialog.close();
@@ -1409,6 +1432,106 @@
 
   function uniqueValues(values) {
     return [...new Set(values.map(clean).filter(Boolean))];
+  }
+
+  function getCoverPath(row, record) {
+    const explicitCover = clean(
+      row.Cover ||
+      row.Copertina ||
+      row.Immagine ||
+      row["File cover"] ||
+      row["Nome cover"] ||
+      row["Cover file"]
+    );
+
+    if (explicitCover) {
+      const normalized = explicitCover.replace(/\\/g, "/").replace(/^\/+/, "");
+      const withExtension = /\.[a-z0-9]{2,5}$/i.test(normalized)
+        ? normalized
+        : `${normalized}.${COVER_EXTENSION}`;
+      return withExtension.includes("/") ? withExtension : `${COVER_FOLDER}/${withExtension}`;
+    }
+
+    const fileName = buildCoverFileName(record);
+    return fileName ? `${COVER_FOLDER}/${fileName}` : "";
+  }
+
+  function buildCoverFileName(record) {
+    const artistSlug = slugForCover(record.artista);
+    const titleSlug = slugForCover(record.titolo);
+    if (!artistSlug && !titleSlug) return "";
+    return `${artistSlug || "artista-sconosciuto"}_${titleSlug || "senza-titolo"}.${COVER_EXTENSION}`;
+  }
+
+  function slugForCover(value) {
+    return clean(value)
+      .normalize("NFD")
+      .replace(/[\u0300-\u036f]/g, "")
+      .toLowerCase()
+      .replace(/[^a-z0-9]+/g, "-")
+      .replace(/^-+|-+$/g, "")
+      .replace(/-{2,}/g, "-");
+  }
+
+  function setupCoverImages(root) {
+    if (!root) return;
+
+    root.querySelectorAll("img[data-cover-img]").forEach((image) => {
+      const frame = image.closest("[data-cover-frame]") || root;
+      const src = clean(image.dataset.coverSrc);
+
+      if (!src) {
+        markCoverMissing(frame, image);
+        return;
+      }
+
+      const cachedState = coverStatus.get(src);
+      if (cachedState === "failed") {
+        markCoverMissing(frame, image);
+        return;
+      }
+
+      image.addEventListener("load", () => {
+        coverStatus.set(src, "loaded");
+        markCoverLoaded(frame, image);
+      }, { once: true });
+
+      image.addEventListener("error", () => {
+        coverStatus.set(src, "failed");
+        markCoverMissing(frame, image);
+      }, { once: true });
+
+      image.src = encodeURI(src);
+
+      if (cachedState === "loaded" && image.complete && image.naturalWidth > 0) {
+        markCoverLoaded(frame, image);
+      }
+    });
+  }
+
+  function markCoverLoaded(frame, image) {
+    const card = image?.closest(".album-card");
+
+    frame?.classList.add("has-cover");
+    frame?.classList.remove("is-cover-missing");
+    card?.classList.add("has-cover");
+    card?.classList.remove("is-cover-missing");
+
+    if (image) image.hidden = false;
+  }
+
+  function markCoverMissing(frame, image) {
+    const card = image?.closest(".album-card");
+
+    frame?.classList.remove("has-cover");
+    frame?.classList.add("is-cover-missing");
+    card?.classList.remove("has-cover");
+    card?.classList.add("is-cover-missing");
+
+    if (image) {
+      image.hidden = true;
+      image.removeAttribute("src");
+    }
   }
 
   function isRemasteredRecord(record) {
