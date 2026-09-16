@@ -1,0 +1,38 @@
+{
+  "checkedOn": "2026-09-15",
+  "scope": "Abbinamento album, non edizione fisica. Nessun dato bibliografico importato.",
+  "localFilesIncluded": 0,
+  "sources": [
+    {
+      "ids": [
+        "VIN-0399"
+      ],
+      "artist": "Twenty One Pilots",
+      "title": "Trench",
+      "image": "https://upload.wikimedia.org/wikipedia/en/f/f3/Trench_Twenty_One_Pilots.png",
+      "source": "https://en.wikipedia.org/wiki/File:Trench_Twenty_One_Pilots.png",
+      "rights": "La fonte contrassegna l'artwork come non libero. Nessuna licenza di riuso trasferita dal sito."
+    },
+    {
+      "ids": [
+        "VIN-0314"
+      ],
+      "artist": "Pink Floyd",
+      "title": "The Dark Side Of The Moon",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Dark_Side_of_the_Moon.png/500px-Dark_Side_of_the_Moon.png",
+      "source": "https://en.wikipedia.org/wiki/File:Dark_Side_of_the_Moon.png",
+      "rights": "La pagina Commons indicata nella fonte dichiara public domain e avverte di possibili marchi; verificare il proprio contesto d'uso."
+    },
+    {
+      "ids": [
+        "VIN-0171",
+        "VIN-0176"
+      ],
+      "artist": "Green Day",
+      "title": "Dookie",
+      "image": "https://upload.wikimedia.org/wikipedia/en/4/4b/Green_Day_-_Dookie_cover.jpg",
+      "source": "https://en.wikipedia.org/wiki/File:Green_Day_-_Dookie_cover.jpg",
+      "rights": "La fonte contrassegna l'artwork come non libero. Nessuna licenza di riuso trasferita dal sito."
+    }
+  ]
+}

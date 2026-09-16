@@ -1,0 +1,87 @@
+{
+  "version": "2.1",
+  "unchangedPhotoFiles": 40,
+  "originalCsvCellsCompared": 3897,
+  "sourceRows": 433,
+  "localCoversChecked": 20,
+  "localHTMLReferencesChecked": 210,
+  "missingReferences": [],
+  "changesFrom20": [
+    {
+      "file": "CHANGELOG.md",
+      "change": "modified"
+    },
+    {
+      "file": "README.md",
+      "change": "modified"
+    },
+    {
+      "file": "Structure.txt",
+      "change": "modified"
+    },
+    {
+      "file": "VERIFICHE.txt",
+      "change": "modified"
+    },
+    {
+      "file": "assets/covers/README.txt",
+      "change": "modified"
+    },
+    {
+      "file": "assets/css/records.css",
+      "change": "modified"
+    },
+    {
+      "file": "assets/data/record-covers.js",
+      "change": "modified"
+    },
+    {
+      "file": "assets/data/records-config.js",
+      "change": "modified"
+    },
+    {
+      "file": "assets/js/records-app.js",
+      "change": "modified"
+    },
+    {
+      "file": "assets/js/records-model.js",
+      "change": "modified"
+    },
+    {
+      "file": "assets/js/records-view.js",
+      "change": "modified"
+    },
+    {
+      "file": "dischi.html",
+      "change": "modified"
+    },
+    {
+      "file": "docs/TEST-RESULTS.json",
+      "change": "modified"
+    },
+    {
+      "file": "docs/records/CATALOGO.md",
+      "change": "modified"
+    },
+    {
+      "file": "docs/records/COVER-GUIDE.md",
+      "change": "modified"
+    },
+    {
+      "file": "templates/COPERTINA.txt",
+      "change": "modified"
+    },
+    {
+      "file": "tools/check.js",
+      "change": "modified"
+    },
+    {
+      "file": "tools/records-sync.js",
+      "change": "modified"
+    },
+    {
+      "file": "tools/records-test.js",
+      "change": "modified"
+    }
+  ]
+}

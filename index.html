@@ -1,0 +1,134 @@
+<!doctype html>
+<!--
+  PIGEON.JFIF - HTML STATICO CON CONTENUTI GIA' PRESENTI
+  Modifica i testi in assets/data/site.js, gli scatti in photos.js,
+  le raccolte in albums.js e lo stile in assets/css.
+  Per i dischi: data/Dischi.csv e assets/data/records-config.js.
+  Struttura: assets/js/pages.js e assets/js/records-view.js.
+  node tools/build.js rigenera questa pagina; le modifiche dirette all'HTML
+  verrebbero sovrascritte. Il sito NON richiede Node per essere visitato.
+-->
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#f4f2ed">
+  <meta name="color-scheme" content="light">
+  <title>Spazio personale - pigeon.jfif</title>
+  <meta name="description" content="pigeon.jfif. Lo spazio personale di Nico: fotografie e Plastic Pizzas, la collezione di dischi. Fotografo per passione, con Fujifilm.">
+  <meta name="author" content="pigeon.jfif">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Spazio personale - pigeon.jfif">
+  <meta property="og:description" content="pigeon.jfif. Lo spazio personale di Nico: fotografie e Plastic Pizzas, la collezione di dischi. Fotografo per passione, con Fujifilm.">
+  <meta property="og:image" content="./assets/og-cover.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  
+  <link rel="icon" type="image/svg+xml" href="./assets/favicon.svg">
+  <link rel="stylesheet" href="./assets/css/theme.css">
+  <!-- Inter libero: unico caricamento font esterno. Disattivabile in fonts.css. -->
+  <link rel="stylesheet" href="./assets/css/fonts.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  
+  <!-- Ordine importante: prima i dati, poi funzioni, pagine e interazioni. -->
+  <script defer src="./assets/data/site.js"></script>
+  <script defer src="./assets/data/photos.js"></script>
+  <script defer src="./assets/data/albums.js"></script>
+  <script defer src="./assets/js/core.js"></script>
+  <script defer src="./assets/js/pages.js"></script>
+  
+  <script defer src="./assets/js/viewer.js"></script>
+  <script defer src="./assets/js/app.js"></script>
+  
+</head>
+<body id="top" data-page="home" data-base="./" data-album="">
+  <a class="skip-link" href="#main">Vai al contenuto</a>
+  <header class="site-header" id="site-header">
+    <div class="header-inner wrap">
+      <!-- HEADER-01 | Unico collegamento Home nella barra: il simbolo p. -->
+      <a href="./index.html" class="brand-home" aria-label="pigeon.jfif, pagina iniziale" aria-current="page">
+        <img src="./assets/favicon.svg" width="44" height="44" alt="" decoding="async">
+      </a>
+      <button type="button" class="menu-toggle" data-action="menu" aria-controls="primary-nav" aria-expanded="false">Menu <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></button>
+      <!-- HEADER-02 | Raccolte e Chi sono. Plastic Pizzas resta fuori dalla navigazione principale. -->
+      <nav id="primary-nav" class="primary-nav" aria-label="Navigazione principale">
+        <a class="nav-link" href="./raccolte.html">Raccolte</a>
+<a class="nav-link" href="./info.html">Chi sono</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main" tabindex="-1">
+    <div class="wrap personal-home">
+      <!-- HOME-01 | Firma principale. -->
+      <header class="personal-intro">
+        <p class="eyebrow">Fotografia / Dischi / Spazio personale</p>
+        <h1 class="identity-wordmark" id="home-title">pigeon<span class="brand-extension">.jfif</span></h1>
+      </header>
+      <!-- HOME-02 | Saluto e presentazione generale: fotografia e dischi, senza cataloghi. -->
+      <section class="personal-bio" aria-label="Presentazione">
+        <div class="personal-bio-lead">
+          <p class="home-greeting">Ciao, <em>sono Nico.</em></p>
+          <p class="personal-lead">Fotografo per passione, colleziono dischi e ascolto un po’ di tutto.</p>
+        </div>
+        <div class="personal-bio-copy"><p>Mi piace prendermi il tempo di osservare e fotografare quello che mi colpisce. Allo stesso modo, accumulo dischi da anni e continuo a trovare una scusa per metterne un altro sul piatto.</p><p>pigeon.jfif mette insieme entrambe le cose: le mie fotografie e Plastic Pizzas, il mio archivio di vinili. Il resto cresce un po’ alla volta.</p></div>
+      </section>
+      <!-- HOME-03 / HOME-04 | Fotografia e audio affiancati sul desktop. -->
+      <div class="personal-systems">
+        <section class="personal-system" aria-labelledby="home-photo-setup">
+          <h2 id="home-photo-setup">Con cosa scatto.</h2>
+          <p class="system-note">Una X-T5 e due zoom: uno per quasi tutto, uno quando serve arrivare un po’ più lontano.</p>
+          <dl class="home-gear"><div class="home-gear-row">
+      <dt>Fotocamera</dt>
+      <dd><span class="home-gear-name">Fujifilm X-T5</span><span class="home-gear-detail">40,2 MP · APS-C</span></dd>
+    </div><div class="home-gear-row">
+      <dt>Lente 16–55 mm</dt>
+      <dd><span class="home-gear-name">Fujinon 16–55 mm</span><span class="home-gear-detail">f/2.8 · R · LM · WR</span></dd>
+    </div><div class="home-gear-row">
+      <dt>Lente 55–200 mm</dt>
+      <dd><span class="home-gear-name">Fujinon 55–200 mm</span><span class="home-gear-detail">f/3.5–4.8 · R · LM · OIS</span></dd>
+    </div></dl>
+        </section>
+        <section class="personal-system personal-system--audio" aria-labelledby="home-audio-setup">
+          <h2 id="home-audio-setup">Con cosa ascolto.</h2>
+          <p class="system-note">Un impianto da scrivania costruito attorno ai vinili, con casse e cuffie a seconda del momento.</p>
+          <dl class="home-gear"><div class="home-gear-row">
+      <dt>Giradischi 1</dt>
+      <dd><span class="home-gear-name">Argon Audio TT-3 Plus</span><span class="home-gear-detail">Belt driven · Ortofon 2M Red</span></dd>
+    </div><div class="home-gear-row">
+      <dt>Amplificatore</dt>
+      <dd><span class="home-gear-name">Technics SU-600</span></dd>
+    </div><div class="home-gear-row">
+      <dt>Cuffie</dt>
+      <dd><span class="home-gear-name">AKG K92</span></dd>
+    </div><div class="home-gear-row">
+      <dt>Casse</dt>
+      <dd><span class="home-gear-name">2× Pioneer CS-557</span><span class="home-gear-detail">3-way · 8 Ohm · 50–70 W</span></dd>
+    </div></dl>
+        </section>
+      </div>
+      <!-- HOME-05 | Rimandi discreti ai due archivi. -->
+      <div class="personal-collections"><a class="text-link" href="./raccolte.html">Sfoglia le raccolte <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16m-6-6 6 6-6 6"/></svg></a></div>
+    </div>
+  </main>
+  <footer class="site-footer" id="site-footer">
+    <div class="wrap">
+    
+    <div class="footer-bottom">
+      <p><a class="footer-records-secret" href="./dischi.html" aria-label="Plastic Pizzas">&copy;</a> 2026 pigeon.jfif &nbsp;/&nbsp; Uno spazio personale.</p>
+      <a class="footer-social" href="https://www.instagram.com/pigeon.jfif/" target="_blank" rel="noopener noreferrer">@pigeon.jfif <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 19 19 5M5 5h14v14"/></svg></a>
+    </div>
+  </div>
+  </footer>
+  <noscript>
+    <style>
+      .menu-toggle, .gallery-toolbar { display: none; }
+      .site-header { height: auto; }
+      .header-inner { min-height: 87px; flex-wrap: wrap; gap: 20px; padding-block: 20px; }
+      .primary-nav { display: flex; position: static; flex-wrap: wrap; gap: 18px; padding: 0; border: 0; background: none; box-shadow: none; }
+      .nav-link { font: 13px var(--sans); }
+    </style>
+    <p class="wrap" style="padding-block:24px;font-size:12px">JavaScript e' disattivato. Puoi leggere le pagine e aprire le immagini; filtri, ricerca e visualizzatore richiedono JavaScript.</p>
+  </noscript>
+</body>
+</html>

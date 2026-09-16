@@ -1,0 +1,84 @@
+{
+  "version": "2.1",
+  "method": "Chromium / Playwright; HTML CSS JS and local media embedded in about:blank; remote requests blocked; direct localhost and file navigation blocked by environment.",
+  "functional": {
+    "passed": [
+      "Tre cover visibili offline; fonti remote fallite sostituite",
+      "Primi 36 artisti, nessun carica altro",
+      "T cambia pagina senza filtrare",
+      "Primo artista con T focalizzato",
+      "Artista: regione espansa, 8 copie in cronologia",
+      "Artista non diventa filtro o vista album",
+      "Ordine cronologico stabile delle copie",
+      "Dialog da artista ha solo il suo contesto",
+      "Cover locale nel dialog caricata",
+      "Seconda copia Breach distinta",
+      "Chiudi dialog conserva artista aperto",
+      "Escape chiude pannello e riporta focus all artista",
+      "Copertine ordinate per titolo di default",
+      "C va al primo titolo, non al primo artista con C",
+      "Il salto apre la pagina esatta del titolo",
+      "Salto A-Z aggiorna esplicitamente ordinamento per titolo",
+      "13 pagine contengono tutte le 433 copie una volta",
+      "Ultima pagina e pulsante avanti disabilitato",
+      "Back ripristina pagina 12",
+      "Elenco: salto alfabetico ancora per titolo",
+      "Ricerca porta a pagina 1 e conserva le copie",
+      "Artista aperto rispetta la ricerca attiva",
+      "Zero risultati senza pagina fantasma",
+      "Tre suggerimenti invariati tra ricerca, pagine, viste e artisti",
+      "CSV temporaneo: ID riusato non riceve la cover sbagliata",
+      "Ripristino snapshot ristabilisce tutte le copie e tre proposte",
+      "Nessun errore JS"
+    ],
+    "errors": [],
+    "randomSamples": []
+  },
+  "visual": {
+    "passed": [
+      "Apertura animata reale e clic ravvicinati senza pannello bloccato",
+      "Un solo artista aperto, chiusura animata del precedente",
+      "Artisti e pannello senza overflow a 320px; righe coerenti",
+      "Artisti e pannello senza overflow a 390px; righe coerenti",
+      "Artisti e pannello senza overflow a 768px; righe coerenti",
+      "Artisti e pannello senza overflow a 1024px; righe coerenti",
+      "Artisti e pannello senza overflow a 1440px; righe coerenti",
+      "Artisti e pannello senza overflow a 1920px; righe coerenti",
+      "Copertine e paginazione 13 pagine senza overflow a 320px",
+      "Copertine e paginazione 13 pagine senza overflow a 390px",
+      "Copertine e paginazione 13 pagine senza overflow a 768px",
+      "Copertine e paginazione 13 pagine senza overflow a 1024px",
+      "Copertine e paginazione 13 pagine senza overflow a 1440px",
+      "Copertine e paginazione 13 pagine senza overflow a 1920px",
+      "Quattro caricamenti nuovi producono campioni diversi"
+    ],
+    "errors": [],
+    "samples": [
+      [
+        "VIN-0348",
+        "VIN-0150",
+        "VIN-0152"
+      ],
+      [
+        "VIN-0158",
+        "VIN-0150",
+        "VIN-0354"
+      ],
+      [
+        "VIN-0401",
+        "VIN-0373",
+        "VIN-0386"
+      ],
+      [
+        "VIN-0154",
+        "VIN-0348",
+        "VIN-0404"
+      ]
+    ]
+  },
+  "finalChecks": [
+    "Mobile A-Z keeps destination letter visible",
+    "Opening artist preserves horizontal alphabet scroll",
+    "Artist action from a proposal excluded by filters opens correctly"
+  ]
+}

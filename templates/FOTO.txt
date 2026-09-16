@@ -1,0 +1,57 @@
+MODELLO DI UNA NUOVA FOTO - DA COPIARE IN assets/data/photos.js
+================================================================
+SOLO copie web con tag incorporato: mai master, RAW o export senza firma.
+Questo e' un esempio NON attivo. Sostituisci tutti i valori di esempio.
+Aggiungi una virgola tra il nuovo oggetto e quello precedente nell'array.
+I numeri width/height sono quelli del file web pubblicato.
+thumb e' opzionale: con "" si usa direttamente il file full. thumbWidth = 0 se assente.
+I parametri sotto sono esempi di formato, NON i dati di uno scatto reale.
+
+{
+  "id": "JES-041",
+  "albumId": "jesolo-2026",
+  "sourceFile": "nome-del-tuo-export.jpg",
+  "title": "Titolo della fotografia",
+  "subject": "Eurofighter",
+  "filter": "efa",
+  "alt": "Descrizione concreta di quello che si vede.",
+  "note": "Una nota sul momento, sull'inquadratura o sul ritaglio.",
+  "variant": "wide",
+  "pairId": "",
+  "file": "assets/photos/jesolo-2026/full/JES-041.webp",
+  "thumb": "assets/photos/jesolo-2026/thumbs/JES-041.webp",
+  "width": 2400,
+  "height": 1600,
+  "thumbWidth": 960,
+  "webSignature": "author",
+  "capture": {
+    "camera": "Fujifilm X-T5",
+    "lens": "",
+    "focalLength": "",
+    "aperture": "",
+    "shutter": "",
+    "iso": "",
+    "capturedAt": ""
+  },
+  "referenceExport": null
+}
+
+FORMATI DEI CAMPI, SOLO COME ESEMPIO:
+  focalLength: "200 mm"
+  aperture:    "f/6.4"
+  shutter:     "1/2000 s"
+  iso:         "800"
+  capturedAt:  "12 settembre 2026, 15:34"
+
+Non copiare questi valori se non sono quelli dello scatto.
+Per mostrare la foto, aggiungi l'ID a photoIds in albums.js.
+
+webSignature e' una nota di lavoro: "author" per il tuo export firmato,
+"provisional" solo per una prova. Non dimostra ne' certifica il watermark.
+I verticali sono riconosciuti dalle dimensioni: non serve una proprieta' extra.
+
+Impaginazione automatica: le foto normali viaggiano a coppie a pari altezza.
+Le panoramiche circa 21:9 occupano una riga intera e possono essere spostate
+localmente al confine della coppia piu' vicino per evitare righe singole nel mezzo.
+Se le foto normali sono dispari, l'unica spaiata resta in fondo.
+variant:"wide" serve SOLO al confronto, non crea una foto a tutta pagina.

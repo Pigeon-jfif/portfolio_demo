@@ -1,0 +1,325 @@
+PIGEON.JFIF - STRUTTURA E MAPPA DELLE POSIZIONI / v2.1
+====================================================
+
+PARTENZA RAPIDA
+--------------
+Estrai tutto in una cartella nuova. Apri index.html.
+Dati: assets/data. Aspetto: assets/css. Logo: assets/brand.
+Prima di pubblicare: node tools/build.js && node tools/check.js && node tools/test.js && node tools/records-test.js.
+Nessun framework, database o npm install. Il browser non richiede Node.
+Solo copie web firmate. Per Noale la firma e' PROVVISORIA: docs/NOALE.txt.
+
+ALBERO PRINCIPALE
+----------------
+index.html                    Home: nome, biografia e setup gia' leggibili
+dischi.html                   Plastic Pizzas: catalogo, ricerca, viste, dettagli
+raccolte.html                 Copertine piu' piccole, alternate sinistra/destra
+info.html                     Chi sono, setup e contatti; solo testo
+album.html                    Modello universale: ?id=ID-ALBUM
+serie/jesolo.html              Jesolo Air Show / 37 foto
+serie/birbs-of-noale.html      Birbs of Noale / 9 foto
+serie/conegliano.html          Photo Safari Conegliano / 7 foto
+404.html                      Pagina non trovata
+.nojekyll                     Supporto alla pubblicazione statica
+.gitignore                    Esclusioni di lavoro (non rende privati i file)
+README.md                     Manuale completo
+Structure.txt                 Questa mappa
+CHANGELOG.md                  Cronologia delle modifiche
+VERIFICHE.txt                 Test realmente eseguiti e limiti
+
+data/Dischi.csv               Fonte modificabile dei 433 dischi, con ID permanenti
+assets/data/records.js        Snapshot GENERATA dal CSV per apertura file locale
+assets/data/records-config.js Testi, campione di 3 album, pagine, animazione
+assets/data/record-covers.js  Mappa ID -> file/URL copertina e fonte
+assets/js/records-model.js   Parser CSV, filtri, ordini, conteggi (browser + Node)
+assets/js/records-view.js    HTML del catalogo e del dettaglio
+assets/js/records-app.js     Ricerca, navigazione, dialog, CSV locale/HTTP
+assets/css/records.css      Stile SOLO della parte dischi (classi r-)
+assets/covers/full/         228 WebP principali; file condivisi fra copie duplicate
+assets/covers/thumbs/       228 miniature WebP delle cover fornite
+tools/records-sync.js       CSV -> snapshot JS + indice dischi + conteggi
+tools/records-test.js       Test logici per parser, dati, ricerca, casuale
+tools/records-navigation-test.js  Test A-Z, pagine, pannelli e campione
+tools/records-indexes.js     Genera indici cover e destinazioni A-Z
+tools/prepare_cover.py      JPG e miniatura da immagine LOCALE; opzionale, Pillow
+tools/download_covers.py    Recupero 3 artwork documentati; opzionale, Internet
+templates/COPERTINA.txt     Scheda cover commentata da copiare
+assets/data/site.js           Testi, nome, biografia, setup e contatti
+assets/data/photos.js         Schede foto: ID, file web, EXIF, confronti
+assets/data/albums.js         Copertine, filtri interni e ordine degli ID
+assets/css/theme.css          Palette, font, --home-mark-size, --brand-tracking
+assets/css/fonts.css          Inter remoto, opzionale; eliminabile l'@import
+assets/css/style.css          Componenti, pagine, responsive, viewer
+assets/js/core.js             Header, footer, immagini e componenti comuni
+assets/js/pages.js            Struttura delle sezioni di ogni pagina
+assets/js/app.js              Avvio, menu, ricerca, filtri, cambio vista
+assets/js/viewer.js           Viewer, Info, zoom, confronto, link
+assets/favicon.svg            Icona p. usata nella tab E come tasto Home
+assets/brand/                 Copie SVG riutilizzabili del logo
+assets/og-cover.jpg           Anteprima social tipografica
+assets/photos/README.txt      Regole per le copie web con tag
+assets/photos/jesolo-2026/
+  full/JES-001.webp ...        37 WebP principali della selezione attuale
+  thumbs/JES-001.webp ...      37 miniature WebP derivate dagli stessi export
+assets/photos/birbs-of-noale/
+assets/photos/conegliano-photo-safari/  Full WebP + thumbs / 7 foto
+  large/NOA-001.jpg ...        Nuovi JPG pubblici con firma provvisoria
+  thumbs/NOA-001.webp ...      Miniature derivate dalle copie firmate
+
+docs/FONT-E-LOGO.txt          Famiglie, pesi, spaziatura, logo, fallback
+docs/PHOTO-INDEX.txt          Generato: codice -> file, pagine, posizioni
+docs/PLAN-PHOTOS.jpg          Tavola visiva di tutte le 46 foto
+docs/PLAN-NOALE.jpg           Tavola visiva solo Noale
+docs/NOALE.txt                Mappa nuovi file e sostituzione del tag temporaneo
+
+templates/FOTO.txt            Esempio da copiare in photos.js
+templates/ALBUM.txt           Esempio da copiare in albums.js
+templates/page.html           Scheletro comune degli HTML generati
+
+tools/check.js                Validazione catalogo, avviso firme provvisorie
+tools/test.js                 Test raggruppamento 2/3, ordine e navigazione
+tools/build.js                Genera HTML, indice, sitemap se siteUrl compilato
+tools/catalog.js              Carica i dati per gli strumenti Node
+tools/make-index.js           Genera PHOTO-INDEX.txt
+tools/generated-pages.json    Registro degli HTML generati
+tools/prepare_photo.py        Riduce export GIA' FIRMATI; --watermarked richiesto
+
+MAPPA DELLE SEZIONI
+------------------
+Codici ripresi nei commenti di pages.js e degli HTML generati.
+
+HEADER-01 / tutte le pagine
+  Icona a sinistra: assets/favicon.svg. Ritorna alla Home.
+  Nessun cambiamento al disegno della p. approvata.
+
+HEADER-02 / tutte le pagine
+  Menu: Raccolte, Dischi e Chi sono; Home e' il logo di HEADER-01.
+  Markup: P.header in core.js. Nessun nome o link Instagram duplicato.
+  Instagram rimane in Contatti e nel footer. Nome in Home/viewer invariato.
+
+HOME-01 / index.html
+  Etichetta e nome piu' piccolo: home.eyebrow, site.brand.
+  Il marchio resta solo; home.greeting + home.greetingAccent aprono la presentazione sotto la prima separazione.
+  Dimensione: --home-mark-size in theme.css, adattamento mobile in style.css.
+  Nessun codice foto, copertina o tema principale.
+
+HOME-02 / index.html
+  Presentazione generale: home.intro, home.paragraphs.
+  Nessuna card-link, nessun testo nascosto dietro un'altra pagina.
+
+HOME-03 / index.html
+  Fotografia: home.photoSystemLabel, home.photoSystemNote, site.photoGear.
+  Ogni riga legge kind, name e detail; gli stessi dati sono usati in ABOUT-02.
+  Su desktop fotografia e audio sono affiancati.
+
+HOME-04 / index.html
+  Audio: home.audioSystemLabel, home.audioSystemNote, site.audioGear.
+  Stessa forma compatta del setup fotografico, ma sezione distinta.
+
+HOME-05 / index.html
+  Link piccolo in fondo: home.collectionsLabel.
+  home.showCollectionsLink = false lo nasconde senza cambiare il menu.
+  Link dischi: home.showRecordsLink e home.recordsLabel (stessa piccola riga).
+
+COLLECTIONS-01 / raccolte.html
+  Titolo e introduzione: site.archive.
+
+COLLECTIONS-02 / raccolte.html
+  Un collegamento per album pubblicato, nell'ordine di PIGEON_ALBUMS.
+  Posizioni desktop: primo sinistra, secondo destra, terzo sinistra, ecc.
+  L'alternanza usa index % 2 in pages.js, classe archive-main--reverse.
+  Desktop: copertine larghe circa meta' della pagina. Mobile: foto sopra testo.
+  Prima raccolta: Jesolo, coverId JES-011.
+  Seconda raccolta: Noale, coverId NOA-005.
+
+COLLECTIONS-03 / RIMOSSO
+  Non esiste piu' la sezione Parti dal soggetto.
+  I filtri restano dentro gli album; non hanno piu' una copertina dedicata.
+
+COLLECTIONS-04 / raccolte.html
+  Nota sulle copie web: archive.publicationTitle, archive.publicationNote.
+  I master FQ/RAW restano fuori dal sito.
+
+ALBUM-01 / serie/*.html o album.html?id=...
+  Titolo, categoria, luogo, data e descrizione da albums.js.
+  Date vuote non generano etichette vuote. Nessuna data assegnata a Noale.
+
+ALBUM-02 / pagina album
+  Filtri: album.filters [{id, label}], collegati a photo.filter.
+  Jesolo: Frecce, Eurofighter, F-35, Altro.
+  Noale: Anatre (5), Piccioni (2), Altri incontri (2).
+  Ricerca: site.gallery.showSearch. Layout: defaultView e rememberView.
+
+ALBUM-03 / pagina album
+  Ordine da album.photoIds, non dal nome del file o dal numero del codice.
+  Jesolo: 37 immagini in sequenza curata: acrobazia/elicottero e C-27J,
+          poi Eurofighter, F-35 e Frecce nel finale. L'ultima foto dispari
+          viene centrata su desktop invece di essere allargata a tutta riga.
+  Noale:  NOA-005, NOA-001, NOA-002, NOA-003, NOA-004,
+          NOA-008, NOA-006, NOA-007, NOA-009.
+  Sequenza desktop: due foto per riga, oppure tre verticali consecutive
+  a inizio riga. Nessuna fotografia gigante in apertura o a tutta riga.
+  Noale: riga 1 [005,001]; riga 2 [002,003];
+         riga 3 [004,008,006] verticali; riga 4 [007,009].
+  Funzione: P.galleryRows in pages.js. CSS: sezione SEQUENZA / v2.1.
+  Tablet <=1000px: 2 colonne. Telefono <=700px: 1 in Sequenza.
+  La vista Griglia resta compatta: 3 colonne desktop, 2 tablet/telefono.
+  Le proporzioni sono sempre intere. I file non vengono tagliati.
+  photo.layout e' stato rimosso: non e' piu' una regolazione necessaria.
+  photo.variant (wide/crop) resta invece usato per i confronti.
+
+ABOUT-01 / info.html
+  Biografia: about.eyebrow, headingFirst, headingAccent, lead, paragraphs.
+  Testi e struttura approvati conservati. Nessuna fotografia.
+
+ABOUT-02 / info.html#setup
+  Settore fotografia: about.photoEyebrow, photoHeading, photoText.
+  Setup: site.photoGear.
+
+ABOUT-03 / info.html#ascolto
+  Settore audio: about.audioEyebrow, audioHeading, audioText.
+  Setup: site.audioGear.
+
+ABOUT-04 / info.html#contatti
+  Testi: site.contact. Contatti: instagram, instagramLabel, email.
+  Email vuota = link assente. Nessun modulo che finge di inviare.
+
+FOOTER / tutte le pagine
+  In Home solo riga compatta; altrove footer originale.
+  Testi: site.footer. Markup: P.footer(page) in core.js.
+
+VIEWER / pagine album
+  File: photo.file, sempre copia web firmata.
+  Dati: photo.capture. I campi vuoti sono omessi, non completati per ipotesi.
+  width/height: dimensioni EFFETTIVE del file web pubblicato.
+  referenceExport: eventuali dimensioni comunicate, non un link al master.
+  Confronto: pairId reciproco e variant wide/crop, solo dove esiste una coppia.
+  webSignature:'provisional' e' una nota DI MANUTENZIONE, non una protezione.
+
+CODICI FOTO / NOMI DI PARTENZA
+----------------------------
+Jesolo contiene 37 scatti selezionati dalla zip corrente. ID attivi:
+  JES-001, JES-003, JES-005..JES-009, JES-011..JES-040.
+  JES-002, JES-004 e JES-010 restano volutamente liberi: i vecchi file
+  associati a quei codici non fanno parte della selezione attuale.
+  Copertina raccolta: JES-011. Confronto attivo: JES-005 <-> JES-006.
+  La mappa completa ID -> nome sorgente -> file pubblico e' generata in
+  docs/PHOTO-INDEX.txt.
+
+NOA-001 | A tu per tu                | _DSF0812.jpg
+NOA-002 | Un filo di blu             | _DSF0853.jpg
+NOA-003 | Sulla riva                 | _DSF0016.jpg
+NOA-004 | Doppio sguardo             | _DSF0043.jpg
+NOA-005 | Iridescenze                | _DSF0333.jpg
+NOA-006 | In bianco                  | _DSF0432.jpg
+NOA-007 | A cercare qualcosa         | _DSF0519.jpg
+NOA-008 | Puntini                    | _DSF0650.jpg
+NOA-009 | Di spalle                  | _DSF0717.jpg
+
+Gli ID identificano gli scatti; non vanno cambiati per riordinarli.
+Nessuna foto e' mostrata in Home o Chi sono. Tutte restano nelle raccolte.
+La parte dischi e' in dischi.html.
+
+REGOLE
+------
+- Modifica dati e CSS, non gli HTML generati. Poi check + build.
+- Mai FQ/RAW, export puliti o font nella cartella pubblica.
+- full/large = copia web piu' grande della miniatura, mai master full quality.
+- Per Noale sostituisci le firme provvisorie con le tue: docs/NOALE.txt.
+- Il preparatore ordinario non aggiunge/rimuove/riconosce il watermark.
+- published:false non rende privati file e immagini.
+- .gitignore non protegge file gia' tracciati in un repository.
+- I nomi file di partenza sono riferimenti testuali, non copie degli originali.
+
+
+PLASTIC PIZZAS / MAPPA DELLE SEZIONI
+=================================
+DISCHI-01 / r-intro
+  Titolo/introduzione: records-config.js (titleFirst, titleAccent, intro, description).
+  Tre proposte: featuredCount=3. Solo album con cover, estratti a ogni caricamento.
+  Nessuna lista featuredIds. Stesso artista+titolo = un candidato, non due copie.
+  Durante filtri/pagine il campione non cambia. Meno di 3 candidati = meno schede.
+  R.featuredRecords / R.featured in records-view.js; M.sampleAlbums nel model.
+
+DISCHI-02 / records-metrics
+  Voci, artisti, dischi fisici e anni: dati del CSV, invariati nella v2.1.
+  433 voci / 214 gruppi artista / 498 dischi / 1956-2026 nella consegna.
+  Spazi esterni ignorati solo nella visualizzazione/raggruppamento.
+
+DISCHI-03 / r-controls
+  Filtri reali: q, format, decade, country, section, edition.
+  artist e letter NON sono filtri. Nessun chip artista/lettera.
+  Un cambio di ricerca/filtro torna a pagina 1 e chiude il pannello aperto.
+
+DISCHI-04 / record-alphabet
+  A-Z nomi in Artisti. A-Z TITOLI in Copertine ed Elenco.
+  La lettera sceglie pagina e primo elemento, poi scorre/evidenzia quel punto.
+  Il catalogo non si restringe. Le altre lettere restano raggiungibili.
+  Scegliendo una lettera nelle viste album si imposta anche order=title.
+  Inizio = prima pagina. # = iniziali non alfabetiche latine.
+  Funzione pura: M.alphabetTarget. UI: jumpToLetter in records-app.js.
+
+DISCHI-05 / record-results + record-pagebar + record-pagination
+  Pagine vere: page=1,2,...; 20 elementi iniziali, selezione 20 / 40 / tutti.
+  Artisti: nessun riempitivo al cambio iniziale; le card scorrono senza buchi artificiali.
+  I dischi nel pannello non contano nel limite; Copertine/Elenco usano lo stesso selettore.
+  Frecce compatte sopra, numeri/precedente/successiva sotto. Nessun Mostra altri.
+  M.paginate e M.pageNumbers sono condivise fra browser e test Node.
+  Le viste album partono con order=title; sono disponibili shelf/recent/oldest.
+  shelf = artista A-Z -> anno -> titolo -> ID; non e' una modifica al CSV.
+
+ARTISTA / r-artist-panel
+  Clic su una card: apre una regione sotto la sua riga, in ordine cronologico.
+  Solo un pannello aperto. Secondo clic, X o Escape richiudono.
+  Il resto del catalogo resta visibile. Non e' un filtro o una nuova pagina.
+  state.artist e URL artist memorizzano il pannello; aria-expanded/controls
+  rendono il comando leggibile anche da tastiera e tecnologie assistive.
+  Durata: artistAnimationMs=260, disattivata con Riduci movimento.
+  Righe: 4 colonne >1120px; 3 fino a 1120; 2 fino a 780. Resize aggiorna il pannello.
+  Funzioni: R.artistCard / R.artistPanelBody / selectArtist / animatePanel.
+
+DISCHI-06 / r-closing
+  Testi closingFirst/Accent/Text: la chiusura editoriale precede le statistiche.
+
+DISCHI-07 / numeri + r-data-tools
+  Distribuzioni anni e formati dell'intero CSV. showNumbers:false nasconde.
+  Nessun prezzo, genere o dato di ascolto inventato.
+  Pannello showDataTools: CSV locale temporaneo, nessun upload; Ripristina torna alla snapshot.
+  Snapshot records.js GENERATA; fonte modificabile data/Dischi.csv.
+
+DISCHI-08 / r-static (noscript)
+  Tutte le 433 schede consultabili senza JavaScript. Ricerca del browser.
+  Build aggiorna anche questa copia HTML.
+
+SCHEDE / record-dialog
+  Dati della copia: SOLO le 9 colonne originali del CSV.
+  Copertine in record-covers.js: separate dai dati, mai usate per correggerli.
+  Frecce: contesto artista, tre proposte oppure risultati filtrati completi.
+  Link diretto: #disco=VIN-XXXX. X, Escape, sfondo chiudono.
+
+COPERTINE LOCALI / aggiornamento
+  228 WebP principali + 228 thumb WebP nel payload pubblico; i JPG ricevuti restano sorgenti esterne.
+  235 voci del catalogo hanno una cover locale; le copie duplicate condividono il file.
+  Resta attivo un solo artwork remoto precedente: Trench. Totale 236 ID abbinati.
+  Tutte match:album. Non sono presentate come foto delle specifiche copie.
+  VIN-0158: allegato gazebo_gazebo, scritta I Like Chopin; CSV non cambiato.
+  VIN-0386: The Belle / Stars come nel CSV; nessuna correzione automatica.
+
+CODICI E INDICI
+  docs/records/RECORD-INDEX.txt: tutte le voci e i percorsi consigliati.
+  docs/records/COVER-INDEX.txt: file EFFETTIVI assegnati, condivisi, fonti e note.
+  docs/records/NAVIGATION-INDEX.txt: prima voce/pagina per ogni lettera.
+  docs/records/COVERS-IMPORT.json: allegati, dimensioni e hash di questa importazione.
+  docs/records/PLAN-COVERS.jpg: tavola storica delle prime 20 immagini importate.
+  Gli indici di testo vengono aggiornati da build; la tavola non viene rigenerata.
+
+Le fotografie di Jesolo sono state sostituite con la selezione corrente da 37 immagini
+e convertite in WebP full + thumb; Noale resta invariata. Nessun file font incluso.
+Nessuna skin reintrodotta.
+
+
+CONEGLIANO / Photo Safari
+  CON-001 ... CON-007 / 7 immagini.
+  Cover: CON-005 (Mani), orizzontale 3:2.
+  Filtri: Urbano, Persone, Dettagli.
+  Asset: assets/photos/conegliano-photo-safari/{full,thumbs}/

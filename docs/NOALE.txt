@@ -1,0 +1,72 @@
+BIRBS OF NOALE / NOTE DI MANUTENZIONE / v1.3
+==========================================
+
+9 fotografie. Sono state incluse tutte quelle inviate, senza nuova selezione.
+Album: birbs-of-noale. Pagina: serie/birbs-of-noale.html.
+Copertina: NOA-005, il piccione con occhio arancione.
+I titoli e le brevi descrizioni sono proposte modificabili in photos.js.
+
+FIRMA PROVVISORIA, NON IL TUO TAG DEFINITIVO
+-----------------------------------------
+Nei JPG ricevuti non era visibile il watermark. Per non consegnare versioni
+pubbliche pulite, sono state create COPIE con @pigeon.jfif incorporato nei pixel.
+I file originali inviati non sono stati modificati e NON sono nello ZIP.
+Le miniature e le tavole della documentazione derivano dalle copie firmate.
+Nessun semplice livello CSS eliminabile nasconde una foto pulita sottostante.
+
+La firma provvisoria e' bianca semitrasparente con ombra lieve, in una posizione
+scelta per ciascuna immagine. Il font rasterizzato e' Noto Serif Italic,
+fallback locale usato per la prova: NON viene presentato come Georgia esatto.
+Il wordmark del SITO continua a richiamare Georgia Italic dal dispositivo.
+Non viene distribuito nessun file font.
+
+Per il sito definitivo usa i tuoi export gia' firmati. Procedura:
+1. Sostituisci large/NOA-xxx.jpg con la tua copia web firmata.
+2. Aggiorna width e height nella scheda di photos.js se sono diversi.
+3. Sostituisci anche thumbs/NOA-xxx.webp e thumbWidth; oppure usa thumb:""
+   e thumbWidth:0 per non usare una miniatura separata.
+4. Cambia webSignature da "provisional" a "author".
+5. Rigenera check/build. Il codice e la posizione dell'immagine non cambiano.
+
+Il preparatore tools/prepare_photo.py rimane opzionale e richiede un file
+GIA' FIRMATO; non riproduce automaticamente il tuo watermark.
+Esempio, eseguito dalla radice del progetto:
+
+python tools/prepare_photo.py "/percorso/export-firmato.jpg" --album birbs-of-noale --id NOA-005 --filter piccioni --watermarked --force
+
+--force sovrascrive SOLO la derivata pubblica con lo stesso codice. Controlla
+prima il file di input. Lo script non modifica la scheda in photos.js da solo.
+
+MAPPA
+-----
+NOA-001 | _DSF0812.jpg | A tu per tu | 2047 x 1367 px
+NOA-002 | _DSF0853.jpg | Un filo di blu | 2047 x 1367 px
+NOA-003 | _DSF0016.jpg | Sulla riva | 2048 x 1368 px
+NOA-004 | _DSF0043.jpg | Doppio sguardo | 1535 x 2048 px
+NOA-005 | _DSF0333.jpg | Iridescenze | 2047 x 1367 px
+NOA-006 | _DSF0432.jpg | In bianco | 1473 x 2048 px
+NOA-007 | _DSF0519.jpg | A cercare qualcosa | 2047 x 1367 px
+NOA-008 | _DSF0650.jpg | Puntini | 1535 x 2048 px
+NOA-009 | _DSF0717.jpg | Di spalle | 2047 x 1367 px
+
+I JPG pubblici conservano le dimensioni degli upload (lato lungo <= 2048 px),
+senza ingrandimento, ritaglio o rimozione di elementi. La sola modifica visiva
+intenzionale e' la firma provvisoria. JPG ricodificati e miniature WebP create.
+
+METADATI
+--------
+I nove upload non contengono EXIF utili. Nessuna data, ISO, lente o fotocamera
+assegnati per deduzione. Le schede capture sono predisposte ma vuote.
+Noale e' il luogo indicato nel nome della raccolta dall'autore. Nessun GPS.
+
+Il tag non impedisce tecnicamente una copia: questi rimangono file pubblici.
+
+IMPAGINAZIONE v1.5
+-----------------
+La Sequenza usa lo stesso impaginatore generale delle altre raccolte: le foto
+normali vengono abbinate a coppie a pari altezza e non si forza piu' un trittico
+verticale. Con nove immagini, le prime otto vengono quindi combinate in quattro
+righe e l'unica foto spaiata rimane in fondo. La Griglia usa cornici 3:2
+invisibili, cosi' didascalie e categorie restano allineate senza tagliare nulla.
+Su tablet/telefono la Sequenza passa a una fotografia per riga.
+Nessun file fotografico viene modificato da queste regole di impaginazione.

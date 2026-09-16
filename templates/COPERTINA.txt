@@ -1,0 +1,33 @@
+COPIA IN assets/data/record-covers.js, all'interno delle parentesi graffe.
+Metti una virgola fra voci successive. L'ID deve esistere nel CSV.
+artist/title devono corrispondere alla riga del CSV, non al risultato di una ricerca.
+
+"VIN-0434": {
+  "artist": "Artista esattamente come nel catalogo",
+  "title": "Titolo esattamente come nel catalogo",
+  "local": "assets/covers/full/VIN-0434.webp",
+  "thumb": "assets/covers/thumbs/VIN-0434.webp",
+  "remote": "",
+  "source": "",
+  "match": "copy",
+  "sourceFile": "nome-del-tuo-export.jpg",
+  "sourceLabel": "Fotografia della mia copia",
+  "width": 600,
+  "height": 600
+}
+
+local: file web, non master fotografico. Ha precedenza sull'URL remoto.
+thumb: opzionale. Vuoto = usa local/remote anche nelle caselle piccole.
+remote: URL diretto HTTPS a un'immagine, non a una pagina web.
+source: pagina da cui proviene l'immagine; non implica una licenza libera.
+match:
+  copy = foto della tua copia (per esempio export web firmato);
+  album = artwork generico dell'album, non certifica l'edizione.
+
+Non mettere chiavi API, file font, sorgenti FQ/RAW o dati riservati nel sito.
+L'ID non cambia spostando un disco. Due copie dello stesso album hanno due ID.
+La medesima immagine illustrativa puo' essere riferita da due ID distinti.
+
+width/height: pixel REALI del file principale; 600x600 e' solo un esempio.
+sourceFile/sourceLabel: riferimenti di manutenzione, non file aggiuntivi o licenze.
+Con una cover valida, l'album entra da solo tra i candidati dei tre suggerimenti.

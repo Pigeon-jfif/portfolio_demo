@@ -1,0 +1,87 @@
+PIGEON.JFIF / FONT E LOGO - v1.3
+================================
+
+I NOMI CHE CERCAVI
+------------------
+Titoli principali: Georgia Regular (400).
+Parti in corsivo dei titoli: Georgia Italic (400).
+Suffisso .jfif: Georgia Italic (400), variabile separata --brand-serif.
+Parola pigeon: Inter (550 nella firma compatta della Home).
+Testi e navigazione: Inter; pesi secondo il componente.
+Piccole etichette: SFMono-Regular / Consolas / Liberation Mono / monospace.
+Monogramma p.: Georgia Bold (700) + un cerchio blu, non un font di icone.
+
+PRIMA E DOPO
+-------------
+La demo e la v1 impostavano:
+  titoli: Georgia, "Times New Roman", serif;
+  pigeon/testi: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  .jfif: serif come sopra, font-style:italic.
+Quindi non c'era un font commerciale acquistato o un font incluso nel sito:
+erano nomi di caratteri da cercare sul computer del visitatore.
+Il carattere effettivo nei vecchi screenshot poteva essere un fallback.
+
+Nella v1.1 i titoli conservano lo stack Georgia.
+Inter sostituisce lo stack Helvetica per la parte sans. E' gratuito e open
+source, con SIL Open Font License 1.1. Il CSS ufficiale dell'autore e' caricato
+tramite assets/css/fonts.css; tutti i dettagli di licenza sono alle fonti sotto.
+Il pacchetto del sito NON contiene TTF, OTF, WOFF o altri file di caratteri.
+
+GEORGIA: UTILIZZO E FALLBACK
+--------------------------
+Georgia non e' open source. E' richiamato come font di sistema in CSS,
+non copiato su GitHub e non incorporato nel pacchetto. Microsoft consente di
+indicarlo nei font stack del web. Non confondere questo con il diritto di
+ridistribuire il file del font come webfont.
+
+Su un dispositivo che non possiede Georgia il browser usa Times New Roman
+o un serif generico. Anche Inter ha un fallback system-ui quando la rete
+non e' disponibile e il carattere non e' installato. Le anteprime di questa
+consegna usano Inter locale e un serif di fallback dove Georgia non e' presente:
+non certificano la forma esatta di Georgia su ogni piattaforma.
+
+COME CAMBIARE I FONT
+--------------------
+In assets/css/theme.css:
+  --serif       = titoli e corsivi editoriali;
+  --brand-serif = .jfif, separato per non modificarlo involontariamente;
+  --sans        = pigeon, testo e navigazione;
+  --mono        = piccole informazioni.
+
+Il corsivo .jfif e' in .brand-extension di style.css.
+Non scrivere font-family:"Georgia Italic": in CSS si usa font-family:Georgia
+insieme a font-style:italic. Per evitare il caricamento esterno di Inter,
+commenta/elimina solo @import in fonts.css. Nessun altro cambiamento richiesto.
+
+LOGO DA RIUTILIZZARE
+-------------------
+assets/favicon.svg                       Tab browser e icona nell'header.
+assets/brand/pigeon-mark.svg              Copia esatta del simbolo originale.
+assets/brand/pigeon-mark-transparent.svg  Stesso simbolo senza il fondo carta.
+
+SVG = vettoriale, quindi puoi ingrandirlo. Colori nel sorgente:
+  fondo #f4f2ed; p #262a27; punto #355e78.
+Il monogramma contiene un elemento text con Georgia Bold, non tracciati:
+per la resa esatta aprilo su un sistema con Georgia. Non contiene font.
+Le copie in assets/brand sono asset per uso personale; il sito legge favicon.svg.
+L'anteprima social assets/og-cover.jpg e' tipografica, non usa una fotografia.
+
+FONTI PRIMARIE
+--------------
+Inter / autore: https://rsms.me/inter/
+Inter / licenza: https://github.com/rsms/inter/blob/master/LICENSE.txt
+Georgia / famiglia e stili:
+https://learn.microsoft.com/en-us/typography/font-list/georgia
+Microsoft / font stack CSS e redistribuzione:
+https://learn.microsoft.com/en-us/typography/fonts/font-faq
+
+AGGIORNAMENTO SPAZIATURA / v1.2
+-------------------------------
+--home-mark-size: clamp(44px, 6.2vw, 92px);
+--brand-tracking: .045em;
+La prima regola riduce la dimensione desktop della firma; la sezione mobile
+in style.css la adatta ai telefoni. Il tracking positivo vale per .jfif in
+Home e viewer. font-variant-ligatures:none solo sul suffisso evita fusioni.
+Nessuna modifica alla famiglia del corsivo e nessuno spazio aggiunto al nome.
+Le firme RASTER temporanee di Noale usano il fallback Noto Serif Italic:
+vedi docs/NOALE.txt. Non sono i tag definitivi dell'autore.

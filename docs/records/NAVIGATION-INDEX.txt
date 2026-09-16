@@ -1,0 +1,58 @@
+PLASTIC PIZZAS / MAPPA A-Z E PAGINE
+Catalogo intero, senza filtri. pageSize = 20
+Gli indici cambiano aggiungendo dischi o modificando pageSize. Build li aggiorna.
+
+ARTISTI / A-Z del nome
+A | pagina 1 | posizione 1 | A-ha
+B | pagina 1 | posizione 18 | B-52's
+C | pagina 2 | posizione 35 | Cab Calloway
+D | pagina 3 | posizione 53 | Daft Punk
+E | pagina 4 | posizione 67 | Earth Wind & Fire
+F | pagina 4 | posizione 79 | Fabio Concato
+G | pagina 5 | posizione 88 | Gazebo
+H | pagina 6 | posizione 101 | Howard Jones
+I | pagina 6 | posizione 102 | Il Rock
+J | pagina 6 | posizione 104 | James Taylor
+K | pagina 6 | posizione 113 | Kate Bush
+L | pagina 6 | posizione 120 | Laufey
+M | pagina 7 | posizione 131 | Madonna
+N | pagina 8 | posizione 143 | Nat King Cole
+O | pagina 8 | posizione 146 | Olivia Newton-John
+P | pagina 8 | posizione 150 | Paolo Vallesi
+Q | pagina 9 | posizione 163 | Queen
+R | pagina 9 | posizione 164 | R.E.M.
+S | pagina 9 | posizione 175 | Samuele Bersani
+T | pagina 10 | posizione 188 | Taco
+U | pagina 11 | posizione 204 | U2
+V | pagina 11 | posizione 206 | Various Artists
+W | pagina 11 | posizione 207 | Waterfront
+Y | pagina 11 | posizione 212 | Yes
+Z | pagina 11 | posizione 213 | Zecchino D'Oro
+
+COPERTINE ED ELENCO / A-Z del titolo
+# | pagina 1 | posizione 1 | VIN-0266 / 3 Records Set / Nat King Cole
+A | pagina 2 | posizione 40 | VIN-0103 / A Date With The Duke Vol.6 1945-46 / Duke Ellington
+B | pagina 4 | posizione 63 | VIN-0023 / B-X° / NO-I-47ᴬ / Anthony Braxton
+C | pagina 5 | posizione 89 | VIN-0350 / C'Hanno Preso Tutto / Samuele Bersani
+D | pagina 6 | posizione 112 | VIN-0335 / Dalla Ca' Del Liscio e Dall'Arena Di Verona / Raoul Casadei Orchestra Spettacolo
+E | pagina 7 | posizione 136 | VIN-0284 / E.T. / Original Motion Soundtrack
+F | pagina 8 | posizione 153 | VIN-0153 / F. Guccini e I Nomadi Album Concerto / Francesco Guccini
+G | pagina 9 | posizione 171 | VIN-0232 / Gatecrashing / Living In A Box
+H | pagina 10 | posizione 193 | VIN-0083 / H2O / Daryl Hall & John Oates
+I | pagina 11 | posizione 203 | VIN-0116 / I Am / Earth Wind & Fire
+J | pagina 12 | posizione 226 | VIN-0206 / Jingo / Jellybean
+K | pagina 12 | posizione 229 | VIN-0028 / Kansas City / Atlantic Hazz
+L | pagina 12 | posizione 231 | VIN-0154 / L'Arca Di Noè / Franco Battiato
+M | pagina 13 | posizione 254 | VIN-0095 / Making Movies / Dire Straits
+N | pagina 14 | posizione 278 | VIN-0416 / Nashville Countr Sound / Various Artists
+O | pagina 15 | posizione 284 | VIN-0049 / Oceans Of Fantasy / Boney M.
+P | pagina 15 | posizione 292 | VIN-0307 / Paul Young / Paul Young
+Q | pagina 16 | posizione 308 | VIN-0332 / Queen's Gold / Queen
+R | pagina 16 | posizione 310 | VIN-0132 / Rag Strikes Back / Elton John
+S | pagina 17 | posizione 332 | VIN-0343 / Samarcanda / Roberto Vecchioni
+T | pagina 18 | posizione 359 | VIN-0005 / Tales Of Mystery And Immagination Edgar Allan Poe / Alan Parsons Project
+U | pagina 21 | posizione 411 | VIN-0236 / Una Donna Per Amico / Lucio Battisti
+V | pagina 21 | posizione 414 | VIN-0059 / Verità Supposte / Caparezza
+W | pagina 21 | posizione 419 | VIN-0306 / Walk A Fine Line / Paul Anka
+Z | pagina 22 | posizione 431 | VIN-0354 / Zebop! / Santana
+

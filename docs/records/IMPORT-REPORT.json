@@ -1,0 +1,19 @@
+{
+  "source": "docs/import/Dischi-originale.csv",
+  "rows": 433,
+  "addedColumn": "ID",
+  "changedSourceCells": 0,
+  "originalColumns": [
+    "Artista",
+    "Titolo",
+    "Formato",
+    "Dischi",
+    "Anno",
+    "Etichetta",
+    "Paese",
+    "Colori speciali",
+    "Note aggiuntive"
+  ],
+  "normalization": "Original CSV cells unchanged; outer whitespace trimmed for display. Search/group keys ignore case, accents and repeated spaces. No bibliographic metadata corrected.",
+  "originalCSVsha256": "52e2ecf1bb9fe508fd3abc8b35ced7511e8c1d6d9ea48a718120fb5d3ac4d5f4"
+}

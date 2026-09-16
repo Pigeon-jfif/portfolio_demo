@@ -1,0 +1,37 @@
+MODELLO DI UNA NUOVA RACCOLTA - DA COPIARE IN assets/data/albums.js
+================================================================
+Questo e' un esempio NON attivo, non un'uscita realmente documentata.
+Prima inserisci le foto in photos.js, poi compila questo oggetto.
+Per aggiungere un album non serve scrivere un nuovo layout HTML.
+
+{
+  "id": "nuova-raccolta",
+  "published": true,
+  "page": "",
+  "title": "Titolo della raccolta",
+  "headingFirst": "Un luogo.",
+  "headingAccent": "Un altro sguardo.",
+  "category": "Luoghi",
+  "location": "Luogo, Paese",
+  "dateLabel": "",
+  "monthLabel": "",
+  "year": "",
+  "description": "Il racconto breve della raccolta.",
+  "shortDescription": "Un'introduzione per la pagina Raccolte.",
+  "coverId": "NEW-001",
+  "filters": [
+    {"id": "luoghi", "label": "Luoghi"}
+  ],
+  "photoIds": ["NEW-001", "NEW-002"],
+  "footnote": ""
+}
+
+page: "" rende disponibile album.html?id=nuova-raccolta con JavaScript.
+page: "serie/nuova-raccolta.html" + node tools/build.js crea una pagina dedicata.
+La pagina dedicata e' preferibile per contenuto senza JS e anteprime social.
+Usa percorsi minuscoli, senza spazi, accenti o slash iniziale.
+published:false nasconde la raccolta dall'interfaccia, NON protegge i file.
+
+Lascia le date vuote quando non sono note. L'interfaccia omette i campi vuoti.
+L'alternanza delle copertine dipende dall'ordine in albums.js, non da un campo
+aggiuntivo. I filtri sono solo pulsanti interni: id e label sono sufficienti.

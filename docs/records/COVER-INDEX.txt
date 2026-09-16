@@ -1,0 +1,1894 @@
+PLASTIC PIZZAS / INDICE COPERTINE E ABBINAMENTI
+Fonte: assets/data/record-covers.js. File condivisi tra copie ammessi.
+L'abbinamento visuale non certifica la stampa e non modifica il CSV.
+
+VIN-0001 | A-ha | Hunting High And Low
+  File: assets/covers/full/VIN-0001.webp
+  Miniatura: assets/covers/thumbs/VIN-0001.webp
+  Remoto: -
+  Allegato di partenza: a-ha_hunting-high-and-low.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0002 | ABBA | ABBA
+  File: assets/covers/full/VIN-0002.webp
+  Miniatura: assets/covers/thumbs/VIN-0002.webp
+  Remoto: -
+  Allegato di partenza: abba_abba.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0003 | ABBA | Gold Greatest Hits
+  File: assets/covers/full/VIN-0003.webp
+  Miniatura: assets/covers/thumbs/VIN-0003.webp
+  Remoto: -
+  Allegato di partenza: abba_gold-greatest-hits.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0004 | ABC | UP
+  File: assets/covers/full/VIN-0004.webp
+  Miniatura: assets/covers/thumbs/VIN-0004.webp
+  Remoto: -
+  Allegato di partenza: abc_up.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0006 | Alan Parsons Project | I Robot
+  File: assets/covers/full/VIN-0006.webp
+  Miniatura: assets/covers/thumbs/VIN-0006.webp
+  Remoto: -
+  Allegato di partenza: alan-parsons-project_i-robot.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0007 | Alan Parsons Project | Pyramid
+  File: assets/covers/full/VIN-0007.webp
+  Miniatura: assets/covers/thumbs/VIN-0007.webp
+  Remoto: -
+  Allegato di partenza: alan-parsons-project_pyramid.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0008 | Alan Parsons Project | Eve
+  File: assets/covers/full/VIN-0008.webp
+  Miniatura: assets/covers/thumbs/VIN-0008.webp
+  Remoto: -
+  Allegato di partenza: alan-parsons-project_eve.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0011 | Alan Parsons Project | Ammonia Avenue
+  File: assets/covers/full/VIN-0011.webp
+  Miniatura: assets/covers/thumbs/VIN-0011.webp
+  Remoto: -
+  Allegato di partenza: alan-parsons-project_ammonia-avenue.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0012 | Alan Parsons Project | Vulture Culture
+  File: assets/covers/full/VIN-0012.webp
+  Miniatura: assets/covers/thumbs/VIN-0012.webp
+  Remoto: -
+  Allegato di partenza: alan-parsons-project_vulture-culture.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0014 | Alan Parsons Project | Gaudi
+  File: assets/covers/full/VIN-0014.webp
+  Miniatura: assets/covers/thumbs/VIN-0014.webp
+  Remoto: -
+  Allegato di partenza: alan-parsons-project_gaudi.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0016 | Alice Merton | Mint
+  File: assets/covers/full/VIN-0016.webp
+  Miniatura: assets/covers/thumbs/VIN-0016.webp
+  Remoto: -
+  Allegato di partenza: alice-merton_mint.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0017 | Alison Moyet | Alf
+  File: assets/covers/full/VIN-0017.webp
+  Miniatura: assets/covers/thumbs/VIN-0017.webp
+  Remoto: -
+  Allegato di partenza: alison-moyet_alf.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0018 | Alison Moyet | Raindancing
+  File: assets/covers/full/VIN-0018.webp
+  Miniatura: assets/covers/thumbs/VIN-0018.webp
+  Remoto: -
+  Allegato di partenza: alison-moyet_raindancing.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0020 | America | History America's Greatest Hits
+  File: assets/covers/full/VIN-0020.webp
+  Miniatura: assets/covers/thumbs/VIN-0020.webp
+  Remoto: -
+  Allegato di partenza: america_history-americas-greatest-hits.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0021 | Amii Stewart | Time For Fantasy
+  File: assets/covers/full/VIN-0021.webp
+  Miniatura: assets/covers/thumbs/VIN-0021.webp
+  Remoto: -
+  Allegato di partenza: amii-stewart_time-for-fantasy.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0023 | Anthony Braxton | B-X° / NO-I-47ᴬ
+  File: assets/covers/full/VIN-0023.webp
+  Miniatura: assets/covers/thumbs/VIN-0023.webp
+  Remoto: -
+  Allegato di partenza: anthony-braxton_b-x-no-i-47.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0024 | Antonello Venditti | Sotto Il Segno Dei Pesci
+  File: assets/covers/full/VIN-0024.webp
+  Miniatura: assets/covers/thumbs/VIN-0024.webp
+  Remoto: -
+  Allegato di partenza: antonello-venditti_sotto-il-segno-dei-pesci.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0025 | Arcadia | So Red The Rose
+  File: assets/covers/full/VIN-0025.webp
+  Miniatura: assets/covers/thumbs/VIN-0025.webp
+  Remoto: -
+  Allegato di partenza: arcadia_so-red-the-rose.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0026 | Art Of Noise | In Visible Silence
+  File: assets/covers/full/VIN-0026.webp
+  Miniatura: assets/covers/thumbs/VIN-0026.webp
+  Remoto: -
+  Allegato di partenza: art-of-noise_in-visible-silence.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0027 | Art Of Noise | Below The Waste
+  File: assets/covers/full/VIN-0027.webp
+  Miniatura: assets/covers/thumbs/VIN-0027.webp
+  Remoto: -
+  Allegato di partenza: art-of-noise_below-the-waste.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0031 | B-52's | The B-52's
+  File: assets/covers/full/VIN-0031.webp
+  Miniatura: assets/covers/thumbs/VIN-0031.webp
+  Remoto: -
+  Allegato di partenza: b-52s_the-b-52s.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0032 | B-52's | Wild Planet
+  File: assets/covers/full/VIN-0032.webp
+  Miniatura: assets/covers/thumbs/VIN-0032.webp
+  Remoto: -
+  Allegato di partenza: b-52s_wild-planet.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0033 | B-52's | Mesopotamia
+  File: assets/covers/full/VIN-0033.webp
+  Miniatura: assets/covers/thumbs/VIN-0033.webp
+  Remoto: -
+  Allegato di partenza: b-52s_mesopotamia.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0034 | B-52's | Cosmic Thing
+  File: assets/covers/full/VIN-0034.webp
+  Miniatura: assets/covers/thumbs/VIN-0034.webp
+  Remoto: -
+  Allegato di partenza: b-52s_cosmic-thing.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0035 | B-52's | Dance This Mess Around
+  File: assets/covers/full/VIN-0035.webp
+  Miniatura: assets/covers/thumbs/VIN-0035.webp
+  Remoto: -
+  Allegato di partenza: b-52s_dance-this-mess-around.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0037 | BabyMetal | Metal Galaxy
+  File: assets/covers/full/VIN-0037.webp
+  Miniatura: assets/covers/thumbs/VIN-0037.webp
+  Remoto: -
+  Allegato di partenza: babymetal_metal-galaxy.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0038 | Bananarama | Bananarama
+  File: assets/covers/full/VIN-0038.webp
+  Miniatura: assets/covers/thumbs/VIN-0038.webp
+  Remoto: -
+  Allegato di partenza: bananarama_bananarama.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0040 | Banco del Mutuo Soccorso | Banco
+  File: assets/covers/full/VIN-0040.webp
+  Miniatura: assets/covers/thumbs/VIN-0040.webp
+  Remoto: -
+  Allegato di partenza: banco-del-mutuo-soccorso_banco.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0042 | Barry Manilow | If I Should Love Again
+  File: assets/covers/full/VIN-0042.webp
+  Miniatura: assets/covers/thumbs/VIN-0042.webp
+  Remoto: -
+  Allegato di partenza: barry-manilow_if-i-should-love-again.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0046 | Bob Dylan | Slow Train Coming
+  File: assets/covers/full/VIN-0046.webp
+  Miniatura: assets/covers/thumbs/VIN-0046.webp
+  Remoto: -
+  Allegato di partenza: bob-dylan_slow-train-coming.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0047 | Bon Jovi | Bon Jovi
+  File: assets/covers/full/VIN-0047.webp
+  Miniatura: assets/covers/thumbs/VIN-0047.webp
+  Remoto: -
+  Allegato di partenza: bon-jovi_bon-jovi.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0048 | Boney M. | Nightflight To Venus
+  File: assets/covers/full/VIN-0048.webp
+  Miniatura: assets/covers/thumbs/VIN-0048.webp
+  Remoto: -
+  Allegato di partenza: boney-m_nightflight-to-venus.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0049 | Boney M. | Oceans Of Fantasy
+  File: assets/covers/full/VIN-0049.webp
+  Miniatura: assets/covers/thumbs/VIN-0049.webp
+  Remoto: -
+  Allegato di partenza: boney-m_oceans-of-fantasy.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0050 | Bonnie Bianco | Just Me
+  File: assets/covers/full/VIN-0050.webp
+  Miniatura: assets/covers/thumbs/VIN-0050.webp
+  Remoto: -
+  Allegato di partenza: bonnie-bianco_just-me.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0051 | Breathe | All That Jazz
+  File: assets/covers/full/VIN-0051.webp
+  Miniatura: assets/covers/thumbs/VIN-0051.webp
+  Remoto: -
+  Allegato di partenza: breathe_all-that-jazz.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0054 | Brother Beyond | Get Even
+  File: assets/covers/full/VIN-0054.webp
+  Miniatura: assets/covers/thumbs/VIN-0054.webp
+  Remoto: -
+  Allegato di partenza: brother-beyond_get-even.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0055 | Bryan Ferry | Bète Noire
+  File: assets/covers/full/VIN-0055.webp
+  Miniatura: assets/covers/thumbs/VIN-0055.webp
+  Remoto: -
+  Allegato di partenza: bryan-ferry_bete-noire.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0056 | Bryan Ferry | The Ultimate Collection
+  File: assets/covers/full/VIN-0056.webp
+  Miniatura: assets/covers/thumbs/VIN-0056.webp
+  Remoto: -
+  Allegato di partenza: bryan-ferry_the-ultimate-collection.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0058 | Canzoniere Veneto | El Miracolo Roverso
+  File: assets/covers/full/VIN-0058.webp
+  Miniatura: assets/covers/thumbs/VIN-0058.webp
+  Remoto: -
+  Allegato di partenza: canzoniere-veneto_el-miracolo-roverso.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0059 | Caparezza | Verità Supposte
+  File: assets/covers/full/VIN-0059.webp
+  Miniatura: assets/covers/thumbs/VIN-0059.webp
+  Remoto: -
+  Allegato di partenza: caparezza_verita-supposte.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0060 | Caparezza | Exuvia
+  File: assets/covers/full/VIN-0060.webp
+  Miniatura: assets/covers/thumbs/VIN-0060.webp
+  Remoto: -
+  Allegato di partenza: caparezza_exuvia.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0061 | Caparezza | Orbit Orbit
+  File: assets/covers/full/VIN-0061.webp
+  Miniatura: assets/covers/thumbs/VIN-0061.webp
+  Remoto: -
+  Allegato di partenza: caparezza_orbit-orbit.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0062 | Caterina Caselli | Casco D'Oro
+  File: assets/covers/full/VIN-0062.webp
+  Miniatura: assets/covers/thumbs/VIN-0062.webp
+  Remoto: -
+  Allegato di partenza: caterina-caselli_casco-doro.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0066 | Chicago | The Feeling Of Chicago
+  File: assets/covers/full/VIN-0066.webp
+  Miniatura: assets/covers/thumbs/VIN-0066.webp
+  Remoto: -
+  Allegato di partenza: chicago_the-feeling-of-chicago.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0068 | Claudio Baglioni | Gira Che Ti Rigira Amore Bello
+  File: assets/covers/full/VIN-0068.webp
+  Miniatura: assets/covers/thumbs/VIN-0068.webp
+  Remoto: -
+  Allegato di partenza: claudio-baglioni_gira-che-ti-rigira-amore-bello.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0069 | Claudio Baglioni | Personale Di Claudio Baglioni Vol.1
+  File: assets/covers/full/VIN-0069.webp
+  Miniatura: assets/covers/thumbs/VIN-0069.webp
+  Remoto: -
+  Allegato di partenza: claudio-baglioni_personale-di-claudio-baglioni-vol1.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0071 | Cock Robin | Cock Robin
+  File: assets/covers/full/VIN-0071.webp
+  Miniatura: assets/covers/thumbs/VIN-0071.webp
+  Remoto: -
+  Allegato di partenza: cock-robin_cock-robin.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0072 | Communards | Communards
+  File: assets/covers/full/VIN-0072.webp
+  Miniatura: assets/covers/thumbs/VIN-0072.webp
+  Remoto: -
+  Allegato di partenza: communards_communards.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0075 | Crosby, Stills, Nash | Allies
+  File: assets/covers/full/VIN-0075.webp
+  Miniatura: assets/covers/thumbs/VIN-0075.webp
+  Remoto: -
+  Allegato di partenza: crosby-stills-nash_allies.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0077 | Culture Club | Colour By Numbers
+  File: assets/covers/full/VIN-0077.webp
+  Miniatura: assets/covers/thumbs/VIN-0077.webp
+  Remoto: -
+  Allegato di partenza: culture-club_colour-by-numbers.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0078 | Curiosity Killed The Cat | Keep Your Distance
+  File: assets/covers/full/VIN-0078.webp
+  Miniatura: assets/covers/thumbs/VIN-0078.webp
+  Remoto: -
+  Allegato di partenza: curiosity-killed-the-cat_keep-your-distance.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0079 | Curiosity Killed The Cat | First Place
+  File: assets/covers/full/VIN-0079.webp
+  Miniatura: assets/covers/thumbs/VIN-0079.webp
+  Remoto: -
+  Allegato di partenza: curiosity-killed-the-cat_first-place.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0080 | Curiosity Killed The Cat | Getahead
+  File: assets/covers/full/VIN-0080.webp
+  Miniatura: assets/covers/thumbs/VIN-0080.webp
+  Remoto: -
+  Allegato di partenza: curiosity-killed-the-cat_getahead.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0082 | Daft Punk | Random Access Memories
+  File: assets/covers/full/VIN-0082.webp
+  Miniatura: assets/covers/thumbs/VIN-0082.webp
+  Remoto: -
+  Allegato di partenza: daft-punk_random-access-memories.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0083 | Daryl Hall & John Oates | H2O
+  File: assets/covers/full/VIN-0083.webp
+  Miniatura: assets/covers/thumbs/VIN-0083.webp
+  Remoto: -
+  Allegato di partenza: daryl-hall-john-oates_h2o.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0084 | Daryl Hall & John Oates | Big Bam Boom
+  File: assets/covers/full/VIN-0084.webp
+  Miniatura: assets/covers/thumbs/VIN-0084.webp
+  Remoto: -
+  Allegato di partenza: daryl-hall-john-oates_big-bam-boom.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0085 | Dave Brubeck Quartet | Time Out
+  File: assets/covers/full/VIN-0085.webp
+  Miniatura: assets/covers/thumbs/VIN-0085.webp
+  Remoto: -
+  Allegato di partenza: dave-brubeck-quartet_time-out.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0087 | David Bowie | Tonight
+  File: assets/covers/full/VIN-0087.webp
+  Miniatura: assets/covers/thumbs/VIN-0087.webp
+  Remoto: -
+  Allegato di partenza: david-bowie_tonight.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0089 | Deep Purple | Stormbringer
+  File: assets/covers/full/VIN-0089.webp
+  Miniatura: assets/covers/thumbs/VIN-0089.webp
+  Remoto: -
+  Allegato di partenza: deep-purple_stormbringer.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0094 | Dire Straits | Communique
+  File: assets/covers/full/VIN-0094.webp
+  Miniatura: assets/covers/thumbs/VIN-0094.webp
+  Remoto: -
+  Allegato di partenza: dire-straits_communique.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0095 | Dire Straits | Making Movies
+  File: assets/covers/full/VIN-0095.webp
+  Miniatura: assets/covers/thumbs/VIN-0095.webp
+  Remoto: -
+  Allegato di partenza: dire-straits_making-movies.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0096 | Dire Straits | Love Over Gold
+  File: assets/covers/full/VIN-0096.webp
+  Miniatura: assets/covers/thumbs/VIN-0096.webp
+  Remoto: -
+  Allegato di partenza: dire-straits_love-over-gold.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0097 | Dire Straits | Extendedanceplay
+  File: assets/covers/full/VIN-0097.webp
+  Miniatura: assets/covers/thumbs/VIN-0097.webp
+  Remoto: -
+  Allegato di partenza: dire-straits_extendedanceplay.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0098 | Dire Straits | Brothers In Arms
+  File: assets/covers/full/VIN-0098.webp
+  Miniatura: assets/covers/thumbs/VIN-0098.webp
+  Remoto: -
+  Allegato di partenza: dire-straits_brothers-in-arms.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0099 | Dire Straits | Heavy Fuel
+  File: assets/covers/full/VIN-0099.webp
+  Miniatura: assets/covers/thumbs/VIN-0099.webp
+  Remoto: -
+  Allegato di partenza: dire-straits_heavy-fuel.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0100 | Dire Straits | On Every Street
+  File: assets/covers/full/VIN-0100.webp
+  Miniatura: assets/covers/thumbs/VIN-0100.webp
+  Remoto: -
+  Allegato di partenza: dire-straits_on-every-street.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0102 | Drupi | Drupi
+  File: assets/covers/full/VIN-0102.webp
+  Miniatura: assets/covers/thumbs/VIN-0102.webp
+  Remoto: -
+  Allegato di partenza: drupi_drupi.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0103 | Duke Ellington | A Date With The Duke Vol.6 1945-46
+  File: assets/covers/full/VIN-0103.webp
+  Miniatura: assets/covers/thumbs/VIN-0103.webp
+  Remoto: -
+  Allegato di partenza: duke-ellington_a-date-with-the-duke-vol6-1945-46.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0108 | Duran Duran | Mixing
+  File: assets/covers/full/VIN-0108.webp
+  Miniatura: assets/covers/thumbs/VIN-0108.webp
+  Remoto: -
+  Allegato di partenza: duran-duran_mixing.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0109 | Duran Duran | Notorious
+  File: assets/covers/full/VIN-0109.webp
+  Miniatura: assets/covers/thumbs/VIN-0109.webp
+  Remoto: -
+  Allegato di partenza: duran-duran_notorious.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0110 | Duran Duran | Strange Behaviour
+  File: assets/covers/full/VIN-0110.webp
+  Miniatura: assets/covers/thumbs/VIN-0110.webp
+  Remoto: -
+  Allegato di partenza: duran-duran_strange-behaviour.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0112 | Duran Duran | Live Italian tour
+  File: assets/covers/full/VIN-0112.webp
+  Miniatura: assets/covers/thumbs/VIN-0112.webp
+  Remoto: -
+  Allegato di partenza: duran-duran_live-italian-tour.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0114 | Duran Duran | Big Thing
+  File: assets/covers/full/VIN-0114.webp
+  Miniatura: assets/covers/thumbs/VIN-0114.webp
+  Remoto: -
+  Allegato di partenza: duran-duran_big-thing.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0115 | Earth Wind & Fire | Earth Wind & Fire The Best Of Vol.1
+  File: assets/covers/full/VIN-0115.webp
+  Miniatura: assets/covers/thumbs/VIN-0115.webp
+  Remoto: -
+  Allegato di partenza: earth-wind-fire_earth-wind-fire-the-best-of-vol1.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0116 | Earth Wind & Fire | I Am
+  File: assets/covers/full/VIN-0116.webp
+  Miniatura: assets/covers/thumbs/VIN-0116.webp
+  Remoto: -
+  Allegato di partenza: earth-wind-fire_i-am.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0117 | Earth Wind & Fire | Raise!
+  File: assets/covers/full/VIN-0117.webp
+  Miniatura: assets/covers/thumbs/VIN-0117.webp
+  Remoto: -
+  Allegato di partenza: earth-wind-fire_raise.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0118 | Earth Wind & Fire | Electric Universe
+  File: assets/covers/full/VIN-0118.webp
+  Miniatura: assets/covers/thumbs/VIN-0118.webp
+  Remoto: -
+  Allegato di partenza: earth-wind-fire_electric-universe.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0120 | Edoardo Bennato | Io Che Non Sono L'imperatore
+  File: assets/covers/full/VIN-0120.webp
+  Miniatura: assets/covers/thumbs/VIN-0120.webp
+  Remoto: -
+  Allegato di partenza: edoardo-bennato_io-che-non-sono-limperatore.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0121 | Edoardo Bennato | Burattino Senza Fili
+  File: assets/covers/full/VIN-0121.webp
+  Miniatura: assets/covers/thumbs/VIN-0121.webp
+  Remoto: -
+  Allegato di partenza: edoardo-bennato_burattino-senza-fili.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0122 | Edoardo Bennato | Sono Solo Canzonette
+  File: assets/covers/full/VIN-0122.webp
+  Miniatura: assets/covers/thumbs/VIN-0122.webp
+  Remoto: -
+  Allegato di partenza: edoardo-bennato_sono-solo-canzonette.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0123 | Ele A | Acqua
+  File: assets/covers/full/VIN-0123.webp
+  Miniatura: assets/covers/thumbs/VIN-0123.webp
+  Remoto: -
+  Allegato di partenza: ele-a_acqua.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0124 | Ele A | Pixel
+  File: assets/covers/full/VIN-0124.webp
+  Miniatura: assets/covers/thumbs/VIN-0124.webp
+  Remoto: -
+  Allegato di partenza: ele-a_pixel.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0126 | Electric Light Orchestra | Balance Of Power
+  File: assets/covers/full/VIN-0126.webp
+  Miniatura: assets/covers/thumbs/VIN-0126.webp
+  Remoto: -
+  Allegato di partenza: electric-light-orchestra_balance-of-power.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0127 | Elio E Le Storie Tese | Elio Samaga Hukapan Kariyana Turu
+  File: assets/covers/full/VIN-0127.webp
+  Miniatura: assets/covers/thumbs/VIN-0127.webp
+  Remoto: -
+  Allegato di partenza: elio-e-le-storie-tese_elio-samaga-hukapan-kariyana-turu.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0130 | Elio E Le Storie Tese | The Los Sri Lanka Parakramabahu
+  File: assets/covers/full/VIN-0130.webp
+  Miniatura: assets/covers/thumbs/VIN-0130.webp
+  Remoto: -
+  Allegato di partenza: elio-e-le-storie-tese_the-los-sri-lanka-parakramabahu.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0133 | Elton John | The Very Best Of
+  File: assets/covers/full/VIN-0133.webp
+  Miniatura: assets/covers/thumbs/VIN-0133.webp
+  Remoto: -
+  Allegato di partenza: elton-john_the-very-best-of.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0136 | Emerson Lake & Palmer | Emerson Lake & Palmer
+  File: assets/covers/full/VIN-0136.webp
+  Miniatura: assets/covers/thumbs/VIN-0136.webp
+  Remoto: -
+  Allegato di partenza: emerson-lake-palmer_emerson-lake-palmer.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0137 | Enrico Ruggeri | Peter Pan
+  File: assets/covers/full/VIN-0137.webp
+  Miniatura: assets/covers/thumbs/VIN-0137.webp
+  Remoto: -
+  Allegato di partenza: enrico-ruggeri_peter-pan.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0139 | Eugenio Finardi | Il Vento Di Elora
+  File: assets/covers/full/VIN-0139.webp
+  Miniatura: assets/covers/thumbs/VIN-0139.webp
+  Remoto: -
+  Allegato di partenza: eugenio-finardi_il-vento-di-elora.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0140 | Eugenio Finardi | La Forza Dell'Amore
+  File: assets/covers/full/VIN-0140.webp
+  Miniatura: assets/covers/thumbs/VIN-0140.webp
+  Remoto: -
+  Allegato di partenza: eugenio-finardi_la-forza-dellamore.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0142 | Eurythmics | Savage
+  File: assets/covers/full/VIN-0142.webp
+  Miniatura: assets/covers/thumbs/VIN-0142.webp
+  Remoto: -
+  Allegato di partenza: eurythmics_savage.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0143 | Eurythmics | We Too Are One
+  File: assets/covers/full/VIN-0143.webp
+  Miniatura: assets/covers/thumbs/VIN-0143.webp
+  Remoto: -
+  Allegato di partenza: eurythmics_we-too-are-one.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0144 | Fabio Concato | Fabio Concato
+  File: assets/covers/full/VIN-0144.webp
+  Miniatura: assets/covers/thumbs/VIN-0144.webp
+  Remoto: -
+  Allegato di partenza: fabio-concato_fabio-concato.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0146 | Fabrizio De Andrè | Rimini
+  File: assets/covers/full/VIN-0146.webp
+  Miniatura: assets/covers/thumbs/VIN-0146.webp
+  Remoto: -
+  Allegato di partenza: fabrizio-de-andre_rimini.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0150 | Fine Young Cannibals | The Raw & The Cooked
+  File: assets/covers/full/VIN-0150.webp
+  Miniatura: assets/covers/thumbs/VIN-0150.webp
+  Remoto: -
+  Allegato di partenza: fine-young-cannibals_the-raw-the-cooked.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0151 | Francesco De Gregori | La Donna Cannone
+  File: assets/covers/full/VIN-0151.webp
+  Miniatura: assets/covers/thumbs/VIN-0151.webp
+  Remoto: -
+  Allegato di partenza: francesco-de-gregori_la-donna-cannone.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0152 | Francesco Guccini | Via Paolo Fabbri 43
+  File: assets/covers/full/VIN-0152.webp
+  Miniatura: assets/covers/thumbs/VIN-0152.webp
+  Remoto: -
+  Allegato di partenza: francesco-guccini_via-paolo-fabbri-43.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0154 | Franco Battiato | L'Arca Di Noè
+  File: assets/covers/full/VIN-0154.webp
+  Miniatura: assets/covers/thumbs/VIN-0154.webp
+  Remoto: -
+  Allegato di partenza: franco-battiato_larca-di-noe.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0155 | Frankie Goes To Hollywood | Relax
+  File: assets/covers/full/VIN-0155.webp
+  Miniatura: assets/covers/thumbs/VIN-0155.webp
+  Remoto: -
+  Allegato di partenza: frankie-goes-to-hollywood_relax.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0156 | Frankie Goes To Hollywood | Welcome To The Pleasuredome
+  File: assets/covers/full/VIN-0156.webp
+  Miniatura: assets/covers/thumbs/VIN-0156.webp
+  Remoto: -
+  Allegato di partenza: frankie-goes-to-hollywood_welcome-to-the-pleasuredome.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0157 | Funky Kings | Funky Kings
+  File: assets/covers/full/VIN-0157.webp
+  Miniatura: assets/covers/thumbs/VIN-0157.webp
+  Remoto: -
+  Allegato di partenza: funky-kings_funky-kings.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0158 | Gazebo | Gazebo
+  File: assets/covers/full/VIN-0158.webp
+  Miniatura: assets/covers/thumbs/VIN-0158.webp
+  Remoto: -
+  Allegato di partenza: gazebo_gazebo.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+  Nota: Abbinamento fornito tramite il nome gazebo_gazebo.jpg. La copertina reca I Like Chopin; titolo e dati del CSV non sono stati cambiati.
+
+VIN-0159 | Genesis | Invisible Touch
+  File: assets/covers/full/VIN-0159.webp
+  Miniatura: assets/covers/thumbs/VIN-0159.webp
+  Remoto: -
+  Allegato di partenza: genesis_invisible-touch.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0161 | Gino Paoli | Matto Come Un Gatto
+  File: assets/covers/full/VIN-0161.webp
+  Miniatura: assets/covers/thumbs/VIN-0161.webp
+  Remoto: -
+  Allegato di partenza: gino-paoli_matto-come-un-gatto.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0164 | Glenn Miller | The Best Of Glenn Miller
+  File: assets/covers/full/VIN-0164.webp
+  Miniatura: assets/covers/thumbs/VIN-0164.webp
+  Remoto: -
+  Allegato di partenza: glenn-miller_the-best-of-glenn-miller.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0165 | Go West | Go West
+  File: assets/covers/full/VIN-0165.webp
+  Miniatura: assets/covers/thumbs/VIN-0165.webp
+  Remoto: -
+  Allegato di partenza: go-west_go-west.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0171 | Green Day | Dookie
+  File: assets/covers/full/VIN-0171.webp
+  Miniatura: assets/covers/thumbs/VIN-0171.webp
+  Remoto: -
+  Allegato di partenza: green-day_dookie.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0172 | Green Day | Insomniac
+  File: assets/covers/full/VIN-0172.webp
+  Miniatura: assets/covers/thumbs/VIN-0172.webp
+  Remoto: -
+  Allegato di partenza: green-day_insomniac.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0173 | Green Day | American Idiot
+  File: assets/covers/full/VIN-0173.webp
+  Miniatura: assets/covers/thumbs/VIN-0173.webp
+  Remoto: -
+  Allegato di partenza: green-day_american-idiot.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0174 | Green Day | Revolution Radio
+  File: assets/covers/full/VIN-0174.webp
+  Miniatura: assets/covers/thumbs/VIN-0174.webp
+  Remoto: -
+  Allegato di partenza: green-day_revolution-radio.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0176 | Green Day | Dookie
+  File: assets/covers/full/VIN-0171.webp
+  Miniatura: assets/covers/thumbs/VIN-0171.webp
+  Remoto: -
+  Allegato di partenza: green-day_dookie.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0177 | Howard Jones | Human's Lib
+  File: assets/covers/full/VIN-0177.webp
+  Miniatura: assets/covers/thumbs/VIN-0177.webp
+  Remoto: -
+  Allegato di partenza: howard-jones_humans-lib.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0178 | Howard Jones | Dream Into Action
+  File: assets/covers/full/VIN-0178.webp
+  Miniatura: assets/covers/thumbs/VIN-0178.webp
+  Remoto: -
+  Allegato di partenza: howard-jones_dream-into-action.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0202 | INXS | Live Baby Live
+  File: assets/covers/full/VIN-0202.webp
+  Miniatura: assets/covers/thumbs/VIN-0202.webp
+  Remoto: -
+  Allegato di partenza: inxs_live-baby-live.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0203 | James Taylor | The Best Of James Taylor
+  File: assets/covers/full/VIN-0203.webp
+  Miniatura: assets/covers/thumbs/VIN-0203.webp
+  Remoto: -
+  Allegato di partenza: james-taylor_the-best-of-james-taylor.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0205 | Jeff Buckley | Grace
+  File: assets/covers/full/VIN-0205.webp
+  Miniatura: assets/covers/thumbs/VIN-0205.webp
+  Remoto: -
+  Allegato di partenza: jeff-buckley_grace.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0206 | Jellybean | Jingo
+  File: assets/covers/full/VIN-0206.webp
+  Miniatura: assets/covers/thumbs/VIN-0206.webp
+  Remoto: -
+  Allegato di partenza: jellybean_jingo.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0207 | Jerry Lee Lewis | 20 Greatest Hits Vol.1
+  File: assets/covers/full/VIN-0207.webp
+  Miniatura: assets/covers/thumbs/VIN-0207.webp
+  Remoto: -
+  Allegato di partenza: jerry-lee-lewis_20-greatest-hits-vol1.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0209 | Jimi Hendrix & Curtis Knight | Get That Feeling
+  File: assets/covers/full/VIN-0209.webp
+  Miniatura: assets/covers/thumbs/VIN-0209.webp
+  Remoto: -
+  Allegato di partenza: jimi-hendrix-curtis-knight_get-that-feeling.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0210 | Joan Armatrading | Back To The Night
+  File: assets/covers/full/VIN-0210.webp
+  Miniatura: assets/covers/thumbs/VIN-0210.webp
+  Remoto: -
+  Allegato di partenza: joan-armatrading_back-to-the-night.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0215 | Kid Creole & The Coconuts | Doppelganger
+  File: assets/covers/full/VIN-0215.webp
+  Miniatura: assets/covers/thumbs/VIN-0215.webp
+  Remoto: -
+  Allegato di partenza: kid-creole-the-coconuts_doppelganger.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0216 | Kim & The Cadillacs | Rock n Roll
+  File: assets/covers/full/VIN-0216.webp
+  Miniatura: assets/covers/thumbs/VIN-0216.webp
+  Remoto: -
+  Allegato di partenza: kim-the-cadillacs_rock-n-roll.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0217 | Kim Carnes | Mistaken Identity
+  File: assets/covers/full/VIN-0217.webp
+  Miniatura: assets/covers/thumbs/VIN-0217.webp
+  Remoto: -
+  Allegato di partenza: kim-carnes_mistaken-identity.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0219 | Kim Wilde | Close
+  File: assets/covers/full/VIN-0219.webp
+  Miniatura: assets/covers/thumbs/VIN-0219.webp
+  Remoto: -
+  Allegato di partenza: kim-wilde_close.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0221 | Laufey | Bewitched
+  File: assets/covers/full/VIN-0221.webp
+  Miniatura: assets/covers/thumbs/VIN-0221.webp
+  Remoto: -
+  Allegato di partenza: laufey_bewitched.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0222 | Laufey | A Matter Of Time: The Final Hour
+  File: assets/covers/full/VIN-0222.webp
+  Miniatura: assets/covers/thumbs/VIN-0222.webp
+  Remoto: -
+  Allegato di partenza: laufey_a-matter-of-time-the-final-hour.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0223 | Laufey  | A Matter Of Time
+  File: assets/covers/full/VIN-0223.webp
+  Miniatura: assets/covers/thumbs/VIN-0223.webp
+  Remoto: -
+  Allegato di partenza: laufey_a-matter-of-time.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0224 | Led Zeppelin | IV
+  File: assets/covers/full/VIN-0224.webp
+  Miniatura: assets/covers/thumbs/VIN-0224.webp
+  Remoto: -
+  Allegato di partenza: led-zeppelin_iv.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0225 | Level 42 | World Machine
+  File: assets/covers/full/VIN-0225.webp
+  Miniatura: assets/covers/thumbs/VIN-0225.webp
+  Remoto: -
+  Allegato di partenza: level-42_world-machine.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0226 | Level 42 | Running In The Family
+  File: assets/covers/full/VIN-0226.webp
+  Miniatura: assets/covers/thumbs/VIN-0226.webp
+  Remoto: -
+  Allegato di partenza: level-42_running-in-the-family.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0229 | Linkin Park | Meteora
+  File: assets/covers/full/VIN-0229.webp
+  Miniatura: assets/covers/thumbs/VIN-0229.webp
+  Remoto: -
+  Allegato di partenza: linkin-park_meteora.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0232 | Living In A Box | Gatecrashing
+  File: assets/covers/full/VIN-0232.webp
+  Miniatura: assets/covers/thumbs/VIN-0232.webp
+  Remoto: -
+  Allegato di partenza: living-in-a-box_gatecrashing.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0233 | Lizzy McAlpine | Give Me A Minute
+  File: assets/covers/full/VIN-0233.webp
+  Miniatura: assets/covers/thumbs/VIN-0233.webp
+  Remoto: -
+  Allegato di partenza: lizzy-mcalpine_give-me-a-minute.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0235 | Luca Carboni | Luca Carboni
+  File: assets/covers/full/VIN-0235.webp
+  Miniatura: assets/covers/thumbs/VIN-0235.webp
+  Remoto: -
+  Allegato di partenza: luca-carboni_luca-carboni.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0236 | Lucio Battisti | Una Donna Per Amico
+  File: assets/covers/full/VIN-0236.webp
+  Miniatura: assets/covers/thumbs/VIN-0236.webp
+  Remoto: -
+  Allegato di partenza: lucio-battisti_una-donna-per-amico.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0238 | Lucio Dalla | Cambio
+  File: assets/covers/full/VIN-0238.webp
+  Miniatura: assets/covers/thumbs/VIN-0238.webp
+  Remoto: -
+  Allegato di partenza: lucio-dalla_cambio.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0239 | Madonna | Causing A Commotion (Silver Screen Mix)
+  File: assets/covers/full/VIN-0239.webp
+  Miniatura: assets/covers/thumbs/VIN-0239.webp
+  Remoto: -
+  Allegato di partenza: madonna_causing-a-commotion-silver-screen-mix.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0241 | Madonna | Like A Prayer
+  File: assets/covers/full/VIN-0241.webp
+  Miniatura: assets/covers/thumbs/VIN-0241.webp
+  Remoto: -
+  Allegato di partenza: madonna_like-a-prayer.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0242 | Madonna | Like A Prayer
+  File: assets/covers/full/VIN-0241.webp
+  Miniatura: assets/covers/thumbs/VIN-0241.webp
+  Remoto: -
+  Allegato di partenza: madonna_like-a-prayer.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0243 | Madonna | Like A Prayer
+  File: assets/covers/full/VIN-0241.webp
+  Miniatura: assets/covers/thumbs/VIN-0241.webp
+  Remoto: -
+  Allegato di partenza: madonna_like-a-prayer.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0244 | Madonna | I'm Breathless
+  File: assets/covers/full/VIN-0244.webp
+  Miniatura: assets/covers/thumbs/VIN-0244.webp
+  Remoto: -
+  Allegato di partenza: madonna_im-breathless.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0245 | Madonna | The Immaculate Collection
+  File: assets/covers/full/VIN-0245.webp
+  Miniatura: assets/covers/thumbs/VIN-0245.webp
+  Remoto: -
+  Allegato di partenza: madonna_the-immaculate-collection.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0248 | Madonna | Rain
+  File: assets/covers/full/VIN-0248.webp
+  Miniatura: assets/covers/thumbs/VIN-0248.webp
+  Remoto: -
+  Allegato di partenza: madonna_rain.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0250 | Mama's & Papa's | Il Meglio Dei Mama's & Papa's
+  File: assets/covers/full/VIN-0250.webp
+  Miniatura: assets/covers/thumbs/VIN-0250.webp
+  Remoto: -
+  Allegato di partenza: mamas-papas_il-meglio-dei-mamas-papas.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0253 | Matt Bianco | Matt Bianco
+  File: assets/covers/full/VIN-0253.webp
+  Miniatura: assets/covers/thumbs/VIN-0253.webp
+  Remoto: -
+  Allegato di partenza: matt-bianco_matt-bianco.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0255 | Michael Jackson | Off The Wall
+  File: assets/covers/full/VIN-0255.webp
+  Miniatura: assets/covers/thumbs/VIN-0255.webp
+  Remoto: -
+  Allegato di partenza: michael-jackson_off-the-wall.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0256 | Michael Jackson | Thriller
+  File: assets/covers/full/VIN-0256.webp
+  Miniatura: assets/covers/thumbs/VIN-0256.webp
+  Remoto: -
+  Allegato di partenza: michael-jackson_thriller.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0257 | Michael Jackson | Thriller
+  File: assets/covers/full/VIN-0256.webp
+  Miniatura: assets/covers/thumbs/VIN-0256.webp
+  Remoto: -
+  Allegato di partenza: michael-jackson_thriller.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0258 | Michael Jackson | Bad
+  File: assets/covers/full/VIN-0258.webp
+  Miniatura: assets/covers/thumbs/VIN-0258.webp
+  Remoto: -
+  Allegato di partenza: michael-jackson_bad.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0259 | Michal Basar | Moonshaft
+  File: assets/covers/full/VIN-0259.webp
+  Miniatura: assets/covers/thumbs/VIN-0259.webp
+  Remoto: -
+  Allegato di partenza: michal-basar_moonshaft.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0260 | Mike Oldfield | Tubular Bells
+  File: assets/covers/full/VIN-0260.webp
+  Miniatura: assets/covers/thumbs/VIN-0260.webp
+  Remoto: -
+  Allegato di partenza: mike-oldfield_tubular-bells.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0261 | Mike Oldfield | Discovery
+  File: assets/covers/full/VIN-0261.webp
+  Miniatura: assets/covers/thumbs/VIN-0261.webp
+  Remoto: -
+  Allegato di partenza: mike-oldfield_discovery.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0262 | Modern Romance | Trick Of The Light
+  File: assets/covers/full/VIN-0262.webp
+  Miniatura: assets/covers/thumbs/VIN-0262.webp
+  Remoto: -
+  Allegato di partenza: modern-romance_trick-of-the-light.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0265 | Nat King Cole | 20 Golden Greats
+  File: assets/covers/full/VIN-0265.webp
+  Miniatura: assets/covers/thumbs/VIN-0265.webp
+  Remoto: -
+  Allegato di partenza: nat-king-cole_20-golden-greats.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0267 | Nayt | Doom
+  File: assets/covers/full/VIN-0267.webp
+  Miniatura: assets/covers/thumbs/VIN-0267.webp
+  Remoto: -
+  Allegato di partenza: nayt_doom.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0268 | Nayt | Mood
+  File: assets/covers/full/VIN-0268.webp
+  Miniatura: assets/covers/thumbs/VIN-0268.webp
+  Remoto: -
+  Allegato di partenza: nayt_mood.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0269 | Nayt | Io Individuo
+  File: assets/covers/full/VIN-0269.webp
+  Miniatura: assets/covers/thumbs/VIN-0269.webp
+  Remoto: -
+  Allegato di partenza: nayt_io-individuo.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0304 | Paolo Vallesi | La Forza Della Vita
+  File: assets/covers/full/VIN-0304.webp
+  Miniatura: assets/covers/thumbs/VIN-0304.webp
+  Remoto: -
+  Allegato di partenza: paolo-vallesi_la-forza-della-vita.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0306 | Paul Anka | Walk A Fine Line
+  File: assets/covers/full/VIN-0306.webp
+  Miniatura: assets/covers/thumbs/VIN-0306.webp
+  Remoto: -
+  Allegato di partenza: paul-anka_walk-a-fine-line.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0308 | Peter Gabriel | Peter Gabriel
+  File: assets/covers/full/VIN-0308.webp
+  Miniatura: assets/covers/thumbs/VIN-0308.webp
+  Remoto: -
+  Allegato di partenza: peter-gabriel_peter-gabriel.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0309 | Peter Gabriel | Peter Gabriel
+  File: assets/covers/full/VIN-0308.webp
+  Miniatura: assets/covers/thumbs/VIN-0308.webp
+  Remoto: -
+  Allegato di partenza: peter-gabriel_peter-gabriel.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0310 | Peter Gabriel | Us
+  File: assets/covers/full/VIN-0310.webp
+  Miniatura: assets/covers/thumbs/VIN-0310.webp
+  Remoto: -
+  Allegato di partenza: peter-gabriel_us.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0311 | Phil Collins | Hello, I Must Be Going!
+  File: assets/covers/full/VIN-0311.webp
+  Miniatura: assets/covers/thumbs/VIN-0311.webp
+  Remoto: -
+  Allegato di partenza: phil-collins_hello-i-must-be-going.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0312 | Phil Collins | No Jacket Required
+  File: assets/covers/full/VIN-0312.webp
+  Miniatura: assets/covers/thumbs/VIN-0312.webp
+  Remoto: -
+  Allegato di partenza: phil-collins_no-jacket-required.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0313 | Pink Floyd | Meddle
+  File: assets/covers/full/VIN-0313.webp
+  Miniatura: assets/covers/thumbs/VIN-0313.webp
+  Remoto: -
+  Allegato di partenza: pink-floyd_meddle.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0314 | Pink Floyd | The Dark Side Of The Moon
+  File: assets/covers/full/VIN-0314.webp
+  Miniatura: assets/covers/thumbs/VIN-0314.webp
+  Remoto: -
+  Allegato di partenza: pink-floyd_the-dark-side-of-the-moon.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0317 | Pink Floyd | The Wall
+  File: assets/covers/full/VIN-0317.webp
+  Miniatura: assets/covers/thumbs/VIN-0317.webp
+  Remoto: -
+  Allegato di partenza: pink-floyd_the-wall.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0318 | Pink Floyd | The Wall
+  File: assets/covers/full/VIN-0317.webp
+  Miniatura: assets/covers/thumbs/VIN-0317.webp
+  Remoto: -
+  Allegato di partenza: pink-floyd_the-wall.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0319 | Pink Floyd | A Momentary Lapse Of Reason
+  File: assets/covers/full/VIN-0319.webp
+  Miniatura: assets/covers/thumbs/VIN-0319.webp
+  Remoto: -
+  Allegato di partenza: pink-floyd_a-momentary-lapse-of-reason.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0320 | Pink Floyd | The Division Bell
+  File: assets/covers/full/VIN-0320.webp
+  Miniatura: assets/covers/thumbs/VIN-0320.webp
+  Remoto: -
+  Allegato di partenza: pink-floyd_the-division-bell.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0321 | Pink Floyd | The Dark Side Of The Moon Live
+  File: assets/covers/full/VIN-0321.webp
+  Miniatura: assets/covers/thumbs/VIN-0321.webp
+  Remoto: -
+  Allegato di partenza: pink-floyd_the-dark-side-of-the-moon-live.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0322 | Platters | 18 Capolavori Originali
+  File: assets/covers/full/VIN-0322.webp
+  Miniatura: assets/covers/thumbs/VIN-0322.webp
+  Remoto: -
+  Allegato di partenza: platters_18-capolavori-originali.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0324 | Police | Zenyatta Mondatta
+  File: assets/covers/full/VIN-0324.webp
+  Miniatura: assets/covers/thumbs/VIN-0324.webp
+  Remoto: -
+  Allegato di partenza: police_zenyatta-mondatta.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0325 | Police | Synchronicity
+  File: assets/covers/full/VIN-0325.webp
+  Miniatura: assets/covers/thumbs/VIN-0325.webp
+  Remoto: -
+  Allegato di partenza: police_synchronicity.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0326 | Police | Every Breath You Take The Singles
+  File: assets/covers/full/VIN-0326.webp
+  Miniatura: assets/covers/thumbs/VIN-0326.webp
+  Remoto: -
+  Allegato di partenza: police_every-breath-you-take-the-singles.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0328 | Prefab Sprout | From Langley Park To Memphis
+  File: assets/covers/full/VIN-0328.webp
+  Miniatura: assets/covers/thumbs/VIN-0328.webp
+  Remoto: -
+  Allegato di partenza: prefab-sprout_from-langley-park-to-memphis.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0332 | Queen | Queen's Gold
+  File: assets/covers/full/VIN-0332.webp
+  Miniatura: assets/covers/thumbs/VIN-0332.webp
+  Remoto: -
+  Allegato di partenza: queen_queens-gold.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0333 | R.E.M. | Green
+  File: assets/covers/full/VIN-0333.webp
+  Miniatura: assets/covers/thumbs/VIN-0333.webp
+  Remoto: -
+  Allegato di partenza: rem_green.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0334 | R.E.M. | Out Of Time
+  File: assets/covers/full/VIN-0334.webp
+  Miniatura: assets/covers/thumbs/VIN-0334.webp
+  Remoto: -
+  Allegato di partenza: rem_out-of-time.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0335 | Raoul Casadei Orchestra Spettacolo | Dalla Ca' Del Liscio e Dall'Arena Di Verona
+  File: assets/covers/full/VIN-0335.webp
+  Miniatura: assets/covers/thumbs/VIN-0335.webp
+  Remoto: -
+  Allegato di partenza: raoul-casadei-orchestra-spettacolo_dalla-ca-del-liscio-e-dallarena-di-verona.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0337 | Riccardo Cocciante | La Grande Avventura
+  File: assets/covers/full/VIN-0337.webp
+  Miniatura: assets/covers/thumbs/VIN-0337.webp
+  Remoto: -
+  Allegato di partenza: riccardo-cocciante_la-grande-avventura.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0338 | Rick Astley | Whenever You Need Somebody
+  File: assets/covers/full/VIN-0338.webp
+  Miniatura: assets/covers/thumbs/VIN-0338.webp
+  Remoto: -
+  Allegato di partenza: rick-astley_whenever-you-need-somebody.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0339 | Rick Astley | Hold Me In Your Arms
+  File: assets/covers/full/VIN-0339.webp
+  Miniatura: assets/covers/thumbs/VIN-0339.webp
+  Remoto: -
+  Allegato di partenza: rick-astley_hold-me-in-your-arms.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0342 | Ritchie Family | Arabian Nights
+  File: assets/covers/full/VIN-0342.webp
+  Miniatura: assets/covers/thumbs/VIN-0342.webp
+  Remoto: -
+  Allegato di partenza: ritchie-family_arabian-nights.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0343 | Roberto Vecchioni | Samarcanda
+  File: assets/covers/full/VIN-0343.webp
+  Miniatura: assets/covers/thumbs/VIN-0343.webp
+  Remoto: -
+  Allegato di partenza: roberto-vecchioni_samarcanda.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0345 | Rokko E I Suoi Fratelli | Sopravvoliamo
+  File: assets/covers/full/VIN-0345.webp
+  Miniatura: assets/covers/thumbs/VIN-0345.webp
+  Remoto: -
+  Allegato di partenza: rokko-e-i-suoi-fratelli_sopravvoliamo.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0346 | Rolling Stones | Goat Head
+  File: assets/covers/full/VIN-0346.webp
+  Miniatura: assets/covers/thumbs/VIN-0346.webp
+  Remoto: -
+  Allegato di partenza: rolling-stones_goat-head.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0347 | Rolling Stones | Black And Blue
+  File: assets/covers/full/VIN-0347.webp
+  Miniatura: assets/covers/thumbs/VIN-0347.webp
+  Remoto: -
+  Allegato di partenza: rolling-stones_black-and-blue.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0348 | Rolling Stones | Tattoo You
+  File: assets/covers/full/VIN-0348.webp
+  Miniatura: assets/covers/thumbs/VIN-0348.webp
+  Remoto: -
+  Allegato di partenza: rolling-stones_tattoo-you.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0349 | Roxy Music | The Atlantic Years
+  File: assets/covers/full/VIN-0349.webp
+  Miniatura: assets/covers/thumbs/VIN-0349.webp
+  Remoto: -
+  Allegato di partenza: roxy-music_the-atlantic-years.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0350 | Samuele Bersani | C'Hanno Preso Tutto
+  File: assets/covers/full/VIN-0350.webp
+  Miniatura: assets/covers/thumbs/VIN-0350.webp
+  Remoto: -
+  Allegato di partenza: samuele-bersani_channo-preso-tutto.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0352 | Sandro Giacobbe | Lenti A Contatto
+  File: assets/covers/full/VIN-0352.webp
+  Miniatura: assets/covers/thumbs/VIN-0352.webp
+  Remoto: -
+  Allegato di partenza: sandro-giacobbe_lenti-a-contatto.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0354 | Santana | Zebop!
+  File: assets/covers/full/VIN-0354.webp
+  Miniatura: assets/covers/thumbs/VIN-0354.webp
+  Remoto: -
+  Allegato di partenza: santana_zebop.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0356 | Simple Minds | Celebration
+  File: assets/covers/full/VIN-0356.webp
+  Miniatura: assets/covers/thumbs/VIN-0356.webp
+  Remoto: -
+  Allegato di partenza: simple-minds_celebration.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0359 | Simple Minds | Real Life
+  File: assets/covers/full/VIN-0359.webp
+  Miniatura: assets/covers/thumbs/VIN-0359.webp
+  Remoto: -
+  Allegato di partenza: simple-minds_real-life.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0360 | Simply Red | Holding Back The Years
+  File: assets/covers/full/VIN-0360.webp
+  Miniatura: assets/covers/thumbs/VIN-0360.webp
+  Remoto: -
+  Allegato di partenza: simply-red_holding-back-the-years.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0362 | Simply Red | If You Don't Know Me By Now
+  File: assets/covers/full/VIN-0362.webp
+  Miniatura: assets/covers/thumbs/VIN-0362.webp
+  Remoto: -
+  Allegato di partenza: simply-red_if-you-dont-know-me-by-now.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0363 | Ska-P | Planeta Eskoria
+  File: assets/covers/full/VIN-0363.webp
+  Miniatura: assets/covers/thumbs/VIN-0363.webp
+  Remoto: -
+  Allegato di partenza: ska-p_planeta-eskoria.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0364 | Spandau Ballet | True 
+  File: assets/covers/full/VIN-0364.webp
+  Miniatura: assets/covers/thumbs/VIN-0364.webp
+  Remoto: -
+  Allegato di partenza: spandau-ballet_true.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0365 | Spandau Ballet | The Singles Collection
+  File: assets/covers/full/VIN-0365.webp
+  Miniatura: assets/covers/thumbs/VIN-0365.webp
+  Remoto: -
+  Allegato di partenza: spandau-ballet_the-singles-collection.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0366 | Spandau Ballet | Fight For Ourselves
+  File: assets/covers/full/VIN-0366.webp
+  Miniatura: assets/covers/thumbs/VIN-0366.webp
+  Remoto: -
+  Allegato di partenza: spandau-ballet_fight-for-ourselves.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0367 | Spandau Ballet | Through The Barricades
+  File: assets/covers/full/VIN-0367.webp
+  Miniatura: assets/covers/thumbs/VIN-0367.webp
+  Remoto: -
+  Allegato di partenza: spandau-ballet_through-the-barricades.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0368 | Spandau Ballet | Heart Like A Sky
+  File: assets/covers/full/VIN-0368.webp
+  Miniatura: assets/covers/thumbs/VIN-0368.webp
+  Remoto: -
+  Allegato di partenza: spandau-ballet_heart-like-a-sky.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0369 | Special EFX | Modern Manners
+  File: assets/covers/full/VIN-0369.webp
+  Miniatura: assets/covers/thumbs/VIN-0369.webp
+  Remoto: -
+  Allegato di partenza: special-efx_modern-manners.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0370 | Special EFX | Double Feature
+  File: assets/covers/full/VIN-0370.webp
+  Miniatura: assets/covers/thumbs/VIN-0370.webp
+  Remoto: -
+  Allegato di partenza: special-efx_double-feature.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0371 | Special EFX | Confidential
+  File: assets/covers/full/VIN-0371.webp
+  Miniatura: assets/covers/thumbs/VIN-0371.webp
+  Remoto: -
+  Allegato di partenza: special-efx_confidential.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0372 | Specials | More Specials
+  File: assets/covers/full/VIN-0372.webp
+  Miniatura: assets/covers/thumbs/VIN-0372.webp
+  Remoto: -
+  Allegato di partenza: specials_more-specials.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0373 | Stevie Nicks | The Other Side Of The Mirror
+  File: assets/covers/full/VIN-0373.webp
+  Miniatura: assets/covers/thumbs/VIN-0373.webp
+  Remoto: -
+  Allegato di partenza: stevie-nicks_the-other-side-of-the-mirror.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0374 | Stevie Wonder | In Square Circle
+  File: assets/covers/full/VIN-0374.webp
+  Miniatura: assets/covers/thumbs/VIN-0374.webp
+  Remoto: -
+  Allegato di partenza: stevie-wonder_in-square-circle.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0378 | Taco | Let's Face The Music
+  File: assets/covers/full/VIN-0378.webp
+  Miniatura: assets/covers/thumbs/VIN-0378.webp
+  Remoto: -
+  Allegato di partenza: taco_lets-face-the-music.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0380 | Tame Impala | Currents
+  File: assets/covers/full/VIN-0380.webp
+  Miniatura: assets/covers/thumbs/VIN-0380.webp
+  Remoto: -
+  Allegato di partenza: tame-impala_currents.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0381 | Tanita Tikaram | Ancient Heart
+  File: assets/covers/full/VIN-0381.webp
+  Miniatura: assets/covers/thumbs/VIN-0381.webp
+  Remoto: -
+  Allegato di partenza: tanita-tikaram_ancient-heart.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0382 | Tanita Tikaram | The Sweet Keeper
+  File: assets/covers/full/VIN-0382.webp
+  Miniatura: assets/covers/thumbs/VIN-0382.webp
+  Remoto: -
+  Allegato di partenza: tanita-tikaram_the-sweet-keeper.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0383 | Tears For Fears | The Seeds Of Love
+  File: assets/covers/full/VIN-0383.webp
+  Miniatura: assets/covers/thumbs/VIN-0383.webp
+  Remoto: -
+  Allegato di partenza: tears-for-fears_the-seeds-of-love.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0384 | Terence Trent D'Arby | Introducing The Hardline According To
+  File: assets/covers/full/VIN-0384.webp
+  Miniatura: assets/covers/thumbs/VIN-0384.webp
+  Remoto: -
+  Allegato di partenza: terence-trent-darby_introducing-the-hardline-according-to.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0386 | The Belle | Stars
+  File: assets/covers/full/VIN-0386.webp
+  Miniatura: assets/covers/thumbs/VIN-0386.webp
+  Remoto: -
+  Allegato di partenza: the-belle_stars.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+  Nota: Mantenuta la voce del CSV: artista The Belle, titolo Stars. La grafica reca The Belle Stars; nessuna correzione del catalogo.
+
+VIN-0391 | Tina Turner | Foreign Affair
+  File: assets/covers/full/VIN-0391.webp
+  Miniatura: assets/covers/thumbs/VIN-0391.webp
+  Remoto: -
+  Allegato di partenza: tina-turner_foreign-affair.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0392 | TOTO | TOTO
+  File: assets/covers/full/VIN-0392.webp
+  Miniatura: assets/covers/thumbs/VIN-0392.webp
+  Remoto: -
+  Allegato di partenza: toto_toto.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0393 | TOTO | Isolation
+  File: assets/covers/full/VIN-0393.webp
+  Miniatura: assets/covers/thumbs/VIN-0393.webp
+  Remoto: -
+  Allegato di partenza: toto_isolation.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0394 | Tracy Chapman | Tracy Chapman
+  File: assets/covers/full/VIN-0394.webp
+  Miniatura: assets/covers/thumbs/VIN-0394.webp
+  Remoto: -
+  Allegato di partenza: tracy-chapman_tracy-chapman.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0395 | Tracy Chapman | Crossroads
+  File: assets/covers/full/VIN-0395.webp
+  Miniatura: assets/covers/thumbs/VIN-0395.webp
+  Remoto: -
+  Allegato di partenza: tracy-chapman_crossroads.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0396 | Tracy Chapman | Matters Of The Heart
+  File: assets/covers/full/VIN-0396.webp
+  Miniatura: assets/covers/thumbs/VIN-0396.webp
+  Remoto: -
+  Allegato di partenza: tracy-chapman_matters-of-the-heart.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0397 | Twenty One Pilots | Vessel
+  File: assets/covers/full/VIN-0397.webp
+  Miniatura: assets/covers/thumbs/VIN-0397.webp
+  Remoto: -
+  Allegato di partenza: twenty-one-pilots_vessel.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0399 | Twenty One Pilots | Trench
+  File: (nessun file locale)
+  Miniatura: (usa file principale)
+  Remoto: https://upload.wikimedia.org/wikipedia/en/f/f3/Trench_Twenty_One_Pilots.png
+  Allegato di partenza: -
+  Fonte: https://en.wikipedia.org/wiki/File:Trench_Twenty_One_Pilots.png
+  Tipo: album
+
+VIN-0400 | Twenty One Pilots | Scaled And Icy
+  File: assets/covers/full/VIN-0400.webp
+  Miniatura: assets/covers/thumbs/VIN-0400.webp
+  Remoto: -
+  Allegato di partenza: twenty-one-pilots_scaled-and-icy.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0401 | Twenty One Pilots | Clancy
+  File: assets/covers/full/VIN-0401.webp
+  Miniatura: assets/covers/thumbs/VIN-0401.webp
+  Remoto: -
+  Allegato di partenza: twenty-one-pilots_clancy.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0402 | Twenty One Pilots | MTV Unplugged
+  File: assets/covers/full/VIN-0402.webp
+  Miniatura: assets/covers/thumbs/VIN-0402.webp
+  Remoto: -
+  Allegato di partenza: twenty-one-pilots_mtv-unplugged.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0403 | Twenty One Pilots | Breach
+  File: assets/covers/full/VIN-0403.webp
+  Miniatura: assets/covers/thumbs/VIN-0403.webp
+  Remoto: -
+  Allegato di partenza: twenty-one-pilots_breach.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0404 | Twenty One Pilots | Breach
+  File: assets/covers/full/VIN-0403.webp
+  Miniatura: assets/covers/thumbs/VIN-0403.webp
+  Remoto: -
+  Allegato di partenza: twenty-one-pilots_breach.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0405 | U2 | Rattle And Hum
+  File: assets/covers/full/VIN-0405.webp
+  Miniatura: assets/covers/thumbs/VIN-0405.webp
+  Remoto: -
+  Allegato di partenza: u2_rattle-and-hum.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0406 | UB40 | Rat In The Kitchen
+  File: assets/covers/full/VIN-0406.webp
+  Miniatura: assets/covers/thumbs/VIN-0406.webp
+  Remoto: -
+  Allegato di partenza: ub40_rat-in-the-kitchen.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0423 | Waterfront | Waterfront
+  File: assets/covers/full/VIN-0423.webp
+  Miniatura: assets/covers/thumbs/VIN-0423.webp
+  Remoto: -
+  Allegato di partenza: waterfront_waterfront.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0424 | Wet Wet Wet | Popped In Souled Out
+  File: assets/covers/full/VIN-0424.webp
+  Miniatura: assets/covers/thumbs/VIN-0424.webp
+  Remoto: -
+  Allegato di partenza: wet-wet-wet_popped-in-souled-out.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0426 | Whitney Houston | Didn't We Almost Have It All
+  File: assets/covers/full/VIN-0426.webp
+  Miniatura: assets/covers/thumbs/VIN-0426.webp
+  Remoto: -
+  Allegato di partenza: whitney-houston_didnt-we-almost-have-it-all.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0428 | Yes | 90125
+  File: assets/covers/full/VIN-0428.webp
+  Miniatura: assets/covers/thumbs/VIN-0428.webp
+  Remoto: -
+  Allegato di partenza: yes_90125.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+
+VIN-0432 | Zucchero | Zucchero & The Randy Jackson Band
+  File: assets/covers/full/VIN-0432.webp
+  Miniatura: assets/covers/thumbs/VIN-0432.webp
+  Remoto: -
+  Allegato di partenza: zucchero_zucchero-the-randy-jackson-band.jpg
+  Fonte: Immagine fornita dal proprietario del catalogo
+  Tipo: album
+

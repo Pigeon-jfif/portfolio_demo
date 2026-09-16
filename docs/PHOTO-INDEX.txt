@@ -1,0 +1,591 @@
+INDICE DEGLI SCATTI - GENERATO DA node tools/build.js
+==================================================
+Non modificare questo indice: modifica assets/data e rigenera.
+Le dimensioni WEB descrivono i file pubblicati, non i master.
+Righe/colonne: Sequenza desktop >1000px, senza filtri. Mobile e Griglia cambiano il layout.
+
+JES-001 | Aria, metallo, luce
+  Sorgente precedente: _DSF5259_wm.jpg
+  File pubblico: assets/photos/jesolo-2026/full/JES-001.webp
+  WEB: 2400 x 1029 px
+  Export di riferimento: 7096 x 3042 px
+  Confronto: nessuno
+  Firma: tag presente nel file fornito
+  Parametri: camera=Fujifilm X-T5
+  Posizioni:
+    - ALBUM-03 / serie/jesolo.html / posizione 12 / riga 7, colonna 1 di 1
+
+JES-003 | Anatomia di un passaggio
+  Sorgente precedente: _DSF7511_1_wm.jpg
+  File pubblico: assets/photos/jesolo-2026/full/JES-003.webp
+  WEB: 2400 x 1603 px
+  Export di riferimento: 3976 x 2656 px
+  Confronto: nessuno
+  Firma: tag presente nel file fornito
+  Parametri: camera=Fujifilm X-T5
+  Posizioni:
+    - ALBUM-03 / serie/jesolo.html / posizione 14 / riga 8, colonna 2 di 2
+
+JES-005 | Insieme
+  Sorgente precedente: _DSF8508_wm.jpg
+  File pubblico: assets/photos/jesolo-2026/full/JES-005.webp
+  WEB: 2400 x 1603 px
+  Export di riferimento: 7752 x 5178 px
+  Confronto: JES-006
+  Firma: tag presente nel file fornito
+  Parametri: camera=Fujifilm X-T5
+  Posizioni:
+    - ALBUM-03 / serie/jesolo.html / posizione 30 / riga 17, colonna 1 di 2
+
+JES-006 | Uno, tra gli altri
+  Sorgente precedente: _DSF8508_1_wm.jpg
+  File pubblico: assets/photos/jesolo-2026/full/JES-006.webp
+  WEB: 2062 x 1378 px
+  Export di riferimento: 2062 x 1378 px
+  Confronto: JES-005
+  Firma: tag presente nel file fornito
+  Parametri: camera=Fujifilm X-T5
+  Posizioni:
+    - ALBUM-03 / serie/jesolo.html / posizione 31 / riga 17, colonna 2 di 2
+
+JES-007 | Verso l’alto
+  Sorgente precedente: _DSF8518_wm.jpg
+  File pubblico: assets/photos/jesolo-2026/full/JES-007.webp
+  WEB: 2400 x 1600 px
+  Export di riferimento: 6904 x 4603 px
+  Confronto: nessuno
+  Firma: tag presente nel file fornito
+  Parametri: camera=Fujifilm X-T5
+  Posizioni:
+    - ALBUM-03 / serie/jesolo.html / posizione 34 / riga 19, colonna 1 di 2
+
+JES-008 | Disegnare il cielo
+  Sorgente precedente: _DSF9270_wm.jpg
+  File pubblico: assets/photos/jesolo-2026/full/JES-008.webp
+  WEB: 2400 x 1603 px
+  Export di riferimento: 7752 x 5178 px
+  Confronto: nessuno
+  Firma: tag presente nel file fornito
+  Parametri: camera=Fujifilm X-T5
+  Posizioni:
+    - ALBUM-03 / serie/jesolo.html / posizione 35 / riga 19, colonna 2 di 2
+
+JES-009 | La curva
+  Sorgente precedente: _DSF9275_wm.jpg
+  File pubblico: assets/photos/jesolo-2026/full/JES-009.webp
+  WEB: 2400 x 1603 px
+  Export di riferimento: 7752 x 5178 px
+  Confronto: nessuno
+  Firma: tag presente nel file fornito
+  Parametri: camera=Fujifilm X-T5
+  Posizioni:
+    - COLLECTIONS-02 / raccolte.html / copertina jesolo-2026
+    - ALBUM-03 / serie/jesolo.html / posizione 36 / riga 20, colonna 1 di 2
+
+JES-011 | Passaggio II
+  Sorgente precedente: _DSF9332_wm.jpg
+  File pubblico: assets/photos/jesolo-2026/full/JES-011.webp
+  WEB: 2400 x 1500 px
+  Export di riferimento: 7752 x 4845 px
+  Confronto: nessuno
+  Firma: tag presente nel file fornito
+  Parametri: camera=Fujifilm X-T5
+  Posizioni:
+    - ALBUM-03 / serie/jesolo.html / posizione 37 / riga 20, colonna 2 di 2
+
+JES-012 | Solista, di profilo
+  Sorgente precedente: _DSF2105_wm.jpg
+  File pubblico: assets/photos/jesolo-2026/full/JES-012.webp
+  WEB: 2400 x 1603 px
+  Export di riferimento: 6497 x 4340 px
+  Confronto: nessuno
+  Firma: tag presente nel file fornito
+  Parametri: camera=Fujifilm X-T5
+  Posizioni:
+    - ALBUM-03 / serie/jesolo.html / posizione 26 / riga 14, colonna 2 di 2
+
+JES-013 | Acrobazia nel blu
+  Sorgente precedente: _DSF2114_wm.jpg
+  File pubblico: assets/photos/jesolo-2026/full/JES-013.webp
+  WEB: 2400 x 1350 px
+  Export di riferimento: 7561 x 4253 px
+  Confronto: nessuno
+  Firma: tag presente nel file fornito
+  Parametri: camera=Fujifilm X-T5
+  Posizioni:
+    - ALBUM-03 / serie/jesolo.html / posizione 1 / riga 1, colonna 1 di 2
+
+JES-014 | Passaggio del solista
+  Sorgente precedente: _DSF2121_wm.jpg
+  File pubblico: assets/photos/jesolo-2026/full/JES-014.webp
+  WEB: 2400 x 1029 px
+  Export di riferimento: 7752 x 3323 px
+  Confronto: nessuno
+  Firma: tag presente nel file fornito
+  Parametri: camera=Fujifilm X-T5
+  Posizioni:
+    - ALBUM-03 / serie/jesolo.html / posizione 27 / riga 15, colonna 1 di 1
+
+JES-015 | Rotore
+  Sorgente precedente: _DSF2420_wm.jpg
+  File pubblico: assets/photos/jesolo-2026/full/JES-015.webp
+  WEB: 2400 x 1603 px
+  Export di riferimento: 6108 x 4080 px
+  Confronto: nessuno
+  Firma: tag presente nel file fornito
+  Parametri: camera=Fujifilm X-T5
+  Posizioni:
+    - ALBUM-03 / serie/jesolo.html / posizione 2 / riga 1, colonna 2 di 2
+
+JES-016 | Spartan, da vicino
+  Sorgente precedente: _DSF4636_wm.jpg
+  File pubblico: assets/photos/jesolo-2026/full/JES-016.webp
+  WEB: 2400 x 1603 px
+  Export di riferimento: 6647 x 4440 px
+  Confronto: nessuno
+  Firma: tag presente nel file fornito
+  Parametri: camera=Fujifilm X-T5
+  Posizioni:
+    - ALBUM-03 / serie/jesolo.html / posizione 3 / riga 2, colonna 1 di 2
+
+JES-017 | Sotto lo Spartan
+  Sorgente precedente: _DSF4718_wm.jpg
+  File pubblico: assets/photos/jesolo-2026/full/JES-017.webp
+  WEB: 2400 x 1603 px
+  Export di riferimento: 7752 x 5178 px
+  Confronto: nessuno
+  Firma: tag presente nel file fornito
+  Parametri: camera=Fujifilm X-T5
+  Posizioni:
+    - ALBUM-03 / serie/jesolo.html / posizione 4 / riga 2, colonna 2 di 2
+
+JES-018 | Tra le nuvole
+  Sorgente precedente: _DSF4805_wm.jpg
+  File pubblico: assets/photos/jesolo-2026/full/JES-018.webp
+  WEB: 2400 x 1603 px
+  Export di riferimento: 7752 x 5178 px
+  Confronto: nessuno
+  Firma: tag presente nel file fornito
+  Parametri: camera=Fujifilm X-T5
+  Posizioni:
+    - ALBUM-03 / serie/jesolo.html / posizione 5 / riga 3, colonna 1 di 2
+
+JES-019 | In virata
+  Sorgente precedente: _DSF4819_wm.jpg
+  File pubblico: assets/photos/jesolo-2026/full/JES-019.webp
+  WEB: 2400 x 1603 px
+  Export di riferimento: 7426 x 4961 px
+  Confronto: nessuno
+  Firma: tag presente nel file fornito
+  Parametri: camera=Fujifilm X-T5
+  Posizioni:
+    - ALBUM-03 / serie/jesolo.html / posizione 6 / riga 3, colonna 2 di 2
+
+JES-020 | Bank tra le nuvole
+  Sorgente precedente: _DSF5124_wm.jpg
+  File pubblico: assets/photos/jesolo-2026/full/JES-020.webp
+  WEB: 2400 x 1603 px
+  Export di riferimento: 7099 x 4742 px
+  Confronto: nessuno
+  Firma: tag presente nel file fornito
+  Parametri: camera=Fujifilm X-T5
+  Posizioni:
+    - ALBUM-03 / serie/jesolo.html / posizione 7 / riga 4, colonna 1 di 2
+
+JES-021 | Virata alta
+  Sorgente precedente: _DSF5126_wm.jpg
+  File pubblico: assets/photos/jesolo-2026/full/JES-021.webp
+  WEB: 2400 x 1603 px
+  Export di riferimento: 7630 x 5097 px
+  Confronto: nessuno
+  Firma: tag presente nel file fornito
+  Parametri: camera=Fujifilm X-T5
+  Posizioni:
+    - ALBUM-03 / serie/jesolo.html / posizione 8 / riga 4, colonna 2 di 2
+
+JES-022 | Sotto
+  Sorgente precedente: _DSF5140_wm.jpg
+  File pubblico: assets/photos/jesolo-2026/full/JES-022.webp
+  WEB: 2400 x 1603 px
+  Export di riferimento: 7191 x 4803 px
+  Confronto: nessuno
+  Firma: tag presente nel file fornito
+  Parametri: camera=Fujifilm X-T5
+  Posizioni:
+    - ALBUM-03 / serie/jesolo.html / posizione 9 / riga 5, colonna 1 di 2
+
+JES-023 | Profilo nel cielo
+  Sorgente precedente: _DSF5163_wm.jpg
+  File pubblico: assets/photos/jesolo-2026/full/JES-023.webp
+  WEB: 2400 x 1029 px
+  Export di riferimento: 7752 x 3323 px
+  Confronto: nessuno
+  Firma: tag presente nel file fornito
+  Parametri: camera=Fujifilm X-T5
+  Posizioni:
+    - ALBUM-03 / serie/jesolo.html / posizione 10 / riga 6, colonna 1 di 1
+
+JES-024 | Motori e nuvole
+  Sorgente precedente: _DSF5209_wm.jpg
+  File pubblico: assets/photos/jesolo-2026/full/JES-024.webp
+  WEB: 2400 x 1603 px
+  Export di riferimento: 7752 x 5178 px
+  Confronto: nessuno
+  Firma: tag presente nel file fornito
+  Parametri: camera=Fujifilm X-T5
+  Posizioni:
+    - ALBUM-03 / serie/jesolo.html / posizione 11 / riga 5, colonna 2 di 2
+
+JES-025 | Delta
+  Sorgente precedente: _DSF5290_wm.jpg
+  File pubblico: assets/photos/jesolo-2026/full/JES-025.webp
+  WEB: 2400 x 1603 px
+  Export di riferimento: 7052 x 4711 px
+  Confronto: nessuno
+  Firma: tag presente nel file fornito
+  Parametri: camera=Fujifilm X-T5
+  Posizioni:
+    - ALBUM-03 / serie/jesolo.html / posizione 13 / riga 8, colonna 1 di 2
+
+JES-026 | Nel blu
+  Sorgente precedente: _DSF7541_wm.jpg
+  File pubblico: assets/photos/jesolo-2026/full/JES-026.webp
+  WEB: 2400 x 1603 px
+  Export di riferimento: 7598 x 5075 px
+  Confronto: nessuno
+  Firma: tag presente nel file fornito
+  Parametri: camera=Fujifilm X-T5
+  Posizioni:
+    - ALBUM-03 / serie/jesolo.html / posizione 15 / riga 9, colonna 1 di 2
+
+JES-027 | Passaggio
+  Sorgente precedente: _DSF7743_wm.jpg
+  File pubblico: assets/photos/jesolo-2026/full/JES-027.webp
+  WEB: 2400 x 1603 px
+  Export di riferimento: 6806 x 4547 px
+  Confronto: nessuno
+  Firma: tag presente nel file fornito
+  Parametri: camera=Fujifilm X-T5
+  Posizioni:
+    - ALBUM-03 / serie/jesolo.html / posizione 16 / riga 9, colonna 2 di 2
+
+JES-028 | Postbruciatore
+  Sorgente precedente: _DSF7788_wm.jpg
+  File pubblico: assets/photos/jesolo-2026/full/JES-028.webp
+  WEB: 2400 x 1603 px
+  Export di riferimento: 7427 x 4961 px
+  Confronto: nessuno
+  Firma: tag presente nel file fornito
+  Parametri: camera=Fujifilm X-T5
+  Posizioni:
+    - ALBUM-03 / serie/jesolo.html / posizione 17 / riga 10, colonna 1 di 2
+
+JES-029 | Lontano
+  Sorgente precedente: _DSF7798_wm.jpg
+  File pubblico: assets/photos/jesolo-2026/full/JES-029.webp
+  WEB: 2400 x 1603 px
+  Export di riferimento: 7618 x 5089 px
+  Confronto: nessuno
+  Firma: tag presente nel file fornito
+  Parametri: camera=Fujifilm X-T5
+  Posizioni:
+    - ALBUM-03 / serie/jesolo.html / posizione 18 / riga 10, colonna 2 di 2
+
+JES-030 | Dal basso
+  Sorgente precedente: _DSF7821_wm.jpg
+  File pubblico: assets/photos/jesolo-2026/full/JES-030.webp
+  WEB: 2400 x 1603 px
+  Export di riferimento: 6813 x 4551 px
+  Confronto: nessuno
+  Firma: tag presente nel file fornito
+  Parametri: camera=Fujifilm X-T5
+  Posizioni:
+    - ALBUM-03 / serie/jesolo.html / posizione 19 / riga 11, colonna 1 di 2
+
+JES-031 | Profilo ravvicinato
+  Sorgente precedente: _DSF7943_wm.jpg
+  File pubblico: assets/photos/jesolo-2026/full/JES-031.webp
+  WEB: 2400 x 1603 px
+  Export di riferimento: 7163 x 4784 px
+  Confronto: nessuno
+  Firma: tag presente nel file fornito
+  Parametri: camera=Fujifilm X-T5
+  Posizioni:
+    - ALBUM-03 / serie/jesolo.html / posizione 20 / riga 11, colonna 2 di 2
+
+JES-032 | Scia
+  Sorgente precedente: _DSF8025_wm.jpg
+  File pubblico: assets/photos/jesolo-2026/full/JES-032.webp
+  WEB: 2400 x 1350 px
+  Export di riferimento: 7275 x 4093 px
+  Confronto: nessuno
+  Firma: tag presente nel file fornito
+  Parametri: camera=Fujifilm X-T5
+  Posizioni:
+    - ALBUM-03 / serie/jesolo.html / posizione 21 / riga 12, colonna 1 di 2
+
+JES-033 | Ombra
+  Sorgente precedente: _DSF8049_wm.jpg
+  File pubblico: assets/photos/jesolo-2026/full/JES-033.webp
+  WEB: 2400 x 1350 px
+  Export di riferimento: 7120 x 4005 px
+  Confronto: nessuno
+  Firma: tag presente nel file fornito
+  Parametri: camera=Fujifilm X-T5
+  Posizioni:
+    - ALBUM-03 / serie/jesolo.html / posizione 22 / riga 12, colonna 2 di 2
+
+JES-034 | Vicino
+  Sorgente precedente: _DSF8105_wm.jpg
+  File pubblico: assets/photos/jesolo-2026/full/JES-034.webp
+  WEB: 2400 x 1603 px
+  Export di riferimento: 6930 x 4629 px
+  Confronto: nessuno
+  Firma: tag presente nel file fornito
+  Parametri: camera=Fujifilm X-T5
+  Posizioni:
+    - ALBUM-03 / serie/jesolo.html / posizione 23 / riga 13, colonna 1 di 2
+
+JES-035 | Salita
+  Sorgente precedente: _DSF8117_wm.jpg
+  File pubblico: assets/photos/jesolo-2026/full/JES-035.webp
+  WEB: 2400 x 1603 px
+  Export di riferimento: 7276 x 4861 px
+  Confronto: nessuno
+  Firma: tag presente nel file fornito
+  Parametri: camera=Fujifilm X-T5
+  Posizioni:
+    - ALBUM-03 / serie/jesolo.html / posizione 24 / riga 13, colonna 2 di 2
+
+JES-036 | Passaggio F-35
+  Sorgente precedente: _DSF8123_wm.jpg
+  File pubblico: assets/photos/jesolo-2026/full/JES-036.webp
+  WEB: 2400 x 1603 px
+  Export di riferimento: 7112 x 4751 px
+  Confronto: nessuno
+  Firma: tag presente nel file fornito
+  Parametri: camera=Fujifilm X-T5
+  Posizioni:
+    - ALBUM-03 / serie/jesolo.html / posizione 25 / riga 14, colonna 1 di 2
+
+JES-037 | Compatta
+  Sorgente precedente: _DSF8549_wm.jpg
+  File pubblico: assets/photos/jesolo-2026/full/JES-037.webp
+  WEB: 2400 x 1603 px
+  Export di riferimento: 7752 x 5178 px
+  Confronto: nessuno
+  Firma: tag presente nel file fornito
+  Parametri: camera=Fujifilm X-T5
+  Posizioni:
+    - ALBUM-03 / serie/jesolo.html / posizione 32 / riga 18, colonna 1 di 2
+
+JES-038 | Scie parallele
+  Sorgente precedente: _DSF8633_wm.jpg
+  File pubblico: assets/photos/jesolo-2026/full/JES-038.webp
+  WEB: 2400 x 1350 px
+  Export di riferimento: 7752 x 4361 px
+  Confronto: nessuno
+  Firma: tag presente nel file fornito
+  Parametri: camera=Fujifilm X-T5
+  Posizioni:
+    - ALBUM-03 / serie/jesolo.html / posizione 33 / riga 18, colonna 2 di 2
+
+JES-039 | Incrocio
+  Sorgente precedente: _DSF8646_wm.jpg
+  File pubblico: assets/photos/jesolo-2026/full/JES-039.webp
+  WEB: 2400 x 1350 px
+  Export di riferimento: 7356 x 4138 px
+  Confronto: nessuno
+  Firma: tag presente nel file fornito
+  Parametri: camera=Fujifilm X-T5
+  Posizioni:
+    - ALBUM-03 / serie/jesolo.html / posizione 29 / riga 16, colonna 2 di 2
+
+JES-040 | Solista
+  Sorgente precedente: _DSF8714_wm.jpg
+  File pubblico: assets/photos/jesolo-2026/full/JES-040.webp
+  WEB: 2400 x 1350 px
+  Export di riferimento: 7327 x 4121 px
+  Confronto: nessuno
+  Firma: tag presente nel file fornito
+  Parametri: camera=Fujifilm X-T5
+  Posizioni:
+    - ALBUM-03 / serie/jesolo.html / posizione 28 / riga 16, colonna 1 di 2
+
+NOA-001 | A tu per tu
+  Sorgente precedente: _DSF0812.jpg
+  File pubblico: assets/photos/birbs-of-noale/large/NOA-001.jpg
+  WEB: 2047 x 1367 px
+  Export di riferimento: non comunicato
+  Confronto: nessuno
+  Firma: provvisoria per la prova - sostituire con export firmato personale
+  Parametri: 
+  Posizioni:
+    - ALBUM-03 / serie/birbs-of-noale.html / posizione 2 / riga 2, colonna 1 di 2
+
+NOA-002 | Un filo di blu
+  Sorgente precedente: _DSF0853.jpg
+  File pubblico: assets/photos/birbs-of-noale/large/NOA-002.jpg
+  WEB: 2047 x 1367 px
+  Export di riferimento: non comunicato
+  Confronto: nessuno
+  Firma: provvisoria per la prova - sostituire con export firmato personale
+  Parametri: 
+  Posizioni:
+    - ALBUM-03 / serie/birbs-of-noale.html / posizione 3 / riga 2, colonna 2 di 2
+
+NOA-003 | Sulla riva
+  Sorgente precedente: _DSF0016.jpg
+  File pubblico: assets/photos/birbs-of-noale/large/NOA-003.jpg
+  WEB: 2048 x 1368 px
+  Export di riferimento: non comunicato
+  Confronto: nessuno
+  Firma: provvisoria per la prova - sostituire con export firmato personale
+  Parametri: 
+  Posizioni:
+    - ALBUM-03 / serie/birbs-of-noale.html / posizione 4 / riga 5, colonna 1 di 1
+
+NOA-004 | Doppio sguardo
+  Sorgente precedente: _DSF0043.jpg
+  File pubblico: assets/photos/birbs-of-noale/large/NOA-004.jpg
+  WEB: 1535 x 2048 px
+  Export di riferimento: non comunicato
+  Confronto: nessuno
+  Firma: provvisoria per la prova - sostituire con export firmato personale
+  Parametri: 
+  Posizioni:
+    - ALBUM-03 / serie/birbs-of-noale.html / posizione 5 / riga 3, colonna 1 di 2
+
+NOA-005 | Iridescenze
+  Sorgente precedente: _DSF0333.jpg
+  File pubblico: assets/photos/birbs-of-noale/large/NOA-005.jpg
+  WEB: 2047 x 1367 px
+  Export di riferimento: non comunicato
+  Confronto: nessuno
+  Firma: provvisoria per la prova - sostituire con export firmato personale
+  Parametri: 
+  Posizioni:
+    - COLLECTIONS-02 / raccolte.html / copertina birbs-of-noale
+    - ALBUM-03 / serie/birbs-of-noale.html / posizione 1 / riga 1, colonna 1 di 2
+
+NOA-006 | In bianco
+  Sorgente precedente: _DSF0432.jpg
+  File pubblico: assets/photos/birbs-of-noale/large/NOA-006.jpg
+  WEB: 1473 x 2048 px
+  Export di riferimento: non comunicato
+  Confronto: nessuno
+  Firma: provvisoria per la prova - sostituire con export firmato personale
+  Parametri: 
+  Posizioni:
+    - ALBUM-03 / serie/birbs-of-noale.html / posizione 7 / riga 4, colonna 2 di 2
+
+NOA-007 | A cercare qualcosa
+  Sorgente precedente: _DSF0519.jpg
+  File pubblico: assets/photos/birbs-of-noale/large/NOA-007.jpg
+  WEB: 2047 x 1367 px
+  Export di riferimento: non comunicato
+  Confronto: nessuno
+  Firma: provvisoria per la prova - sostituire con export firmato personale
+  Parametri: 
+  Posizioni:
+    - ALBUM-03 / serie/birbs-of-noale.html / posizione 8 / riga 3, colonna 2 di 2
+
+NOA-008 | Puntini
+  Sorgente precedente: _DSF0650.jpg
+  File pubblico: assets/photos/birbs-of-noale/large/NOA-008.jpg
+  WEB: 1535 x 2048 px
+  Export di riferimento: non comunicato
+  Confronto: nessuno
+  Firma: provvisoria per la prova - sostituire con export firmato personale
+  Parametri: 
+  Posizioni:
+    - ALBUM-03 / serie/birbs-of-noale.html / posizione 6 / riga 1, colonna 2 di 2
+
+NOA-009 | Di spalle
+  Sorgente precedente: _DSF0717.jpg
+  File pubblico: assets/photos/birbs-of-noale/large/NOA-009.jpg
+  WEB: 2047 x 1367 px
+  Export di riferimento: non comunicato
+  Confronto: nessuno
+  Firma: provvisoria per la prova - sostituire con export firmato personale
+  Parametri: 
+  Posizioni:
+    - ALBUM-03 / serie/birbs-of-noale.html / posizione 9 / riga 4, colonna 1 di 2
+
+CON-001 | Dietro lo scatto
+  Sorgente precedente: DSCF1109.jpg
+  File pubblico: assets/photos/conegliano-photo-safari/full/CON-001.webp
+  WEB: 1603 x 2400 px
+  Export di riferimento: 5178 x 7752 px
+  Confronto: nessuno
+  Firma: nessuna firma incorporata nel file fornito
+  Parametri: camera=X-T50; lens=XF16-50mmF2.8-4.8 R LM WR; focalLength=33.3 mm; aperture=f/3.8; shutter=1/800 s; iso=2000
+  Posizioni:
+    - ALBUM-03 / serie/conegliano.html / posizione 5 / riga 3, colonna 1 di 2
+
+CON-002 | Rete
+  Sorgente precedente: DSCF1117_1.jpg
+  File pubblico: assets/photos/conegliano-photo-safari/full/CON-002.webp
+  WEB: 2400 x 1200 px
+  Export di riferimento: 7724 x 3862 px
+  Confronto: nessuno
+  Firma: nessuna firma incorporata nel file fornito
+  Parametri: camera=X-T50; lens=XF16-50mmF2.8-4.8 R LM WR; focalLength=50 mm; aperture=f/4.8; shutter=1/800 s; iso=2000
+  Posizioni:
+    - ALBUM-03 / serie/conegliano.html / posizione 1 / riga 1, colonna 1 di 2
+
+CON-003 | Cancello
+  Sorgente precedente: DSCF1135.jpg
+  File pubblico: assets/photos/conegliano-photo-safari/full/CON-003.webp
+  WEB: 1494 x 2400 px
+  Export di riferimento: 4609 x 7402 px
+  Confronto: nessuno
+  Firma: nessuna firma incorporata nel file fornito
+  Parametri: camera=X-T50; lens=XF16-50mmF2.8-4.8 R LM WR; focalLength=48.6 mm; aperture=f/4.8; shutter=1/400 s; iso=800
+  Posizioni:
+    - ALBUM-03 / serie/conegliano.html / posizione 2 / riga 1, colonna 2 di 2
+
+CON-004 | Torre
+  Sorgente precedente: DSCF1147.jpg
+  File pubblico: assets/photos/conegliano-photo-safari/full/CON-004.webp
+  WEB: 1603 x 2400 px
+  Export di riferimento: 2422 x 3627 px
+  Confronto: nessuno
+  Firma: nessuna firma incorporata nel file fornito
+  Parametri: camera=X-T50; lens=XF16-50mmF2.8-4.8 R LM WR; focalLength=50 mm; aperture=f/4.8; shutter=1/800 s; iso=1000
+  Posizioni:
+    - ALBUM-03 / serie/conegliano.html / posizione 3 / riga 2, colonna 1 di 2
+
+CON-005 | Mani
+  Sorgente precedente: DSCF1261.jpg
+  File pubblico: assets/photos/conegliano-photo-safari/full/CON-005.webp
+  WEB: 2400 x 1600 px
+  Export di riferimento: 7728 x 5152 px
+  Confronto: nessuno
+  Firma: nessuna firma incorporata nel file fornito
+  Parametri: camera=X-T50; lens=XF16-50mmF2.8-4.8 R LM WR; focalLength=50 mm; aperture=f/4.8; shutter=1/150 s; iso=320
+  Posizioni:
+    - COLLECTIONS-02 / raccolte.html / copertina conegliano-photo-safari
+    - ALBUM-03 / serie/conegliano.html / posizione 6 / riga 4, colonna 1 di 1
+
+CON-006 | Semaforo
+  Sorgente precedente: DSCF1294.jpg
+  File pubblico: assets/photos/conegliano-photo-safari/full/CON-006.webp
+  WEB: 1521 x 2400 px
+  Export di riferimento: 4724 x 7456 px
+  Confronto: nessuno
+  Firma: nessuna firma incorporata nel file fornito
+  Parametri: camera=X-T50; lens=XF16-50mmF2.8-4.8 R LM WR; focalLength=50 mm; aperture=f/5; shutter=1/320 s; iso=800
+  Posizioni:
+    - ALBUM-03 / serie/conegliano.html / posizione 4 / riga 2, colonna 2 di 2
+
+CON-007 | Albero
+  Sorgente precedente: DSCF1331.jpg
+  File pubblico: assets/photos/conegliano-photo-safari/full/CON-007.webp
+  WEB: 1586 x 2400 px
+  Export di riferimento: 5017 x 7591 px
+  Confronto: nessuno
+  Firma: nessuna firma incorporata nel file fornito
+  Parametri: camera=X-T50; lens=XF16-50mmF2.8-4.8 R LM WR; focalLength=50 mm; aperture=f/5; shutter=1/200 s; iso=1000
+  Posizioni:
+    - ALBUM-03 / serie/conegliano.html / posizione 7 / riga 3, colonna 2 di 2

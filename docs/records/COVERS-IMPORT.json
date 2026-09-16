@@ -1,0 +1,3891 @@
+{
+  "source": "228 allegati forniti dall'utente in covers.zip",
+  "sourceImages": 228,
+  "mappedCatalogEntries": 235,
+  "notes": "Un artwork può essere condiviso tra più copie con lo stesso artista e titolo. Nessun dato del CSV è stato corretto. sha256 si riferisce al JPG sorgente fornito dall'utente; local punta alla copia WebP pubblicata.",
+  "files": [
+    {
+      "id": "VIN-0001",
+      "mappedIds": [
+        "VIN-0001"
+      ],
+      "sourceFile": "a-ha_hunting-high-and-low.jpg",
+      "local": "assets/covers/full/VIN-0001.webp",
+      "thumb": "assets/covers/thumbs/VIN-0001.webp",
+      "sha256": "c22f0663e94258885a9db5d382cc579ed60d904363891bbfa2b2b305565041d9",
+      "width": 600,
+      "height": 595,
+      "artist": "A-ha",
+      "title": "Hunting High And Low",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0002",
+      "mappedIds": [
+        "VIN-0002"
+      ],
+      "sourceFile": "abba_abba.jpg",
+      "local": "assets/covers/full/VIN-0002.webp",
+      "thumb": "assets/covers/thumbs/VIN-0002.webp",
+      "sha256": "62f3646e40e628121eacd25dffb07e0cecda3e1455ac9acc9091470672da31b9",
+      "width": 600,
+      "height": 592,
+      "artist": "ABBA",
+      "title": "ABBA",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0003",
+      "mappedIds": [
+        "VIN-0003"
+      ],
+      "sourceFile": "abba_gold-greatest-hits.jpg",
+      "local": "assets/covers/full/VIN-0003.webp",
+      "thumb": "assets/covers/thumbs/VIN-0003.webp",
+      "sha256": "bb3df4635bbdef716da8d34ed1058e5c6378b312e7bf9fd6520bab419412048e",
+      "width": 598,
+      "height": 600,
+      "artist": "ABBA",
+      "title": "Gold Greatest Hits",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0004",
+      "mappedIds": [
+        "VIN-0004"
+      ],
+      "sourceFile": "abc_up.jpg",
+      "local": "assets/covers/full/VIN-0004.webp",
+      "thumb": "assets/covers/thumbs/VIN-0004.webp",
+      "sha256": "c42aef3225808f73d304c967feaa73daa7e40ccc01d964ea6ceb97e4c6276b9a",
+      "width": 600,
+      "height": 600,
+      "artist": "ABC",
+      "title": "UP",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0011",
+      "mappedIds": [
+        "VIN-0011"
+      ],
+      "sourceFile": "alan-parsons-project_ammonia-avenue.jpg",
+      "local": "assets/covers/full/VIN-0011.webp",
+      "thumb": "assets/covers/thumbs/VIN-0011.webp",
+      "sha256": "20561c8947d451734d2894e8e1988ba691c204f66be56d0c268204b48b65e4e4",
+      "width": 600,
+      "height": 590,
+      "artist": "Alan Parsons Project",
+      "title": "Ammonia Avenue",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0008",
+      "mappedIds": [
+        "VIN-0008"
+      ],
+      "sourceFile": "alan-parsons-project_eve.jpg",
+      "local": "assets/covers/full/VIN-0008.webp",
+      "thumb": "assets/covers/thumbs/VIN-0008.webp",
+      "sha256": "c377e8b8e0d46321cc98b3a0dffc3781d43a37e112dc7d891f672fb1405f207e",
+      "width": 600,
+      "height": 600,
+      "artist": "Alan Parsons Project",
+      "title": "Eve",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0014",
+      "mappedIds": [
+        "VIN-0014"
+      ],
+      "sourceFile": "alan-parsons-project_gaudi.jpg",
+      "local": "assets/covers/full/VIN-0014.webp",
+      "thumb": "assets/covers/thumbs/VIN-0014.webp",
+      "sha256": "4b404556e54fc30bf728afb84c373b160f080fdf7f156352f7f23d4e8d94d8d5",
+      "width": 600,
+      "height": 596,
+      "artist": "Alan Parsons Project",
+      "title": "Gaudi",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0006",
+      "mappedIds": [
+        "VIN-0006"
+      ],
+      "sourceFile": "alan-parsons-project_i-robot.jpg",
+      "local": "assets/covers/full/VIN-0006.webp",
+      "thumb": "assets/covers/thumbs/VIN-0006.webp",
+      "sha256": "a5b744abdd17c569e55375fd92ecd649069371715101886a04105d7345b21d11",
+      "width": 600,
+      "height": 571,
+      "artist": "Alan Parsons Project",
+      "title": "I Robot",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0007",
+      "mappedIds": [
+        "VIN-0007"
+      ],
+      "sourceFile": "alan-parsons-project_pyramid.jpg",
+      "local": "assets/covers/full/VIN-0007.webp",
+      "thumb": "assets/covers/thumbs/VIN-0007.webp",
+      "sha256": "d07bc4a2337f08d992be648676194ae55a22a8658aae2a440a8449fa833f9168",
+      "width": 600,
+      "height": 600,
+      "artist": "Alan Parsons Project",
+      "title": "Pyramid",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0012",
+      "mappedIds": [
+        "VIN-0012"
+      ],
+      "sourceFile": "alan-parsons-project_vulture-culture.jpg",
+      "local": "assets/covers/full/VIN-0012.webp",
+      "thumb": "assets/covers/thumbs/VIN-0012.webp",
+      "sha256": "a92e9473245762e3e9e122295c5698a352170f0b5833b7e2dc9f41a2c9bb538d",
+      "width": 600,
+      "height": 600,
+      "artist": "Alan Parsons Project",
+      "title": "Vulture Culture",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0016",
+      "mappedIds": [
+        "VIN-0016"
+      ],
+      "sourceFile": "alice-merton_mint.jpg",
+      "local": "assets/covers/full/VIN-0016.webp",
+      "thumb": "assets/covers/thumbs/VIN-0016.webp",
+      "sha256": "f2f1affb7c008cbf893d574811ee0c084ee855c2c9032a5bbfe353dce27ab7c4",
+      "width": 600,
+      "height": 600,
+      "artist": "Alice Merton",
+      "title": "Mint",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0017",
+      "mappedIds": [
+        "VIN-0017"
+      ],
+      "sourceFile": "alison-moyet_alf.jpg",
+      "local": "assets/covers/full/VIN-0017.webp",
+      "thumb": "assets/covers/thumbs/VIN-0017.webp",
+      "sha256": "d7de7bcf2ebbe0064b5001171984c759adfb01c17c25ae5f72ddf621e403836f",
+      "width": 598,
+      "height": 600,
+      "artist": "Alison Moyet",
+      "title": "Alf",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0018",
+      "mappedIds": [
+        "VIN-0018"
+      ],
+      "sourceFile": "alison-moyet_raindancing.jpg",
+      "local": "assets/covers/full/VIN-0018.webp",
+      "thumb": "assets/covers/thumbs/VIN-0018.webp",
+      "sha256": "eb71442c1c4db033a72997e978f7b146276bade60b08be2043a9afd0617e7403",
+      "width": 574,
+      "height": 600,
+      "artist": "Alison Moyet",
+      "title": "Raindancing",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0020",
+      "mappedIds": [
+        "VIN-0020"
+      ],
+      "sourceFile": "america_history-americas-greatest-hits.jpg",
+      "local": "assets/covers/full/VIN-0020.webp",
+      "thumb": "assets/covers/thumbs/VIN-0020.webp",
+      "sha256": "ad2f3d5ae8f09fb81f41d7438843aa0d7cb9b50df630b72b12a33ed9b32d76ef",
+      "width": 600,
+      "height": 600,
+      "artist": "America",
+      "title": "History America's Greatest Hits",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0021",
+      "mappedIds": [
+        "VIN-0021"
+      ],
+      "sourceFile": "amii-stewart_time-for-fantasy.jpg",
+      "local": "assets/covers/full/VIN-0021.webp",
+      "thumb": "assets/covers/thumbs/VIN-0021.webp",
+      "sha256": "f4c0cab285ac386db0b20df9cdcb3551f466a1a5afc7a76666a70140a3277ecf",
+      "width": 600,
+      "height": 595,
+      "artist": "Amii Stewart",
+      "title": "Time For Fantasy",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0023",
+      "mappedIds": [
+        "VIN-0023"
+      ],
+      "sourceFile": "anthony-braxton_b-x-no-i-47.jpg",
+      "local": "assets/covers/full/VIN-0023.webp",
+      "thumb": "assets/covers/thumbs/VIN-0023.webp",
+      "sha256": "abcadee953805f786c5d045acb4dd280f53d76dc24a26d5b719354c57add3092",
+      "width": 600,
+      "height": 599,
+      "artist": "Anthony Braxton",
+      "title": "B-X° / NO-I-47ᴬ",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0024",
+      "mappedIds": [
+        "VIN-0024"
+      ],
+      "sourceFile": "antonello-venditti_sotto-il-segno-dei-pesci.jpg",
+      "local": "assets/covers/full/VIN-0024.webp",
+      "thumb": "assets/covers/thumbs/VIN-0024.webp",
+      "sha256": "50c1b80a474ed806945220f34648f7cbaea5a21d74eff4ba3c3b05294f5b2f3a",
+      "width": 595,
+      "height": 600,
+      "artist": "Antonello Venditti",
+      "title": "Sotto Il Segno Dei Pesci",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0025",
+      "mappedIds": [
+        "VIN-0025"
+      ],
+      "sourceFile": "arcadia_so-red-the-rose.jpg",
+      "local": "assets/covers/full/VIN-0025.webp",
+      "thumb": "assets/covers/thumbs/VIN-0025.webp",
+      "sha256": "f9b526491e5f1c8dbcf0fc0bf0f74baeea95a6c8b5b58dfe6ea35b93130f0997",
+      "width": 591,
+      "height": 600,
+      "artist": "Arcadia",
+      "title": "So Red The Rose",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0027",
+      "mappedIds": [
+        "VIN-0027"
+      ],
+      "sourceFile": "art-of-noise_below-the-waste.jpg",
+      "local": "assets/covers/full/VIN-0027.webp",
+      "thumb": "assets/covers/thumbs/VIN-0027.webp",
+      "sha256": "e4f451bb161366c86583b9b28ea23ac16dc17ca9968ea06293f954c126735816",
+      "width": 600,
+      "height": 600,
+      "artist": "Art Of Noise",
+      "title": "Below The Waste",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0026",
+      "mappedIds": [
+        "VIN-0026"
+      ],
+      "sourceFile": "art-of-noise_in-visible-silence.jpg",
+      "local": "assets/covers/full/VIN-0026.webp",
+      "thumb": "assets/covers/thumbs/VIN-0026.webp",
+      "sha256": "eaed51e9c067246b5f6fe9bbe8e3fcb95c737a60895aefc0b36d19728c53ae4b",
+      "width": 600,
+      "height": 591,
+      "artist": "Art Of Noise",
+      "title": "In Visible Silence",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0034",
+      "mappedIds": [
+        "VIN-0034"
+      ],
+      "sourceFile": "b-52s_cosmic-thing.jpg",
+      "local": "assets/covers/full/VIN-0034.webp",
+      "thumb": "assets/covers/thumbs/VIN-0034.webp",
+      "sha256": "42e298d1f93696ba061273d7d9c2e4a34d5c1f066a845eeffca5265005bb73ad",
+      "width": 600,
+      "height": 600,
+      "artist": "B-52's",
+      "title": "Cosmic Thing",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0035",
+      "mappedIds": [
+        "VIN-0035"
+      ],
+      "sourceFile": "b-52s_dance-this-mess-around.jpg",
+      "local": "assets/covers/full/VIN-0035.webp",
+      "thumb": "assets/covers/thumbs/VIN-0035.webp",
+      "sha256": "d63f90ef9d98037811cb47831554b6812f3db203a30c76264b78d9a165a017cf",
+      "width": 598,
+      "height": 600,
+      "artist": "B-52's",
+      "title": "Dance This Mess Around",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0033",
+      "mappedIds": [
+        "VIN-0033"
+      ],
+      "sourceFile": "b-52s_mesopotamia.jpg",
+      "local": "assets/covers/full/VIN-0033.webp",
+      "thumb": "assets/covers/thumbs/VIN-0033.webp",
+      "sha256": "1e9c9aa161ab8ac84cc754743b4646f8d47848c1928949ae121b230ceb38ab2f",
+      "width": 600,
+      "height": 586,
+      "artist": "B-52's",
+      "title": "Mesopotamia",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0031",
+      "mappedIds": [
+        "VIN-0031"
+      ],
+      "sourceFile": "b-52s_the-b-52s.jpg",
+      "local": "assets/covers/full/VIN-0031.webp",
+      "thumb": "assets/covers/thumbs/VIN-0031.webp",
+      "sha256": "c655dd67017e51ed01e3f09d7130a32f5b2831894462681369e8469f73b63485",
+      "width": 600,
+      "height": 600,
+      "artist": "B-52's",
+      "title": "The B-52's",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0032",
+      "mappedIds": [
+        "VIN-0032"
+      ],
+      "sourceFile": "b-52s_wild-planet.jpg",
+      "local": "assets/covers/full/VIN-0032.webp",
+      "thumb": "assets/covers/thumbs/VIN-0032.webp",
+      "sha256": "27533387b397ede6e23b439a93e5fbf2f7edfaf288385e35ebdd9c2a4316a193",
+      "width": 600,
+      "height": 600,
+      "artist": "B-52's",
+      "title": "Wild Planet",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0037",
+      "mappedIds": [
+        "VIN-0037"
+      ],
+      "sourceFile": "babymetal_metal-galaxy.jpg",
+      "local": "assets/covers/full/VIN-0037.webp",
+      "thumb": "assets/covers/thumbs/VIN-0037.webp",
+      "sha256": "c6d3dad1128ee699afae0bdf1a2553b6994f2230ddb9c5d350faf8ee3000a772",
+      "width": 600,
+      "height": 600,
+      "artist": "BabyMetal",
+      "title": "Metal Galaxy",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0038",
+      "mappedIds": [
+        "VIN-0038"
+      ],
+      "sourceFile": "bananarama_bananarama.jpg",
+      "local": "assets/covers/full/VIN-0038.webp",
+      "thumb": "assets/covers/thumbs/VIN-0038.webp",
+      "sha256": "e39f84ef6100c5134786738b85d7d6cc28941beb01c2f2ac39040d8c8f48eae9",
+      "width": 600,
+      "height": 600,
+      "artist": "Bananarama",
+      "title": "Bananarama",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0040",
+      "mappedIds": [
+        "VIN-0040"
+      ],
+      "sourceFile": "banco-del-mutuo-soccorso_banco.jpg",
+      "local": "assets/covers/full/VIN-0040.webp",
+      "thumb": "assets/covers/thumbs/VIN-0040.webp",
+      "sha256": "23bd922eab9a5cdc25f04ac5a945fd9ab35c3725fd4137fadd34766a81cc3ce0",
+      "width": 600,
+      "height": 600,
+      "artist": "Banco del Mutuo Soccorso",
+      "title": "Banco",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0042",
+      "mappedIds": [
+        "VIN-0042"
+      ],
+      "sourceFile": "barry-manilow_if-i-should-love-again.jpg",
+      "local": "assets/covers/full/VIN-0042.webp",
+      "thumb": "assets/covers/thumbs/VIN-0042.webp",
+      "sha256": "1a5a6a91803d4ff3482b6156dcd3a40f5854bcbdfaf2666cf9b5050f9300b8b7",
+      "width": 600,
+      "height": 588,
+      "artist": "Barry Manilow",
+      "title": "If I Should Love Again",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0046",
+      "mappedIds": [
+        "VIN-0046"
+      ],
+      "sourceFile": "bob-dylan_slow-train-coming.jpg",
+      "local": "assets/covers/full/VIN-0046.webp",
+      "thumb": "assets/covers/thumbs/VIN-0046.webp",
+      "sha256": "44ddc397ee5dd6fc91a0c7146d63ec98eb8ad513d170a693f3126dde30f4bd61",
+      "width": 600,
+      "height": 600,
+      "artist": "Bob Dylan",
+      "title": "Slow Train Coming",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0047",
+      "mappedIds": [
+        "VIN-0047"
+      ],
+      "sourceFile": "bon-jovi_bon-jovi.jpg",
+      "local": "assets/covers/full/VIN-0047.webp",
+      "thumb": "assets/covers/thumbs/VIN-0047.webp",
+      "sha256": "9aacd6adc8c2b3d94540283b0677484d85136e28fd4d5a4859321736ce153059",
+      "width": 597,
+      "height": 600,
+      "artist": "Bon Jovi",
+      "title": "Bon Jovi",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0048",
+      "mappedIds": [
+        "VIN-0048"
+      ],
+      "sourceFile": "boney-m_nightflight-to-venus.jpg",
+      "local": "assets/covers/full/VIN-0048.webp",
+      "thumb": "assets/covers/thumbs/VIN-0048.webp",
+      "sha256": "6279343d8caf293c28ff5dd318775781da47af9a31c7332945855196ddea4ea5",
+      "width": 600,
+      "height": 600,
+      "artist": "Boney M.",
+      "title": "Nightflight To Venus",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0049",
+      "mappedIds": [
+        "VIN-0049"
+      ],
+      "sourceFile": "boney-m_oceans-of-fantasy.jpg",
+      "local": "assets/covers/full/VIN-0049.webp",
+      "thumb": "assets/covers/thumbs/VIN-0049.webp",
+      "sha256": "7d2d32f2ffa99d3c817a7d21fe7a2c444b7b47f8c8087997c85379bbc1b740ca",
+      "width": 600,
+      "height": 585,
+      "artist": "Boney M.",
+      "title": "Oceans Of Fantasy",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0050",
+      "mappedIds": [
+        "VIN-0050"
+      ],
+      "sourceFile": "bonnie-bianco_just-me.jpg",
+      "local": "assets/covers/full/VIN-0050.webp",
+      "thumb": "assets/covers/thumbs/VIN-0050.webp",
+      "sha256": "7e1abd762d3e81399bb170441f020553e449ff03bb078d70b3b4d8c8636e87ab",
+      "width": 600,
+      "height": 597,
+      "artist": "Bonnie Bianco",
+      "title": "Just Me",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0051",
+      "mappedIds": [
+        "VIN-0051"
+      ],
+      "sourceFile": "breathe_all-that-jazz.jpg",
+      "local": "assets/covers/full/VIN-0051.webp",
+      "thumb": "assets/covers/thumbs/VIN-0051.webp",
+      "sha256": "51ebc3c343db1c658a899363e13503ce7c15bb97189e38299f460abb887d83cb",
+      "width": 587,
+      "height": 600,
+      "artist": "Breathe",
+      "title": "All That Jazz",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0054",
+      "mappedIds": [
+        "VIN-0054"
+      ],
+      "sourceFile": "brother-beyond_get-even.jpg",
+      "local": "assets/covers/full/VIN-0054.webp",
+      "thumb": "assets/covers/thumbs/VIN-0054.webp",
+      "sha256": "e4f1b53f11cd0f745f4545aff9deeeb926c0ca7d79536072158451e87d124e79",
+      "width": 600,
+      "height": 595,
+      "artist": "Brother Beyond",
+      "title": "Get Even",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0055",
+      "mappedIds": [
+        "VIN-0055"
+      ],
+      "sourceFile": "bryan-ferry_bete-noire.jpg",
+      "local": "assets/covers/full/VIN-0055.webp",
+      "thumb": "assets/covers/thumbs/VIN-0055.webp",
+      "sha256": "abf58adfa5eedfdb1af4a45a8e8a3c728c96558bcfedcdcca3671ce3aed27500",
+      "width": 600,
+      "height": 596,
+      "artist": "Bryan Ferry",
+      "title": "Bète Noire",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0056",
+      "mappedIds": [
+        "VIN-0056"
+      ],
+      "sourceFile": "bryan-ferry_the-ultimate-collection.jpg",
+      "local": "assets/covers/full/VIN-0056.webp",
+      "thumb": "assets/covers/thumbs/VIN-0056.webp",
+      "sha256": "73daddddd68c5e41694f176f42f77487304b0b2921a1f40c76a87b5db2491a1d",
+      "width": 600,
+      "height": 600,
+      "artist": "Bryan Ferry",
+      "title": "The Ultimate Collection",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0058",
+      "mappedIds": [
+        "VIN-0058"
+      ],
+      "sourceFile": "canzoniere-veneto_el-miracolo-roverso.jpg",
+      "local": "assets/covers/full/VIN-0058.webp",
+      "thumb": "assets/covers/thumbs/VIN-0058.webp",
+      "sha256": "57079e4037eb1982e59c741dbcab008c17d8ffb4028c4b464ebe067f63d49a7a",
+      "width": 600,
+      "height": 570,
+      "artist": "Canzoniere Veneto",
+      "title": "El Miracolo Roverso",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0060",
+      "mappedIds": [
+        "VIN-0060"
+      ],
+      "sourceFile": "caparezza_exuvia.jpg",
+      "local": "assets/covers/full/VIN-0060.webp",
+      "thumb": "assets/covers/thumbs/VIN-0060.webp",
+      "sha256": "8ef232d9f99b049a57a6422de0c2e72b382760428b7fb532ef20b7987a65b62e",
+      "width": 600,
+      "height": 600,
+      "artist": "Caparezza",
+      "title": "Exuvia",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0061",
+      "mappedIds": [
+        "VIN-0061"
+      ],
+      "sourceFile": "caparezza_orbit-orbit.jpg",
+      "local": "assets/covers/full/VIN-0061.webp",
+      "thumb": "assets/covers/thumbs/VIN-0061.webp",
+      "sha256": "a8590796a2b19c2bded5f3183dec1bfefefa52055f1992ba4bc70db970320adc",
+      "width": 600,
+      "height": 600,
+      "artist": "Caparezza",
+      "title": "Orbit Orbit",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0059",
+      "mappedIds": [
+        "VIN-0059"
+      ],
+      "sourceFile": "caparezza_verita-supposte.jpg",
+      "local": "assets/covers/full/VIN-0059.webp",
+      "thumb": "assets/covers/thumbs/VIN-0059.webp",
+      "sha256": "3e74ef67acfae6b8cca78e80249bbe807f7e681868d4e67fdf052a41ef2f8c51",
+      "width": 600,
+      "height": 600,
+      "artist": "Caparezza",
+      "title": "Verità Supposte",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0062",
+      "mappedIds": [
+        "VIN-0062"
+      ],
+      "sourceFile": "caterina-caselli_casco-doro.jpg",
+      "local": "assets/covers/full/VIN-0062.webp",
+      "thumb": "assets/covers/thumbs/VIN-0062.webp",
+      "sha256": "eefd7de55b34c957adb7ac50654a2c5bafd73a9f57dd0a70dabc6ba30b86000f",
+      "width": 599,
+      "height": 600,
+      "artist": "Caterina Caselli",
+      "title": "Casco D'Oro",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0066",
+      "mappedIds": [
+        "VIN-0066"
+      ],
+      "sourceFile": "chicago_the-feeling-of-chicago.jpg",
+      "local": "assets/covers/full/VIN-0066.webp",
+      "thumb": "assets/covers/thumbs/VIN-0066.webp",
+      "sha256": "47d8a25301f2e2ef22f1d35e21cb5b215dc309f56218ad94df9d8eb64e5b8a7a",
+      "width": 600,
+      "height": 598,
+      "artist": "Chicago",
+      "title": "The Feeling Of Chicago",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0068",
+      "mappedIds": [
+        "VIN-0068"
+      ],
+      "sourceFile": "claudio-baglioni_gira-che-ti-rigira-amore-bello.jpg",
+      "local": "assets/covers/full/VIN-0068.webp",
+      "thumb": "assets/covers/thumbs/VIN-0068.webp",
+      "sha256": "88524769c77cea6fb4cbf60e9572b5f5fbaea50c111c56b36013e747e214c6b6",
+      "width": 600,
+      "height": 600,
+      "artist": "Claudio Baglioni",
+      "title": "Gira Che Ti Rigira Amore Bello",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0069",
+      "mappedIds": [
+        "VIN-0069"
+      ],
+      "sourceFile": "claudio-baglioni_personale-di-claudio-baglioni-vol1.jpg",
+      "local": "assets/covers/full/VIN-0069.webp",
+      "thumb": "assets/covers/thumbs/VIN-0069.webp",
+      "sha256": "5144c40dd8508d83fc4966dba51fbd415453a81f641ac63950e18b732ecec177",
+      "width": 597,
+      "height": 600,
+      "artist": "Claudio Baglioni",
+      "title": "Personale Di Claudio Baglioni Vol.1",
+      "matchMethod": "normalized alias",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0071",
+      "mappedIds": [
+        "VIN-0071"
+      ],
+      "sourceFile": "cock-robin_cock-robin.jpg",
+      "local": "assets/covers/full/VIN-0071.webp",
+      "thumb": "assets/covers/thumbs/VIN-0071.webp",
+      "sha256": "d2b000ba84f88a2031cb44a80bd4a163edb12560ff7fb719ed5b98c2238f61ad",
+      "width": 591,
+      "height": 600,
+      "artist": "Cock Robin",
+      "title": "Cock Robin",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0072",
+      "mappedIds": [
+        "VIN-0072"
+      ],
+      "sourceFile": "communards_communards.jpg",
+      "local": "assets/covers/full/VIN-0072.webp",
+      "thumb": "assets/covers/thumbs/VIN-0072.webp",
+      "sha256": "c19d49dbf3e0f2f4605a4d8e54930e738347ab9dd02e00f0a403f66883c08508",
+      "width": 600,
+      "height": 600,
+      "artist": "Communards",
+      "title": "Communards",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0075",
+      "mappedIds": [
+        "VIN-0075"
+      ],
+      "sourceFile": "crosby-stills-nash_allies.jpg",
+      "local": "assets/covers/full/VIN-0075.webp",
+      "thumb": "assets/covers/thumbs/VIN-0075.webp",
+      "sha256": "46bea0f0acc8396f0353bcfeb49d99c4518592170bef30e3dbabb5fb696be50e",
+      "width": 600,
+      "height": 593,
+      "artist": "Crosby, Stills, Nash",
+      "title": "Allies",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0077",
+      "mappedIds": [
+        "VIN-0077"
+      ],
+      "sourceFile": "culture-club_colour-by-numbers.jpg",
+      "local": "assets/covers/full/VIN-0077.webp",
+      "thumb": "assets/covers/thumbs/VIN-0077.webp",
+      "sha256": "87a03a73b40f43fcac4e154b14c7add6def26c19271d60072c3b2496ed4952c1",
+      "width": 600,
+      "height": 600,
+      "artist": "Culture Club",
+      "title": "Colour By Numbers",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0079",
+      "mappedIds": [
+        "VIN-0079"
+      ],
+      "sourceFile": "curiosity-killed-the-cat_first-place.jpg",
+      "local": "assets/covers/full/VIN-0079.webp",
+      "thumb": "assets/covers/thumbs/VIN-0079.webp",
+      "sha256": "961194ee5d65d23b34728b4084913c889065eb6e29dd45c0c98cd987b4ea6070",
+      "width": 600,
+      "height": 600,
+      "artist": "Curiosity Killed The Cat",
+      "title": "First Place",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0080",
+      "mappedIds": [
+        "VIN-0080"
+      ],
+      "sourceFile": "curiosity-killed-the-cat_getahead.jpg",
+      "local": "assets/covers/full/VIN-0080.webp",
+      "thumb": "assets/covers/thumbs/VIN-0080.webp",
+      "sha256": "185fafa57711567e12882d6cc36736d7ba62b59e882e72df3ded0b8d1b606e53",
+      "width": 599,
+      "height": 600,
+      "artist": "Curiosity Killed The Cat",
+      "title": "Getahead",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0078",
+      "mappedIds": [
+        "VIN-0078"
+      ],
+      "sourceFile": "curiosity-killed-the-cat_keep-your-distance.jpg",
+      "local": "assets/covers/full/VIN-0078.webp",
+      "thumb": "assets/covers/thumbs/VIN-0078.webp",
+      "sha256": "755b10b206213aad2ecab5eff1780324ed008ee526da84360011f31be08aff6f",
+      "width": 600,
+      "height": 585,
+      "artist": "Curiosity Killed The Cat",
+      "title": "Keep Your Distance",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0082",
+      "mappedIds": [
+        "VIN-0082"
+      ],
+      "sourceFile": "daft-punk_random-access-memories.jpg",
+      "local": "assets/covers/full/VIN-0082.webp",
+      "thumb": "assets/covers/thumbs/VIN-0082.webp",
+      "sha256": "b0858a9244f39555f76a297675c342dec22febe57e7eb64b9a344f452e23d469",
+      "width": 600,
+      "height": 594,
+      "artist": "Daft Punk",
+      "title": "Random Access Memories",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0084",
+      "mappedIds": [
+        "VIN-0084"
+      ],
+      "sourceFile": "daryl-hall-john-oates_big-bam-boom.jpg",
+      "local": "assets/covers/full/VIN-0084.webp",
+      "thumb": "assets/covers/thumbs/VIN-0084.webp",
+      "sha256": "3335fe195826dd285931ab82299ad6475b40108827b397d898fc8a468f1cec16",
+      "width": 600,
+      "height": 580,
+      "artist": "Daryl Hall & John Oates",
+      "title": "Big Bam Boom",
+      "matchMethod": "normalized alias",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0083",
+      "mappedIds": [
+        "VIN-0083"
+      ],
+      "sourceFile": "daryl-hall-john-oates_h2o.jpg",
+      "local": "assets/covers/full/VIN-0083.webp",
+      "thumb": "assets/covers/thumbs/VIN-0083.webp",
+      "sha256": "227a55693c3c7607be1b303fe2a6f4ab96ccd88449f5ca7b116bac759f50fd93",
+      "width": 600,
+      "height": 600,
+      "artist": "Daryl Hall & John Oates",
+      "title": "H2O",
+      "matchMethod": "normalized alias",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0085",
+      "mappedIds": [
+        "VIN-0085"
+      ],
+      "sourceFile": "dave-brubeck-quartet_time-out.jpg",
+      "local": "assets/covers/full/VIN-0085.webp",
+      "thumb": "assets/covers/thumbs/VIN-0085.webp",
+      "sha256": "89d29cb1e6b81f1febf7d813e9424494e7953d525ffbc41279e78846b9d0ee20",
+      "width": 600,
+      "height": 590,
+      "artist": "Dave Brubeck Quartet",
+      "title": "Time Out",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0087",
+      "mappedIds": [
+        "VIN-0087"
+      ],
+      "sourceFile": "david-bowie_tonight.jpg",
+      "local": "assets/covers/full/VIN-0087.webp",
+      "thumb": "assets/covers/thumbs/VIN-0087.webp",
+      "sha256": "a7a32437e487ff38340da90fd4cd2540c05b7e69ae2abffa26167d96cea5e278",
+      "width": 600,
+      "height": 585,
+      "artist": "David Bowie",
+      "title": "Tonight",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0089",
+      "mappedIds": [
+        "VIN-0089"
+      ],
+      "sourceFile": "deep-purple_stormbringer.jpg",
+      "local": "assets/covers/full/VIN-0089.webp",
+      "thumb": "assets/covers/thumbs/VIN-0089.webp",
+      "sha256": "3b1b7dca1bdb522617946564b4edc0dd7f0eb5f9c5c01fad4ed9a7c180b24020",
+      "width": 600,
+      "height": 596,
+      "artist": "Deep Purple",
+      "title": "Stormbringer",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0098",
+      "mappedIds": [
+        "VIN-0098"
+      ],
+      "sourceFile": "dire-straits_brothers-in-arms.jpg",
+      "local": "assets/covers/full/VIN-0098.webp",
+      "thumb": "assets/covers/thumbs/VIN-0098.webp",
+      "sha256": "ba20c1e4cac82698f7f339b7b2a340ef1481bfa66cffb0ba42d5995651a24601",
+      "width": 599,
+      "height": 600,
+      "artist": "Dire Straits",
+      "title": "Brothers In Arms",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0094",
+      "mappedIds": [
+        "VIN-0094"
+      ],
+      "sourceFile": "dire-straits_communique.jpg",
+      "local": "assets/covers/full/VIN-0094.webp",
+      "thumb": "assets/covers/thumbs/VIN-0094.webp",
+      "sha256": "81f84641b87d93c934924ff73dac2874aa67db4fe267fc847d5917e9c2c8bb54",
+      "width": 600,
+      "height": 594,
+      "artist": "Dire Straits",
+      "title": "Communique",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0097",
+      "mappedIds": [
+        "VIN-0097"
+      ],
+      "sourceFile": "dire-straits_extendedanceplay.jpg",
+      "local": "assets/covers/full/VIN-0097.webp",
+      "thumb": "assets/covers/thumbs/VIN-0097.webp",
+      "sha256": "0a784075932a36719b2e21b00fe687889d1aa51b2ffa1c2aa8d671e8925d62d9",
+      "width": 600,
+      "height": 593,
+      "artist": "Dire Straits",
+      "title": "Extendedanceplay",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0099",
+      "mappedIds": [
+        "VIN-0099"
+      ],
+      "sourceFile": "dire-straits_heavy-fuel.jpg",
+      "local": "assets/covers/full/VIN-0099.webp",
+      "thumb": "assets/covers/thumbs/VIN-0099.webp",
+      "sha256": "98e8573e9173a4c490537a645cdec877ea5b558a49c1808acd49b6a5ca423a5d",
+      "width": 600,
+      "height": 586,
+      "artist": "Dire Straits",
+      "title": "Heavy Fuel",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0096",
+      "mappedIds": [
+        "VIN-0096"
+      ],
+      "sourceFile": "dire-straits_love-over-gold.jpg",
+      "local": "assets/covers/full/VIN-0096.webp",
+      "thumb": "assets/covers/thumbs/VIN-0096.webp",
+      "sha256": "e7ae178fa0a2a239841072b98028ac5940ee7b6b609d1237ffbf770a9be9ac13",
+      "width": 594,
+      "height": 600,
+      "artist": "Dire Straits",
+      "title": "Love Over Gold",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0095",
+      "mappedIds": [
+        "VIN-0095"
+      ],
+      "sourceFile": "dire-straits_making-movies.jpg",
+      "local": "assets/covers/full/VIN-0095.webp",
+      "thumb": "assets/covers/thumbs/VIN-0095.webp",
+      "sha256": "9cddaef8b0eac7c2a1de4c17e8f120d9fb07ee939cf3f88dcaa38a0f3af52e8a",
+      "width": 600,
+      "height": 600,
+      "artist": "Dire Straits",
+      "title": "Making Movies",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0100",
+      "mappedIds": [
+        "VIN-0100"
+      ],
+      "sourceFile": "dire-straits_on-every-street.jpg",
+      "local": "assets/covers/full/VIN-0100.webp",
+      "thumb": "assets/covers/thumbs/VIN-0100.webp",
+      "sha256": "99c633d109b2892409e45a572788026d107d8c0c8a48a7a62c33e4028ccfe188",
+      "width": 600,
+      "height": 582,
+      "artist": "Dire Straits",
+      "title": "On Every Street",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0102",
+      "mappedIds": [
+        "VIN-0102"
+      ],
+      "sourceFile": "drupi_drupi.jpg",
+      "local": "assets/covers/full/VIN-0102.webp",
+      "thumb": "assets/covers/thumbs/VIN-0102.webp",
+      "sha256": "7283f184b06c991394318b3f7d6de2fc6766649a9cb423d0f14011703413f9d8",
+      "width": 600,
+      "height": 600,
+      "artist": "Drupi",
+      "title": "Drupi",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0103",
+      "mappedIds": [
+        "VIN-0103"
+      ],
+      "sourceFile": "duke-ellington_a-date-with-the-duke-vol6-1945-46.jpg",
+      "local": "assets/covers/full/VIN-0103.webp",
+      "thumb": "assets/covers/thumbs/VIN-0103.webp",
+      "sha256": "09559db4782ab9726f607c9379550c9b51240153f78632c3916f97f85fbe0279",
+      "width": 600,
+      "height": 600,
+      "artist": "Duke Ellington",
+      "title": "A Date With The Duke Vol.6 1945-46",
+      "matchMethod": "normalized alias",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0114",
+      "mappedIds": [
+        "VIN-0114"
+      ],
+      "sourceFile": "duran-duran_big-thing.jpg",
+      "local": "assets/covers/full/VIN-0114.webp",
+      "thumb": "assets/covers/thumbs/VIN-0114.webp",
+      "sha256": "1885e70583372e0ab1b45575ca01794be3996cd938009f449d7e13a4ae8ccb4e",
+      "width": 600,
+      "height": 589,
+      "artist": "Duran Duran",
+      "title": "Big Thing",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0112",
+      "mappedIds": [
+        "VIN-0112"
+      ],
+      "sourceFile": "duran-duran_live-italian-tour.jpg",
+      "local": "assets/covers/full/VIN-0112.webp",
+      "thumb": "assets/covers/thumbs/VIN-0112.webp",
+      "sha256": "e71f19ae4b86354099f15043001d590de8854758779df3650def91d8cb7b2265",
+      "width": 600,
+      "height": 593,
+      "artist": "Duran Duran",
+      "title": "Live Italian tour",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0108",
+      "mappedIds": [
+        "VIN-0108"
+      ],
+      "sourceFile": "duran-duran_mixing.jpg",
+      "local": "assets/covers/full/VIN-0108.webp",
+      "thumb": "assets/covers/thumbs/VIN-0108.webp",
+      "sha256": "039c3fd4af7dcd3cbfc7f78a95a1e43e4236d31bcaf67fd70319a34f7b5c4216",
+      "width": 600,
+      "height": 597,
+      "artist": "Duran Duran",
+      "title": "Mixing",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0109",
+      "mappedIds": [
+        "VIN-0109"
+      ],
+      "sourceFile": "duran-duran_notorious.jpg",
+      "local": "assets/covers/full/VIN-0109.webp",
+      "thumb": "assets/covers/thumbs/VIN-0109.webp",
+      "sha256": "3157997ded5d7b9e9503701d35b907b41279f3368e2bfd7da28f60f3ccfac881",
+      "width": 599,
+      "height": 600,
+      "artist": "Duran Duran",
+      "title": "Notorious",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0110",
+      "mappedIds": [
+        "VIN-0110"
+      ],
+      "sourceFile": "duran-duran_strange-behaviour.jpg",
+      "local": "assets/covers/full/VIN-0110.webp",
+      "thumb": "assets/covers/thumbs/VIN-0110.webp",
+      "sha256": "279849cd5c9cb1bc645f08817b74eaed6164168eaaab87a8438abf2575e1e2e9",
+      "width": 599,
+      "height": 600,
+      "artist": "Duran Duran",
+      "title": "Strange Behaviour",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0115",
+      "mappedIds": [
+        "VIN-0115"
+      ],
+      "sourceFile": "earth-wind-fire_earth-wind-fire-the-best-of-vol1.jpg",
+      "local": "assets/covers/full/VIN-0115.webp",
+      "thumb": "assets/covers/thumbs/VIN-0115.webp",
+      "sha256": "853429656bb60e6893905fd0deb13bca3bb63636e1a831646d158ea9b9e7d498",
+      "width": 600,
+      "height": 600,
+      "artist": "Earth Wind & Fire",
+      "title": "Earth Wind & Fire The Best Of Vol.1",
+      "matchMethod": "normalized alias",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0118",
+      "mappedIds": [
+        "VIN-0118"
+      ],
+      "sourceFile": "earth-wind-fire_electric-universe.jpg",
+      "local": "assets/covers/full/VIN-0118.webp",
+      "thumb": "assets/covers/thumbs/VIN-0118.webp",
+      "sha256": "1a3a1e03a99489a326b26d9141a251a6a50d177b0b806f0a354b454cb5dbfcf7",
+      "width": 600,
+      "height": 598,
+      "artist": "Earth Wind & Fire",
+      "title": "Electric Universe",
+      "matchMethod": "normalized alias",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0116",
+      "mappedIds": [
+        "VIN-0116"
+      ],
+      "sourceFile": "earth-wind-fire_i-am.jpg",
+      "local": "assets/covers/full/VIN-0116.webp",
+      "thumb": "assets/covers/thumbs/VIN-0116.webp",
+      "sha256": "36c73ed487f65faa36c82f245eec07cd603ec143efd78b26959a65bbc792cdc1",
+      "width": 600,
+      "height": 600,
+      "artist": "Earth Wind & Fire",
+      "title": "I Am",
+      "matchMethod": "normalized alias",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0117",
+      "mappedIds": [
+        "VIN-0117"
+      ],
+      "sourceFile": "earth-wind-fire_raise.jpg",
+      "local": "assets/covers/full/VIN-0117.webp",
+      "thumb": "assets/covers/thumbs/VIN-0117.webp",
+      "sha256": "cafa90d35a98364a5c86b4ce039f786ff4c2da3fc44d54ffe38e831d638ad2dd",
+      "width": 600,
+      "height": 600,
+      "artist": "Earth Wind & Fire",
+      "title": "Raise!",
+      "matchMethod": "normalized alias",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0121",
+      "mappedIds": [
+        "VIN-0121"
+      ],
+      "sourceFile": "edoardo-bennato_burattino-senza-fili.jpg",
+      "local": "assets/covers/full/VIN-0121.webp",
+      "thumb": "assets/covers/thumbs/VIN-0121.webp",
+      "sha256": "c18fa99489f764f1e43b26d321b408b87ba279d69f176c0e143c7aabbf49fdad",
+      "width": 600,
+      "height": 600,
+      "artist": "Edoardo Bennato",
+      "title": "Burattino Senza Fili",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0120",
+      "mappedIds": [
+        "VIN-0120"
+      ],
+      "sourceFile": "edoardo-bennato_io-che-non-sono-limperatore.jpg",
+      "local": "assets/covers/full/VIN-0120.webp",
+      "thumb": "assets/covers/thumbs/VIN-0120.webp",
+      "sha256": "5de04cc309f1728c28aff09fe315f6f321e2d10b82d48f26c4469bd4b0f1928a",
+      "width": 597,
+      "height": 600,
+      "artist": "Edoardo Bennato",
+      "title": "Io Che Non Sono L'imperatore",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0122",
+      "mappedIds": [
+        "VIN-0122"
+      ],
+      "sourceFile": "edoardo-bennato_sono-solo-canzonette.jpg",
+      "local": "assets/covers/full/VIN-0122.webp",
+      "thumb": "assets/covers/thumbs/VIN-0122.webp",
+      "sha256": "3719291363249b3bf315af522b08801b0dfd1f0c5239332c6ae6c696a7087e84",
+      "width": 600,
+      "height": 598,
+      "artist": "Edoardo Bennato",
+      "title": "Sono Solo Canzonette",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0123",
+      "mappedIds": [
+        "VIN-0123"
+      ],
+      "sourceFile": "ele-a_acqua.jpg",
+      "local": "assets/covers/full/VIN-0123.webp",
+      "thumb": "assets/covers/thumbs/VIN-0123.webp",
+      "sha256": "5afea161d591fbf1135c3ecd1f1cb1fd953493489e55d01b1e297fef120cebea",
+      "width": 600,
+      "height": 600,
+      "artist": "Ele A",
+      "title": "Acqua",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0124",
+      "mappedIds": [
+        "VIN-0124"
+      ],
+      "sourceFile": "ele-a_pixel.jpg",
+      "local": "assets/covers/full/VIN-0124.webp",
+      "thumb": "assets/covers/thumbs/VIN-0124.webp",
+      "sha256": "175ed5b2b0cca8a51faab07b0879d3d68c11a2d5e24d10353d1b1cc76d667367",
+      "width": 600,
+      "height": 600,
+      "artist": "Ele A",
+      "title": "Pixel",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0126",
+      "mappedIds": [
+        "VIN-0126"
+      ],
+      "sourceFile": "electric-light-orchestra_balance-of-power.jpg",
+      "local": "assets/covers/full/VIN-0126.webp",
+      "thumb": "assets/covers/thumbs/VIN-0126.webp",
+      "sha256": "30580deff7e5e929a8c9b22dd0d691865d4887303eb0e619e339e117743b0698",
+      "width": 600,
+      "height": 587,
+      "artist": "Electric Light Orchestra",
+      "title": "Balance Of Power",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0127",
+      "mappedIds": [
+        "VIN-0127"
+      ],
+      "sourceFile": "elio-e-le-storie-tese_elio-samaga-hukapan-kariyana-turu.jpg",
+      "local": "assets/covers/full/VIN-0127.webp",
+      "thumb": "assets/covers/thumbs/VIN-0127.webp",
+      "sha256": "56032e81d6f2425e1a781a741ccd3b4eca501038a828ee6564fa8acf7f8983b1",
+      "width": 600,
+      "height": 600,
+      "artist": "Elio E Le Storie Tese",
+      "title": "Elio Samaga Hukapan Kariyana Turu",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0130",
+      "mappedIds": [
+        "VIN-0130"
+      ],
+      "sourceFile": "elio-e-le-storie-tese_the-los-sri-lanka-parakramabahu.jpg",
+      "local": "assets/covers/full/VIN-0130.webp",
+      "thumb": "assets/covers/thumbs/VIN-0130.webp",
+      "sha256": "70f392ad84921b755bb751c0a8446864d7fbb94e5a41a8848881db30ea943723",
+      "width": 600,
+      "height": 600,
+      "artist": "Elio E Le Storie Tese",
+      "title": "The Los Sri Lanka Parakramabahu",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0133",
+      "mappedIds": [
+        "VIN-0133"
+      ],
+      "sourceFile": "elton-john_the-very-best-of.jpg",
+      "local": "assets/covers/full/VIN-0133.webp",
+      "thumb": "assets/covers/thumbs/VIN-0133.webp",
+      "sha256": "343542932c072daa829ae4becb63d533e6b95308504f2d23a5bb680913e15cb9",
+      "width": 600,
+      "height": 599,
+      "artist": "Elton John",
+      "title": "The Very Best Of",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0136",
+      "mappedIds": [
+        "VIN-0136"
+      ],
+      "sourceFile": "emerson-lake-palmer_emerson-lake-palmer.jpg",
+      "local": "assets/covers/full/VIN-0136.webp",
+      "thumb": "assets/covers/thumbs/VIN-0136.webp",
+      "sha256": "5fc24bd09be51eae56a702658618857e57eabcd370b08c25e434c72f1d215a6d",
+      "width": 599,
+      "height": 600,
+      "artist": "Emerson Lake & Palmer",
+      "title": "Emerson Lake & Palmer",
+      "matchMethod": "normalized alias",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0137",
+      "mappedIds": [
+        "VIN-0137"
+      ],
+      "sourceFile": "enrico-ruggeri_peter-pan.jpg",
+      "local": "assets/covers/full/VIN-0137.webp",
+      "thumb": "assets/covers/thumbs/VIN-0137.webp",
+      "sha256": "a8b7e4fcd2eaf7bdba1e98800cfa94202eeb2a1cec414537fe507a4bb5a2d3bf",
+      "width": 600,
+      "height": 600,
+      "artist": "Enrico Ruggeri",
+      "title": "Peter Pan",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0139",
+      "mappedIds": [
+        "VIN-0139"
+      ],
+      "sourceFile": "eugenio-finardi_il-vento-di-elora.jpg",
+      "local": "assets/covers/full/VIN-0139.webp",
+      "thumb": "assets/covers/thumbs/VIN-0139.webp",
+      "sha256": "2148c0c9cdd83b83d8e83c6d4f214739f10cf12febc46d36bf79add554b7504f",
+      "width": 599,
+      "height": 600,
+      "artist": "Eugenio Finardi",
+      "title": "Il Vento Di Elora",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0140",
+      "mappedIds": [
+        "VIN-0140"
+      ],
+      "sourceFile": "eugenio-finardi_la-forza-dellamore.jpg",
+      "local": "assets/covers/full/VIN-0140.webp",
+      "thumb": "assets/covers/thumbs/VIN-0140.webp",
+      "sha256": "578ea3d34497298f067a9821a2150d0f43457a83f152b1915f83d7a74e79b679",
+      "width": 600,
+      "height": 595,
+      "artist": "Eugenio Finardi",
+      "title": "La Forza Dell'Amore",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0142",
+      "mappedIds": [
+        "VIN-0142"
+      ],
+      "sourceFile": "eurythmics_savage.jpg",
+      "local": "assets/covers/full/VIN-0142.webp",
+      "thumb": "assets/covers/thumbs/VIN-0142.webp",
+      "sha256": "f42cbd664ccfde47921aa9053857b1921099f0ad0c0efaa7fab2490319639501",
+      "width": 600,
+      "height": 591,
+      "artist": "Eurythmics",
+      "title": "Savage",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0143",
+      "mappedIds": [
+        "VIN-0143"
+      ],
+      "sourceFile": "eurythmics_we-too-are-one.jpg",
+      "local": "assets/covers/full/VIN-0143.webp",
+      "thumb": "assets/covers/thumbs/VIN-0143.webp",
+      "sha256": "2130d7a2bc537a4dffe2f871ef9da4d1ad593d10a22d571f38af3df57b45fdec",
+      "width": 600,
+      "height": 600,
+      "artist": "Eurythmics",
+      "title": "We Too Are One",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0144",
+      "mappedIds": [
+        "VIN-0144"
+      ],
+      "sourceFile": "fabio-concato_fabio-concato.jpg",
+      "local": "assets/covers/full/VIN-0144.webp",
+      "thumb": "assets/covers/thumbs/VIN-0144.webp",
+      "sha256": "23e95bb1085cd4f60099e98594dc90d4703d28088713958333c883635f472078",
+      "width": 596,
+      "height": 600,
+      "artist": "Fabio Concato",
+      "title": "Fabio Concato",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0146",
+      "mappedIds": [
+        "VIN-0146"
+      ],
+      "sourceFile": "fabrizio-de-andre_rimini.jpg",
+      "local": "assets/covers/full/VIN-0146.webp",
+      "thumb": "assets/covers/thumbs/VIN-0146.webp",
+      "sha256": "dede09b8ac344e74eebb8b74b1b33d47d9d22648e4482a2209fed7cea33c1056",
+      "width": 600,
+      "height": 591,
+      "artist": "Fabrizio De Andrè",
+      "title": "Rimini",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0150",
+      "mappedIds": [
+        "VIN-0150"
+      ],
+      "sourceFile": "fine-young-cannibals_the-raw-the-cooked.jpg",
+      "local": "assets/covers/full/VIN-0150.webp",
+      "thumb": "assets/covers/thumbs/VIN-0150.webp",
+      "sha256": "1bffc18308f5f6cca700230974f0176e7bac001bde175d5b5ee2b3ff4c9974ff",
+      "width": 600,
+      "height": 598,
+      "artist": "Fine Young Cannibals",
+      "title": "The Raw & The Cooked",
+      "matchMethod": "normalized alias",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0151",
+      "mappedIds": [
+        "VIN-0151"
+      ],
+      "sourceFile": "francesco-de-gregori_la-donna-cannone.jpg",
+      "local": "assets/covers/full/VIN-0151.webp",
+      "thumb": "assets/covers/thumbs/VIN-0151.webp",
+      "sha256": "8f99c4e32d22f5e0c978265a2c810a836f509179bd3937e0e0c5196d55916af3",
+      "width": 600,
+      "height": 600,
+      "artist": "Francesco De Gregori",
+      "title": "La Donna Cannone",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0152",
+      "mappedIds": [
+        "VIN-0152"
+      ],
+      "sourceFile": "francesco-guccini_via-paolo-fabbri-43.jpg",
+      "local": "assets/covers/full/VIN-0152.webp",
+      "thumb": "assets/covers/thumbs/VIN-0152.webp",
+      "sha256": "ef8349d6f7f364d5eb52436b5f7486d61edaefea13259abb3ef62869d4b1140c",
+      "width": 600,
+      "height": 600,
+      "artist": "Francesco Guccini",
+      "title": "Via Paolo Fabbri 43",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0154",
+      "mappedIds": [
+        "VIN-0154"
+      ],
+      "sourceFile": "franco-battiato_larca-di-noe.jpg",
+      "local": "assets/covers/full/VIN-0154.webp",
+      "thumb": "assets/covers/thumbs/VIN-0154.webp",
+      "sha256": "09dc86d008b5558d8bd49718330c5e554040d2966577d39a7f48d206df9e1e44",
+      "width": 600,
+      "height": 600,
+      "artist": "Franco Battiato",
+      "title": "L'Arca Di Noè",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0155",
+      "mappedIds": [
+        "VIN-0155"
+      ],
+      "sourceFile": "frankie-goes-to-hollywood_relax.jpg",
+      "local": "assets/covers/full/VIN-0155.webp",
+      "thumb": "assets/covers/thumbs/VIN-0155.webp",
+      "sha256": "fb08de7f1b15213f45b691c5f9183e8e60a96445968b2a999210707ac31ce2f2",
+      "width": 597,
+      "height": 600,
+      "artist": "Frankie Goes To Hollywood",
+      "title": "Relax",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0156",
+      "mappedIds": [
+        "VIN-0156"
+      ],
+      "sourceFile": "frankie-goes-to-hollywood_welcome-to-the-pleasuredome.jpg",
+      "local": "assets/covers/full/VIN-0156.webp",
+      "thumb": "assets/covers/thumbs/VIN-0156.webp",
+      "sha256": "25dadc299e3630912ad4ba2578b6aeae6cef92a1ed15d0120960d3bdb28968c8",
+      "width": 600,
+      "height": 600,
+      "artist": "Frankie Goes To Hollywood",
+      "title": "Welcome To The Pleasuredome",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0157",
+      "mappedIds": [
+        "VIN-0157"
+      ],
+      "sourceFile": "funky-kings_funky-kings.jpg",
+      "local": "assets/covers/full/VIN-0157.webp",
+      "thumb": "assets/covers/thumbs/VIN-0157.webp",
+      "sha256": "b9a9105c6072fb36eb51577cde23a6f263eb96244d0ecc7c841e46d7082a16f4",
+      "width": 600,
+      "height": 600,
+      "artist": "Funky Kings",
+      "title": "Funky Kings",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0158",
+      "mappedIds": [
+        "VIN-0158"
+      ],
+      "sourceFile": "gazebo_gazebo.jpg",
+      "local": "assets/covers/full/VIN-0158.webp",
+      "thumb": "assets/covers/thumbs/VIN-0158.webp",
+      "sha256": "3f592f84e6ac9e89c285542c51f8513f48f1b8fc8a70af1a4dcf27e114f57d0a",
+      "width": 600,
+      "height": 600,
+      "artist": "Gazebo",
+      "title": "Gazebo",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": "Abbinamento fornito tramite il nome gazebo_gazebo.jpg. La copertina reca I Like Chopin; titolo e dati del CSV non sono stati cambiati."
+    },
+    {
+      "id": "VIN-0159",
+      "mappedIds": [
+        "VIN-0159"
+      ],
+      "sourceFile": "genesis_invisible-touch.jpg",
+      "local": "assets/covers/full/VIN-0159.webp",
+      "thumb": "assets/covers/thumbs/VIN-0159.webp",
+      "sha256": "ede534cf838fc5fdc8cea1b3dad6c6d426d61946f353c599f0b57174ac9a752a",
+      "width": 600,
+      "height": 600,
+      "artist": "Genesis",
+      "title": "Invisible Touch",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0161",
+      "mappedIds": [
+        "VIN-0161"
+      ],
+      "sourceFile": "gino-paoli_matto-come-un-gatto.jpg",
+      "local": "assets/covers/full/VIN-0161.webp",
+      "thumb": "assets/covers/thumbs/VIN-0161.webp",
+      "sha256": "f771830d31c19e1056e139bff036ad915437f06fa1dca3946f985be7ae880f31",
+      "width": 596,
+      "height": 600,
+      "artist": "Gino Paoli",
+      "title": "Matto Come Un Gatto",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0164",
+      "mappedIds": [
+        "VIN-0164"
+      ],
+      "sourceFile": "glenn-miller_the-best-of-glenn-miller.jpg",
+      "local": "assets/covers/full/VIN-0164.webp",
+      "thumb": "assets/covers/thumbs/VIN-0164.webp",
+      "sha256": "f0223c35bc771199a01c38109749a57cd1b9f9ccb0a549aa59e8b754961c6971",
+      "width": 590,
+      "height": 600,
+      "artist": "Glenn Miller",
+      "title": "The Best Of Glenn Miller",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0165",
+      "mappedIds": [
+        "VIN-0165"
+      ],
+      "sourceFile": "go-west_go-west.jpg",
+      "local": "assets/covers/full/VIN-0165.webp",
+      "thumb": "assets/covers/thumbs/VIN-0165.webp",
+      "sha256": "cc8a3aeceb3e3063d378f6dd1773b49e1f7a5f137845d4b59706999a05aa4424",
+      "width": 600,
+      "height": 600,
+      "artist": "Go West",
+      "title": "Go West",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0173",
+      "mappedIds": [
+        "VIN-0173"
+      ],
+      "sourceFile": "green-day_american-idiot.jpg",
+      "local": "assets/covers/full/VIN-0173.webp",
+      "thumb": "assets/covers/thumbs/VIN-0173.webp",
+      "sha256": "4ba5c56c719ed2f34de0fd840ec534a1e649cb85e38f50af896f450b2c3fd8d7",
+      "width": 600,
+      "height": 600,
+      "artist": "Green Day",
+      "title": "American Idiot",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0171",
+      "mappedIds": [
+        "VIN-0171",
+        "VIN-0176"
+      ],
+      "sourceFile": "green-day_dookie.jpg",
+      "local": "assets/covers/full/VIN-0171.webp",
+      "thumb": "assets/covers/thumbs/VIN-0171.webp",
+      "sha256": "8b113ca88bfa23ef600450888642e95a8602b00a9dcb14a512e00ea85897d07c",
+      "width": 600,
+      "height": 600,
+      "artist": "Green Day",
+      "title": "Dookie",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0172",
+      "mappedIds": [
+        "VIN-0172"
+      ],
+      "sourceFile": "green-day_insomniac.jpg",
+      "local": "assets/covers/full/VIN-0172.webp",
+      "thumb": "assets/covers/thumbs/VIN-0172.webp",
+      "sha256": "4cb85083c243399d4e3b1e38035dba0b241e8455d63a33b418c2a6d92a0548b4",
+      "width": 600,
+      "height": 596,
+      "artist": "Green Day",
+      "title": "Insomniac",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0174",
+      "mappedIds": [
+        "VIN-0174"
+      ],
+      "sourceFile": "green-day_revolution-radio.jpg",
+      "local": "assets/covers/full/VIN-0174.webp",
+      "thumb": "assets/covers/thumbs/VIN-0174.webp",
+      "sha256": "002b09f93e74b90542f39113de5f922a41c2dbc53c3caf3e93f0ea282715e0db",
+      "width": 600,
+      "height": 600,
+      "artist": "Green Day",
+      "title": "Revolution Radio",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0178",
+      "mappedIds": [
+        "VIN-0178"
+      ],
+      "sourceFile": "howard-jones_dream-into-action.jpg",
+      "local": "assets/covers/full/VIN-0178.webp",
+      "thumb": "assets/covers/thumbs/VIN-0178.webp",
+      "sha256": "254ee7788e31a5aabadda99840d60cd2e848265225b7d16a86dccd773a3d4109",
+      "width": 594,
+      "height": 600,
+      "artist": "Howard Jones",
+      "title": "Dream Into Action",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0177",
+      "mappedIds": [
+        "VIN-0177"
+      ],
+      "sourceFile": "howard-jones_humans-lib.jpg",
+      "local": "assets/covers/full/VIN-0177.webp",
+      "thumb": "assets/covers/thumbs/VIN-0177.webp",
+      "sha256": "64f9e01ae18a1cf630be3f8c9dc7ac730c219e0704c60a7f4ac1d64dcaf84905",
+      "width": 600,
+      "height": 600,
+      "artist": "Howard Jones",
+      "title": "Human's Lib",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0202",
+      "mappedIds": [
+        "VIN-0202"
+      ],
+      "sourceFile": "inxs_live-baby-live.jpg",
+      "local": "assets/covers/full/VIN-0202.webp",
+      "thumb": "assets/covers/thumbs/VIN-0202.webp",
+      "sha256": "d45e666c643009b1cfb96593c9f56d54326a670eb8ef2a1972b90848efa5ac3b",
+      "width": 600,
+      "height": 600,
+      "artist": "INXS",
+      "title": "Live Baby Live",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0203",
+      "mappedIds": [
+        "VIN-0203"
+      ],
+      "sourceFile": "james-taylor_the-best-of-james-taylor.jpg",
+      "local": "assets/covers/full/VIN-0203.webp",
+      "thumb": "assets/covers/thumbs/VIN-0203.webp",
+      "sha256": "bf5365f38af337b3bfa880503f5f49d9c996fac485b6c7977ae33063bea4466d",
+      "width": 600,
+      "height": 600,
+      "artist": "James Taylor",
+      "title": "The Best Of James Taylor",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0205",
+      "mappedIds": [
+        "VIN-0205"
+      ],
+      "sourceFile": "jeff-buckley_grace.jpg",
+      "local": "assets/covers/full/VIN-0205.webp",
+      "thumb": "assets/covers/thumbs/VIN-0205.webp",
+      "sha256": "d2fce0f5a3daef6eaa02f288e2efe5fe2b478f00445397be76e8980931fd222b",
+      "width": 600,
+      "height": 600,
+      "artist": "Jeff Buckley",
+      "title": "Grace",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0206",
+      "mappedIds": [
+        "VIN-0206"
+      ],
+      "sourceFile": "jellybean_jingo.jpg",
+      "local": "assets/covers/full/VIN-0206.webp",
+      "thumb": "assets/covers/thumbs/VIN-0206.webp",
+      "sha256": "12aff8805f96b0ccc24ce9295288fa997358628a2e83015b1ee97dc14c7158dc",
+      "width": 600,
+      "height": 592,
+      "artist": "Jellybean",
+      "title": "Jingo",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0207",
+      "mappedIds": [
+        "VIN-0207"
+      ],
+      "sourceFile": "jerry-lee-lewis_20-greatest-hits-vol1.jpg",
+      "local": "assets/covers/full/VIN-0207.webp",
+      "thumb": "assets/covers/thumbs/VIN-0207.webp",
+      "sha256": "41ea177ec964fcee70c7284b70d1b2074227db1f74dfec56cd2376dbca5cd9b3",
+      "width": 600,
+      "height": 600,
+      "artist": "Jerry Lee Lewis",
+      "title": "20 Greatest Hits Vol.1",
+      "matchMethod": "normalized alias",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0209",
+      "mappedIds": [
+        "VIN-0209"
+      ],
+      "sourceFile": "jimi-hendrix-curtis-knight_get-that-feeling.jpg",
+      "local": "assets/covers/full/VIN-0209.webp",
+      "thumb": "assets/covers/thumbs/VIN-0209.webp",
+      "sha256": "011edec7edd0026bc7fb572f6a2be5fa6b6166a29e44ded55b6e4210f7f5835a",
+      "width": 599,
+      "height": 600,
+      "artist": "Jimi Hendrix & Curtis Knight",
+      "title": "Get That Feeling",
+      "matchMethod": "normalized alias",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0210",
+      "mappedIds": [
+        "VIN-0210"
+      ],
+      "sourceFile": "joan-armatrading_back-to-the-night.jpg",
+      "local": "assets/covers/full/VIN-0210.webp",
+      "thumb": "assets/covers/thumbs/VIN-0210.webp",
+      "sha256": "73c4b1177da382c40ebf471b28112f752668135d7617a4195b7dd913dad795bb",
+      "width": 600,
+      "height": 595,
+      "artist": "Joan Armatrading",
+      "title": "Back To The Night",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0215",
+      "mappedIds": [
+        "VIN-0215"
+      ],
+      "sourceFile": "kid-creole-the-coconuts_doppelganger.jpg",
+      "local": "assets/covers/full/VIN-0215.webp",
+      "thumb": "assets/covers/thumbs/VIN-0215.webp",
+      "sha256": "468fc3201e856bfddfb3a1b752ea3291739cdd81a8ed43c69e01a7c8ac12bb73",
+      "width": 600,
+      "height": 595,
+      "artist": "Kid Creole & The Coconuts",
+      "title": "Doppelganger",
+      "matchMethod": "normalized alias",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0217",
+      "mappedIds": [
+        "VIN-0217"
+      ],
+      "sourceFile": "kim-carnes_mistaken-identity.jpg",
+      "local": "assets/covers/full/VIN-0217.webp",
+      "thumb": "assets/covers/thumbs/VIN-0217.webp",
+      "sha256": "751bf942e55bd94959f3e130287116e861231a0de188365c7c95b6cc680a34ef",
+      "width": 600,
+      "height": 600,
+      "artist": "Kim Carnes",
+      "title": "Mistaken Identity",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0216",
+      "mappedIds": [
+        "VIN-0216"
+      ],
+      "sourceFile": "kim-the-cadillacs_rock-n-roll.jpg",
+      "local": "assets/covers/full/VIN-0216.webp",
+      "thumb": "assets/covers/thumbs/VIN-0216.webp",
+      "sha256": "aba011ca6724f53c1fe0a02f0d845afc995a87bbd6a2f0a58b8c31f354b1a4b0",
+      "width": 600,
+      "height": 593,
+      "artist": "Kim & The Cadillacs",
+      "title": "Rock n Roll",
+      "matchMethod": "normalized alias",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0219",
+      "mappedIds": [
+        "VIN-0219"
+      ],
+      "sourceFile": "kim-wilde_close.jpg",
+      "local": "assets/covers/full/VIN-0219.webp",
+      "thumb": "assets/covers/thumbs/VIN-0219.webp",
+      "sha256": "c33d6496836e4ccf8ceabf17e7933b0ee7be51c855f092b68fbb56c77a93b0c4",
+      "width": 600,
+      "height": 599,
+      "artist": "Kim Wilde",
+      "title": "Close",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0222",
+      "mappedIds": [
+        "VIN-0222"
+      ],
+      "sourceFile": "laufey_a-matter-of-time-the-final-hour.jpg",
+      "local": "assets/covers/full/VIN-0222.webp",
+      "thumb": "assets/covers/thumbs/VIN-0222.webp",
+      "sha256": "31b9df8918b20a9d99408feb57d437932239c02037a50abc7b1089c9284d8280",
+      "width": 600,
+      "height": 600,
+      "artist": "Laufey",
+      "title": "A Matter Of Time: The Final Hour",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0223",
+      "mappedIds": [
+        "VIN-0223"
+      ],
+      "sourceFile": "laufey_a-matter-of-time.jpg",
+      "local": "assets/covers/full/VIN-0223.webp",
+      "thumb": "assets/covers/thumbs/VIN-0223.webp",
+      "sha256": "70d7bd0c552bc1cda0cf87e878a94a9324369ead78e98bfe3a61ab3e0f22fced",
+      "width": 600,
+      "height": 600,
+      "artist": "Laufey ",
+      "title": "A Matter Of Time",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0221",
+      "mappedIds": [
+        "VIN-0221"
+      ],
+      "sourceFile": "laufey_bewitched.jpg",
+      "local": "assets/covers/full/VIN-0221.webp",
+      "thumb": "assets/covers/thumbs/VIN-0221.webp",
+      "sha256": "cde8cf6377cafd6c7059a2bd0d3bfee33c5ce712d5053117d08d75da5f221d3b",
+      "width": 600,
+      "height": 600,
+      "artist": "Laufey",
+      "title": "Bewitched",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0224",
+      "mappedIds": [
+        "VIN-0224"
+      ],
+      "sourceFile": "led-zeppelin_iv.jpg",
+      "local": "assets/covers/full/VIN-0224.webp",
+      "thumb": "assets/covers/thumbs/VIN-0224.webp",
+      "sha256": "adc4449e0f980ee7124540deda60c5c1b39fb1695e5a521146a3bf8e540ffbd1",
+      "width": 600,
+      "height": 589,
+      "artist": "Led Zeppelin",
+      "title": "IV",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0226",
+      "mappedIds": [
+        "VIN-0226"
+      ],
+      "sourceFile": "level-42_running-in-the-family.jpg",
+      "local": "assets/covers/full/VIN-0226.webp",
+      "thumb": "assets/covers/thumbs/VIN-0226.webp",
+      "sha256": "5f77245b5e071ccaed256347e8f603ce2cca6bba4aafe04fab0ff7a06aaea6cd",
+      "width": 600,
+      "height": 600,
+      "artist": "Level 42",
+      "title": "Running In The Family",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0225",
+      "mappedIds": [
+        "VIN-0225"
+      ],
+      "sourceFile": "level-42_world-machine.jpg",
+      "local": "assets/covers/full/VIN-0225.webp",
+      "thumb": "assets/covers/thumbs/VIN-0225.webp",
+      "sha256": "1505303fbe3c4a1957d9fb1f0ec5ed2908656b5e8ea60a77cac4c9baebc85c77",
+      "width": 600,
+      "height": 591,
+      "artist": "Level 42",
+      "title": "World Machine",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0229",
+      "mappedIds": [
+        "VIN-0229"
+      ],
+      "sourceFile": "linkin-park_meteora.jpg",
+      "local": "assets/covers/full/VIN-0229.webp",
+      "thumb": "assets/covers/thumbs/VIN-0229.webp",
+      "sha256": "5b18cd7fe36fccfc442107958b849d22bf1dbe62a06812b9a1b6dea34bd52d88",
+      "width": 598,
+      "height": 600,
+      "artist": "Linkin Park",
+      "title": "Meteora",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0232",
+      "mappedIds": [
+        "VIN-0232"
+      ],
+      "sourceFile": "living-in-a-box_gatecrashing.jpg",
+      "local": "assets/covers/full/VIN-0232.webp",
+      "thumb": "assets/covers/thumbs/VIN-0232.webp",
+      "sha256": "519c34254b179d8fe78a98b1f77d0fbda0bdba14fee58ef94f371427b0d21abc",
+      "width": 600,
+      "height": 600,
+      "artist": "Living In A Box",
+      "title": "Gatecrashing",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0233",
+      "mappedIds": [
+        "VIN-0233"
+      ],
+      "sourceFile": "lizzy-mcalpine_give-me-a-minute.jpg",
+      "local": "assets/covers/full/VIN-0233.webp",
+      "thumb": "assets/covers/thumbs/VIN-0233.webp",
+      "sha256": "b546cf86d50810935ca80f67cd85f52e154a6d1d3a77b8c6ab95335f93da40b9",
+      "width": 600,
+      "height": 600,
+      "artist": "Lizzy McAlpine",
+      "title": "Give Me A Minute",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0235",
+      "mappedIds": [
+        "VIN-0235"
+      ],
+      "sourceFile": "luca-carboni_luca-carboni.jpg",
+      "local": "assets/covers/full/VIN-0235.webp",
+      "thumb": "assets/covers/thumbs/VIN-0235.webp",
+      "sha256": "fea8aea18aa4cd33313fdfa2de825e64cfc405fdd7681e74bea5a5074ff62f2f",
+      "width": 600,
+      "height": 600,
+      "artist": "Luca Carboni",
+      "title": "Luca Carboni",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0236",
+      "mappedIds": [
+        "VIN-0236"
+      ],
+      "sourceFile": "lucio-battisti_una-donna-per-amico.jpg",
+      "local": "assets/covers/full/VIN-0236.webp",
+      "thumb": "assets/covers/thumbs/VIN-0236.webp",
+      "sha256": "edeb0e37f9ae9b3828fd535a9e2f342e2c41a82eacab70c6319d4d932f897604",
+      "width": 600,
+      "height": 596,
+      "artist": "Lucio Battisti",
+      "title": "Una Donna Per Amico",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0238",
+      "mappedIds": [
+        "VIN-0238"
+      ],
+      "sourceFile": "lucio-dalla_cambio.jpg",
+      "local": "assets/covers/full/VIN-0238.webp",
+      "thumb": "assets/covers/thumbs/VIN-0238.webp",
+      "sha256": "47728c84e2522751b24b074cfdd20ebc15dafdf37d6b8af239d6007df51075b3",
+      "width": 598,
+      "height": 600,
+      "artist": "Lucio Dalla",
+      "title": "Cambio",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0239",
+      "mappedIds": [
+        "VIN-0239"
+      ],
+      "sourceFile": "madonna_causing-a-commotion-silver-screen-mix.jpg",
+      "local": "assets/covers/full/VIN-0239.webp",
+      "thumb": "assets/covers/thumbs/VIN-0239.webp",
+      "sha256": "ca2c010deff8b2d185b10951b25b1f9b6f82c08e146ea60e99333cc376ee14f5",
+      "width": 600,
+      "height": 598,
+      "artist": "Madonna",
+      "title": "Causing A Commotion (Silver Screen Mix)",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0244",
+      "mappedIds": [
+        "VIN-0244"
+      ],
+      "sourceFile": "madonna_im-breathless.jpg",
+      "local": "assets/covers/full/VIN-0244.webp",
+      "thumb": "assets/covers/thumbs/VIN-0244.webp",
+      "sha256": "baf150143e6dbda695cbe4a05d4c778a23e9ba92182b9530398363c084427a75",
+      "width": 589,
+      "height": 600,
+      "artist": "Madonna",
+      "title": "I'm Breathless",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0241",
+      "mappedIds": [
+        "VIN-0241",
+        "VIN-0242",
+        "VIN-0243"
+      ],
+      "sourceFile": "madonna_like-a-prayer.jpg",
+      "local": "assets/covers/full/VIN-0241.webp",
+      "thumb": "assets/covers/thumbs/VIN-0241.webp",
+      "sha256": "f0e1efdd87a84afaa94cc459df64cba15c3d1aae443c1fcc7f82916cb67a7c61",
+      "width": 600,
+      "height": 596,
+      "artist": "Madonna",
+      "title": "Like A Prayer",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0248",
+      "mappedIds": [
+        "VIN-0248"
+      ],
+      "sourceFile": "madonna_rain.jpg",
+      "local": "assets/covers/full/VIN-0248.webp",
+      "thumb": "assets/covers/thumbs/VIN-0248.webp",
+      "sha256": "97d8d9e5625da8e507ce283643a717e88f296ed1cdf181615148a32d5960fe93",
+      "width": 600,
+      "height": 598,
+      "artist": "Madonna",
+      "title": "Rain",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0245",
+      "mappedIds": [
+        "VIN-0245"
+      ],
+      "sourceFile": "madonna_the-immaculate-collection.jpg",
+      "local": "assets/covers/full/VIN-0245.webp",
+      "thumb": "assets/covers/thumbs/VIN-0245.webp",
+      "sha256": "a0456803c6e5d309e324f580dee9e5cf154b25e31bd0ccb5fc7572bfc0e0f660",
+      "width": 600,
+      "height": 595,
+      "artist": "Madonna",
+      "title": "The Immaculate Collection",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0250",
+      "mappedIds": [
+        "VIN-0250"
+      ],
+      "sourceFile": "mamas-papas_il-meglio-dei-mamas-papas.jpg",
+      "local": "assets/covers/full/VIN-0250.webp",
+      "thumb": "assets/covers/thumbs/VIN-0250.webp",
+      "sha256": "19112aad2bd263a2cad3bcda903e98dc1e29ec39887edc67a8242c02f22dbcd5",
+      "width": 588,
+      "height": 600,
+      "artist": "Mama's & Papa's",
+      "title": "Il Meglio Dei Mama's & Papa's",
+      "matchMethod": "normalized alias",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0253",
+      "mappedIds": [
+        "VIN-0253"
+      ],
+      "sourceFile": "matt-bianco_matt-bianco.jpg",
+      "local": "assets/covers/full/VIN-0253.webp",
+      "thumb": "assets/covers/thumbs/VIN-0253.webp",
+      "sha256": "b5620bf32ed70a8f341994d193af6db0d171f6f09a4ebd2d5825b0774d265fdf",
+      "width": 600,
+      "height": 599,
+      "artist": "Matt Bianco",
+      "title": "Matt Bianco",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0258",
+      "mappedIds": [
+        "VIN-0258"
+      ],
+      "sourceFile": "michael-jackson_bad.jpg",
+      "local": "assets/covers/full/VIN-0258.webp",
+      "thumb": "assets/covers/thumbs/VIN-0258.webp",
+      "sha256": "de2c28679f5b3d8fe2d9321bbc068927c5059c469c85b35e60b1a150de925afd",
+      "width": 600,
+      "height": 600,
+      "artist": "Michael Jackson",
+      "title": "Bad",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0255",
+      "mappedIds": [
+        "VIN-0255"
+      ],
+      "sourceFile": "michael-jackson_off-the-wall.jpg",
+      "local": "assets/covers/full/VIN-0255.webp",
+      "thumb": "assets/covers/thumbs/VIN-0255.webp",
+      "sha256": "748af6e8c8fbc0217d6a3631cc8cf086e5973693b9dc10b930f733d7689cc40d",
+      "width": 600,
+      "height": 597,
+      "artist": "Michael Jackson",
+      "title": "Off The Wall",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0256",
+      "mappedIds": [
+        "VIN-0256",
+        "VIN-0257"
+      ],
+      "sourceFile": "michael-jackson_thriller.jpg",
+      "local": "assets/covers/full/VIN-0256.webp",
+      "thumb": "assets/covers/thumbs/VIN-0256.webp",
+      "sha256": "bb3f9a9007f0e48fcb8c362dea8e4297c14e3cd2fa22720efc8beb7ee9dc7e15",
+      "width": 593,
+      "height": 600,
+      "artist": "Michael Jackson",
+      "title": "Thriller",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0259",
+      "mappedIds": [
+        "VIN-0259"
+      ],
+      "sourceFile": "michal-basar_moonshaft.jpg",
+      "local": "assets/covers/full/VIN-0259.webp",
+      "thumb": "assets/covers/thumbs/VIN-0259.webp",
+      "sha256": "49d59f78512dabc1c71c3625e8764a3ccb73f3b960ca05ec7e9e11bc020b158b",
+      "width": 600,
+      "height": 600,
+      "artist": "Michal Basar",
+      "title": "Moonshaft",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0261",
+      "mappedIds": [
+        "VIN-0261"
+      ],
+      "sourceFile": "mike-oldfield_discovery.jpg",
+      "local": "assets/covers/full/VIN-0261.webp",
+      "thumb": "assets/covers/thumbs/VIN-0261.webp",
+      "sha256": "b31287b957d46e10090b19d7d0611d8a7417bf670fb7fe96b21877ac15a800b0",
+      "width": 600,
+      "height": 600,
+      "artist": "Mike Oldfield",
+      "title": "Discovery",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0260",
+      "mappedIds": [
+        "VIN-0260"
+      ],
+      "sourceFile": "mike-oldfield_tubular-bells.jpg",
+      "local": "assets/covers/full/VIN-0260.webp",
+      "thumb": "assets/covers/thumbs/VIN-0260.webp",
+      "sha256": "bcfaa49a8e108e4f2eee7ff943baa615f111c58ac39a50539c9b099ef13bd1cc",
+      "width": 600,
+      "height": 598,
+      "artist": "Mike Oldfield",
+      "title": "Tubular Bells",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0262",
+      "mappedIds": [
+        "VIN-0262"
+      ],
+      "sourceFile": "modern-romance_trick-of-the-light.jpg",
+      "local": "assets/covers/full/VIN-0262.webp",
+      "thumb": "assets/covers/thumbs/VIN-0262.webp",
+      "sha256": "9efe40ca822f275b8728ad380f96e4ef50892bb66166acbe135ffa473f8084c0",
+      "width": 591,
+      "height": 600,
+      "artist": "Modern Romance",
+      "title": "Trick Of The Light",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0265",
+      "mappedIds": [
+        "VIN-0265"
+      ],
+      "sourceFile": "nat-king-cole_20-golden-greats.jpg",
+      "local": "assets/covers/full/VIN-0265.webp",
+      "thumb": "assets/covers/thumbs/VIN-0265.webp",
+      "sha256": "e1f885d3ca447cfc58b1aa9e7ffaf6483da81745147953bb56749354d8b5476b",
+      "width": 600,
+      "height": 600,
+      "artist": "Nat King Cole",
+      "title": "20 Golden Greats",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0267",
+      "mappedIds": [
+        "VIN-0267"
+      ],
+      "sourceFile": "nayt_doom.jpg",
+      "local": "assets/covers/full/VIN-0267.webp",
+      "thumb": "assets/covers/thumbs/VIN-0267.webp",
+      "sha256": "573ddf9cd8cf870bbc798e4b72d03c809daf03a895898987da13c9622e7353f7",
+      "width": 600,
+      "height": 600,
+      "artist": "Nayt",
+      "title": "Doom",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0269",
+      "mappedIds": [
+        "VIN-0269"
+      ],
+      "sourceFile": "nayt_io-individuo.jpg",
+      "local": "assets/covers/full/VIN-0269.webp",
+      "thumb": "assets/covers/thumbs/VIN-0269.webp",
+      "sha256": "70e6c7ea03b006ce6e43d8b361327878b24b17f1c1e7eb2fa0ac78a18f992f60",
+      "width": 600,
+      "height": 600,
+      "artist": "Nayt",
+      "title": "Io Individuo",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0268",
+      "mappedIds": [
+        "VIN-0268"
+      ],
+      "sourceFile": "nayt_mood.jpg",
+      "local": "assets/covers/full/VIN-0268.webp",
+      "thumb": "assets/covers/thumbs/VIN-0268.webp",
+      "sha256": "9783975b7c7c4faa8af221f6d0a5f5cee7a7824492b508b498d7cb383036e7fd",
+      "width": 600,
+      "height": 600,
+      "artist": "Nayt",
+      "title": "Mood",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0304",
+      "mappedIds": [
+        "VIN-0304"
+      ],
+      "sourceFile": "paolo-vallesi_la-forza-della-vita.jpg",
+      "local": "assets/covers/full/VIN-0304.webp",
+      "thumb": "assets/covers/thumbs/VIN-0304.webp",
+      "sha256": "8bcdbadbe392ba218328135211c30d5e02fb902e759f265c0f614bfee626d471",
+      "width": 600,
+      "height": 600,
+      "artist": "Paolo Vallesi",
+      "title": "La Forza Della Vita",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0306",
+      "mappedIds": [
+        "VIN-0306"
+      ],
+      "sourceFile": "paul-anka_walk-a-fine-line.jpg",
+      "local": "assets/covers/full/VIN-0306.webp",
+      "thumb": "assets/covers/thumbs/VIN-0306.webp",
+      "sha256": "65286ae05703740adfce0d24963c4ae0090bf92d9246b6b4b7350d3037440b2d",
+      "width": 599,
+      "height": 600,
+      "artist": "Paul Anka",
+      "title": "Walk A Fine Line",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0308",
+      "mappedIds": [
+        "VIN-0308",
+        "VIN-0309"
+      ],
+      "sourceFile": "peter-gabriel_peter-gabriel.jpg",
+      "local": "assets/covers/full/VIN-0308.webp",
+      "thumb": "assets/covers/thumbs/VIN-0308.webp",
+      "sha256": "da99159df89a8d6eda966dc8f8e8e796565a05a01727cbd8117d5f8b4ead72f0",
+      "width": 600,
+      "height": 600,
+      "artist": "Peter Gabriel",
+      "title": "Peter Gabriel",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0310",
+      "mappedIds": [
+        "VIN-0310"
+      ],
+      "sourceFile": "peter-gabriel_us.jpg",
+      "local": "assets/covers/full/VIN-0310.webp",
+      "thumb": "assets/covers/thumbs/VIN-0310.webp",
+      "sha256": "4c8b6845f1858ae9cdabe100002540d6ba92f4061cd4aea8b4eddb1b206b466a",
+      "width": 600,
+      "height": 581,
+      "artist": "Peter Gabriel",
+      "title": "Us",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0311",
+      "mappedIds": [
+        "VIN-0311"
+      ],
+      "sourceFile": "phil-collins_hello-i-must-be-going.jpg",
+      "local": "assets/covers/full/VIN-0311.webp",
+      "thumb": "assets/covers/thumbs/VIN-0311.webp",
+      "sha256": "00bdceffd1700883f424227e40e87645c2b61df998d809d697ac1fd8887691b3",
+      "width": 600,
+      "height": 597,
+      "artist": "Phil Collins",
+      "title": "Hello, I Must Be Going!",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0312",
+      "mappedIds": [
+        "VIN-0312"
+      ],
+      "sourceFile": "phil-collins_no-jacket-required.jpg",
+      "local": "assets/covers/full/VIN-0312.webp",
+      "thumb": "assets/covers/thumbs/VIN-0312.webp",
+      "sha256": "aff9c84e978b81c8ad3179335d0544af1fc0acf26600ca2fbc54b85469fdb64f",
+      "width": 594,
+      "height": 600,
+      "artist": "Phil Collins",
+      "title": "No Jacket Required",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0319",
+      "mappedIds": [
+        "VIN-0319"
+      ],
+      "sourceFile": "pink-floyd_a-momentary-lapse-of-reason.jpg",
+      "local": "assets/covers/full/VIN-0319.webp",
+      "thumb": "assets/covers/thumbs/VIN-0319.webp",
+      "sha256": "ca1ea9fbf69a7737dbb156958161025039d7b37f782af3587bdef23e7128fa44",
+      "width": 600,
+      "height": 600,
+      "artist": "Pink Floyd",
+      "title": "A Momentary Lapse Of Reason",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0313",
+      "mappedIds": [
+        "VIN-0313"
+      ],
+      "sourceFile": "pink-floyd_meddle.jpg",
+      "local": "assets/covers/full/VIN-0313.webp",
+      "thumb": "assets/covers/thumbs/VIN-0313.webp",
+      "sha256": "49ca7a5197e57c321f1e4743e8057b80a065fcb1845b9d23952569f17cdee3e1",
+      "width": 599,
+      "height": 600,
+      "artist": "Pink Floyd",
+      "title": "Meddle",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0321",
+      "mappedIds": [
+        "VIN-0321"
+      ],
+      "sourceFile": "pink-floyd_the-dark-side-of-the-moon-live.jpg",
+      "local": "assets/covers/full/VIN-0321.webp",
+      "thumb": "assets/covers/thumbs/VIN-0321.webp",
+      "sha256": "b9bfe3085b3c16878b3fabbeab7f06d6f457ed5c1b7f53d465bb4a6e27028b4f",
+      "width": 600,
+      "height": 598,
+      "artist": "Pink Floyd",
+      "title": "The Dark Side Of The Moon Live",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0314",
+      "mappedIds": [
+        "VIN-0314"
+      ],
+      "sourceFile": "pink-floyd_the-dark-side-of-the-moon.jpg",
+      "local": "assets/covers/full/VIN-0314.webp",
+      "thumb": "assets/covers/thumbs/VIN-0314.webp",
+      "sha256": "523ea2b25a47ef8b1dbe9a4c87a80c9aa362385e5c0877f90d63f71b178b6c95",
+      "width": 600,
+      "height": 600,
+      "artist": "Pink Floyd",
+      "title": "The Dark Side Of The Moon",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0320",
+      "mappedIds": [
+        "VIN-0320"
+      ],
+      "sourceFile": "pink-floyd_the-division-bell.jpg",
+      "local": "assets/covers/full/VIN-0320.webp",
+      "thumb": "assets/covers/thumbs/VIN-0320.webp",
+      "sha256": "ba13cd68a5e9b1e6ebbcd08322d8ab0ec02f2a86d4c8138a1e2f4644bdd9b307",
+      "width": 600,
+      "height": 592,
+      "artist": "Pink Floyd",
+      "title": "The Division Bell",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0317",
+      "mappedIds": [
+        "VIN-0317",
+        "VIN-0318"
+      ],
+      "sourceFile": "pink-floyd_the-wall.jpg",
+      "local": "assets/covers/full/VIN-0317.webp",
+      "thumb": "assets/covers/thumbs/VIN-0317.webp",
+      "sha256": "7ff430e32841d3375b89973d1a34a98b8339ac9f85445da431bd9ef5d9479dca",
+      "width": 600,
+      "height": 597,
+      "artist": "Pink Floyd",
+      "title": "The Wall",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0322",
+      "mappedIds": [
+        "VIN-0322"
+      ],
+      "sourceFile": "platters_18-capolavori-originali.jpg",
+      "local": "assets/covers/full/VIN-0322.webp",
+      "thumb": "assets/covers/thumbs/VIN-0322.webp",
+      "sha256": "ed413d5833ab8fb38ec578257fcdaffe33e05524dcd47748d2d96a418f98a144",
+      "width": 600,
+      "height": 598,
+      "artist": "Platters",
+      "title": "18 Capolavori Originali",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0326",
+      "mappedIds": [
+        "VIN-0326"
+      ],
+      "sourceFile": "police_every-breath-you-take-the-singles.jpg",
+      "local": "assets/covers/full/VIN-0326.webp",
+      "thumb": "assets/covers/thumbs/VIN-0326.webp",
+      "sha256": "7298ff489e7f279b1cbb79b02fff5d0d598ca6807a922804505ea008210b7610",
+      "width": 600,
+      "height": 595,
+      "artist": "Police",
+      "title": "Every Breath You Take The Singles",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0325",
+      "mappedIds": [
+        "VIN-0325"
+      ],
+      "sourceFile": "police_synchronicity.jpg",
+      "local": "assets/covers/full/VIN-0325.webp",
+      "thumb": "assets/covers/thumbs/VIN-0325.webp",
+      "sha256": "b88a694f343934f645d8fe7d4195671878d002e71f81fee4f19349ca85582904",
+      "width": 600,
+      "height": 600,
+      "artist": "Police",
+      "title": "Synchronicity",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0324",
+      "mappedIds": [
+        "VIN-0324"
+      ],
+      "sourceFile": "police_zenyatta-mondatta.jpg",
+      "local": "assets/covers/full/VIN-0324.webp",
+      "thumb": "assets/covers/thumbs/VIN-0324.webp",
+      "sha256": "68f6f748c4b438940a432b3ed17836912ade0945fa38c00386d1aaecbff491bd",
+      "width": 600,
+      "height": 600,
+      "artist": "Police",
+      "title": "Zenyatta Mondatta",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0328",
+      "mappedIds": [
+        "VIN-0328"
+      ],
+      "sourceFile": "prefab-sprout_from-langley-park-to-memphis.jpg",
+      "local": "assets/covers/full/VIN-0328.webp",
+      "thumb": "assets/covers/thumbs/VIN-0328.webp",
+      "sha256": "d1731a01449799639135680e1f1f87c432bec0b52faa2f50d6cde8e50e8582aa",
+      "width": 600,
+      "height": 592,
+      "artist": "Prefab Sprout",
+      "title": "From Langley Park To Memphis",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0332",
+      "mappedIds": [
+        "VIN-0332"
+      ],
+      "sourceFile": "queen_queens-gold.jpg",
+      "local": "assets/covers/full/VIN-0332.webp",
+      "thumb": "assets/covers/thumbs/VIN-0332.webp",
+      "sha256": "034ce3ef123778249d2e26c51ca23a5844ca4cf8a6322e1a4e27a4fd85ff4182",
+      "width": 597,
+      "height": 600,
+      "artist": "Queen",
+      "title": "Queen's Gold",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0335",
+      "mappedIds": [
+        "VIN-0335"
+      ],
+      "sourceFile": "raoul-casadei-orchestra-spettacolo_dalla-ca-del-liscio-e-dallarena-di-verona.jpg",
+      "local": "assets/covers/full/VIN-0335.webp",
+      "thumb": "assets/covers/thumbs/VIN-0335.webp",
+      "sha256": "9fc31e4542ca1105c22d42c728300d58b597cb2215c73cfebb16b30219926f36",
+      "width": 600,
+      "height": 600,
+      "artist": "Raoul Casadei Orchestra Spettacolo",
+      "title": "Dalla Ca' Del Liscio e Dall'Arena Di Verona",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0333",
+      "mappedIds": [
+        "VIN-0333"
+      ],
+      "sourceFile": "rem_green.jpg",
+      "local": "assets/covers/full/VIN-0333.webp",
+      "thumb": "assets/covers/thumbs/VIN-0333.webp",
+      "sha256": "ef72fa2e46b2041254692e2ee6934ac46b554b3755bd34363b030fa1817b9b21",
+      "width": 600,
+      "height": 600,
+      "artist": "R.E.M.",
+      "title": "Green",
+      "matchMethod": "normalized alias",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0334",
+      "mappedIds": [
+        "VIN-0334"
+      ],
+      "sourceFile": "rem_out-of-time.jpg",
+      "local": "assets/covers/full/VIN-0334.webp",
+      "thumb": "assets/covers/thumbs/VIN-0334.webp",
+      "sha256": "8d3149b14b2e493fb36b8362b10cabdd898bbcfa28771a031edf6da48f4f834e",
+      "width": 600,
+      "height": 599,
+      "artist": "R.E.M.",
+      "title": "Out Of Time",
+      "matchMethod": "normalized alias",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0337",
+      "mappedIds": [
+        "VIN-0337"
+      ],
+      "sourceFile": "riccardo-cocciante_la-grande-avventura.jpg",
+      "local": "assets/covers/full/VIN-0337.webp",
+      "thumb": "assets/covers/thumbs/VIN-0337.webp",
+      "sha256": "d47cf9e82d784a2777398eec654d172b80169fc5938775c0b9168c1d995dd5a0",
+      "width": 600,
+      "height": 595,
+      "artist": "Riccardo Cocciante",
+      "title": "La Grande Avventura",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0339",
+      "mappedIds": [
+        "VIN-0339"
+      ],
+      "sourceFile": "rick-astley_hold-me-in-your-arms.jpg",
+      "local": "assets/covers/full/VIN-0339.webp",
+      "thumb": "assets/covers/thumbs/VIN-0339.webp",
+      "sha256": "7c6e6aa8f0c93c6e6f2bbdf62d001176879bbb8cd205c015ab722cc0fc5a19d4",
+      "width": 600,
+      "height": 570,
+      "artist": "Rick Astley",
+      "title": "Hold Me In Your Arms",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0338",
+      "mappedIds": [
+        "VIN-0338"
+      ],
+      "sourceFile": "rick-astley_whenever-you-need-somebody.jpg",
+      "local": "assets/covers/full/VIN-0338.webp",
+      "thumb": "assets/covers/thumbs/VIN-0338.webp",
+      "sha256": "fbac58f10cbf966bda6d3b37a6e8220001cae25e2b4afcf44e927f07d2cb344c",
+      "width": 600,
+      "height": 600,
+      "artist": "Rick Astley",
+      "title": "Whenever You Need Somebody",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0342",
+      "mappedIds": [
+        "VIN-0342"
+      ],
+      "sourceFile": "ritchie-family_arabian-nights.jpg",
+      "local": "assets/covers/full/VIN-0342.webp",
+      "thumb": "assets/covers/thumbs/VIN-0342.webp",
+      "sha256": "1eac293c87a07d4e84530d803a7fd8603120ac98dfd3f57586cf3955b09b8271",
+      "width": 600,
+      "height": 600,
+      "artist": "Ritchie Family",
+      "title": "Arabian Nights",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0343",
+      "mappedIds": [
+        "VIN-0343"
+      ],
+      "sourceFile": "roberto-vecchioni_samarcanda.jpg",
+      "local": "assets/covers/full/VIN-0343.webp",
+      "thumb": "assets/covers/thumbs/VIN-0343.webp",
+      "sha256": "60468feed025d92230cc1aefda009c8171c1330ab7cee28a574139e7a9489ad2",
+      "width": 591,
+      "height": 600,
+      "artist": "Roberto Vecchioni",
+      "title": "Samarcanda",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0345",
+      "mappedIds": [
+        "VIN-0345"
+      ],
+      "sourceFile": "rokko-e-i-suoi-fratelli_sopravvoliamo.jpg",
+      "local": "assets/covers/full/VIN-0345.webp",
+      "thumb": "assets/covers/thumbs/VIN-0345.webp",
+      "sha256": "564af1e3815de214c06b578cd9c76cc6326ecb42399414cd8b0b5abd49d9ba9d",
+      "width": 600,
+      "height": 595,
+      "artist": "Rokko E I Suoi Fratelli",
+      "title": "Sopravvoliamo",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0347",
+      "mappedIds": [
+        "VIN-0347"
+      ],
+      "sourceFile": "rolling-stones_black-and-blue.jpg",
+      "local": "assets/covers/full/VIN-0347.webp",
+      "thumb": "assets/covers/thumbs/VIN-0347.webp",
+      "sha256": "a4c9e82f6e00272966d010ecf152f6e9f89a953a93e00989f38bc56a2197d6d5",
+      "width": 600,
+      "height": 600,
+      "artist": "Rolling Stones",
+      "title": "Black And Blue",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0346",
+      "mappedIds": [
+        "VIN-0346"
+      ],
+      "sourceFile": "rolling-stones_goat-head.jpg",
+      "local": "assets/covers/full/VIN-0346.webp",
+      "thumb": "assets/covers/thumbs/VIN-0346.webp",
+      "sha256": "f3578e3546513176d7908e06d0396030eba9124c4471ac2fce90c0fc21ef9469",
+      "width": 600,
+      "height": 600,
+      "artist": "Rolling Stones",
+      "title": "Goat Head",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0348",
+      "mappedIds": [
+        "VIN-0348"
+      ],
+      "sourceFile": "rolling-stones_tattoo-you.jpg",
+      "local": "assets/covers/full/VIN-0348.webp",
+      "thumb": "assets/covers/thumbs/VIN-0348.webp",
+      "sha256": "779bf830a26de7f04527ece1b0ae5146148a1cfacc4c40ca6a623079702d638c",
+      "width": 600,
+      "height": 591,
+      "artist": "Rolling Stones",
+      "title": "Tattoo You",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0349",
+      "mappedIds": [
+        "VIN-0349"
+      ],
+      "sourceFile": "roxy-music_the-atlantic-years.jpg",
+      "local": "assets/covers/full/VIN-0349.webp",
+      "thumb": "assets/covers/thumbs/VIN-0349.webp",
+      "sha256": "709eb6e5fd5d719041dc419c0565f8f820e874c149f513581445f777a6e360d9",
+      "width": 598,
+      "height": 600,
+      "artist": "Roxy Music",
+      "title": "The Atlantic Years",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0350",
+      "mappedIds": [
+        "VIN-0350"
+      ],
+      "sourceFile": "samuele-bersani_channo-preso-tutto.jpg",
+      "local": "assets/covers/full/VIN-0350.webp",
+      "thumb": "assets/covers/thumbs/VIN-0350.webp",
+      "sha256": "4ec20736f823c89baa7569922b332935385af65f3e8e0ff86846e6a0c1d1c6e1",
+      "width": 600,
+      "height": 597,
+      "artist": "Samuele Bersani",
+      "title": "C'Hanno Preso Tutto",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0352",
+      "mappedIds": [
+        "VIN-0352"
+      ],
+      "sourceFile": "sandro-giacobbe_lenti-a-contatto.jpg",
+      "local": "assets/covers/full/VIN-0352.webp",
+      "thumb": "assets/covers/thumbs/VIN-0352.webp",
+      "sha256": "73bcf798eb1921184a9695ad0ea9dd9ecfe5706ec910e66087b9c13fcb04c3db",
+      "width": 583,
+      "height": 600,
+      "artist": "Sandro Giacobbe",
+      "title": "Lenti A Contatto",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0354",
+      "mappedIds": [
+        "VIN-0354"
+      ],
+      "sourceFile": "santana_zebop.jpg",
+      "local": "assets/covers/full/VIN-0354.webp",
+      "thumb": "assets/covers/thumbs/VIN-0354.webp",
+      "sha256": "54a5ef971a79e209ab01064aa13b8d34c160359bca7d7cdc05af939a89367bf8",
+      "width": 598,
+      "height": 600,
+      "artist": "Santana",
+      "title": "Zebop!",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0356",
+      "mappedIds": [
+        "VIN-0356"
+      ],
+      "sourceFile": "simple-minds_celebration.jpg",
+      "local": "assets/covers/full/VIN-0356.webp",
+      "thumb": "assets/covers/thumbs/VIN-0356.webp",
+      "sha256": "874036d151d4e1abe11440af90a84cc2bff67819c85cb2e16a840d5a42fd6440",
+      "width": 600,
+      "height": 600,
+      "artist": "Simple Minds",
+      "title": "Celebration",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0359",
+      "mappedIds": [
+        "VIN-0359"
+      ],
+      "sourceFile": "simple-minds_real-life.jpg",
+      "local": "assets/covers/full/VIN-0359.webp",
+      "thumb": "assets/covers/thumbs/VIN-0359.webp",
+      "sha256": "249121b0448399ca9c2c498e79cd30c1395e79f409165a75c649906de09d30a9",
+      "width": 600,
+      "height": 596,
+      "artist": "Simple Minds",
+      "title": "Real Life",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0360",
+      "mappedIds": [
+        "VIN-0360"
+      ],
+      "sourceFile": "simply-red_holding-back-the-years.jpg",
+      "local": "assets/covers/full/VIN-0360.webp",
+      "thumb": "assets/covers/thumbs/VIN-0360.webp",
+      "sha256": "0a118263926ff50c86ae3bb92bc4fec00a3680dbeceba98d077e6f0e6356ccfd",
+      "width": 600,
+      "height": 595,
+      "artist": "Simply Red",
+      "title": "Holding Back The Years",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0362",
+      "mappedIds": [
+        "VIN-0362"
+      ],
+      "sourceFile": "simply-red_if-you-dont-know-me-by-now.jpg",
+      "local": "assets/covers/full/VIN-0362.webp",
+      "thumb": "assets/covers/thumbs/VIN-0362.webp",
+      "sha256": "565615c144d708d53c0242b3560801b82ecd294b5410f2365f01cb46292bee45",
+      "width": 600,
+      "height": 600,
+      "artist": "Simply Red",
+      "title": "If You Don't Know Me By Now",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0363",
+      "mappedIds": [
+        "VIN-0363"
+      ],
+      "sourceFile": "ska-p_planeta-eskoria.jpg",
+      "local": "assets/covers/full/VIN-0363.webp",
+      "thumb": "assets/covers/thumbs/VIN-0363.webp",
+      "sha256": "dc59c8640dd419c45522c3fb2e98dfb3958cb8bc0ff591c1fdbb50b199dc1e30",
+      "width": 599,
+      "height": 600,
+      "artist": "Ska-P",
+      "title": "Planeta Eskoria",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0366",
+      "mappedIds": [
+        "VIN-0366"
+      ],
+      "sourceFile": "spandau-ballet_fight-for-ourselves.jpg",
+      "local": "assets/covers/full/VIN-0366.webp",
+      "thumb": "assets/covers/thumbs/VIN-0366.webp",
+      "sha256": "06918ce68dfa3e9909910e5305d4ea19236d77f8517c82483773bb64a913e78f",
+      "width": 596,
+      "height": 600,
+      "artist": "Spandau Ballet",
+      "title": "Fight For Ourselves",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0368",
+      "mappedIds": [
+        "VIN-0368"
+      ],
+      "sourceFile": "spandau-ballet_heart-like-a-sky.jpg",
+      "local": "assets/covers/full/VIN-0368.webp",
+      "thumb": "assets/covers/thumbs/VIN-0368.webp",
+      "sha256": "dffb5fc811575134edbc18528584f4e128b176a058ecaa638f5af8c2fa8a7213",
+      "width": 600,
+      "height": 585,
+      "artist": "Spandau Ballet",
+      "title": "Heart Like A Sky",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0365",
+      "mappedIds": [
+        "VIN-0365"
+      ],
+      "sourceFile": "spandau-ballet_the-singles-collection.jpg",
+      "local": "assets/covers/full/VIN-0365.webp",
+      "thumb": "assets/covers/thumbs/VIN-0365.webp",
+      "sha256": "2ad404fd9580bc35ee5f6effab085cd2b0f8b6b0682fb5e43399974f3bea6e53",
+      "width": 600,
+      "height": 600,
+      "artist": "Spandau Ballet",
+      "title": "The Singles Collection",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0367",
+      "mappedIds": [
+        "VIN-0367"
+      ],
+      "sourceFile": "spandau-ballet_through-the-barricades.jpg",
+      "local": "assets/covers/full/VIN-0367.webp",
+      "thumb": "assets/covers/thumbs/VIN-0367.webp",
+      "sha256": "cebc124da8086ca2109f8e1e087ed2482067978e103a8b9d32bc925d9b82f81b",
+      "width": 600,
+      "height": 600,
+      "artist": "Spandau Ballet",
+      "title": "Through The Barricades",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0364",
+      "mappedIds": [
+        "VIN-0364"
+      ],
+      "sourceFile": "spandau-ballet_true.jpg",
+      "local": "assets/covers/full/VIN-0364.webp",
+      "thumb": "assets/covers/thumbs/VIN-0364.webp",
+      "sha256": "225ca0afb4177835d55caeaec7b5f0549d38ce7e587783751dd61d5d6670c383",
+      "width": 600,
+      "height": 600,
+      "artist": "Spandau Ballet",
+      "title": "True ",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0371",
+      "mappedIds": [
+        "VIN-0371"
+      ],
+      "sourceFile": "special-efx_confidential.jpg",
+      "local": "assets/covers/full/VIN-0371.webp",
+      "thumb": "assets/covers/thumbs/VIN-0371.webp",
+      "sha256": "e5aeee6bf71e55dd34d3d44bafb185780ab9120dd388d78f873460e79d566df5",
+      "width": 600,
+      "height": 600,
+      "artist": "Special EFX",
+      "title": "Confidential",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0370",
+      "mappedIds": [
+        "VIN-0370"
+      ],
+      "sourceFile": "special-efx_double-feature.jpg",
+      "local": "assets/covers/full/VIN-0370.webp",
+      "thumb": "assets/covers/thumbs/VIN-0370.webp",
+      "sha256": "f09fab89e7b1e441ab8aaca161b883fae76c41e5e3248214f65b143474be2c63",
+      "width": 600,
+      "height": 596,
+      "artist": "Special EFX",
+      "title": "Double Feature",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0369",
+      "mappedIds": [
+        "VIN-0369"
+      ],
+      "sourceFile": "special-efx_modern-manners.jpg",
+      "local": "assets/covers/full/VIN-0369.webp",
+      "thumb": "assets/covers/thumbs/VIN-0369.webp",
+      "sha256": "e1de6ce472ca0e0fb1e66f464d250af13cd9ef99135a09eee26b271dec02e7c2",
+      "width": 600,
+      "height": 591,
+      "artist": "Special EFX",
+      "title": "Modern Manners",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0372",
+      "mappedIds": [
+        "VIN-0372"
+      ],
+      "sourceFile": "specials_more-specials.jpg",
+      "local": "assets/covers/full/VIN-0372.webp",
+      "thumb": "assets/covers/thumbs/VIN-0372.webp",
+      "sha256": "564cdbb07dd9ec09262095fb0905bfbf029108b8dcc4a8ba5eece1e3860291ff",
+      "width": 600,
+      "height": 598,
+      "artist": "Specials",
+      "title": "More Specials",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0373",
+      "mappedIds": [
+        "VIN-0373"
+      ],
+      "sourceFile": "stevie-nicks_the-other-side-of-the-mirror.jpg",
+      "local": "assets/covers/full/VIN-0373.webp",
+      "thumb": "assets/covers/thumbs/VIN-0373.webp",
+      "sha256": "a68182876b60742dde8257c294a7299e6cd91a7a2ee11de829e19ad44d35b9f5",
+      "width": 600,
+      "height": 592,
+      "artist": "Stevie Nicks",
+      "title": "The Other Side Of The Mirror",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0374",
+      "mappedIds": [
+        "VIN-0374"
+      ],
+      "sourceFile": "stevie-wonder_in-square-circle.jpg",
+      "local": "assets/covers/full/VIN-0374.webp",
+      "thumb": "assets/covers/thumbs/VIN-0374.webp",
+      "sha256": "6c43f63b0f56584583ae9afa281c998746bad37df2ddab8f2689cb85b64d93d8",
+      "width": 600,
+      "height": 597,
+      "artist": "Stevie Wonder",
+      "title": "In Square Circle",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0378",
+      "mappedIds": [
+        "VIN-0378"
+      ],
+      "sourceFile": "taco_lets-face-the-music.jpg",
+      "local": "assets/covers/full/VIN-0378.webp",
+      "thumb": "assets/covers/thumbs/VIN-0378.webp",
+      "sha256": "b713624fa5976d8f31d791b605db72e16baabc24148182db918b1373fda9c148",
+      "width": 600,
+      "height": 600,
+      "artist": "Taco",
+      "title": "Let's Face The Music",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0380",
+      "mappedIds": [
+        "VIN-0380"
+      ],
+      "sourceFile": "tame-impala_currents.jpg",
+      "local": "assets/covers/full/VIN-0380.webp",
+      "thumb": "assets/covers/thumbs/VIN-0380.webp",
+      "sha256": "d641f72f6710f3d7fd62d9f72c586b845e6bddcbdc62889fc19f649202edd36c",
+      "width": 600,
+      "height": 600,
+      "artist": "Tame Impala",
+      "title": "Currents",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0381",
+      "mappedIds": [
+        "VIN-0381"
+      ],
+      "sourceFile": "tanita-tikaram_ancient-heart.jpg",
+      "local": "assets/covers/full/VIN-0381.webp",
+      "thumb": "assets/covers/thumbs/VIN-0381.webp",
+      "sha256": "9a58dc347b9afc40672a29ac48f1916035f52dd9a051b62c940125814e72f619",
+      "width": 600,
+      "height": 586,
+      "artist": "Tanita Tikaram",
+      "title": "Ancient Heart",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0382",
+      "mappedIds": [
+        "VIN-0382"
+      ],
+      "sourceFile": "tanita-tikaram_the-sweet-keeper.jpg",
+      "local": "assets/covers/full/VIN-0382.webp",
+      "thumb": "assets/covers/thumbs/VIN-0382.webp",
+      "sha256": "741b403aadb8ac83b2aa9875f01cf5bcb57fdabe94d2aa6f017a740cbd1c10c8",
+      "width": 600,
+      "height": 600,
+      "artist": "Tanita Tikaram",
+      "title": "The Sweet Keeper",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0383",
+      "mappedIds": [
+        "VIN-0383"
+      ],
+      "sourceFile": "tears-for-fears_the-seeds-of-love.jpg",
+      "local": "assets/covers/full/VIN-0383.webp",
+      "thumb": "assets/covers/thumbs/VIN-0383.webp",
+      "sha256": "e429cb7ad1b41337d6d027b93f0d8ec91b9f017235c12859920095deb6763dff",
+      "width": 600,
+      "height": 600,
+      "artist": "Tears For Fears",
+      "title": "The Seeds Of Love",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0384",
+      "mappedIds": [
+        "VIN-0384"
+      ],
+      "sourceFile": "terence-trent-darby_introducing-the-hardline-according-to.jpg",
+      "local": "assets/covers/full/VIN-0384.webp",
+      "thumb": "assets/covers/thumbs/VIN-0384.webp",
+      "sha256": "361ae5186c25382087b6f391051f8a9fafd7029b7870d43d2f246fdf7882b8ef",
+      "width": 600,
+      "height": 600,
+      "artist": "Terence Trent D'Arby",
+      "title": "Introducing The Hardline According To",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0386",
+      "mappedIds": [
+        "VIN-0386"
+      ],
+      "sourceFile": "the-belle_stars.jpg",
+      "local": "assets/covers/full/VIN-0386.webp",
+      "thumb": "assets/covers/thumbs/VIN-0386.webp",
+      "sha256": "0ed61e91dcf78eee61d81cfa4781dc86b1c4ef30f988c015c90b87ce36f5aace",
+      "width": 600,
+      "height": 600,
+      "artist": "The Belle",
+      "title": "Stars",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": "Mantenuta la voce del CSV: artista The Belle, titolo Stars. La grafica reca The Belle Stars; nessuna correzione del catalogo."
+    },
+    {
+      "id": "VIN-0391",
+      "mappedIds": [
+        "VIN-0391"
+      ],
+      "sourceFile": "tina-turner_foreign-affair.jpg",
+      "local": "assets/covers/full/VIN-0391.webp",
+      "thumb": "assets/covers/thumbs/VIN-0391.webp",
+      "sha256": "efc2119b9f4104607704904d270feb1db3684ab885428202517d68844e9ee42d",
+      "width": 598,
+      "height": 600,
+      "artist": "Tina Turner",
+      "title": "Foreign Affair",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0393",
+      "mappedIds": [
+        "VIN-0393"
+      ],
+      "sourceFile": "toto_isolation.jpg",
+      "local": "assets/covers/full/VIN-0393.webp",
+      "thumb": "assets/covers/thumbs/VIN-0393.webp",
+      "sha256": "84f940516e7473d6a47daaa59e847c35f7f604a7a1c853d1ac405864216eeb4f",
+      "width": 600,
+      "height": 600,
+      "artist": "TOTO",
+      "title": "Isolation",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0392",
+      "mappedIds": [
+        "VIN-0392"
+      ],
+      "sourceFile": "toto_toto.jpg",
+      "local": "assets/covers/full/VIN-0392.webp",
+      "thumb": "assets/covers/thumbs/VIN-0392.webp",
+      "sha256": "7c7ecb860b596d40bdbce8d8f224a830723e131c2296cf99754331940fc6d39e",
+      "width": 599,
+      "height": 600,
+      "artist": "TOTO",
+      "title": "TOTO",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0395",
+      "mappedIds": [
+        "VIN-0395"
+      ],
+      "sourceFile": "tracy-chapman_crossroads.jpg",
+      "local": "assets/covers/full/VIN-0395.webp",
+      "thumb": "assets/covers/thumbs/VIN-0395.webp",
+      "sha256": "1119dd0a1f1cf88049d1442fbf6eead3e667da6eefb43657b826d8be499ae65d",
+      "width": 600,
+      "height": 590,
+      "artist": "Tracy Chapman",
+      "title": "Crossroads",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0396",
+      "mappedIds": [
+        "VIN-0396"
+      ],
+      "sourceFile": "tracy-chapman_matters-of-the-heart.jpg",
+      "local": "assets/covers/full/VIN-0396.webp",
+      "thumb": "assets/covers/thumbs/VIN-0396.webp",
+      "sha256": "781ef41189bf3d9417255596e99c0323282bbf4504e5f1306339c00498be37c7",
+      "width": 600,
+      "height": 600,
+      "artist": "Tracy Chapman",
+      "title": "Matters Of The Heart",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0394",
+      "mappedIds": [
+        "VIN-0394"
+      ],
+      "sourceFile": "tracy-chapman_tracy-chapman.jpg",
+      "local": "assets/covers/full/VIN-0394.webp",
+      "thumb": "assets/covers/thumbs/VIN-0394.webp",
+      "sha256": "f56a397cdc27645016ac4095840ed495cdaa06fd8875181c7a1eff5afb1a7f65",
+      "width": 600,
+      "height": 568,
+      "artist": "Tracy Chapman",
+      "title": "Tracy Chapman",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0403",
+      "mappedIds": [
+        "VIN-0403",
+        "VIN-0404"
+      ],
+      "sourceFile": "twenty-one-pilots_breach.jpg",
+      "local": "assets/covers/full/VIN-0403.webp",
+      "thumb": "assets/covers/thumbs/VIN-0403.webp",
+      "sha256": "71e4e54792c8c7eaa176e1bdc0d8baa6815432632d2c17e4d4e33c9b34bc235e",
+      "width": 600,
+      "height": 600,
+      "artist": "Twenty One Pilots",
+      "title": "Breach",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0401",
+      "mappedIds": [
+        "VIN-0401"
+      ],
+      "sourceFile": "twenty-one-pilots_clancy.jpg",
+      "local": "assets/covers/full/VIN-0401.webp",
+      "thumb": "assets/covers/thumbs/VIN-0401.webp",
+      "sha256": "cb159512e6080fd0aca9379005a7d130aacbe71b3f1b151e777d110662b39de9",
+      "width": 599,
+      "height": 600,
+      "artist": "Twenty One Pilots",
+      "title": "Clancy",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0402",
+      "mappedIds": [
+        "VIN-0402"
+      ],
+      "sourceFile": "twenty-one-pilots_mtv-unplugged.jpg",
+      "local": "assets/covers/full/VIN-0402.webp",
+      "thumb": "assets/covers/thumbs/VIN-0402.webp",
+      "sha256": "4338055878174422d5569601f1273553599f7577231689e40bfaba4a1f8ff046",
+      "width": 600,
+      "height": 600,
+      "artist": "Twenty One Pilots",
+      "title": "MTV Unplugged",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0400",
+      "mappedIds": [
+        "VIN-0400"
+      ],
+      "sourceFile": "twenty-one-pilots_scaled-and-icy.jpg",
+      "local": "assets/covers/full/VIN-0400.webp",
+      "thumb": "assets/covers/thumbs/VIN-0400.webp",
+      "sha256": "44ed27d6ff688aa266f125028295ea4f022356d8aa0afc8e534c95358cc69c69",
+      "width": 600,
+      "height": 600,
+      "artist": "Twenty One Pilots",
+      "title": "Scaled And Icy",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0397",
+      "mappedIds": [
+        "VIN-0397"
+      ],
+      "sourceFile": "twenty-one-pilots_vessel.jpg",
+      "local": "assets/covers/full/VIN-0397.webp",
+      "thumb": "assets/covers/thumbs/VIN-0397.webp",
+      "sha256": "0ead6df02813feeca523ac5c51d9a2d25d08808bf716ad91a60a92d8b948d294",
+      "width": 600,
+      "height": 600,
+      "artist": "Twenty One Pilots",
+      "title": "Vessel",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0405",
+      "mappedIds": [
+        "VIN-0405"
+      ],
+      "sourceFile": "u2_rattle-and-hum.jpg",
+      "local": "assets/covers/full/VIN-0405.webp",
+      "thumb": "assets/covers/thumbs/VIN-0405.webp",
+      "sha256": "ddb2acafc666676e44fd13f3082a1c99a16d5171e8b06d6bb5c33c287c395561",
+      "width": 599,
+      "height": 600,
+      "artist": "U2",
+      "title": "Rattle And Hum",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0406",
+      "mappedIds": [
+        "VIN-0406"
+      ],
+      "sourceFile": "ub40_rat-in-the-kitchen.jpg",
+      "local": "assets/covers/full/VIN-0406.webp",
+      "thumb": "assets/covers/thumbs/VIN-0406.webp",
+      "sha256": "b899d436707758fc343b4892048f182ff4708cf1ff83bb7e1d19409f19db0800",
+      "width": 600,
+      "height": 600,
+      "artist": "UB40",
+      "title": "Rat In The Kitchen",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0423",
+      "mappedIds": [
+        "VIN-0423"
+      ],
+      "sourceFile": "waterfront_waterfront.jpg",
+      "local": "assets/covers/full/VIN-0423.webp",
+      "thumb": "assets/covers/thumbs/VIN-0423.webp",
+      "sha256": "96a73d1393758722d9fc7c2c9d8542f79a275aa28daeee6c742519b16d7e825b",
+      "width": 600,
+      "height": 600,
+      "artist": "Waterfront",
+      "title": "Waterfront",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0424",
+      "mappedIds": [
+        "VIN-0424"
+      ],
+      "sourceFile": "wet-wet-wet_popped-in-souled-out.jpg",
+      "local": "assets/covers/full/VIN-0424.webp",
+      "thumb": "assets/covers/thumbs/VIN-0424.webp",
+      "sha256": "c1fc72b3644ba330875fa7650b243a0e04150caad037631b3498224288cec77b",
+      "width": 600,
+      "height": 600,
+      "artist": "Wet Wet Wet",
+      "title": "Popped In Souled Out",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0426",
+      "mappedIds": [
+        "VIN-0426"
+      ],
+      "sourceFile": "whitney-houston_didnt-we-almost-have-it-all.jpg",
+      "local": "assets/covers/full/VIN-0426.webp",
+      "thumb": "assets/covers/thumbs/VIN-0426.webp",
+      "sha256": "e9a67b2272c007d05b41251705107730bdc4aa85fcb1f6eba83a174c3b7cc93b",
+      "width": 600,
+      "height": 600,
+      "artist": "Whitney Houston",
+      "title": "Didn't We Almost Have It All",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0428",
+      "mappedIds": [
+        "VIN-0428"
+      ],
+      "sourceFile": "yes_90125.jpg",
+      "local": "assets/covers/full/VIN-0428.webp",
+      "thumb": "assets/covers/thumbs/VIN-0428.webp",
+      "sha256": "4a11a51ebc43da46be5fa8a17a981dd880097b97610cc9316cdbcd6b0dce7be3",
+      "width": 600,
+      "height": 600,
+      "artist": "Yes",
+      "title": "90125",
+      "matchMethod": "exact",
+      "matchScore": 1.0,
+      "note": ""
+    },
+    {
+      "id": "VIN-0432",
+      "mappedIds": [
+        "VIN-0432"
+      ],
+      "sourceFile": "zucchero_zucchero-the-randy-jackson-band.jpg",
+      "local": "assets/covers/full/VIN-0432.webp",
+      "thumb": "assets/covers/thumbs/VIN-0432.webp",
+      "sha256": "2d588ae8e06439c91f2bc34f434573cd177c0de24b00d1ad30a702f3950cd1cb",
+      "width": 597,
+      "height": 600,
+      "artist": "Zucchero",
+      "title": "Zucchero & The Randy Jackson Band",
+      "matchMethod": "normalized alias",
+      "matchScore": 1.0,
+      "note": ""
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "records": 433,
+  "artists": 214,
+  "discs": 498,
+  "unknownDiscs": 0,
+  "yearMin": 1956,
+  "yearMax": 2026,
+  "unknownYears": 14,
+  "formats": {
+    "LP": 295,
+    "Best Of": 86,
+    "Maxi Single": 12,
+    "Live": 9,
+    "Interview": 1,
+    "OST": 30
+  },
+  "decades": {
+    "1950": 1,
+    "1960": 6,
+    "1970": 87,
+    "1980": 221,
+    "1990": 60,
+    "2000": 4,
+    "2010": 14,
+    "2020": 26,
+    "unknown": 14
+  }
+}

@@ -1,0 +1,2171 @@
+PLASTIC PIZZAS / INDICE DISCHI
+Fonte: data/Dischi.csv
+ID = identita della copia, non posizione nello scaffale.
+Ordine: artista A-Z, anno crescente, titolo. Il CSV non viene riordinato.
+433 voci | 214 artisti (spazi esterni ignorati) | 498 dischi fisici
+
+VIN-0001 | A-ha | Hunting High And Low | 1985 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0001
+  Cover locale consigliata: assets/covers/full/VIN-0001.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0002 | ABBA | ABBA | 1975 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0002
+  Cover locale consigliata: assets/covers/full/VIN-0002.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0003 | ABBA | Gold Greatest Hits | 1992 | Best Of | 2 disco/i
+  Scheda: dischi.html#disco=VIN-0003
+  Cover locale consigliata: assets/covers/full/VIN-0003.webp
+  Note: Remastered Limited Edition
+  Colori speciali (testo CSV): Gold
+VIN-0004 | ABC | UP | 1989 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0004
+  Cover locale consigliata: assets/covers/full/VIN-0004.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0005 | Alan Parsons Project | Tales Of Mystery And Immagination Edgar Allan Poe | 1976 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0005
+  Cover locale consigliata: assets/covers/full/VIN-0005.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0006 | Alan Parsons Project | I Robot | 1977 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0006
+  Cover locale consigliata: assets/covers/full/VIN-0006.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0007 | Alan Parsons Project | Pyramid | 1978 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0007
+  Cover locale consigliata: assets/covers/full/VIN-0007.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0008 | Alan Parsons Project | Eve | 1979 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0008
+  Cover locale consigliata: assets/covers/full/VIN-0008.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0009 | Alan Parsons Project | The Turn Of A Friendly Card | 1980 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0009
+  Cover locale consigliata: assets/covers/full/VIN-0009.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0010 | Alan Parsons Project | Eye In The Sky | 1981 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0010
+  Cover locale consigliata: assets/covers/full/VIN-0010.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0011 | Alan Parsons Project | Ammonia Avenue | 1984 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0011
+  Cover locale consigliata: assets/covers/full/VIN-0011.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0012 | Alan Parsons Project | Vulture Culture | 1984 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0012
+  Cover locale consigliata: assets/covers/full/VIN-0012.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0013 | Alan Parsons Project | Stereotomy | 1985 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0013
+  Cover locale consigliata: assets/covers/full/VIN-0013.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0014 | Alan Parsons Project | Gaudi | 1987 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0014
+  Cover locale consigliata: assets/covers/full/VIN-0014.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0015 | Alceo Gualtelli e la sua Fisarmonica | Balla Con Me | anno non indicato | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0015
+  Cover locale consigliata: assets/covers/full/VIN-0015.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0016 | Alice Merton | Mint | 2019 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0016
+  Cover locale consigliata: assets/covers/full/VIN-0016.webp
+  Note: Box Set Autografato (Vinile, Borsa, Cartolina, Adesivi)
+  Colori speciali (testo CSV): Mint Green Translucent
+VIN-0017 | Alison Moyet | Alf | 1984 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0017
+  Cover locale consigliata: assets/covers/full/VIN-0017.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0018 | Alison Moyet | Raindancing | 1987 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0018
+  Cover locale consigliata: assets/covers/full/VIN-0018.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0019 | Amarcord | La Mi Terra | 1974 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0019
+  Cover locale consigliata: assets/covers/full/VIN-0019.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0020 | America | History America's Greatest Hits | 1975 | Best Of | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0020
+  Cover locale consigliata: assets/covers/full/VIN-0020.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0021 | Amii Stewart | Time For Fantasy | 1988 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0021
+  Cover locale consigliata: assets/covers/full/VIN-0021.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0022 | Anna Oxa | Fantastica | 1988 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0022
+  Cover locale consigliata: assets/covers/full/VIN-0022.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0023 | Anthony Braxton | B-X° / NO-I-47ᴬ | 1980 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0023
+  Cover locale consigliata: assets/covers/full/VIN-0023.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0024 | Antonello Venditti | Sotto Il Segno Dei Pesci | 1978 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0024
+  Cover locale consigliata: assets/covers/full/VIN-0024.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0025 | Arcadia | So Red The Rose | 1986 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0025
+  Cover locale consigliata: assets/covers/full/VIN-0025.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0026 | Art Of Noise | In Visible Silence | 1986 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0026
+  Cover locale consigliata: assets/covers/full/VIN-0026.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0027 | Art Of Noise | Below The Waste | 1989 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0027
+  Cover locale consigliata: assets/covers/full/VIN-0027.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0028 | Atlantic Hazz | Kansas City | 1986 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0028
+  Cover locale consigliata: assets/covers/full/VIN-0028.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0029 | Atlantic Hazz | New Orleans | 1986 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0029
+  Cover locale consigliata: assets/covers/full/VIN-0029.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0030 | Autori e Interpreti Della Canzone Italiana | Rettore | 1982 | Best Of | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0030
+  Cover locale consigliata: assets/covers/full/VIN-0030.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0031 | B-52's | The B-52's | 1979 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0031
+  Cover locale consigliata: assets/covers/full/VIN-0031.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0032 | B-52's | Wild Planet | 1980 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0032
+  Cover locale consigliata: assets/covers/full/VIN-0032.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0033 | B-52's | Mesopotamia | 1982 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0033
+  Cover locale consigliata: assets/covers/full/VIN-0033.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0034 | B-52's | Cosmic Thing | 1989 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0034
+  Cover locale consigliata: assets/covers/full/VIN-0034.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0035 | B-52's | Dance This Mess Around | 1990 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0035
+  Cover locale consigliata: assets/covers/full/VIN-0035.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0036 | BabyMetal | Metal Resistance | 2016 | LP | 2 disco/i
+  Scheda: dischi.html#disco=VIN-0036
+  Cover locale consigliata: assets/covers/full/VIN-0036.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0037 | BabyMetal | Metal Galaxy | 2019 | LP | 2 disco/i
+  Scheda: dischi.html#disco=VIN-0037
+  Cover locale consigliata: assets/covers/full/VIN-0037.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0038 | Bananarama | Bananarama | 1984 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0038
+  Cover locale consigliata: assets/covers/full/VIN-0038.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0039 | Banco del Mutuo Soccorso | Darwin | 1972 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0039
+  Cover locale consigliata: assets/covers/full/VIN-0039.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0040 | Banco del Mutuo Soccorso | Banco | 1983 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0040
+  Cover locale consigliata: assets/covers/full/VIN-0040.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0041 | Barbra Streisand | Guilty | 1980 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0041
+  Cover locale consigliata: assets/covers/full/VIN-0041.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0042 | Barry Manilow | If I Should Love Again | 1981 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0042
+  Cover locale consigliata: assets/covers/full/VIN-0042.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0043 | Barry White | With Love Unlimited - Satin & Soul Vol.II | 1990 | Best Of | 2 disco/i
+  Scheda: dischi.html#disco=VIN-0043
+  Cover locale consigliata: assets/covers/full/VIN-0043.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0044 | Beach Boys | Surfin' USA | 1963 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0044
+  Cover locale consigliata: assets/covers/full/VIN-0044.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0045 | Billy Joel | Greatest Hits Vol. I & Vol. II | 1985 | Best Of | 2 disco/i
+  Scheda: dischi.html#disco=VIN-0045
+  Cover locale consigliata: assets/covers/full/VIN-0045.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0046 | Bob Dylan | Slow Train Coming | 1979 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0046
+  Cover locale consigliata: assets/covers/full/VIN-0046.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0047 | Bon Jovi | Bon Jovi | 1984 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0047
+  Cover locale consigliata: assets/covers/full/VIN-0047.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0048 | Boney M. | Nightflight To Venus | 1978 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0048
+  Cover locale consigliata: assets/covers/full/VIN-0048.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0049 | Boney M. | Oceans Of Fantasy | 1979 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0049
+  Cover locale consigliata: assets/covers/full/VIN-0049.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0050 | Bonnie Bianco | Just Me | 1987 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0050
+  Cover locale consigliata: assets/covers/full/VIN-0050.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0051 | Breathe | All That Jazz | 1987 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0051
+  Cover locale consigliata: assets/covers/full/VIN-0051.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0052 | Bros | Push | 1988 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0052
+  Cover locale consigliata: assets/covers/full/VIN-0052.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0053 | Bros | The Time | 1989 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0053
+  Cover locale consigliata: assets/covers/full/VIN-0053.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0054 | Brother Beyond | Get Even | 1988 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0054
+  Cover locale consigliata: assets/covers/full/VIN-0054.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0055 | Bryan Ferry | Bète Noire | 1987 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0055
+  Cover locale consigliata: assets/covers/full/VIN-0055.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0056 | Bryan Ferry | The Ultimate Collection | 1988 | Best Of | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0056
+  Cover locale consigliata: assets/covers/full/VIN-0056.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0057 | Cab Calloway | That Old Black Magic | anno non indicato | Best Of | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0057
+  Cover locale consigliata: assets/covers/full/VIN-0057.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0058 | Canzoniere Veneto | El Miracolo Roverso | 1975 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0058
+  Cover locale consigliata: assets/covers/full/VIN-0058.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0059 | Caparezza | Verità Supposte | 2003 | LP | 2 disco/i
+  Scheda: dischi.html#disco=VIN-0059
+  Cover locale consigliata: assets/covers/full/VIN-0059.webp
+  Note: Remastered 2018
+  Colori speciali (testo CSV): -
+VIN-0060 | Caparezza | Exuvia | 2020 | LP | 2 disco/i
+  Scheda: dischi.html#disco=VIN-0060
+  Cover locale consigliata: assets/covers/full/VIN-0060.webp
+  Note: -
+  Colori speciali (testo CSV): Crystal Clear
+VIN-0061 | Caparezza | Orbit Orbit | 2025 | LP | 2 disco/i
+  Scheda: dischi.html#disco=VIN-0061
+  Cover locale consigliata: assets/covers/full/VIN-0061.webp
+  Note: Box Set Autografato (Fumetto, Sticket, CD, Vinile)
+  Colori speciali (testo CSV): Space Version
+VIN-0062 | Caterina Caselli | Casco D'Oro | 1988 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0062
+  Cover locale consigliata: assets/covers/full/VIN-0062.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0063 | CCCP Fedeli Alla Linea | Tommorow (Voulex-voux un rende-vous) con Amanda Lear | 1988 | Maxi Single | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0063
+  Cover locale consigliata: assets/covers/full/VIN-0063.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0064 | Celi Bee | Love Drops | 1979 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0064
+  Cover locale consigliata: assets/covers/full/VIN-0064.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0065 | Chapter and The Verse | Columbus - Don't Celebrate | 1993 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0065
+  Cover locale consigliata: assets/covers/full/VIN-0065.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0066 | Chicago | The Feeling Of Chicago | 1982 | Best Of | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0066
+  Cover locale consigliata: assets/covers/full/VIN-0066.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0067 | Claretta Viganò e i Brianzoli | Canti Popolari Di Lombardia | anno non indicato | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0067
+  Cover locale consigliata: assets/covers/full/VIN-0067.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0068 | Claudio Baglioni | Gira Che Ti Rigira Amore Bello | 1972 | Best Of | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0068
+  Cover locale consigliata: assets/covers/full/VIN-0068.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0069 | Claudio Baglioni | Personale Di Claudio Baglioni Vol.1 | 1990 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0069
+  Cover locale consigliata: assets/covers/full/VIN-0069.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0070 | Claudio Bisio | Rapput | 1991 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0070
+  Cover locale consigliata: assets/covers/full/VIN-0070.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0071 | Cock Robin | Cock Robin | 1985 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0071
+  Cover locale consigliata: assets/covers/full/VIN-0071.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0072 | Communards | Communards | 1985 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0072
+  Cover locale consigliata: assets/covers/full/VIN-0072.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0073 | Communards | 1984/1990 Greatest Hits | Jimmy Sommerville, Bronski Beat and The Communards | 1990 | Best Of | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0073
+  Cover locale consigliata: assets/covers/full/VIN-0073.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0074 | Credence Clearwater Revival | Chronicle The 20 Greatest Hits | 1976 | Best Of | 2 disco/i
+  Scheda: dischi.html#disco=VIN-0074
+  Cover locale consigliata: assets/covers/full/VIN-0074.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0075 | Crosby, Stills, Nash | Allies | 1983 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0075
+  Cover locale consigliata: assets/covers/full/VIN-0075.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0076 | Crosby, Stills, Nash | American Dream With Young | 1988 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0076
+  Cover locale consigliata: assets/covers/full/VIN-0076.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0077 | Culture Club | Colour By Numbers | 1983 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0077
+  Cover locale consigliata: assets/covers/full/VIN-0077.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0078 | Curiosity Killed The Cat | Keep Your Distance | 1987 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0078
+  Cover locale consigliata: assets/covers/full/VIN-0078.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0079 | Curiosity Killed The Cat | First Place | 1989 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0079
+  Cover locale consigliata: assets/covers/full/VIN-0079.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0080 | Curiosity Killed The Cat | Getahead | 1989 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0080
+  Cover locale consigliata: assets/covers/full/VIN-0080.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0081 | Cyndi Lauper | A Night To Remember | 1989 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0081
+  Cover locale consigliata: assets/covers/full/VIN-0081.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0082 | Daft Punk | Random Access Memories | 2013 | LP | 2 disco/i
+  Scheda: dischi.html#disco=VIN-0082
+  Cover locale consigliata: assets/covers/full/VIN-0082.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0083 | Daryl Hall & John Oates | H2O | 1982 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0083
+  Cover locale consigliata: assets/covers/full/VIN-0083.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0084 | Daryl Hall & John Oates | Big Bam Boom | 1984 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0084
+  Cover locale consigliata: assets/covers/full/VIN-0084.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0085 | Dave Brubeck Quartet | Time Out | 2018 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0085
+  Cover locale consigliata: assets/covers/full/VIN-0085.webp
+  Note: Remastered 2018
+  Colori speciali (testo CSV): Orange Neon
+VIN-0086 | Dave Valentin | Live At The Blue Note | 1988 | Live | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0086
+  Cover locale consigliata: assets/covers/full/VIN-0086.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0087 | David Bowie | Tonight | 1984 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0087
+  Cover locale consigliata: assets/covers/full/VIN-0087.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0088 | David Riondino | Tango Dei Miracoli con Milo Manara | anno non indicato | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0088
+  Cover locale consigliata: assets/covers/full/VIN-0088.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0089 | Deep Purple | Stormbringer | 1974 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0089
+  Cover locale consigliata: assets/covers/full/VIN-0089.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0090 | Demi Roussos | Profeta Non Sarò | 1980 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0090
+  Cover locale consigliata: assets/covers/full/VIN-0090.webp
+  Note: Copy 1
+  Colori speciali (testo CSV): -
+VIN-0091 | Demi Roussos | Profeta Non Sarò | 1980 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0091
+  Cover locale consigliata: assets/covers/full/VIN-0091.webp
+  Note: Copy 2
+  Colori speciali (testo CSV): -
+VIN-0092 | Depeche Mode | Music For The Masses | 1987 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0092
+  Cover locale consigliata: assets/covers/full/VIN-0092.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0093 | Dire Straits | Dire Straits | 1978 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0093
+  Cover locale consigliata: assets/covers/full/VIN-0093.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0094 | Dire Straits | Communique | 1979 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0094
+  Cover locale consigliata: assets/covers/full/VIN-0094.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0095 | Dire Straits | Making Movies | 1980 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0095
+  Cover locale consigliata: assets/covers/full/VIN-0095.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0097 | Dire Straits | Extendedanceplay | 1982 | Maxi Single | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0097
+  Cover locale consigliata: assets/covers/full/VIN-0097.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0096 | Dire Straits | Love Over Gold | 1982 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0096
+  Cover locale consigliata: assets/covers/full/VIN-0096.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0098 | Dire Straits | Brothers In Arms | 1985 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0098
+  Cover locale consigliata: assets/covers/full/VIN-0098.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0099 | Dire Straits | Heavy Fuel | 1991 | Maxi Single | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0099
+  Cover locale consigliata: assets/covers/full/VIN-0099.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0100 | Dire Straits | On Every Street | 1991 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0100
+  Cover locale consigliata: assets/covers/full/VIN-0100.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0101 | Dou3le | Dou3le | 1987 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0101
+  Cover locale consigliata: assets/covers/full/VIN-0101.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0102 | Drupi | Drupi | 1989 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0102
+  Cover locale consigliata: assets/covers/full/VIN-0102.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0103 | Duke Ellington | A Date With The Duke Vol.6 1945-46 | 1974 | Best Of | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0103
+  Cover locale consigliata: assets/covers/full/VIN-0103.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0104 | Duran Duran | Rio | 1982 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0104
+  Cover locale consigliata: assets/covers/full/VIN-0104.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0105 | Duran Duran | Duran Duran | 1983 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0105
+  Cover locale consigliata: assets/covers/full/VIN-0105.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0106 | Duran Duran | Seven And The Ragged Tiger | 1983 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0106
+  Cover locale consigliata: assets/covers/full/VIN-0106.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0107 | Duran Duran | The Wild Boys | 1984 | Maxi Single | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0107
+  Cover locale consigliata: assets/covers/full/VIN-0107.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0108 | Duran Duran | Mixing | 1985 | Best Of | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0108
+  Cover locale consigliata: assets/covers/full/VIN-0108.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0109 | Duran Duran | Notorious | 1986 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0109
+  Cover locale consigliata: assets/covers/full/VIN-0109.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0110 | Duran Duran | Strange Behaviour | 1986 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0110
+  Cover locale consigliata: assets/covers/full/VIN-0110.webp
+  Note: -
+  Colori speciali (testo CSV): Picture Disc
+VIN-0112 | Duran Duran | Live Italian tour | 1987 | Live | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0112
+  Cover locale consigliata: assets/covers/full/VIN-0112.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0111 | Duran Duran | Master Mixes | 1987 | Best Of | 2 disco/i
+  Scheda: dischi.html#disco=VIN-0111
+  Cover locale consigliata: assets/covers/full/VIN-0111.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0113 | Duran Duran | All She Wants Is More | 1988 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0113
+  Cover locale consigliata: assets/covers/full/VIN-0113.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0114 | Duran Duran | Big Thing | 1988 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0114
+  Cover locale consigliata: assets/covers/full/VIN-0114.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0115 | Earth Wind & Fire | Earth Wind & Fire The Best Of Vol.1 | 1978 | Best Of | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0115
+  Cover locale consigliata: assets/covers/full/VIN-0115.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0116 | Earth Wind & Fire | I Am | 1979 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0116
+  Cover locale consigliata: assets/covers/full/VIN-0116.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0117 | Earth Wind & Fire | Raise! | 1981 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0117
+  Cover locale consigliata: assets/covers/full/VIN-0117.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0118 | Earth Wind & Fire | Electric Universe | 1983 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0118
+  Cover locale consigliata: assets/covers/full/VIN-0118.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0119 | Earth Wind & Fire | Earth Wind & Fire The Best Of Vol.2 | 1988 | Best Of | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0119
+  Cover locale consigliata: assets/covers/full/VIN-0119.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0120 | Edoardo Bennato | Io Che Non Sono L'imperatore | 1975 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0120
+  Cover locale consigliata: assets/covers/full/VIN-0120.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0121 | Edoardo Bennato | Burattino Senza Fili | 1977 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0121
+  Cover locale consigliata: assets/covers/full/VIN-0121.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0122 | Edoardo Bennato | Sono Solo Canzonette | 1980 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0122
+  Cover locale consigliata: assets/covers/full/VIN-0122.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0123 | Ele A | Acqua | 2024 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0123
+  Cover locale consigliata: assets/covers/full/VIN-0123.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0124 | Ele A | Pixel | 2025 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0124
+  Cover locale consigliata: assets/covers/full/VIN-0124.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0125 | Electric Light Orchestra | A New World Record | 1976 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0125
+  Cover locale consigliata: assets/covers/full/VIN-0125.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0126 | Electric Light Orchestra | Balance Of Power | 1986 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0126
+  Cover locale consigliata: assets/covers/full/VIN-0126.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0127 | Elio E Le Storie Tese | Elio Samaga Hukapan Kariyana Turu | 1989 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0127
+  Cover locale consigliata: assets/covers/full/VIN-0127.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0128 | Elio E Le Storie Tese | Sveliatevi 1 | 1990 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0128
+  Cover locale consigliata: assets/covers/full/VIN-0128.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0129 | Elio E Le Storie Tese | Sveliatevi 2 | 1990 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0129
+  Cover locale consigliata: assets/covers/full/VIN-0129.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0130 | Elio E Le Storie Tese | The Los Sri Lanka Parakramabahu | 1990 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0130
+  Cover locale consigliata: assets/covers/full/VIN-0130.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0131 | Elio E Le Storie Tese | Figatta De Blanc | 2016 | LP | 2 disco/i
+  Scheda: dischi.html#disco=VIN-0131
+  Cover locale consigliata: assets/covers/full/VIN-0131.webp
+  Note: Remastered 2023 Autografato
+  Colori speciali (testo CSV): Blue / Red
+VIN-0132 | Elton John | Rag Strikes Back | 1988 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0132
+  Cover locale consigliata: assets/covers/full/VIN-0132.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0133 | Elton John | The Very Best Of | 1990 | Best Of | 2 disco/i
+  Scheda: dischi.html#disco=VIN-0133
+  Cover locale consigliata: assets/covers/full/VIN-0133.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0134 | Elvis Presley | Elvis Presley | 1994 | Best Of | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0134
+  Cover locale consigliata: assets/covers/full/VIN-0134.webp
+  Note: -
+  Colori speciali (testo CSV): Picture Disc
+VIN-0135 | Elvis Presley | Elvis | 2000 | Best Of | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0135
+  Cover locale consigliata: assets/covers/full/VIN-0135.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0136 | Emerson Lake & Palmer | Emerson Lake & Palmer | 1970 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0136
+  Cover locale consigliata: assets/covers/full/VIN-0136.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0137 | Enrico Ruggeri | Peter Pan | 1991 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0137
+  Cover locale consigliata: assets/covers/full/VIN-0137.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0138 | Eric And The Good Good Feeling | FUNKY | 1989 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0138
+  Cover locale consigliata: assets/covers/full/VIN-0138.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0139 | Eugenio Finardi | Il Vento Di Elora | 1989 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0139
+  Cover locale consigliata: assets/covers/full/VIN-0139.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0140 | Eugenio Finardi | La Forza Dell'Amore | 1990 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0140
+  Cover locale consigliata: assets/covers/full/VIN-0140.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0141 | Eurythmics | Be Yourself Tonight | 1985 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0141
+  Cover locale consigliata: assets/covers/full/VIN-0141.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0142 | Eurythmics | Savage | 1987 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0142
+  Cover locale consigliata: assets/covers/full/VIN-0142.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0143 | Eurythmics | We Too Are One | 1989 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0143
+  Cover locale consigliata: assets/covers/full/VIN-0143.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0144 | Fabio Concato | Fabio Concato | 1985 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0144
+  Cover locale consigliata: assets/covers/full/VIN-0144.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0145 | Fabrizio De Andrè | La Canzone Di Marinella | 1973 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0145
+  Cover locale consigliata: assets/covers/full/VIN-0145.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0146 | Fabrizio De Andrè | Rimini | 1978 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0146
+  Cover locale consigliata: assets/covers/full/VIN-0146.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0147 | Fabrizio De Andrè | In Concerto / Arrangiamenti PFM Firenze e Bologna Vol.1 | 1979 | Live | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0147
+  Cover locale consigliata: assets/covers/full/VIN-0147.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0148 | Fabrizio De Andrè | In Concerto / Arrangiamenti PFM Firenze e Bologna Vol.2 | 1980 | Live | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0148
+  Cover locale consigliata: assets/covers/full/VIN-0148.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0149 | Fausto Papetti Sax | 18^ Raccolta | 1974 | Best Of | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0149
+  Cover locale consigliata: assets/covers/full/VIN-0149.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0150 | Fine Young Cannibals | The Raw & The Cooked | 1988 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0150
+  Cover locale consigliata: assets/covers/full/VIN-0150.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0151 | Francesco De Gregori | La Donna Cannone | 1983 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0151
+  Cover locale consigliata: assets/covers/full/VIN-0151.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0152 | Francesco Guccini | Via Paolo Fabbri 43 | 1976 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0152
+  Cover locale consigliata: assets/covers/full/VIN-0152.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0153 | Francesco Guccini | F. Guccini e I Nomadi Album Concerto | 1979 | Live | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0153
+  Cover locale consigliata: assets/covers/full/VIN-0153.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0154 | Franco Battiato | L'Arca Di Noè | 1982 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0154
+  Cover locale consigliata: assets/covers/full/VIN-0154.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0155 | Frankie Goes To Hollywood | Relax | 1983 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0155
+  Cover locale consigliata: assets/covers/full/VIN-0155.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0156 | Frankie Goes To Hollywood | Welcome To The Pleasuredome | 1985 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0156
+  Cover locale consigliata: assets/covers/full/VIN-0156.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0157 | Funky Kings | Funky Kings | 1976 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0157
+  Cover locale consigliata: assets/covers/full/VIN-0157.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0158 | Gazebo | Gazebo | 1983 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0158
+  Cover locale consigliata: assets/covers/full/VIN-0158.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0159 | Genesis | Invisible Touch | 1986 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0159
+  Cover locale consigliata: assets/covers/full/VIN-0159.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0160 | George Gershwin | Rhapsody In Blue | anno non indicato | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0160
+  Cover locale consigliata: assets/covers/full/VIN-0160.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0161 | Gino Paoli | Matto Come Un Gatto | 1991 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0161
+  Cover locale consigliata: assets/covers/full/VIN-0161.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0162 | Giorgio | From Here To Eternity | 1977 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0162
+  Cover locale consigliata: assets/covers/full/VIN-0162.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0163 | Gipsy Kings | Luna De Fuego | 1983 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0163
+  Cover locale consigliata: assets/covers/full/VIN-0163.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0164 | Glenn Miller | The Best Of Glenn Miller | 1976 | Best Of | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0164
+  Cover locale consigliata: assets/covers/full/VIN-0164.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0165 | Go West | Go West | 1985 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0165
+  Cover locale consigliata: assets/covers/full/VIN-0165.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0166 | Golden Gate Quartet | Spirituals | 1970 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0166
+  Cover locale consigliata: assets/covers/full/VIN-0166.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0167 | GQ | Disco Nights / Boogie Oogie Oogie | 1979 | Maxi Single | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0167
+  Cover locale consigliata: assets/covers/full/VIN-0167.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0168 | Grande Storia Del Rock 2 | Little Richard & Chubby Checker | anno non indicato | Best Of | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0168
+  Cover locale consigliata: assets/covers/full/VIN-0168.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0169 | Grandi Del Jazz | Count Basie | 1979 | Best Of | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0169
+  Cover locale consigliata: assets/covers/full/VIN-0169.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0170 | Grandi Del Jazz | Duke Ellington | 1979 | Best Of | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0170
+  Cover locale consigliata: assets/covers/full/VIN-0170.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0171 | Green Day | Dookie | 1994 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0171
+  Cover locale consigliata: assets/covers/full/VIN-0171.webp
+  Note: Remastered 2008
+  Colori speciali (testo CSV): -
+VIN-0172 | Green Day | Insomniac | 1995 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0172
+  Cover locale consigliata: assets/covers/full/VIN-0172.webp
+  Note: Remastered 2009
+  Colori speciali (testo CSV): -
+VIN-0173 | Green Day | American Idiot | 2004 | LP | 2 disco/i
+  Scheda: dischi.html#disco=VIN-0173
+  Cover locale consigliata: assets/covers/full/VIN-0173.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0174 | Green Day | Revolution Radio | 2016 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0174
+  Cover locale consigliata: assets/covers/full/VIN-0174.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0175 | Green Day | Father Of All... ( Motherf*ckers ) | 2020 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0175
+  Cover locale consigliata: assets/covers/full/VIN-0175.webp
+  Note: Limited Edition
+  Colori speciali (testo CSV): Cloudy Red
+VIN-0176 | Green Day | Dookie | 2024 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0176
+  Cover locale consigliata: assets/covers/full/VIN-0176.webp
+  Note: 20th Anniversary
+  Colori speciali (testo CSV): Raspberry
+VIN-0177 | Howard Jones | Human's Lib | 1984 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0177
+  Cover locale consigliata: assets/covers/full/VIN-0177.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0178 | Howard Jones | Dream Into Action | 1985 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0178
+  Cover locale consigliata: assets/covers/full/VIN-0178.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0179 | Il Rock | 5 - The Band | 1988 | Best Of | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0179
+  Cover locale consigliata: assets/covers/full/VIN-0179.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0180 | Il Rock | 13 - Quicksilver Messenger Service | 1988 | Best Of | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0180
+  Cover locale consigliata: assets/covers/full/VIN-0180.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0181 | Il Rock | 15 - The Animals / Manfred Mann | 1988 | Best Of | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0181
+  Cover locale consigliata: assets/covers/full/VIN-0181.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0182 | Il Rock | 22 - Jerry Lee Lewis | 1989 | Best Of | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0182
+  Cover locale consigliata: assets/covers/full/VIN-0182.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0183 | Il Rock | 23 - Gene Vincent / Eddie Cochran | 1989 | Best Of | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0183
+  Cover locale consigliata: assets/covers/full/VIN-0183.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0184 | Il Rock | 28 - Little Richard / Chubby Checker | 1989 | Best Of | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0184
+  Cover locale consigliata: assets/covers/full/VIN-0184.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0185 | Il Rock | 33 - John Mayall / Eric Burdon | 1989 | Best Of | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0185
+  Cover locale consigliata: assets/covers/full/VIN-0185.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0186 | Il Rock | 35 - Free | 1989 | Best Of | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0186
+  Cover locale consigliata: assets/covers/full/VIN-0186.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0187 | Il Rock | 36 - Johnny Winter | 1989 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0187
+  Cover locale consigliata: assets/covers/full/VIN-0187.webp
+  Note: The First Album
+  Colori speciali (testo CSV): -
+VIN-0188 | Il Rock | 37 - Mike Bloomfield | 1989 | Best Of | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0188
+  Cover locale consigliata: assets/covers/full/VIN-0188.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0189 | Il Rock | 42 - The Temptations | 1989 | Best Of | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0189
+  Cover locale consigliata: assets/covers/full/VIN-0189.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0190 | Il Rock | 48 - Stax Story | 1989 | Best Of | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0190
+  Cover locale consigliata: assets/covers/full/VIN-0190.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0191 | Il Rock | 61 - Genesis | 1989 | Best Of | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0191
+  Cover locale consigliata: assets/covers/full/VIN-0191.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0192 | Il Rock | 62 - Peter Hammill | 1989 | Best Of | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0192
+  Cover locale consigliata: assets/covers/full/VIN-0192.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0193 | Il Rock | 64 - Barclay James Harvest | 1989 | Best Of | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0193
+  Cover locale consigliata: assets/covers/full/VIN-0193.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0194 | Il Rock | 47 - Bob Marley | 1990 | Best Of | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0194
+  Cover locale consigliata: assets/covers/full/VIN-0194.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0195 | Il Rock | 74 - Billy Joel | 1990 | Best Of | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0195
+  Cover locale consigliata: assets/covers/full/VIN-0195.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0196 | Il Rock | 77 - Huey Lewis / Hall & Oates | 1990 | Best Of | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0196
+  Cover locale consigliata: assets/covers/full/VIN-0196.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0197 | Il Rock | 80 - John Martin / Bruce Cockburn / Nick Drake | 1990 | Best Of | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0197
+  Cover locale consigliata: assets/covers/full/VIN-0197.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0198 | Il Rock | 85 - Tubes / Peter Frampton | 1990 | Best Of | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0198
+  Cover locale consigliata: assets/covers/full/VIN-0198.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0199 | Il Rock | 88 - Journey / Boston / Cheap Trick | 1990 | Best Of | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0199
+  Cover locale consigliata: assets/covers/full/VIN-0199.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0200 | Il Rock | 97 - Joan Armatrading | 1990 | Best Of | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0200
+  Cover locale consigliata: assets/covers/full/VIN-0200.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0201 | Il Rock | 99 - Man At Work | 1990 | Best Of | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0201
+  Cover locale consigliata: assets/covers/full/VIN-0201.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0202 | INXS | Live Baby Live | 1991 | Live | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0202
+  Cover locale consigliata: assets/covers/full/VIN-0202.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0203 | James Taylor | The Best Of James Taylor | 1991 | Best Of | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0203
+  Cover locale consigliata: assets/covers/full/VIN-0203.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0204 | Jamiroquai | Traveling Without Moving | 2021 | LP | 2 disco/i
+  Scheda: dischi.html#disco=VIN-0204
+  Cover locale consigliata: assets/covers/full/VIN-0204.webp
+  Note: 25th Anniversary
+  Colori speciali (testo CSV): Yellow
+VIN-0205 | Jeff Buckley | Grace | 1994 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0205
+  Cover locale consigliata: assets/covers/full/VIN-0205.webp
+  Note: Remastered 2015
+  Colori speciali (testo CSV): -
+VIN-0206 | Jellybean | Jingo | 1987 | Maxi Single | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0206
+  Cover locale consigliata: assets/covers/full/VIN-0206.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0207 | Jerry Lee Lewis | 20 Greatest Hits Vol.1 | 1984 | Best Of | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0207
+  Cover locale consigliata: assets/covers/full/VIN-0207.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0208 | Jethro Tull | Repeat / The Best Of Jethro Tull Vol.2 | 1977 | Best Of | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0208
+  Cover locale consigliata: assets/covers/full/VIN-0208.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0209 | Jimi Hendrix & Curtis Knight | Get That Feeling | 1968 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0209
+  Cover locale consigliata: assets/covers/full/VIN-0209.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0210 | Joan Armatrading | Back To The Night | 1984 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0210
+  Cover locale consigliata: assets/covers/full/VIN-0210.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0211 | Joan Jett & The Blackhearts | I Love Rock & Roll | 1981 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0211
+  Cover locale consigliata: assets/covers/full/VIN-0211.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0212 | Kate Bush | Lion Heart | 1978 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0212
+  Cover locale consigliata: assets/covers/full/VIN-0212.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0213 | Kate Bush | The Kick Inside | 1978 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0213
+  Cover locale consigliata: assets/covers/full/VIN-0213.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0214 | KC & The Sunshine Band | Space Cadet Solo Flight | 1981 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0214
+  Cover locale consigliata: assets/covers/full/VIN-0214.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0215 | Kid Creole & The Coconuts | Doppelganger | 1983 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0215
+  Cover locale consigliata: assets/covers/full/VIN-0215.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0216 | Kim & The Cadillacs | Rock n Roll | 1978 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0216
+  Cover locale consigliata: assets/covers/full/VIN-0216.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0217 | Kim Carnes | Mistaken Identity | 1981 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0217
+  Cover locale consigliata: assets/covers/full/VIN-0217.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0218 | Kim Carnes | Cafè Racer | 1983 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0218
+  Cover locale consigliata: assets/covers/full/VIN-0218.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0219 | Kim Wilde | Close | 1988 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0219
+  Cover locale consigliata: assets/covers/full/VIN-0219.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0220 | Kool & The Gang | Phenomenal | 2019 | Best Of | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0220
+  Cover locale consigliata: assets/covers/full/VIN-0220.webp
+  Note: Limited Edition
+  Colori speciali (testo CSV): Neon Pink
+VIN-0221 | Laufey | Bewitched | 2024 | LP | 2 disco/i
+  Scheda: dischi.html#disco=VIN-0221
+  Cover locale consigliata: assets/covers/full/VIN-0221.webp
+  Note: Goddess Edition (4 Bonus Tracks + Board Game)
+  Colori speciali (testo CSV): Blue
+VIN-0223 | Laufey | A Matter Of Time | 2025 | LP | 2 disco/i
+  Scheda: dischi.html#disco=VIN-0223
+  Cover locale consigliata: assets/covers/full/VIN-0223.webp
+  Note: 3AM edition (7" bonus tracks record)
+  Colori speciali (testo CSV): Baby Blue
+VIN-0222 | Laufey | A Matter Of Time: The Final Hour | 2026 | LP | 2 disco/i
+  Scheda: dischi.html#disco=VIN-0222
+  Cover locale consigliata: assets/covers/full/VIN-0222.webp
+  Note: Laufey Store Exclusive
+  Colori speciali (testo CSV): Green Multicolor Marbled
+VIN-0224 | Led Zeppelin | IV | 1971 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0224
+  Cover locale consigliata: assets/covers/full/VIN-0224.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0225 | Level 42 | World Machine | 1985 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0225
+  Cover locale consigliata: assets/covers/full/VIN-0225.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0226 | Level 42 | Running In The Family | 1987 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0226
+  Cover locale consigliata: assets/covers/full/VIN-0226.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0227 | Level 42 | Staring At The Sun | 1988 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0227
+  Cover locale consigliata: assets/covers/full/VIN-0227.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0228 | Level 42 | Guaranteed | 1991 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0228
+  Cover locale consigliata: assets/covers/full/VIN-0228.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0229 | Linkin Park | Meteora | 2003 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0229
+  Cover locale consigliata: assets/covers/full/VIN-0229.webp
+  Note: Remastered 2024
+  Colori speciali (testo CSV): Gold & Red Splatter Translucent
+VIN-0230 | Linkin Park | From Zero | 2024 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0230
+  Cover locale consigliata: assets/covers/full/VIN-0230.webp
+  Note: -
+  Colori speciali (testo CSV): Petrol Translucent
+VIN-0231 | Little Richard | Original Hits | 1972 | Best Of | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0231
+  Cover locale consigliata: assets/covers/full/VIN-0231.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0232 | Living In A Box | Gatecrashing | 1989 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0232
+  Cover locale consigliata: assets/covers/full/VIN-0232.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0233 | Lizzy McAlpine | Give Me A Minute | 2020 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0233
+  Cover locale consigliata: assets/covers/full/VIN-0233.webp
+  Note: 5th Anniversary Edition
+  Colori speciali (testo CSV): Pink
+VIN-0234 | Lou Reed | Mistral | 1986 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0234
+  Cover locale consigliata: assets/covers/full/VIN-0234.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0235 | Luca Carboni | Luca Carboni | 1987 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0235
+  Cover locale consigliata: assets/covers/full/VIN-0235.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0236 | Lucio Battisti | Una Donna Per Amico | 1978 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0236
+  Cover locale consigliata: assets/covers/full/VIN-0236.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0237 | Lucio Dalla | Banana Republic con Francesco Guccini | 1979 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0237
+  Cover locale consigliata: assets/covers/full/VIN-0237.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0238 | Lucio Dalla | Cambio | 1990 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0238
+  Cover locale consigliata: assets/covers/full/VIN-0238.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0239 | Madonna | Causing A Commotion (Silver Screen Mix) | 1987 | Maxi Single | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0239
+  Cover locale consigliata: assets/covers/full/VIN-0239.webp
+  Note: Limited Edition
+  Colori speciali (testo CSV): Picture Disc
+VIN-0240 | Madonna | Cherish Supernatural | 1989 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0240
+  Cover locale consigliata: assets/covers/full/VIN-0240.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0241 | Madonna | Like A Prayer | 1989 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0241
+  Cover locale consigliata: assets/covers/full/VIN-0241.webp
+  Note: -
+  Colori speciali (testo CSV): Copy 1
+VIN-0242 | Madonna | Like A Prayer | 1989 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0242
+  Cover locale consigliata: assets/covers/full/VIN-0242.webp
+  Note: -
+  Colori speciali (testo CSV): Copy 2
+VIN-0243 | Madonna | Like A Prayer | 1989 | Maxi Single | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0243
+  Cover locale consigliata: assets/covers/full/VIN-0243.webp
+  Note: -
+  Colori speciali (testo CSV): Picture Disc
+VIN-0244 | Madonna | I'm Breathless | 1990 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0244
+  Cover locale consigliata: assets/covers/full/VIN-0244.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0245 | Madonna | The Immaculate Collection | 1990 | LP | 2 disco/i
+  Scheda: dischi.html#disco=VIN-0245
+  Cover locale consigliata: assets/covers/full/VIN-0245.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0246 | Madonna | Live In Tokyo | 1991 | Live | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0246
+  Cover locale consigliata: assets/covers/full/VIN-0246.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0247 | Madonna | Bye Bye Baby | 1993 | Maxi Single | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0247
+  Cover locale consigliata: assets/covers/full/VIN-0247.webp
+  Note: -
+  Colori speciali (testo CSV): Picture Disc
+VIN-0248 | Madonna | Rain | 1993 | Maxi Single | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0248
+  Cover locale consigliata: assets/covers/full/VIN-0248.webp
+  Note: -
+  Colori speciali (testo CSV): Picture Disc
+VIN-0249 | Madonna | Interview | anno non indicato | Interview | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0249
+  Cover locale consigliata: assets/covers/full/VIN-0249.webp
+  Note: Limited Edition
+  Colori speciali (testo CSV): Picture Disc
+VIN-0250 | Mama's & Papa's | Il Meglio Dei Mama's & Papa's | 1975 | Best Of | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0250
+  Cover locale consigliata: assets/covers/full/VIN-0250.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0251 | Man At Work | The Return | 1990 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0251
+  Cover locale consigliata: assets/covers/full/VIN-0251.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0252 | Manattan Transfer | Extensions | 1979 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0252
+  Cover locale consigliata: assets/covers/full/VIN-0252.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0253 | Matt Bianco | Matt Bianco | 1986 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0253
+  Cover locale consigliata: assets/covers/full/VIN-0253.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0254 | Michael Caddidy | Nature's Secret | 1977 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0254
+  Cover locale consigliata: assets/covers/full/VIN-0254.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0255 | Michael Jackson | Off The Wall | 1979 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0255
+  Cover locale consigliata: assets/covers/full/VIN-0255.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0256 | Michael Jackson | Thriller | 1982 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0256
+  Cover locale consigliata: assets/covers/full/VIN-0256.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0257 | Michael Jackson | Thriller | 1982 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0257
+  Cover locale consigliata: assets/covers/full/VIN-0257.webp
+  Note: Remastered 2015
+  Colori speciali (testo CSV): -
+VIN-0258 | Michael Jackson | Bad | 1987 | Maxi Single | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0258
+  Cover locale consigliata: assets/covers/full/VIN-0258.webp
+  Note: Picture Disc
+  Colori speciali (testo CSV): -
+VIN-0259 | Michal Basar | Moonshaft | 2020 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0259
+  Cover locale consigliata: assets/covers/full/VIN-0259.webp
+  Note: -
+  Colori speciali (testo CSV): Pink Marbled
+VIN-0260 | Mike Oldfield | Tubular Bells | 1973 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0260
+  Cover locale consigliata: assets/covers/full/VIN-0260.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0261 | Mike Oldfield | Discovery | 1984 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0261
+  Cover locale consigliata: assets/covers/full/VIN-0261.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0262 | Modern Romance | Trick Of The Light | 1983 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0262
+  Cover locale consigliata: assets/covers/full/VIN-0262.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0263 | Modern Talking | Ready For Romance | 1986 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0263
+  Cover locale consigliata: assets/covers/full/VIN-0263.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0264 | Mozart | Requiem | 1972 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0264
+  Cover locale consigliata: assets/covers/full/VIN-0264.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0265 | Nat King Cole | 20 Golden Greats | 1978 | Best Of | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0265
+  Cover locale consigliata: assets/covers/full/VIN-0265.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0266 | Nat King Cole | 3 Records Set | 1980 | Best Of | 3 disco/i
+  Scheda: dischi.html#disco=VIN-0266
+  Cover locale consigliata: assets/covers/full/VIN-0266.webp
+  Note: Box set
+  Colori speciali (testo CSV): -
+VIN-0267 | Nayt | Doom | 2021 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0267
+  Cover locale consigliata: assets/covers/full/VIN-0267.webp
+  Note: 2024 Reissue
+  Colori speciali (testo CSV): Green Translucent
+VIN-0268 | Nayt | Mood | 2021 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0268
+  Cover locale consigliata: assets/covers/full/VIN-0268.webp
+  Note: 2024 Reissue
+  Colori speciali (testo CSV): Red Translucent
+VIN-0269 | Nayt | Io Individuo | 2026 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0269
+  Cover locale consigliata: assets/covers/full/VIN-0269.webp
+  Note: -
+  Colori speciali (testo CSV): Orange Marbled
+VIN-0270 | Nick Kershaw | The Riddle | 1984 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0270
+  Cover locale consigliata: assets/covers/full/VIN-0270.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0271 | Olivia Newton-John | Don't Stop Believing | 1976 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0271
+  Cover locale consigliata: assets/covers/full/VIN-0271.webp
+  Note: Factory Sample
+  Colori speciali (testo CSV): -
+VIN-0272 | Orietta Berti | Più Italiane Di Me | 1972 | Best Of | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0272
+  Cover locale consigliata: assets/covers/full/VIN-0272.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0275 | Original Motion Soundtrack | Easy Rider | 1969 | OST | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0275
+  Cover locale consigliata: assets/covers/full/VIN-0275.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0274 | Original Motion Soundtrack | Gli Oscar | 1969 | OST | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0274
+  Cover locale consigliata: assets/covers/full/VIN-0274.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0276 | Original Motion Soundtrack | 2001 Odissea Nello Spazio | 1973 | OST | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0276
+  Cover locale consigliata: assets/covers/full/VIN-0276.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0277 | Original Motion Soundtrack | American Graffity | 1974 | OST | 2 disco/i
+  Scheda: dischi.html#disco=VIN-0277
+  Cover locale consigliata: assets/covers/full/VIN-0277.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0278 | Original Motion Soundtrack | That's Entertainment | 1974 | OST | 2 disco/i
+  Scheda: dischi.html#disco=VIN-0278
+  Cover locale consigliata: assets/covers/full/VIN-0278.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0279 | Original Motion Soundtrack | Walt Disney | 1976 | OST | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0279
+  Cover locale consigliata: assets/covers/full/VIN-0279.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0280 | Original Motion Soundtrack | Saturday Night Fever | 1977 | OST | 2 disco/i
+  Scheda: dischi.html#disco=VIN-0280
+  Cover locale consigliata: assets/covers/full/VIN-0280.webp
+  Note: Italian Issue
+  Colori speciali (testo CSV): -
+VIN-0281 | Original Motion Soundtrack | Saturday Night Fever | 1977 | OST | 2 disco/i
+  Scheda: dischi.html#disco=VIN-0281
+  Cover locale consigliata: assets/covers/full/VIN-0281.webp
+  Note: American Issue
+  Colori speciali (testo CSV): -
+VIN-0282 | Original Motion Soundtrack | Grease | 1978 | OST | 2 disco/i
+  Scheda: dischi.html#disco=VIN-0282
+  Cover locale consigliata: assets/covers/full/VIN-0282.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0283 | Original Motion Soundtrack | The Blues Brothers | 1980 | OST | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0283
+  Cover locale consigliata: assets/covers/full/VIN-0283.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0284 | Original Motion Soundtrack | E.T. | 1982 | OST | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0284
+  Cover locale consigliata: assets/covers/full/VIN-0284.webp
+  Note: -
+  Colori speciali (testo CSV): Picture Disc
+VIN-0285 | Original Motion Soundtrack | Flashdance | 1983 | OST | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0285
+  Cover locale consigliata: assets/covers/full/VIN-0285.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0286 | Original Motion Soundtrack | Ghostbusters | 1984 | OST | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0286
+  Cover locale consigliata: assets/covers/full/VIN-0286.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0287 | Original Motion Soundtrack | Metropolis | 1984 | OST | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0287
+  Cover locale consigliata: assets/covers/full/VIN-0287.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0288 | Original Motion Soundtrack | The Woman In Red | 1984 | OST | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0288
+  Cover locale consigliata: assets/covers/full/VIN-0288.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0289 | Original Motion Soundtrack | Il Magico Mondo Di Walt Disney Vol.1 | 1986 | OST | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0289
+  Cover locale consigliata: assets/covers/full/VIN-0289.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0290 | Original Motion Soundtrack | Buster | 1988 | OST | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0290
+  Cover locale consigliata: assets/covers/full/VIN-0290.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0291 | Original Motion Soundtrack | Batman | 1989 | OST | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0291
+  Cover locale consigliata: assets/covers/full/VIN-0291.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0292 | Original Motion Soundtrack | Il Magico Mondo Di Walt Disney Vol.2 | 1989 | OST | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0292
+  Cover locale consigliata: assets/covers/full/VIN-0292.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0293 | Original Motion Soundtrack | Rain Man | 1989 | OST | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0293
+  Cover locale consigliata: assets/covers/full/VIN-0293.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0294 | Original Motion Soundtrack | Days Of Thunder | 1990 | OST | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0294
+  Cover locale consigliata: assets/covers/full/VIN-0294.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0295 | Original Motion Soundtrack | Dick Tracy | 1990 | OST | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0295
+  Cover locale consigliata: assets/covers/full/VIN-0295.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0296 | Original Motion Soundtrack | Pretty Woman | 1990 | OST | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0296
+  Cover locale consigliata: assets/covers/full/VIN-0296.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0297 | Original Motion Soundtrack | Jungle Fever | 1991 | OST | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0297
+  Cover locale consigliata: assets/covers/full/VIN-0297.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0298 | Original Motion Soundtrack | The Commitments Vol.2 | 1992 | OST | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0298
+  Cover locale consigliata: assets/covers/full/VIN-0298.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0299 | Original Motion Soundtrack | Baby Driver | 2017 | OST | 2 disco/i
+  Scheda: dischi.html#disco=VIN-0299
+  Cover locale consigliata: assets/covers/full/VIN-0299.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0301 | Original Motion Soundtrack | Cowboy Bebop | 2020 | OST | 2 disco/i
+  Scheda: dischi.html#disco=VIN-0301
+  Cover locale consigliata: assets/covers/full/VIN-0301.webp
+  Note: -
+  Colori speciali (testo CSV): Marbled Red / Violet
+VIN-0300 | Original Motion Soundtrack | Interstellar | 2020 | OST | 4 disco/i
+  Scheda: dischi.html#disco=VIN-0300
+  Cover locale consigliata: assets/covers/full/VIN-0300.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0302 | Original Motion Soundtrack | Hollow Knight | 2023 | OST | 2 disco/i
+  Scheda: dischi.html#disco=VIN-0302
+  Cover locale consigliata: assets/covers/full/VIN-0302.webp
+  Note: -
+  Colori speciali (testo CSV): Picture Disc
+VIN-0273 | Original Motion Soundtrack | Fratello Sole Sorella Luna | anno non indicato | OST | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0273
+  Cover locale consigliata: assets/covers/full/VIN-0273.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0303 | Ornella Vanoni | Questa Sera | 1973 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0303
+  Cover locale consigliata: assets/covers/full/VIN-0303.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0304 | Paolo Vallesi | La Forza Della Vita | 1992 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0304
+  Cover locale consigliata: assets/covers/full/VIN-0304.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0305 | Pat Boone | 16 Classic Tracks | 1982 | Best Of | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0305
+  Cover locale consigliata: assets/covers/full/VIN-0305.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0306 | Paul Anka | Walk A Fine Line | 1983 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0306
+  Cover locale consigliata: assets/covers/full/VIN-0306.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0307 | Paul Young | Paul Young | 1985 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0307
+  Cover locale consigliata: assets/covers/full/VIN-0307.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0308 | Peter Gabriel | Peter Gabriel | 1977 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0308
+  Cover locale consigliata: assets/covers/full/VIN-0308.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0309 | Peter Gabriel | Peter Gabriel | 1978 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0309
+  Cover locale consigliata: assets/covers/full/VIN-0309.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0310 | Peter Gabriel | Us | 1992 | LP | 2 disco/i
+  Scheda: dischi.html#disco=VIN-0310
+  Cover locale consigliata: assets/covers/full/VIN-0310.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0311 | Phil Collins | Hello, I Must Be Going! | 1982 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0311
+  Cover locale consigliata: assets/covers/full/VIN-0311.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0312 | Phil Collins | No Jacket Required | 1985 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0312
+  Cover locale consigliata: assets/covers/full/VIN-0312.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0313 | Pink Floyd | Meddle | 1971 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0313
+  Cover locale consigliata: assets/covers/full/VIN-0313.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0314 | Pink Floyd | The Dark Side Of The Moon | 1973 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0314
+  Cover locale consigliata: assets/covers/full/VIN-0314.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0315 | Pink Floyd | Whish You Where Here | 1975 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0315
+  Cover locale consigliata: assets/covers/full/VIN-0315.webp
+  Note: Japanese Issue
+  Colori speciali (testo CSV): -
+VIN-0316 | Pink Floyd | Whish You Where Here | 1975 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0316
+  Cover locale consigliata: assets/covers/full/VIN-0316.webp
+  Note: Italian Issue With Postcard
+  Colori speciali (testo CSV): -
+VIN-0317 | Pink Floyd | The Wall | 1979 | LP | 2 disco/i
+  Scheda: dischi.html#disco=VIN-0317
+  Cover locale consigliata: assets/covers/full/VIN-0317.webp
+  Note: Remastered 2016
+  Colori speciali (testo CSV): -
+VIN-0318 | Pink Floyd | The Wall | 1979 | LP | 2 disco/i
+  Scheda: dischi.html#disco=VIN-0318
+  Cover locale consigliata: assets/covers/full/VIN-0318.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0319 | Pink Floyd | A Momentary Lapse Of Reason | 1987 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0319
+  Cover locale consigliata: assets/covers/full/VIN-0319.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0320 | Pink Floyd | The Division Bell | 2014 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0320
+  Cover locale consigliata: assets/covers/full/VIN-0320.webp
+  Note: 20th Anniversary
+  Colori speciali (testo CSV): -
+VIN-0321 | Pink Floyd | The Dark Side Of The Moon Live | 2023 | Live | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0321
+  Cover locale consigliata: assets/covers/full/VIN-0321.webp
+  Note: 50th Anniversary
+  Colori speciali (testo CSV): -
+VIN-0322 | Platters | 18 Capolavori Originali | 1991 | Best Of | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0322
+  Cover locale consigliata: assets/covers/full/VIN-0322.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0323 | Poco | Rose Of Cimarron | 1976 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0323
+  Cover locale consigliata: assets/covers/full/VIN-0323.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0324 | Police | Zenyatta Mondatta | 1980 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0324
+  Cover locale consigliata: assets/covers/full/VIN-0324.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0325 | Police | Synchronicity | 1983 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0325
+  Cover locale consigliata: assets/covers/full/VIN-0325.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0326 | Police | Every Breath You Take The Singles | 1986 | Best Of | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0326
+  Cover locale consigliata: assets/covers/full/VIN-0326.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0327 | Power Station | 33 1/3 | 1985 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0327
+  Cover locale consigliata: assets/covers/full/VIN-0327.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0328 | Prefab Sprout | From Langley Park To Memphis | 1988 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0328
+  Cover locale consigliata: assets/covers/full/VIN-0328.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0329 | Public Enemy | Apocalypse 91... The Enemy Strikes Back | 1991 | LP | 2 disco/i
+  Scheda: dischi.html#disco=VIN-0329
+  Cover locale consigliata: assets/covers/full/VIN-0329.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0330 | Queen | Greatest Hits 1 | 1981 | Best Of | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0330
+  Cover locale consigliata: assets/covers/full/VIN-0330.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0331 | Queen | Greatest Hits 2 | 1991 | Best Of | 2 disco/i
+  Scheda: dischi.html#disco=VIN-0331
+  Cover locale consigliata: assets/covers/full/VIN-0331.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0332 | Queen | Queen's Gold | 1995 | Best Of | 2 disco/i
+  Scheda: dischi.html#disco=VIN-0332
+  Cover locale consigliata: assets/covers/full/VIN-0332.webp
+  Note: -
+  Colori speciali (testo CSV): Picture Disc
+VIN-0333 | R.E.M. | Green | 1988 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0333
+  Cover locale consigliata: assets/covers/full/VIN-0333.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0334 | R.E.M. | Out Of Time | 1991 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0334
+  Cover locale consigliata: assets/covers/full/VIN-0334.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0335 | Raoul Casadei Orchestra Spettacolo | Dalla Ca' Del Liscio e Dall'Arena Di Verona | 1975 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0335
+  Cover locale consigliata: assets/covers/full/VIN-0335.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0336 | Ray Charles | Focus On Ray Charles | 1975 | Best Of | 2 disco/i
+  Scheda: dischi.html#disco=VIN-0336
+  Cover locale consigliata: assets/covers/full/VIN-0336.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0337 | Riccardo Cocciante | La Grande Avventura | 1987 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0337
+  Cover locale consigliata: assets/covers/full/VIN-0337.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0338 | Rick Astley | Whenever You Need Somebody | 1987 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0338
+  Cover locale consigliata: assets/covers/full/VIN-0338.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0339 | Rick Astley | Hold Me In Your Arms | 1988 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0339
+  Cover locale consigliata: assets/covers/full/VIN-0339.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0340 | Rippingtons | Tourist In Paradise | 1989 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0340
+  Cover locale consigliata: assets/covers/full/VIN-0340.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0341 | Rippingtons | Welocme To The St.James Club | 1990 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0341
+  Cover locale consigliata: assets/covers/full/VIN-0341.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0342 | Ritchie Family | Arabian Nights | 1976 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0342
+  Cover locale consigliata: assets/covers/full/VIN-0342.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0343 | Roberto Vecchioni | Samarcanda | 1977 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0343
+  Cover locale consigliata: assets/covers/full/VIN-0343.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0344 | Rokko E I Suoi Fratelli | Avanzi con Avanzo e Carrie D. | 1991 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0344
+  Cover locale consigliata: assets/covers/full/VIN-0344.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0345 | Rokko E I Suoi Fratelli | Sopravvoliamo | 1992 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0345
+  Cover locale consigliata: assets/covers/full/VIN-0345.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0346 | Rolling Stones | Goat Head | 1973 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0346
+  Cover locale consigliata: assets/covers/full/VIN-0346.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0347 | Rolling Stones | Black And Blue | 1976 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0347
+  Cover locale consigliata: assets/covers/full/VIN-0347.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0348 | Rolling Stones | Tattoo You | 1981 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0348
+  Cover locale consigliata: assets/covers/full/VIN-0348.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0349 | Roxy Music | The Atlantic Years | 1983 | Best Of | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0349
+  Cover locale consigliata: assets/covers/full/VIN-0349.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0350 | Samuele Bersani | C'Hanno Preso Tutto | 1992 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0350
+  Cover locale consigliata: assets/covers/full/VIN-0350.webp
+  Note: Remastered 2021 Limited Edition
+  Colori speciali (testo CSV): Crystal Clear
+VIN-0351 | Samuele Bersani | Asterischi *** | 1997 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0351
+  Cover locale consigliata: assets/covers/full/VIN-0351.webp
+  Note: Remastered 2022
+  Colori speciali (testo CSV): Orange Translucent
+VIN-0352 | Sandro Giacobbe | Lenti A Contatto | 1978 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0352
+  Cover locale consigliata: assets/covers/full/VIN-0352.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0353 | Santana | MoonFlower | 1977 | LP | 2 disco/i
+  Scheda: dischi.html#disco=VIN-0353
+  Cover locale consigliata: assets/covers/full/VIN-0353.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0354 | Santana | Zebop! | 1981 | LP | 2 disco/i
+  Scheda: dischi.html#disco=VIN-0354
+  Cover locale consigliata: assets/covers/full/VIN-0354.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0355 | Shirley Bassey | Gold Collection | 1979 | Best Of | 2 disco/i
+  Scheda: dischi.html#disco=VIN-0355
+  Cover locale consigliata: assets/covers/full/VIN-0355.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0356 | Simple Minds | Celebration | 1982 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0356
+  Cover locale consigliata: assets/covers/full/VIN-0356.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0357 | Simple Minds | Life In A Day | 1984 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0357
+  Cover locale consigliata: assets/covers/full/VIN-0357.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0358 | Simple Minds | Once Upon A Time | 1985 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0358
+  Cover locale consigliata: assets/covers/full/VIN-0358.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0359 | Simple Minds | Real Life | 1991 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0359
+  Cover locale consigliata: assets/covers/full/VIN-0359.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0360 | Simply Red | Holding Back The Years | 1985 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0360
+  Cover locale consigliata: assets/covers/full/VIN-0360.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0361 | Simply Red | Man And Women | 1987 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0361
+  Cover locale consigliata: assets/covers/full/VIN-0361.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0362 | Simply Red | If You Don't Know Me By Now | 1989 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0362
+  Cover locale consigliata: assets/covers/full/VIN-0362.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0363 | Ska-P | Planeta Eskoria | 2020 | LP | 2 disco/i
+  Scheda: dischi.html#disco=VIN-0363
+  Cover locale consigliata: assets/covers/full/VIN-0363.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0364 | Spandau Ballet | True | 1983 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0364
+  Cover locale consigliata: assets/covers/full/VIN-0364.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0365 | Spandau Ballet | The Singles Collection | 1985 | Best Of | 2 disco/i
+  Scheda: dischi.html#disco=VIN-0365
+  Cover locale consigliata: assets/covers/full/VIN-0365.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0366 | Spandau Ballet | Fight For Ourselves | 1986 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0366
+  Cover locale consigliata: assets/covers/full/VIN-0366.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0367 | Spandau Ballet | Through The Barricades | 1986 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0367
+  Cover locale consigliata: assets/covers/full/VIN-0367.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0368 | Spandau Ballet | Heart Like A Sky | 1989 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0368
+  Cover locale consigliata: assets/covers/full/VIN-0368.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0369 | Special EFX | Modern Manners | 1985 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0369
+  Cover locale consigliata: assets/covers/full/VIN-0369.webp
+  Note: Digital Master
+  Colori speciali (testo CSV): -
+VIN-0370 | Special EFX | Double Feature | 1988 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0370
+  Cover locale consigliata: assets/covers/full/VIN-0370.webp
+  Note: Digital Master
+  Colori speciali (testo CSV): -
+VIN-0371 | Special EFX | Confidential | 1989 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0371
+  Cover locale consigliata: assets/covers/full/VIN-0371.webp
+  Note: Digital Master
+  Colori speciali (testo CSV): -
+VIN-0372 | Specials | More Specials | 1980 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0372
+  Cover locale consigliata: assets/covers/full/VIN-0372.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0373 | Stevie Nicks | The Other Side Of The Mirror | 1989 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0373
+  Cover locale consigliata: assets/covers/full/VIN-0373.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0374 | Stevie Wonder | In Square Circle | 1985 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0374
+  Cover locale consigliata: assets/covers/full/VIN-0374.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0375 | Sugar Cubes | Deus | 1988 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0375
+  Cover locale consigliata: assets/covers/full/VIN-0375.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0376 | Sugar Cubes | Planet | 1989 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0376
+  Cover locale consigliata: assets/covers/full/VIN-0376.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0377 | Sugar Cubes | Stick Around For Joy | 1992 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0377
+  Cover locale consigliata: assets/covers/full/VIN-0377.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0378 | Taco | Let's Face The Music | 1984 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0378
+  Cover locale consigliata: assets/covers/full/VIN-0378.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0379 | Talking Heads | True Stories | 1986 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0379
+  Cover locale consigliata: assets/covers/full/VIN-0379.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0380 | Tame Impala | Currents | 2015 | LP | 2 disco/i
+  Scheda: dischi.html#disco=VIN-0380
+  Cover locale consigliata: assets/covers/full/VIN-0380.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0381 | Tanita Tikaram | Ancient Heart | 1988 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0381
+  Cover locale consigliata: assets/covers/full/VIN-0381.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0382 | Tanita Tikaram | The Sweet Keeper | 1990 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0382
+  Cover locale consigliata: assets/covers/full/VIN-0382.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0383 | Tears For Fears | The Seeds Of Love | 1989 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0383
+  Cover locale consigliata: assets/covers/full/VIN-0383.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0384 | Terence Trent D'Arby | Introducing The Hardline According To | 1987 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0384
+  Cover locale consigliata: assets/covers/full/VIN-0384.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0385 | Tesori Della Musica Classica | Vivaldi Le Quattro Stagioni | anno non indicato | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0385
+  Cover locale consigliata: assets/covers/full/VIN-0385.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0386 | The Belle | Stars | 1983 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0386
+  Cover locale consigliata: assets/covers/full/VIN-0386.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0387 | The Human League | Don't You Want Me Maxi Single | 1981 | Maxi Single | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0387
+  Cover locale consigliata: assets/covers/full/VIN-0387.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0388 | The Jacksons | 2300 Jakson st. | 1989 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0388
+  Cover locale consigliata: assets/covers/full/VIN-0388.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0389 | The Knack | But The Little Girls Understand | 1980 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0389
+  Cover locale consigliata: assets/covers/full/VIN-0389.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0390 | The Snapps | Six-Seventy | anno non indicato | Best Of | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0390
+  Cover locale consigliata: assets/covers/full/VIN-0390.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0391 | Tina Turner | Foreign Affair | 1989 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0391
+  Cover locale consigliata: assets/covers/full/VIN-0391.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0392 | TOTO | TOTO | 1978 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0392
+  Cover locale consigliata: assets/covers/full/VIN-0392.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0393 | TOTO | Isolation | 1984 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0393
+  Cover locale consigliata: assets/covers/full/VIN-0393.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0394 | Tracy Chapman | Tracy Chapman | 1988 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0394
+  Cover locale consigliata: assets/covers/full/VIN-0394.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0395 | Tracy Chapman | Crossroads | 1989 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0395
+  Cover locale consigliata: assets/covers/full/VIN-0395.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0396 | Tracy Chapman | Matters Of The Heart | 1992 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0396
+  Cover locale consigliata: assets/covers/full/VIN-0396.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0397 | Twenty One Pilots | Vessel | 2012 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0397
+  Cover locale consigliata: assets/covers/full/VIN-0397.webp
+  Note: -
+  Colori speciali (testo CSV): Crystal Clear
+VIN-0398 | Twenty One Pilots | Blurryface | 2015 | LP | 2 disco/i
+  Scheda: dischi.html#disco=VIN-0398
+  Cover locale consigliata: assets/covers/full/VIN-0398.webp
+  Note: 25th Anniversary
+  Colori speciali (testo CSV): Silver
+VIN-0399 | Twenty One Pilots | Trench | 2018 | LP | 2 disco/i
+  Scheda: dischi.html#disco=VIN-0399
+  Cover locale consigliata: assets/covers/full/VIN-0399.webp
+  Note: -
+  Colori speciali (testo CSV): Azure
+VIN-0400 | Twenty One Pilots | Scaled And Icy | 2021 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0400
+  Cover locale consigliata: assets/covers/full/VIN-0400.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0401 | Twenty One Pilots | Clancy | 2023 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0401
+  Cover locale consigliata: assets/covers/full/VIN-0401.webp
+  Note: -
+  Colori speciali (testo CSV): Red Black Splatter Translucent
+VIN-0402 | Twenty One Pilots | MTV Unplugged | 2023 | Live | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0402
+  Cover locale consigliata: assets/covers/full/VIN-0402.webp
+  Note: -
+  Colori speciali (testo CSV): Blue Transparent
+VIN-0403 | Twenty One Pilots | Breach | 2025 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0403
+  Cover locale consigliata: assets/covers/full/VIN-0403.webp
+  Note: -
+  Colori speciali (testo CSV): Red Black Yellow Splatter
+VIN-0404 | Twenty One Pilots | Breach | 2025 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0404
+  Cover locale consigliata: assets/covers/full/VIN-0404.webp
+  Note: First Press Limited Edition N.3310/15440
+  Colori speciali (testo CSV): Yellow
+VIN-0405 | U2 | Rattle And Hum | 1988 | LP | 2 disco/i
+  Scheda: dischi.html#disco=VIN-0405
+  Cover locale consigliata: assets/covers/full/VIN-0405.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0406 | UB40 | Rat In The Kitchen | 1986 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0406
+  Cover locale consigliata: assets/covers/full/VIN-0406.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0408 | Various Artists | Ella & Lewis | 1956 | Best Of | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0408
+  Cover locale consigliata: assets/covers/full/VIN-0408.webp
+  Note: Remastered post 2000
+  Colori speciali (testo CSV): -
+VIN-0409 | Various Artists | 13 Perle Del Melodramma | 1966 | Best Of | 10 disco/i
+  Scheda: dischi.html#disco=VIN-0409
+  Cover locale consigliata: assets/covers/full/VIN-0409.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0410 | Various Artists | That's Soul | 1967 | Best Of | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0410
+  Cover locale consigliata: assets/covers/full/VIN-0410.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0407 | Various Artists | Art Tatum / Errol Garner | 1972 | Best Of | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0407
+  Cover locale consigliata: assets/covers/full/VIN-0407.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0411 | Various Artists | Favourite Operatic Choruses | 1976 | Best Of | 2 disco/i
+  Scheda: dischi.html#disco=VIN-0411
+  Cover locale consigliata: assets/covers/full/VIN-0411.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0412 | Various Artists | Disco Sax Vol.1 | 1977 | Best Of | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0412
+  Cover locale consigliata: assets/covers/full/VIN-0412.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0413 | Various Artists | The Famous Spiritual + Gospel | 1981 | Best Of | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0413
+  Cover locale consigliata: assets/covers/full/VIN-0413.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0414 | Various Artists | The Best 100 Oldies | 1984 | Best Of | 5 disco/i
+  Scheda: dischi.html#disco=VIN-0414
+  Cover locale consigliata: assets/covers/full/VIN-0414.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0415 | Various Artists | Mix Time 2 | 1985 | Best Of | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0415
+  Cover locale consigliata: assets/covers/full/VIN-0415.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0416 | Various Artists | Nashville Countr Sound | 1985 | Best Of | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0416
+  Cover locale consigliata: assets/covers/full/VIN-0416.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0417 | Various Artists | Action | 1986 | Best Of | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0417
+  Cover locale consigliata: assets/covers/full/VIN-0417.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0418 | Various Artists | Disco Estate '87 | 1987 | Best Of | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0418
+  Cover locale consigliata: assets/covers/full/VIN-0418.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0419 | Various Artists | Sixties Mix (60 original recordings) | 1987 | Best Of | 2 disco/i
+  Scheda: dischi.html#disco=VIN-0419
+  Cover locale consigliata: assets/covers/full/VIN-0419.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0420 | Various Artists | Soul Classics Vol.2 | 1988 | Best Of | 2 disco/i
+  Scheda: dischi.html#disco=VIN-0420
+  Cover locale consigliata: assets/covers/full/VIN-0420.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0421 | Various Artists | Soul Power 2 | 1992 | Best Of | 2 disco/i
+  Scheda: dischi.html#disco=VIN-0421
+  Cover locale consigliata: assets/covers/full/VIN-0421.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0422 | Various Artists | 20 Canti della montagna | anno non indicato | Best Of | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0422
+  Cover locale consigliata: assets/covers/full/VIN-0422.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0423 | Waterfront | Waterfront | 1989 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0423
+  Cover locale consigliata: assets/covers/full/VIN-0423.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0424 | Wet Wet Wet | Popped In Souled Out | 1987 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0424
+  Cover locale consigliata: assets/covers/full/VIN-0424.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0425 | Wham | Fantastic | 1983 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0425
+  Cover locale consigliata: assets/covers/full/VIN-0425.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0426 | Whitney Houston | Didn't We Almost Have It All | 1987 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0426
+  Cover locale consigliata: assets/covers/full/VIN-0426.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0427 | Wolmer Beltrami E La Sua Fisarmonica | Classici Con Swing | 1982 | Best Of | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0427
+  Cover locale consigliata: assets/covers/full/VIN-0427.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0428 | Yes | 90125 | 1983 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0428
+  Cover locale consigliata: assets/covers/full/VIN-0428.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0429 | Zecchino D'Oro | 16^ Edizione | anno non indicato | Best Of | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0429
+  Cover locale consigliata: assets/covers/full/VIN-0429.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0430 | Zecchino D'Oro | 21^ Edizione | anno non indicato | Best Of | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0430
+  Cover locale consigliata: assets/covers/full/VIN-0430.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0431 | Zecchino D'Oro | 22^ Edizione | anno non indicato | Best Of | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0431
+  Cover locale consigliata: assets/covers/full/VIN-0431.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0432 | Zucchero | Zucchero & The Randy Jackson Band | 1985 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0432
+  Cover locale consigliata: assets/covers/full/VIN-0432.webp
+  Note: -
+  Colori speciali (testo CSV): -
+VIN-0433 | Zucchero | Oro Incenso e Birra | 1989 | LP | 1 disco/i
+  Scheda: dischi.html#disco=VIN-0433
+  Cover locale consigliata: assets/covers/full/VIN-0433.webp
+  Note: -
+  Colori speciali (testo CSV): -

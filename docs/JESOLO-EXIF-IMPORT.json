@@ -1,0 +1,347 @@
+{
+  "source": "jesolo.zip",
+  "count": 37,
+  "fields": [
+    "camera",
+    "lens",
+    "focalLength",
+    "iso",
+    "aperture",
+    "shutter"
+  ],
+  "records": [
+    {
+      "sourceFile": "_DSF5259_wm.jpg",
+      "camera": "X-T5",
+      "lens": "XF55-200mmF3.5-4.8 R LM OIS",
+      "focalLength": "200 mm",
+      "aperture": "f/6.4",
+      "shutter": "1/2000 s",
+      "iso": "800"
+    },
+    {
+      "sourceFile": "_DSF7511_1_wm.jpg",
+      "camera": "X-T5",
+      "lens": "XF55-200mmF3.5-4.8 R LM OIS",
+      "focalLength": "200 mm",
+      "aperture": "f/4.8",
+      "shutter": "1/1000 s",
+      "iso": "400"
+    },
+    {
+      "sourceFile": "_DSF8508_wm.jpg",
+      "camera": "X-T5",
+      "lens": "XF55-200mmF3.5-4.8 R LM OIS",
+      "focalLength": "63.8 mm",
+      "aperture": "f/6.4",
+      "shutter": "1/2000 s",
+      "iso": "640"
+    },
+    {
+      "sourceFile": "_DSF8508_1_wm.jpg",
+      "camera": "X-T5",
+      "lens": "XF55-200mmF3.5-4.8 R LM OIS",
+      "focalLength": "63.8 mm",
+      "aperture": "f/6.4",
+      "shutter": "1/2000 s",
+      "iso": "640"
+    },
+    {
+      "sourceFile": "_DSF8518_wm.jpg",
+      "camera": "X-T5",
+      "lens": "XF55-200mmF3.5-4.8 R LM OIS",
+      "focalLength": "200 mm",
+      "aperture": "f/6.4",
+      "shutter": "1/2000 s",
+      "iso": "640"
+    },
+    {
+      "sourceFile": "_DSF9270_wm.jpg",
+      "camera": "X-T5",
+      "lens": "XF55-200mmF3.5-4.8 R LM OIS",
+      "focalLength": "70.5 mm",
+      "aperture": "f/5.6",
+      "shutter": "1/2000 s",
+      "iso": "640"
+    },
+    {
+      "sourceFile": "_DSF9275_wm.jpg",
+      "camera": "X-T5",
+      "lens": "XF55-200mmF3.5-4.8 R LM OIS",
+      "focalLength": "55 mm",
+      "aperture": "f/5.6",
+      "shutter": "1/2000 s",
+      "iso": "640"
+    },
+    {
+      "sourceFile": "_DSF9332_wm.jpg",
+      "camera": "X-T5",
+      "lens": "XF55-200mmF3.5-4.8 R LM OIS",
+      "focalLength": "134.5 mm",
+      "aperture": "f/5.6",
+      "shutter": "1/2000 s",
+      "iso": "640"
+    },
+    {
+      "sourceFile": "_DSF2105_wm.jpg",
+      "camera": "X-T5",
+      "lens": "XF55-200mmF3.5-4.8 R LM OIS",
+      "focalLength": "200 mm",
+      "aperture": "f/7.1",
+      "shutter": "1/1000 s",
+      "iso": "250"
+    },
+    {
+      "sourceFile": "_DSF2114_wm.jpg",
+      "camera": "X-T5",
+      "lens": "XF55-200mmF3.5-4.8 R LM OIS",
+      "focalLength": "200 mm",
+      "aperture": "f/6.4",
+      "shutter": "1/1000 s",
+      "iso": "250"
+    },
+    {
+      "sourceFile": "_DSF2121_wm.jpg",
+      "camera": "X-T5",
+      "lens": "XF55-200mmF3.5-4.8 R LM OIS",
+      "focalLength": "200 mm",
+      "aperture": "f/6.4",
+      "shutter": "1/1000 s",
+      "iso": "250"
+    },
+    {
+      "sourceFile": "_DSF2420_wm.jpg",
+      "camera": "X-T5",
+      "lens": "XF55-200mmF3.5-4.8 R LM OIS",
+      "focalLength": "200 mm",
+      "aperture": "f/16",
+      "shutter": "1/125 s",
+      "iso": "500"
+    },
+    {
+      "sourceFile": "_DSF4636_wm.jpg",
+      "camera": "X-T5",
+      "lens": "XF55-200mmF3.5-4.8 R LM OIS",
+      "focalLength": "200 mm",
+      "aperture": "f/5.6",
+      "shutter": "1/2000 s",
+      "iso": "800"
+    },
+    {
+      "sourceFile": "_DSF4718_wm.jpg",
+      "camera": "X-T5",
+      "lens": "XF55-200mmF3.5-4.8 R LM OIS",
+      "focalLength": "181.1 mm",
+      "aperture": "f/7.1",
+      "shutter": "1/2000 s",
+      "iso": "800"
+    },
+    {
+      "sourceFile": "_DSF4805_wm.jpg",
+      "camera": "X-T5",
+      "lens": "XF55-200mmF3.5-4.8 R LM OIS",
+      "focalLength": "200 mm",
+      "aperture": "f/7.1",
+      "shutter": "1/2000 s",
+      "iso": "800"
+    },
+    {
+      "sourceFile": "_DSF4819_wm.jpg",
+      "camera": "X-T5",
+      "lens": "XF55-200mmF3.5-4.8 R LM OIS",
+      "focalLength": "200 mm",
+      "aperture": "f/7.1",
+      "shutter": "1/2000 s",
+      "iso": "800"
+    },
+    {
+      "sourceFile": "_DSF5124_wm.jpg",
+      "camera": "X-T5",
+      "lens": "XF55-200mmF3.5-4.8 R LM OIS",
+      "focalLength": "200 mm",
+      "aperture": "f/6.4",
+      "shutter": "1/2000 s",
+      "iso": "800"
+    },
+    {
+      "sourceFile": "_DSF5126_wm.jpg",
+      "camera": "X-T5",
+      "lens": "XF55-200mmF3.5-4.8 R LM OIS",
+      "focalLength": "200 mm",
+      "aperture": "f/6.4",
+      "shutter": "1/2000 s",
+      "iso": "800"
+    },
+    {
+      "sourceFile": "_DSF5140_wm.jpg",
+      "camera": "X-T5",
+      "lens": "XF55-200mmF3.5-4.8 R LM OIS",
+      "focalLength": "200 mm",
+      "aperture": "f/6.4",
+      "shutter": "1/2000 s",
+      "iso": "800"
+    },
+    {
+      "sourceFile": "_DSF5163_wm.jpg",
+      "camera": "X-T5",
+      "lens": "XF55-200mmF3.5-4.8 R LM OIS",
+      "focalLength": "200 mm",
+      "aperture": "f/6.4",
+      "shutter": "1/2000 s",
+      "iso": "800"
+    },
+    {
+      "sourceFile": "_DSF5209_wm.jpg",
+      "camera": "X-T5",
+      "lens": "XF55-200mmF3.5-4.8 R LM OIS",
+      "focalLength": "200 mm",
+      "aperture": "f/6.4",
+      "shutter": "1/2000 s",
+      "iso": "800"
+    },
+    {
+      "sourceFile": "_DSF5290_wm.jpg",
+      "camera": "X-T5",
+      "lens": "XF55-200mmF3.5-4.8 R LM OIS",
+      "focalLength": "200 mm",
+      "aperture": "f/6.4",
+      "shutter": "1/2000 s",
+      "iso": "800"
+    },
+    {
+      "sourceFile": "_DSF7541_wm.jpg",
+      "camera": "X-T5",
+      "lens": "XF55-200mmF3.5-4.8 R LM OIS",
+      "focalLength": "200 mm",
+      "aperture": "f/4.8",
+      "shutter": "1/1000 s",
+      "iso": "400"
+    },
+    {
+      "sourceFile": "_DSF7743_wm.jpg",
+      "camera": "X-T5",
+      "lens": "XF55-200mmF3.5-4.8 R LM OIS",
+      "focalLength": "200 mm",
+      "aperture": "f/4.8",
+      "shutter": "1/1000 s",
+      "iso": "400"
+    },
+    {
+      "sourceFile": "_DSF7788_wm.jpg",
+      "camera": "X-T5",
+      "lens": "XF55-200mmF3.5-4.8 R LM OIS",
+      "focalLength": "200 mm",
+      "aperture": "f/6.4",
+      "shutter": "1/2000 s",
+      "iso": "800"
+    },
+    {
+      "sourceFile": "_DSF7798_wm.jpg",
+      "camera": "X-T5",
+      "lens": "XF55-200mmF3.5-4.8 R LM OIS",
+      "focalLength": "200 mm",
+      "aperture": "f/6.4",
+      "shutter": "1/2000 s",
+      "iso": "800"
+    },
+    {
+      "sourceFile": "_DSF7821_wm.jpg",
+      "camera": "X-T5",
+      "lens": "XF55-200mmF3.5-4.8 R LM OIS",
+      "focalLength": "200 mm",
+      "aperture": "f/6.4",
+      "shutter": "1/2000 s",
+      "iso": "800"
+    },
+    {
+      "sourceFile": "_DSF7943_wm.jpg",
+      "camera": "X-T5",
+      "lens": "XF55-200mmF3.5-4.8 R LM OIS",
+      "focalLength": "200 mm",
+      "aperture": "f/6.4",
+      "shutter": "1/2000 s",
+      "iso": "800"
+    },
+    {
+      "sourceFile": "_DSF8025_wm.jpg",
+      "camera": "X-T5",
+      "lens": "XF55-200mmF3.5-4.8 R LM OIS",
+      "focalLength": "200 mm",
+      "aperture": "f/6.4",
+      "shutter": "1/2000 s",
+      "iso": "800"
+    },
+    {
+      "sourceFile": "_DSF8049_wm.jpg",
+      "camera": "X-T5",
+      "lens": "XF55-200mmF3.5-4.8 R LM OIS",
+      "focalLength": "200 mm",
+      "aperture": "f/6.4",
+      "shutter": "1/2000 s",
+      "iso": "800"
+    },
+    {
+      "sourceFile": "_DSF8105_wm.jpg",
+      "camera": "X-T5",
+      "lens": "XF55-200mmF3.5-4.8 R LM OIS",
+      "focalLength": "200 mm",
+      "aperture": "f/5.6",
+      "shutter": "1/2000 s",
+      "iso": "800"
+    },
+    {
+      "sourceFile": "_DSF8117_wm.jpg",
+      "camera": "X-T5",
+      "lens": "XF55-200mmF3.5-4.8 R LM OIS",
+      "focalLength": "200 mm",
+      "aperture": "f/5.6",
+      "shutter": "1/2000 s",
+      "iso": "800"
+    },
+    {
+      "sourceFile": "_DSF8123_wm.jpg",
+      "camera": "X-T5",
+      "lens": "XF55-200mmF3.5-4.8 R LM OIS",
+      "focalLength": "134.5 mm",
+      "aperture": "f/5.6",
+      "shutter": "1/8000 s",
+      "iso": "800"
+    },
+    {
+      "sourceFile": "_DSF8549_wm.jpg",
+      "camera": "X-T5",
+      "lens": "XF55-200mmF3.5-4.8 R LM OIS",
+      "focalLength": "200 mm",
+      "aperture": "f/6.4",
+      "shutter": "1/2000 s",
+      "iso": "640"
+    },
+    {
+      "sourceFile": "_DSF8633_wm.jpg",
+      "camera": "X-T5",
+      "lens": "XF55-200mmF3.5-4.8 R LM OIS",
+      "focalLength": "115.9 mm",
+      "aperture": "f/6.4",
+      "shutter": "1/2000 s",
+      "iso": "640"
+    },
+    {
+      "sourceFile": "_DSF8646_wm.jpg",
+      "camera": "X-T5",
+      "lens": "XF55-200mmF3.5-4.8 R LM OIS",
+      "focalLength": "200 mm",
+      "aperture": "f/6.4",
+      "shutter": "1/2000 s",
+      "iso": "640"
+    },
+    {
+      "sourceFile": "_DSF8714_wm.jpg",
+      "camera": "X-T5",
+      "lens": "XF55-200mmF3.5-4.8 R LM OIS",
+      "focalLength": "200 mm",
+      "aperture": "f/6.4",
+      "shutter": "1/2000 s",
+      "iso": "640"
+    }
+  ]
+}

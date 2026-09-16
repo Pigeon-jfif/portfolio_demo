@@ -1,0 +1,67 @@
+<!doctype html>
+<!--
+  PIGEON.JFIF - HTML STATICO CON CONTENUTI GIA' PRESENTI
+  Modifica i testi in assets/data/site.js, gli scatti in photos.js,
+  le raccolte in albums.js e lo stile in assets/css.
+  Per i dischi: data/Dischi.csv e assets/data/records-config.js.
+  Struttura: assets/js/pages.js e assets/js/records-view.js.
+  node tools/build.js rigenera questa pagina; le modifiche dirette all'HTML
+  verrebbero sovrascritte. Il sito NON richiede Node per essere visitato.
+-->
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#f4f2ed">
+  <meta name="color-scheme" content="light">
+  <title>{{TITLE}}</title>
+  <meta name="description" content="{{DESCRIPTION}}">
+  <meta name="author" content="{{AUTHOR}}">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{{TITLE}}">
+  <meta property="og:description" content="{{DESCRIPTION}}">
+  <meta property="og:image" content="{{SOCIAL_IMAGE}}">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  {{SEO}}
+  <link rel="icon" type="image/svg+xml" href="{{BASE}}assets/favicon.svg">
+  <link rel="stylesheet" href="{{BASE}}assets/css/theme.css">
+  <!-- Inter libero: unico caricamento font esterno. Disattivabile in fonts.css. -->
+  <link rel="stylesheet" href="{{BASE}}assets/css/fonts.css">
+  <link rel="stylesheet" href="{{BASE}}assets/css/style.css">
+  {{RECORD_CSS}}
+  <!-- Ordine importante: prima i dati, poi funzioni, pagine e interazioni. -->
+  <script defer src="{{BASE}}assets/data/site.js"></script>
+  <script defer src="{{BASE}}assets/data/photos.js"></script>
+  <script defer src="{{BASE}}assets/data/albums.js"></script>
+  <script defer src="{{BASE}}assets/js/core.js"></script>
+  <script defer src="{{BASE}}assets/js/pages.js"></script>
+  {{RECORD_PRE}}
+  <script defer src="{{BASE}}assets/js/viewer.js"></script>
+  <script defer src="{{BASE}}assets/js/app.js"></script>
+  {{RECORD_POST}}
+</head>
+<body id="top" data-page="{{PAGE}}" data-base="{{BASE}}" data-album="{{ALBUM}}">
+  <a class="skip-link" href="#main">Vai al contenuto</a>
+  <header class="site-header" id="site-header">
+    {{HEADER}}
+  </header>
+  <main id="main" tabindex="-1">
+    {{MAIN}}
+  </main>
+  <footer class="site-footer" id="site-footer">
+    {{FOOTER}}
+  </footer>
+  <noscript>
+    <style>
+      .menu-toggle, .gallery-toolbar { display: none; }
+      .site-header { height: auto; }
+      .header-inner { min-height: 87px; flex-wrap: wrap; gap: 20px; padding-block: 20px; }
+      .primary-nav { display: flex; position: static; flex-wrap: wrap; gap: 18px; padding: 0; border: 0; background: none; box-shadow: none; }
+      .nav-link { font: 13px var(--sans); }
+    </style>
+    <p class="wrap" style="padding-block:24px;font-size:12px">JavaScript e' disattivato. Puoi leggere le pagine e aprire le immagini; filtri, ricerca e visualizzatore richiedono JavaScript.</p>
+  </noscript>
+</body>
+</html>
