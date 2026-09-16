@@ -1,0 +1,33 @@
+/* ================================================================
+   THEME.CSS - PALETTE, FONT E SPAZI PRINCIPALI
+   ================================================================
+   La palette e il serif editoriale sono quelli della versione approvata.
+   --serif      : Georgia Regular per i titoli; font-style:italic nei corsivi.
+   --brand-serif: Georgia Italic per .jfif, indipendente dagli altri titoli.
+   --sans       : Inter, libero e open source; fallback ai font del dispositivo.
+   --mono       : piccole etichette e dati tecnici.
+
+   Georgia e' richiamato dal sistema: non viene scaricato o distribuito.
+   Se manca, il browser usa i serif di fallback. Inter viene caricato dal
+   foglio opzionale fonts.css. Nessun file font e' incluso nel progetto.
+   Nomi, pesi e font della vecchia versione: docs/FONT-E-LOGO.txt.
+*/
+:root {
+  --paper: #f4f2ed;
+  --ink: #272c29;
+  --muted: #686e69;
+  --line: #d6d9d0;
+  --blue: #355e78;
+  --blue-light: #e6eaf0;
+  --serif: Georgia, "Times New Roman", serif;
+  --brand-serif: Georgia, "Times New Roman", serif;
+  --sans: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+  /* FIRMA: solo due controlli per ridimensionare/spaziare il nome in Home.
+     Il tracking positivo e le legature disattivate separano j-f-i-f.
+     Non alterano il font Georgia Italic richiesto. */
+  --home-mark-size: clamp(44px, 6.2vw, 92px);
+  --brand-tracking: .045em;
+  --mono: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+  --gutter: clamp(22px, 5.3vw, 88px);
+  --width: 1440px;
+}

@@ -1,0 +1,16 @@
+/* ================================================================
+   FONTS.CSS - INTER / CARICAMENTO ESTERNO OPZIONALE
+   ================================================================
+   Inter e' gratuito e open source (SIL Open Font License 1.1).
+   Questo foglio richiama il CSS ufficiale dell'autore; i file del font
+   non sono distribuiti nel progetto. Serve una connessione per scaricarli.
+
+   Per NON fare richieste esterne, elimina/commenta la riga @import sotto.
+   Il sito resta funzionante con Inter se installato, altrimenti system-ui.
+   Anche senza rete la galleria continua a funzionare con i font di fallback.
+   Georgia / .jfif non vengono mai richiesti a un servizio esterno.
+
+   Riferimento: https://rsms.me/inter/
+   Licenza: https://github.com/rsms/inter/blob/master/LICENSE.txt
+*/
+@import url("https://rsms.me/inter/inter.css");
