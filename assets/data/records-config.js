@@ -35,6 +35,16 @@ window.PIGEON_RECORDS_CONFIG = {
   csvFile: 'data/Dischi.csv',
   fetchCSV: true,         // HTTP: rilegge il CSV; file://: usa la snapshot inclusa.
   fetchTimeout: 6000,
+  // Le WebP locali sono raccolte in pacchetti ZIP da 50 ID.
+  // Il browser scarica solo i pacchetti necessari e li conserva in cache per la sessione.
+  // Gli ZIP sono separati tra miniature e full per non scaricare immagini grandi nella griglia.
+  coverArchives: {
+    enabled: true,
+    packSize: 50,
+    prefix: 'covers-',
+    fullDir: 'assets/covers/packs/full',
+    thumbDir: 'assets/covers/packs/thumbs'
+  },
   // false = solo cover locali. Le fonti esterne non certificano l'edizione.
   allowRemoteCovers: true,
   missingCoverLabel: 'Copertina da aggiungere',

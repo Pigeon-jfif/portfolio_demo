@@ -12,12 +12,12 @@
   if (!R) return;
   const C = R.config;
   const keyOf = R.featuredKey;
-  const sourceOf = record => R.localURL(R.coverMeta(record).thumb) || R.coverURL(record);
+  const sourceOf = record => R.coverKey(record,true);
   const numberOption = (value, fallback, min, max) => Number.isFinite(value)
     ? Math.min(max,Math.max(min,value)) : fallback;
 
-  function loadImage(source) {
-    if (!source) return Promise.resolve(false);
+  function loadImage(record) {
+    if (!sourceOf(record)) return Promise.resolve(false);
     return new Promise(resolve => {
       const image = new Image();
       let done = false;
@@ -33,8 +33,12 @@
         finish(image.naturalWidth > 0);
       };
       image.onerror = () => finish(false);
-      image.decoding = 'async'; image.referrerPolicy = 'no-referrer'; image.src = source;
-      if (image.complete) queueMicrotask(() => finish(image.naturalWidth > 0));
+      image.decoding = 'async'; image.referrerPolicy = 'no-referrer';
+      R.resolveCoverURL(record,{small:true}).then(source => {
+        if (done || !source) { finish(false); return; }
+        image.src = source;
+        if (image.complete) queueMicrotask(() => finish(image.naturalWidth > 0));
+      }).catch(() => finish(false));
     });
   }
 
@@ -65,7 +69,7 @@
       this.used.add(key); this.recent.set(key,++this.serial);
     }
     choose(excluded) {
-      const available = record => !R.failedCoverURLs.has(R.coverURL(record));
+      const available = record => !R.failedCoverURLs.has(sourceOf(record));
       for (let pass = 0; pass < 2; pass++) {
         for (let i = 0; i < this.pool.length; i++) {
           const index = (this.cursor+i) % this.pool.length, record = this.pool[index];
@@ -90,10 +94,10 @@
           const record = this.choose(excluded());
           if (!record) return null;
           const source = sourceOf(record);
-          if (this.loaded.has(source) || await loadImage(source)) {
+          if (this.loaded.has(source) || await loadImage(record)) {
             this.loaded.add(source); return record;
           }
-          R.failedCoverURLs.add(R.coverURL(record));
+          R.failedCoverURLs.add(sourceOf(record));
         }
         return null;
       };
@@ -160,9 +164,10 @@
     async function prepared(record,slot = 3) {
       const node = make(record,slot);
       const image = node.querySelector('[data-r-cover]');
-      // Anche l'elemento che entrera' in pagina e' gia' decodificato, non solo
-      // una richiesta separata nella cache. Nessuna decodifica nel cambio cover.
-      try { if (image?.decode) await image.decode(); } catch (_) { /* La risorsa e' gia' stata verificata da CoverDeck. */ }
+      // Anche l'elemento che entrera' in pagina riceve il Blob URL e viene
+      // decodificato prima di comparire; CoverDeck ha gia' verificato la risorsa.
+      if (image) await R.loadCover(image);
+      try { if (image?.decode) await image.decode(); } catch (_) { /* onload e' sufficiente */ }
       mark(node); return node;
     }
     function attach(node,index) {
@@ -287,8 +292,9 @@
         const record = recordOf(node);
         if (!record) { node.remove(); continue; }
         node.dataset.motionSource = sourceOf(record);
-        if (await loadImage(sourceOf(record))) { deck.loaded.add(sourceOf(record)); mark(node); }
-        else { R.failedCoverURLs.add(R.coverURL(record)); await repair(node); }
+        const image = node.querySelector('[data-r-cover]');
+        if (image && await R.loadCover(image)) { deck.loaded.add(sourceOf(record)); mark(node); }
+        else { R.failedCoverURLs.add(sourceOf(record)); await repair(node); }
       }
       while (nativeMotion && track.children.length < 4 && !destroyed) {
         const record = await deck.take(excluded);
@@ -311,7 +317,7 @@
       if (!ready || !event.target.matches?.('[data-r-cover]')) return;
       const node = event.target.closest('[data-r-featured-card]');
       const record = node && recordOf(node);
-      if (record) R.failedCoverURLs.add(R.coverURL(record));
+      if (record) R.failedCoverURLs.add(sourceOf(record));
       void repair(node);
     },true);
     toggle.addEventListener('click',() => { enabled = !enabled; updateButton(); wake(); });

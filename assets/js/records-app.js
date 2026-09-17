@@ -265,6 +265,7 @@
     const record = R.all.find(r=>r.id===activeId);
     if(!record) return;
     $('record-detail').innerHTML = R.detail(record);
+    markExistingCovers($('record-detail'));
     const index = dialogIds.indexOf(activeId);
     $('record-dialog-count').textContent = `${index+1} / ${dialogIds.length}`;
     dialog.querySelector('[data-r-action="previous"]').disabled=index<=0;
@@ -478,7 +479,11 @@
 
   }
   function markExistingCovers(scope=document) {
-    scope.querySelectorAll('[data-r-cover]').forEach(image=>{if(image.complete)markCover(image,image.naturalWidth>0);});
+    scope.querySelectorAll('[data-r-cover]').forEach(image=>{
+      if(image.dataset.rArchive) {
+        void R.loadCover(image).then(ok=>{if(image.isConnected)markCover(image,ok);});
+      } else if(image.complete) markCover(image,image.naturalWidth>0);
+    });
   }
   document.addEventListener('load',event=>markCover(event.target,true),true);
   document.addEventListener('error',event=>markCover(event.target,false),true);

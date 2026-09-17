@@ -24,6 +24,8 @@
   };
   R.safeURL = value => /^https:\/\//i.test(value || '') ? value : '';
   R.localURL = value => value && /^(?:assets\/covers\/)[a-zA-Z0-9_./-]+$/.test(value) && !value.split('/').includes('..') ? P.url(value) : '';
+  const archiveLoader = window.PigeonCoverArchives;
+  const coverLoads = new WeakMap();
   // Un CSV importato puo' riusare un ID con un altro contenuto.
   // In quel caso non gli assegniamo accidentalmente la copertina precedente.
   R.coverMeta = r => {
@@ -33,18 +35,75 @@
     if (cover.title && M.normalize(cover.title) !== M.normalize(r.title)) return {};
     return cover;
   };
-  R.coverURL = r => {
+  R.coverSource = (r, { small = false } = {}) => {
     const cover = R.coverMeta(r);
-    return R.localURL(cover.local) || (C.allowRemoteCovers ? R.safeURL(cover.remote) : '');
+    const candidates = small ? [cover.thumb, cover.local] : [cover.local];
+    for (const path of candidates.filter(Boolean)) {
+      const archived = archiveLoader?.sourceFor(path,C);
+      if (archived) return archived;
+      const local = R.localURL(path);
+      if (local) return {type:'url',url:local,key:local,original:path};
+    }
+    const remote = C.allowRemoteCovers ? R.safeURL(cover.remote) : '';
+    return remote ? {type:'url',url:remote,key:remote,original:remote} : null;
   };
+  // Storicamente questa funzione restituiva sempre un URL. Ora e' una chiave
+  // stabile anche per una risorsa dentro ZIP; non viene assegnata direttamente a src.
+  R.coverKey = (r, small = false) => R.coverSource(r,{small})?.key || '';
+  R.coverURL = r => R.coverKey(r,false);
+  R.resolveCoverURL = async (r, { small = false } = {}) => {
+    const source = R.coverSource(r,{small});
+    if (!source) return '';
+    if (source.type === 'url') return source.url;
+    if (source.type === 'archive' && archiveLoader) return archiveLoader.objectURL(source);
+    return '';
+  };
+  function imageReady(image) {
+    return new Promise(resolve => {
+      if (image.complete) { resolve(image.naturalWidth > 0); return; }
+      const done = ok => { image.removeEventListener('load',onLoad); image.removeEventListener('error',onError); resolve(ok); };
+      const onLoad = () => done(true), onError = () => done(false);
+      image.addEventListener('load',onLoad,{once:true}); image.addEventListener('error',onError,{once:true});
+    });
+  }
+  R.loadCover = image => {
+    if (!image?.matches?.('[data-r-cover]')) return Promise.resolve(false);
+    if (!image.dataset.rArchive) return imageReady(image);
+    if (coverLoads.has(image)) return coverLoads.get(image);
+    const source = {
+      type:'archive', archive:image.dataset.rArchive, entry:image.dataset.rEntry,
+      key:image.dataset.rCoverKey || `zip:${image.dataset.rArchive}#${image.dataset.rEntry}`,
+      mime:'image/webp'
+    };
+    const task = (async () => {
+      try {
+        image.dataset.rCoverState='loading';
+        const url = await archiveLoader.objectURL(source);
+        image.src = url;
+        const ok = await imageReady(image);
+        if (ok && image.decode) { try { await image.decode(); } catch (_) { /* onload e' sufficiente */ } }
+        image.dataset.rCoverState=ok?'loaded':'failed';
+        return ok;
+      } catch (_) {
+        image.dataset.rCoverState='failed';
+        return false;
+      }
+    })();
+    coverLoads.set(image,task);
+    return task;
+  };
+  R.loadCovers = scope => Promise.allSettled([...scope.querySelectorAll('[data-r-cover]')].map(R.loadCover));
   R.recordURL = id => P.url(C.collectionFile) + '#disco=' + encodeURIComponent(id);
   R.art = (r, { eager = false, small = false } = {}) => {
     const c = R.coverMeta(r);
-    const source = small && R.localURL(c.thumb) ? R.localURL(c.thumb) : R.coverURL(r);
+    const source = R.coverSource(r,{small});
+    const sourceAttrs = !source ? '' : source.type === 'archive'
+      ? ` data-r-archive="${e(source.archive)}" data-r-entry="${e(source.entry)}" data-r-cover-key="${e(source.key)}"`
+      : ` src="${e(source.url)}" data-r-cover-key="${e(source.key)}"`;
     // Il disegno e' SEMPRE un segnaposto dichiarato, non un artwork inventato.
     return `<span class="r-art${source ? ' r-art--source' : ''}" aria-hidden="true">
       <span class="r-placeholder"><span class="r-placeholder-code">${e(r.id)}</span><span class="r-placeholder-circle"></span><span class="r-placeholder-copy"><span>${e(r.artist)}</span><strong>${e(r.title)}</strong></span><span class="r-placeholder-label">${e(C.missingCoverLabel)}</span></span>
-      ${source ? `<img data-r-cover data-cover-id="${e(r.id)}" src="${e(source)}" alt="" width="${c.width || 500}" height="${c.height || 500}" loading="${eager ? 'eager' : 'lazy'}" decoding="async" referrerpolicy="no-referrer">` : ''}
+      ${source ? `<img data-r-cover data-cover-id="${e(r.id)}"${sourceAttrs} alt="" width="${c.width || 500}" height="${c.height || 500}" loading="${eager ? 'eager' : 'lazy'}" decoding="async" referrerpolicy="no-referrer">` : ''}
     </span>`;
   };
   R.card = (r, eager = false) => `<article class="r-record-card" data-r-item-id="${e(r.id)}">
@@ -57,9 +116,8 @@
   R.artistPanelID = artist => 'artist-panel-' + artist.records[0].id;
   R.artistToggleID = artist => 'artist-toggle-' + artist.records[0].id;
   R.artistCard = (artist, opened = false) => {
-    // Per la card artista preferiamo una cover locale: resta visibile offline.
-    const sample = artist.records.find(r => R.localURL(R.coverMeta(r).local)) ||
-      artist.records.find(r => R.coverURL(r)) || artist.records[0];
+    // Per la card artista preferiamo una cover locale/archiviata rispetto a una remota.
+    const sample = artist.records.find(r => R.coverSource(r,{small:true})) || artist.records[0];
     return `<button type="button" class="r-artist-card${opened ? ' is-open' : ''}" id="${R.artistToggleID(artist)}" data-r-artist="${e(artist.key)}" aria-expanded="${opened}" aria-controls="${R.artistPanelID(artist)}" aria-label="${opened ? 'Chiudi' : 'Apri'} i dischi di ${e(artist.name)}">
       <span class="r-artist-indicator" aria-hidden="true">${icon('plus')}</span>
       <span class="r-artist-main"><span class="r-artist-name">${e(artist.name)}</span>${R.art(sample,{small:true})}</span>
@@ -177,7 +235,7 @@
   R.featuredRecords = (count = C.featuredCount) => {
     const selected = [], seen = new Set();
     for (const r of R.all) {
-      const source = R.coverURL(r), key = R.featuredKey(r);
+      const source = R.coverKey(r,true), key = R.featuredKey(r);
       if (!source || R.failedCoverURLs.has(source) || seen.has(key)) continue;
       selected.push(r); seen.add(key);
       if (selected.length >= count) break;
@@ -202,7 +260,7 @@
       ${R.presentation()}
     </header>
     <dl class="r-metrics" id="records-metrics" aria-label="La collezione in breve">${R.metrics()}</dl>
-    <noscript><style>.r-motion-toggle{display:none}.r-featured .r-art img{opacity:1}.r-featured-card .r-placeholder{visibility:hidden}</style></noscript>
+    <noscript><style>.r-motion-toggle{display:none}</style></noscript>
   </div>`;
 
   // La collezione: filosofia accanto al titolo; statistiche alla fine.

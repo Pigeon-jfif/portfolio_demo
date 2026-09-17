@@ -1,7 +1,8 @@
 /**
  * RECORD-COVERS.JS / COPERTINE, SEPARATE DAI DATI DELLE COPIE
  * ================================================================
- * Una voce per ID. local e thumb sono percorsi dalla radice del sito.
+ * Una voce per ID. local e thumb sono percorsi logici dalla radice del sito;
+ * con coverArchives attivo vengono risolti dentro i pacchetti ZIP per blocchi VIN.
  * local ha priorita' su remote. Senza local/remote resta il segnaposto.
  * artist/title sono un controllo di abbinamento, NON correzioni al CSV.
  * match: "album" = artwork illustrativo; "copy" = foto della TUA copia.
