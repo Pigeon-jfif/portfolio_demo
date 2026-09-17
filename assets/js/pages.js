@@ -32,7 +32,7 @@
           <p class="home-greeting">${text(copy.greeting)} <em>${text(copy.greetingAccent)}</em></p>
           <p class="personal-lead">${text(copy.intro)}</p>
         </div>
-        <div class="personal-bio-copy">${copy.paragraphs.map(paragraph => `<p>${text(paragraph)}</p>`).join('')}</div>
+        <div class="personal-bio-copy">${copy.paragraphs.map(paragraph => `<p>${text(paragraph).replace('Plastic Pizzas', `<a class="inline-records-link" href="${P.url('dischi.html')}">Plastic Pizzas</a>`)}</p>`).join('')}</div>
       </section>
       <!-- HOME-03 / HOME-04 | Fotografia e audio affiancati sul desktop. -->
       <div class="personal-systems">
@@ -286,6 +286,7 @@
       <section class="section about-discipline" id="ascolto" aria-labelledby="audio-setup-title">
         <div class="section-heading"><div><p class="eyebrow">${text(copy.audioEyebrow)}</p><h2 class="section-title" id="audio-setup-title">${text(copy.audioHeading)}</h2></div><p>${text(copy.audioText)}</p></div>
         ${P.gear(P.site.audioGear, 'audio')}
+        <a class="text-link about-records-link" href="${P.url('dischi.html')}">Esplora Plastic Pizzas ${icon('right')}</a>
       </section>
       <!-- ABOUT-04 | Contatti veri: instagram/email. Nessun modulo finto. -->
       <section class="section contact-section" id="contatti" aria-label="Contatti"><p class="eyebrow">Restiamo in contatto</p>${P.contact()}</section>

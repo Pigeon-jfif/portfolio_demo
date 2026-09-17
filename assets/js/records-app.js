@@ -8,11 +8,11 @@
  */
 (() => {
   'use strict';
-  if (document.body.dataset.page !== 'records') return;
+  if (document.body.dataset.page !== 'record-collection') return;
   const P = window.Pigeon, R = P.records, M = window.PigeonRecordsModel, C = R.config;
   const $ = id => document.getElementById(id);
   const originalRows = window.PIGEON_RECORDS_DATA.rows;
-  let state, searchTimer, featuredTimer, lastRandom = '', importVersion = 0;
+  let state, searchTimer, lastRandom = '', importVersion = 0;
   let dialogReturnFocus = null;
   let httpController = null;
   let activeId = '', dialogIds = [], modalPushed = false, syncClose = false;
@@ -317,7 +317,7 @@
     const feedback=$('record-share-feedback');
     if(location.protocol==='file:') {feedback.textContent='Il link si potr\u00e0 condividere quando il sito sar\u00e0 online. Codice: '+activeId;return;}
     let url;
-    try { url = new URL(P.url('dischi.html'),location.href); url.hash='disco='+activeId; }
+    try { url = new URL(P.url(C.collectionFile),location.href); url.hash='disco='+activeId; }
     catch (_) { feedback.textContent='Codice della scheda: '+activeId; return; }
     try {
       if(!navigator.clipboard?.writeText) throw new Error('Appunti non disponibili');
@@ -345,12 +345,11 @@
     R.all=next;
     if(shouldReset) {state=R.defaults();state.artistColumns=artistColumns();}
     resolveRoute();refreshOptions();syncControls();render(false);
-    $('records-metrics').innerHTML=R.metrics();
+    if($('records-metrics'))$('records-metrics').innerHTML=R.metrics();
     if($('record-numbers-content'))$('record-numbers-content').innerHTML=R.numbers();
     if($('record-source-state'))$('record-source-state').textContent=source;
-    // Con gli stessi dati la cache mantiene le tre proposte. Un CSV diverso
-    // aggiorna il campione, escludendo ID con cover non compatibili.
-    refreshFeatured();
+    // Lo stesso CSV non rimescola il carosello; dati davvero diversi aggiornano
+    // il pool mantenendo, quando possibile, le cover gia' visibili.
     if(dialog.open) {if(next.some(r=>r.id===activeId))paintDetail();else closeRecord(false);}
     if(shouldReset){writeURL();setRecordHash('');}else fromHash();
   }
@@ -389,8 +388,7 @@
     if (link && !event.ctrlKey && !event.metaKey && !event.shiftKey && event.button===0) {
       event.preventDefault();
       const panel=link.closest('[data-r-panel]');
-      const context=panel?M.artists(filtered()).find(a=>a.key===panel.dataset.rPanel)?.records:
-        link.closest('.r-featured')?R.featuredRecords():null;
+      const context=panel?M.artists(filtered()).find(a=>a.key===panel.dataset.rPanel)?.records:null;
       openRecord(link.dataset.recordId,context?.map(r=>r.id)); return;
     }
     const artist=event.target.closest('[data-r-artist]');
@@ -472,25 +470,12 @@
     },100);
   });
 
-  // 06 / COPERTINE. Fonti locali prima delle remote. In caso di errore normale
-  // resta il segnaposto; nelle TRE PROPOSTE sostituiamo l'album non caricabile.
-  function refreshFeatured() {
-    const element=document.querySelector('.r-featured-covers');if(!element)return;
-    const codes=R.featuredRecords().map(r=>r.id).join('|');
-    const current=[...element.querySelectorAll('[data-record-id]')].map(el=>el.dataset.recordId).join('|');
-    if(current!==codes)element.innerHTML=R.featured();
-    element.closest('.r-featured').hidden=!codes;
-    markExistingCovers(element);
-  }
+  // 06 / Immagini del catalogo. La presentazione vive solo nella landing.
   function markCover(image,ok) {
     if(!image.matches?.('[data-r-cover]'))return;
     image.closest('.r-art')?.classList.toggle('r-art--loaded',ok);
     image.closest('.r-art')?.classList.toggle('r-art--failed',!ok);
-    if(!ok&&image.closest('.r-featured')) {
-      const record=R.all.find(r=>r.id===image.dataset.coverId);
-      if(record)R.failedCoverURLs.add(R.coverURL(record));
-      clearTimeout(featuredTimer);featuredTimer=setTimeout(refreshFeatured,0);
-    }
+
   }
   function markExistingCovers(scope=document) {
     scope.querySelectorAll('[data-r-cover]').forEach(image=>{if(image.complete)markCover(image,image.naturalWidth>0);});
@@ -499,7 +484,7 @@
   document.addEventListener('error',event=>markCover(event.target,false),true);
 
   // 07 / AVVIO: link diretto, dati locali, poi eventuale CSV HTTP aggiornato.
-  resolveRoute();syncControls();render(false);refreshFeatured();fromHash();loadSiteCSV();
+  resolveRoute();syncControls();render(false);fromHash();loadSiteCSV();
   markExistingCovers();
   // Un link A-Z condiviso arriva anche al primo elemento della pagina corretta.
   if(state.letter&&!location.hash)requestAnimationFrame(()=>jumpToLetter(state.letter,false));

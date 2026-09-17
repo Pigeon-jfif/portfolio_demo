@@ -133,10 +133,10 @@
   // .jfif ha una classe propria: cambiare gli altri titoli non cambia questo font.
   P.brand = () => `${P.escape(P.site.brand.name)}<span class="brand-extension">${P.escape(P.site.brand.extension)}</span>`;
   P.header = page => {
-    // HEADER-02 / Navigazione pubblica: raccolte e informazioni; Home resta il logo.
-    // Plastic Pizzas resta volutamente nascosta dalla navigazione principale.
+    // HEADER-02 / Due archivi pubblici; Home resta il logo.
     const nav = [
       ['collections', 'raccolte.html', 'Raccolte'],
+      ['records', 'dischi.html', 'Plastic Pizzas'],
       ['about', 'info.html', 'Chi sono']
     ];
     return `<div class="header-inner wrap">
@@ -145,9 +145,9 @@
         <img src="${P.asset('assets/favicon.svg')}" width="44" height="44" alt="" decoding="async">
       </a>
       <button type="button" class="menu-toggle" data-action="menu" aria-controls="primary-nav" aria-expanded="false">Menu ${P.icon('plus')}</button>
-      <!-- HEADER-02 | Raccolte e Chi sono. Plastic Pizzas resta fuori dalla navigazione principale. -->
+      <!-- HEADER-02 | Raccolte, Plastic Pizzas e Chi sono. -->
       <nav id="primary-nav" class="primary-nav" aria-label="Navigazione principale">
-        ${nav.map(([key, url, label]) => `<a class="nav-link" href="${P.url(url)}"${(key === page || (page === 'album' && key === 'collections')) ? ' aria-current="page"' : ''}>${label}</a>`).join('\n')}
+        ${nav.map(([key, url, label]) => `<a class="nav-link" href="${P.url(url)}"${key === page ? ' aria-current="page"' : ((page === 'album' && key === 'collections') || (page === 'record-collection' && key === 'records')) ? ' aria-current="location"' : ''}>${label}</a>`).join('\n')}
       </nav>
     </div>`;
   };
@@ -159,11 +159,12 @@
       <p class="footer-message">${P.escape(P.site.footer.message)}</p>
       <div class="footer-links">
         <a href="${P.url('raccolte.html')}">Le raccolte ${P.icon('right')}</a>
+        <a href="${P.url('dischi.html')}">Plastic Pizzas ${P.icon('right')}</a>
         ${P.external(P.site.instagram) ? `<a href="${P.escape(P.site.instagram)}" target="_blank" rel="noopener noreferrer">${P.escape(P.site.instagramLabel)} ${P.icon('ne')}</a>` : ''}
       </div>
     </div>` : ''}
     <div class="footer-bottom">
-      <p><a class="footer-records-secret" href="${P.url('dischi.html')}" aria-label="Plastic Pizzas"${page === 'records' ? ' aria-current="page"' : ''}>&copy;</a> ${P.site.copyrightYear} ${P.escape(P.site.brand.fullName)} &nbsp;/&nbsp; ${P.escape(P.site.footer.note)}</p>
+      <p>&copy; ${P.site.copyrightYear} ${P.escape(P.site.brand.fullName)} &nbsp;/&nbsp; ${P.escape(P.site.footer.note)}</p>
       ${page === 'home' && P.external(P.site.instagram)
         ? `<a class="footer-social" href="${P.escape(P.site.instagram)}" target="_blank" rel="noopener noreferrer">${P.escape(P.site.instagramLabel)} ${P.icon('ne')}</a>`
         : `<a class="top-button" href="#top">Torna su ${P.icon('up')}</a>`}

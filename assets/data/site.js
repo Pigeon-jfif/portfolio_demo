@@ -45,7 +45,7 @@ window.PIGEON_SITE = {
     "audioSystemLabel": "Con cosa ascolto.",
     "audioSystemNote": "Un impianto da scrivania costruito attorno ai vinili, con casse e cuffie a seconda del momento.",
     "showCollectionsLink": true,
-    "showRecordsLink": false,
+    "showRecordsLink": true,
     "recordsLabel": "Esplora i dischi",
     "collectionsLabel": "Sfoglia le raccolte"
   },

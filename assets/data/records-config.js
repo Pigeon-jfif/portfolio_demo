@@ -11,11 +11,21 @@ window.PIGEON_RECORDS_CONFIG = {
   eyebrow: 'Dischi / La collezione personale',
   intro: 'Musica da tenere tra le mani.',
   description: 'Il mio scaffale, un disco alla volta. Album, colonne sonore, raccolte e piccole scoperte: un archivio da sfogliare e, soprattutto, da ascoltare.',
-  // Nuova estrazione a ogni caricamento. Solo album con cover assegnata,
-  // senza duplicare lo stesso artista + titolo (anche se possiedi piu' copie).
-  // Filtri, pagine e apertura degli artisti NON cambiano queste proposte.
+  // Tre copertine a scaletta. Scorrimento lineare, senza soste fra gli album.
   featuredCount: 3,
   featuredLabel: 'Tre dal catalogo',
+  featuredAnimationMs: 4500, // Tempo per percorrere uno spazio: piu' alto = piu' lento.
+  featuredAutoplay: true,
+  // Avvio automatico richiesto anche quando il sistema riduce il movimento.
+  // Il pulsante Pausa resta sempre disponibile. true ripristina la preferenza OS.
+  featuredRespectReducedMotion: false,
+  featuredPauseOnHover: false,
+  featuredLoadTimeoutMs: 4500,
+  featuredCaptionBefore: 'Qualche disco di passaggio. Il resto \u00e8 nella ',
+  featuredCaptionLink: 'collezione',
+  featuredCaptionAfter: '.',
+  collectionFile: 'collezione.html',
+  // Tre immagini iniziali e una fuori campo; una sola candidata in preparazione.
   defaultView: 'artists', // artists | albums | list
   pageSize: 20,           // Valore iniziale: Artisti o titoli per pagina.
   pageSizes: [20, 40, 'all'], // Scelta rapida accanto alla paginazione.

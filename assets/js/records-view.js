@@ -37,7 +37,7 @@
     const cover = R.coverMeta(r);
     return R.localURL(cover.local) || (C.allowRemoteCovers ? R.safeURL(cover.remote) : '');
   };
-  R.recordURL = id => P.url('dischi.html') + '#disco=' + encodeURIComponent(id);
+  R.recordURL = id => P.url(C.collectionFile) + '#disco=' + encodeURIComponent(id);
   R.art = (r, { eager = false, small = false } = {}) => {
     const c = R.coverMeta(r);
     const source = small && R.localURL(c.thumb) ? R.localURL(c.thumb) : R.coverURL(r);
@@ -169,34 +169,52 @@
     </div>`;
   };
 
-  // Tre album casuali CON cover. Questa cache vive solo nella pagina corrente:
-  // non cambia durante filtri, pagine, aperture o una rilettura dello stesso CSV.
-  // Il refresh crea una nuova cache e quindi una nuova estrazione.
+  // La selezione iniziale e' stabile anche fra HTML statico e avvio JS.
+  // Si leggono i metadati solo fino alle prime cover assegnate; nessuna
+  // richiesta alle immagini del resto del catalogo per decidere l'avvio.
   R.failedCoverURLs = new Set();
-  let featuredSignature = '', featuredSelection = [];
-  R.featuredRecords = () => {
-    const candidates = R.all.filter(r => R.coverURL(r) && !R.failedCoverURLs.has(R.coverURL(r)));
-    const signature = JSON.stringify(candidates.map(r=>[r.id,r.artist,r.title,R.coverURL(r)]));
-    if (signature !== featuredSignature) {
-      featuredSignature = signature;
-      featuredSelection = M.sampleAlbums(candidates,C.featuredCount);
+  R.featuredKey = r => M.normalize(r.artist) + '\u001f' + M.normalize(r.title);
+  R.featuredRecords = (count = C.featuredCount) => {
+    const selected = [], seen = new Set();
+    for (const r of R.all) {
+      const source = R.coverURL(r), key = R.featuredKey(r);
+      if (!source || R.failedCoverURLs.has(source) || seen.has(key)) continue;
+      selected.push(r); seen.add(key);
+      if (selected.length >= count) break;
     }
-    return featuredSelection;
+    return selected;
   };
-  R.featured = () => R.featuredRecords().map((r, i) =>
-    `<a href="${R.recordURL(r.id)}" data-record-id="${e(r.id)}" aria-label="${e(r.artist+' - '+r.title)}">${R.art(r,{eager:true})}<span class="r-featured-number">${String(i+1).padStart(2,'0')}</span></a>`).join('');
+  R.featuredCard = (r, slot = 0, number = slot + 1) => {
+    const visible = slot >= 0 && slot < 3;
+    return `<a class="r-featured-card" data-r-featured-card data-slot="${slot}" href="${R.recordURL(r.id)}" data-record-id="${e(r.id)}" aria-label="${e(r.artist+' - '+r.title)}"${visible?'':' aria-hidden="true" tabindex="-1"'}>${R.art(r,{eager:true,small:true})}<span class="r-featured-number" data-r-featured-number>${visible?String(number).padStart(2,'0'):''}</span></a>`;
+  };
+  R.featured = (sequence = R.featuredRecords()) => sequence.map((r, i) => R.featuredCard(r,i,i+1)).join('');
+  R.presentation = () => `<aside class="r-featured" data-r-presentation="trio" aria-label="${e(C.featuredLabel)}">
+    <div class="r-featured-heading"><p class="eyebrow">${e(C.featuredLabel)}</p><button type="button" class="r-motion-toggle" data-r-motion-toggle aria-pressed="false" aria-label="Metti in pausa le copertine">Pausa</button></div>
+    <div class="r-featured-covers" data-r-motion-viewport><div class="r-featured-track" data-r-featured-track aria-live="off">${R.featured()}</div></div>
+    <p class="r-featured-caption">${e(C.featuredCaptionBefore)}<a class="r-collection-word" href="${P.url(C.collectionFile)}">${e(C.featuredCaptionLink)}</a>${e(C.featuredCaptionAfter)}</p>
+  </aside>`;
+  R.randomButton = () => `<button class="r-random" type="button" data-r-action="random"><span class="r-random-disc" aria-hidden="true"></span><span>Cosa ascolto?<small>Un disco tra i risultati</small></span>${icon('ne')}</button>`;
 
-  R.page = () => {
+  // Landing: nessun elenco dischi, filtri, dialog o statistiche estese.
+  R.page = () => `<div class="wrap records-page records-landing">
+    <header class="r-intro"><div class="r-intro-copy"><p class="eyebrow">${e(C.eyebrow)}</p><h1>${e(C.titleFirst)}<br><em>${e(C.titleAccent)}</em></h1><p class="r-intro-lead">${e(C.intro)}</p><p class="r-intro-text">${e(C.description)}</p></div>
+      ${R.presentation()}
+    </header>
+    <dl class="r-metrics" id="records-metrics" aria-label="La collezione in breve">${R.metrics()}</dl>
+    <noscript><style>.r-motion-toggle{display:none}.r-featured .r-art img{opacity:1}.r-featured-card .r-placeholder{visibility:hidden}</style></noscript>
+  </div>`;
+
+  // La collezione: filosofia accanto al titolo; statistiche alla fine.
+  R.collectionPage = () => {
     const state = R.defaults(), records = M.filter(R.all,state), opts = R.filterOptions();
-    return `<div class="wrap records-page">
-      <!-- DISCHI-01 / Titolo e tre album casuali con cover: records-config.js -->
-      <header class="r-intro"><div class="r-intro-copy"><p class="eyebrow">${e(C.eyebrow)}</p><h1>${e(C.titleFirst)}<br><em>${e(C.titleAccent)}</em></h1><p class="r-intro-lead">${e(C.intro)}</p><p class="r-intro-text">${e(C.description)}</p><a class="text-link" href="#catalogo">Sfoglia il catalogo ${icon('right')}</a></div>
-        <aside class="r-featured" aria-label="${e(C.featuredLabel)}"><p class="eyebrow">${e(C.featuredLabel)}</p><div class="r-featured-covers">${R.featured()}</div><p class="r-featured-caption">Tre incontri casuali. Il resto \u00e8 nello scaffale.</p></aside>
+    return `<div class="wrap records-page records-collection">
+      <header class="r-collection-intro">
+        <div class="r-collection-title"><a class="breadcrumb" href="${P.url('dischi.html')}">${icon('back')} Plastic Pizzas</a><h1 id="collection-title">La<br><em>collezione.</em></h1>${R.randomButton()}</div>
+        <aside class="r-collection-note" aria-labelledby="listening-title"><h2 id="listening-title">${e(C.closingFirst)}<br><em>${e(C.closingAccent)}</em></h2><p>${e(C.closingText)}</p><p class="r-source-note">Le copertine esterne sono riferimenti visivi dell\u2019album, non foto delle mie copie. Dove mancano, resta un segnaposto.</p></aside>
       </header>
-      <!-- DISCHI-02 / Numeri reali, sempre calcolati dalle righe importate -->
-      <dl class="r-metrics" id="records-metrics">${R.metrics()}</dl>
       <!-- DISCHI-03 / Ricerca inline, filtri espliciti, niente overlay di ricerca -->
-      <section class="r-catalog" aria-labelledby="catalog-title"><div class="r-catalog-heading" id="catalogo"><div><p class="eyebrow">Lo scaffale</p><h2 id="catalog-title">La collezione.</h2></div><button class="r-random" type="button" data-r-action="random"><span class="r-random-disc" aria-hidden="true"></span><span>Cosa ascolto?<small>Un disco tra i risultati</small></span>${icon('ne')}</button></div>
+      <section class="r-catalog" id="catalogo" aria-labelledby="collection-title">
         <div class="r-controls"><label class="r-search">${icon('search')}<span class="sr-only">Cerca nel catalogo per artista, titolo, codice o dettaglio</span><input id="record-search" type="search" placeholder="Artista, titolo o un dettaglio\u2026" autocomplete="off" aria-controls="record-results"><kbd aria-hidden="true">/</kbd></label>
           <details class="r-filter-details"><summary>Filtri ${icon('plus')}<span id="record-filter-badge"></span></summary><div class="r-filters">
             <label>Formato<select data-r-filter="format">${opts.format}</select></label><label>Decennio<select data-r-filter="decade">${opts.decade}</select></label><label>Paese<select data-r-filter="country">${opts.country}</select></label><label>Sezione<select data-r-filter="section">${opts.section}</select></label>
@@ -215,15 +233,13 @@
         <div id="record-results">${R.results(records,state)}</div>
         <div class="r-pagination-area" id="record-pagination">${R.pagination(records,state)}</div>
       </section>
-      <!-- DISCHI-06 / Chiusura editoriale: prima la filosofia, poi i numeri -->
-      <section class="r-closing"><h2>${e(C.closingFirst)}<br><em>${e(C.closingAccent)}</em></h2><div><p>${e(C.closingText)}</p><p class="r-source-note">Le copertine esterne sono riferimenti visivi dell\u2019album, non foto delle mie copie. Dove mancano, resta un segnaposto.</p></div></section>
-      <!-- DISCHI-07 / Statistiche di tutto l'archivio: nessun dato esterno -->
-      ${C.showNumbers?`<section class="r-numbers" id="numeri" aria-labelledby="records-numbers-title"><div class="section-heading"><div><p class="eyebrow">Dentro la collezione</p><h2 class="section-title" id="records-numbers-title">Qualche numero.</h2></div><p>Uno sguardo allo scaffale, non una classifica.</p></div><div id="record-numbers-content">${R.numbers()}</div></section>`:''}
       ${C.showDataTools?`<details class="r-data-tools"><summary>Dati e aggiornamento del catalogo ${icon('plus')}</summary><div><p id="record-source-state">Catalogo incluso nel sito.</p><p>Il caricamento manuale resta soltanto in questa scheda del browser: non invia file e non modifica il sito pubblicato.</p><div class="r-data-actions"><label class="r-file-label">Apri un CSV locale<input id="record-csv-input" type="file" accept=".csv,text/csv"></label><a class="text-link" href="${P.url(C.csvFile)}" download>Scarica il CSV ${icon('right')}</a><button class="text-link" type="button" data-r-action="restore">Ripristina il catalogo incluso</button></div><p id="record-import-status" role="status"></p></div></details>`:''}
       <!-- DISCHI-08 / Alternativa realmente leggibile senza JavaScript -->
-      <noscript><style>.r-catalog,.r-featured,.r-data-tools{display:none}.r-static{margin-block:40px}.r-static details{padding:16px 0;border-bottom:1px solid var(--line)}.r-static summary{cursor:pointer}.r-static dl{display:grid;grid-template-columns:1fr 1fr}</style><section class="r-static"><h2 class="section-title">Tutto il catalogo.</h2><p>JavaScript \u00e8 disattivato. Le ${R.all.length} schede restano consultabili qui; usa la ricerca del browser.</p>${M.sort(R.all).map(r=>`<details id="static-${e(r.id)}"><summary>${e(r.artist)} \u2014 ${e(r.title)} (${e(r.yearText||'anno non indicato')}) \u00b7 ${e(r.id)}</summary><dl>${M.HEADERS.map(key=>`<div><dt>${e(key)}</dt><dd>${e(r.raw[key]||C.unknownLabel)}</dd></div>`).join('')}</dl></details>`).join('')}</section></noscript>
+      <noscript><style>.r-catalog,.r-data-tools,.r-collection-title .r-random{display:none}.r-static{margin-block:40px}.r-static details{padding:16px 0;border-bottom:1px solid var(--line)}.r-static summary{cursor:pointer}.r-static dl{display:grid;grid-template-columns:1fr 1fr}</style><section class="r-static"><h2 class="section-title">Tutto il catalogo.</h2><p>JavaScript \u00e8 disattivato. Le ${R.all.length} schede restano consultabili qui; usa la ricerca del browser.</p>${M.sort(R.all).map(r=>`<details id="static-${e(r.id)}"><summary>${e(r.artist)} \u2014 ${e(r.title)} (${e(r.yearText||'anno non indicato')}) \u00b7 ${e(r.id)}</summary><dl>${M.HEADERS.map(key=>`<div><dt>${e(key)}</dt><dd>${e(r.raw[key]||C.unknownLabel)}</dd></div>`).join('')}</dl></details>`).join('')}</section></noscript>
+      <!-- DISCHI-07 / Statistiche di tutto l'archivio: nessun dato esterno -->
+      ${C.showNumbers?`<section class="r-numbers" id="numeri" aria-labelledby="records-numbers-title"><div class="section-heading"><div><p class="eyebrow">Dentro la collezione</p><h2 class="section-title" id="records-numbers-title">Qualche numero.</h2></div><p>Uno sguardo allo scaffale, non una classifica.</p></div><div id="record-numbers-content">${R.numbers()}</div></section>`:''}
     </div>`;
   };
   const originalRender = P.renderPage;
-  P.renderPage = (page,options) => page==='records'?R.page():originalRender(page,options);
+  P.renderPage = (page,options) => page==='records'?R.page():page==='record-collection'?R.collectionPage():originalRender(page,options);
 })();
