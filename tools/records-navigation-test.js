@@ -23,8 +23,11 @@ test('Ordine iniziale: scaffale in tutte le viste; filosofia prima dei numeri', 
     if (view==='artists') assert.deepEqual(M.catalogItems(all,state).map(item=>item.key),M.artists(all).map(item=>item.key));
     else assert.deepEqual(M.catalogItems(all,state).map(item=>item.id),M.sort(all,'shelf').map(item=>item.id));
   }
-  const page=R.page();
-  assert.ok(page.indexOf('class="r-closing"') < page.indexOf('class="r-numbers"'));
+  const page=R.collectionPage();
+  assert.ok(page.indexOf('class="r-collection-note"') >= 0);
+  assert.ok(page.indexOf('class="r-collection-note"') < page.indexOf('class="r-numbers"'));
+  assert.ok(!R.page().includes('id="record-results"'));
+  assert.ok(R.recordURL(all[0].id).includes('collezione.html#disco='));
 });
 test('Pagine: nessun elemento perso, ripetuto o fuori intervallo', () => {
   for (const view of ['artists','albums','list']) {

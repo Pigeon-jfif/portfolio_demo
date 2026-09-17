@@ -1,0 +1,212 @@
+{
+  "environment": "Chromium, production scripts/CSS, local Blob image fixtures; no real HTTP or file URL navigation (blocked by environment).",
+  "execution": "Checks combined from two Chromium runs with identical production CSS/JS. The single combined run exceeded the tool time budget while loading the final catalogue fixture; the catalogue checks were completed in a separate run.",
+  "checks": [
+    {
+      "test": "Autoplay starts without a click",
+      "passed": true
+    },
+    {
+      "test": "Landing has metrics, but no catalogue or dialog",
+      "passed": true
+    },
+    {
+      "test": "Startup requests only five thumbnails (3 + 1 hidden + 1 prepared)",
+      "passed": true,
+      "requested": [
+        "assets/covers/thumbs/VIN-0001.webp",
+        "assets/covers/thumbs/VIN-0002.webp",
+        "assets/covers/thumbs/VIN-0003.webp",
+        "assets/covers/thumbs/VIN-0004.webp",
+        "assets/covers/thumbs/VIN-0006.webp"
+      ]
+    },
+    {
+      "test": "One word links to La collezione",
+      "passed": true
+    },
+    {
+      "test": "Constant movement across two recycling boundaries",
+      "passed": true,
+      "cycles": 2,
+      "min_px_s": 33.48,
+      "max_px_s": 45.03,
+      "target_px_s": 43.75
+    },
+    {
+      "test": "DOM stays at four cards",
+      "passed": true
+    },
+    {
+      "test": "Pausa freezes the exact frame",
+      "passed": true
+    },
+    {
+      "test": "Riprendi resumes without resetting the sequence",
+      "passed": true
+    },
+    {
+      "test": "A stationary mouse does not stop autoplay",
+      "passed": true
+    },
+    {
+      "test": "Keyboard focus safely pauses the moving link",
+      "passed": true
+    },
+    {
+      "test": "Leaving the cover restores movement",
+      "passed": true
+    },
+    {
+      "test": "Landing responsive 320",
+      "passed": true
+    },
+    {
+      "test": "Landing responsive 390",
+      "passed": true
+    },
+    {
+      "test": "Landing responsive 768",
+      "passed": true
+    },
+    {
+      "test": "Landing responsive 1024",
+      "passed": true
+    },
+    {
+      "test": "Landing responsive 1440",
+      "passed": true
+    },
+    {
+      "test": "Landing has no JS errors",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "test": "Requested autoplay also works with OS reduced motion",
+      "passed": true
+    },
+    {
+      "test": "Reduced-motion CSS does not disable this explicit carousel setting",
+      "passed": true
+    },
+    {
+      "test": "Opt-in respect for OS preference remains available",
+      "passed": true
+    },
+    {
+      "test": "Small catalogue (1 cover): loops, no empty slots",
+      "passed": true
+    },
+    {
+      "test": "Small catalogue (1): all images decoded",
+      "passed": true
+    },
+    {
+      "test": "Small catalogue (3 cover): loops, no empty slots",
+      "passed": true
+    },
+    {
+      "test": "Small catalogue (3): all images decoded",
+      "passed": true
+    },
+    {
+      "test": "Slow next image: movement continues using decoded covers",
+      "passed": true
+    },
+    {
+      "test": "Slow next image: no blank visible images",
+      "passed": true
+    },
+    {
+      "test": "No artwork: collection link remains usable",
+      "passed": true
+    },
+    {
+      "test": "No artwork: no JS errors",
+      "passed": true
+    },
+    {
+      "test": "A failed thumbnail is replaced without a global reshuffle",
+      "passed": true
+    },
+    {
+      "test": "Failed thumbnail: no uncaught JS error",
+      "passed": true
+    },
+    {
+      "test": "Collection has no carousel and no landing metrics",
+      "passed": true
+    },
+    {
+      "test": "Title, listening note and random picker are together",
+      "passed": true
+    },
+    {
+      "test": "Statistics are the last content section",
+      "passed": true
+    },
+    {
+      "test": "20 artists on the first page",
+      "passed": true
+    },
+    {
+      "test": "Search still works on the new page",
+      "passed": true
+    },
+    {
+      "test": "Cosa ascolto opens a filtered record",
+      "passed": true
+    },
+    {
+      "test": "Record closes cleanly",
+      "passed": true
+    },
+    {
+      "test": "Album view retained",
+      "passed": true
+    },
+    {
+      "test": "Page size switch retained",
+      "passed": true
+    },
+    {
+      "test": "List view retained",
+      "passed": true
+    },
+    {
+      "test": "Artist panel still opens",
+      "passed": true
+    },
+    {
+      "test": "Artist album still opens a record",
+      "passed": true
+    },
+    {
+      "test": "Collection responsive 320",
+      "passed": true
+    },
+    {
+      "test": "Collection responsive 390",
+      "passed": true
+    },
+    {
+      "test": "Collection responsive 768",
+      "passed": true
+    },
+    {
+      "test": "Collection responsive 1024",
+      "passed": true
+    },
+    {
+      "test": "Collection responsive 1440",
+      "passed": true
+    },
+    {
+      "test": "Collection has no JS errors",
+      "passed": true,
+      "errors": []
+    }
+  ],
+  "passed": 48
+}

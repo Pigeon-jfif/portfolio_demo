@@ -1,0 +1,78 @@
+{
+  "environment": "Chromium, production scripts/CSS, local Blob image fixtures; no real HTTP or file URL navigation (blocked by environment).",
+  "checks": [
+    {
+      "test": "Collection has no carousel and no landing metrics",
+      "passed": true
+    },
+    {
+      "test": "Title, listening note and random picker are together",
+      "passed": true
+    },
+    {
+      "test": "Statistics are the last content section",
+      "passed": true
+    },
+    {
+      "test": "20 artists on the first page",
+      "passed": true
+    },
+    {
+      "test": "Search still works on the new page",
+      "passed": true
+    },
+    {
+      "test": "Cosa ascolto opens a filtered record",
+      "passed": true
+    },
+    {
+      "test": "Record closes cleanly",
+      "passed": true
+    },
+    {
+      "test": "Album view retained",
+      "passed": true
+    },
+    {
+      "test": "Page size switch retained",
+      "passed": true
+    },
+    {
+      "test": "List view retained",
+      "passed": true
+    },
+    {
+      "test": "Artist panel still opens",
+      "passed": true
+    },
+    {
+      "test": "Artist album still opens a record",
+      "passed": true
+    },
+    {
+      "test": "Collection responsive 320",
+      "passed": true
+    },
+    {
+      "test": "Collection responsive 390",
+      "passed": true
+    },
+    {
+      "test": "Collection responsive 768",
+      "passed": true
+    },
+    {
+      "test": "Collection responsive 1024",
+      "passed": true
+    },
+    {
+      "test": "Collection responsive 1440",
+      "passed": true
+    },
+    {
+      "test": "Collection has no JS errors",
+      "passed": true,
+      "errors": []
+    }
+  ]
+}

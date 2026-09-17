@@ -106,16 +106,14 @@ senza introdurre generi musicali o una classificazione nuova.
 
 ## Tre dal catalogo
 
-Nuova estrazione a ogni caricamento, solo tra album con cover abbinata valida.
-Le copie sono raggruppate per artista+titolo prima dell'estrazione: possedere
-due Breach non lo rende piu' probabile e non occupa due posti. La specifica copia
-mostrata viene scelta nel gruppo e apre la propria scheda.
-
-Il campione resta stabile durante ricerca, pagine, artisti e rilettura del medesimo
-CSV. Un catalogo diverso o una cover non caricabile aggiorna i candidati.
-Le cover fallite nel riquadro iniziale sono escluse dal campione fino al refresh.
-Zero candidati: riquadro nascosto. Uno o due candidati: solo uno o due elementi.
-Nessuno storico in localStorage, nessuna promessa di tre album mai visti.
+La landing dischi.html mostra tre cover a scaletta, con scorrimento continuo e
+bordi sfumati. Le immagini iniziali sono le prime abbinabili; il motore prepara
+solo quelle immediatamente successive. Si avvia da solo e non fa soste al cambio.
+Le copie duplicate non aumentano la frequenza dello stesso artista/titolo.
+Con poche immagini il ciclo riutilizza quelle gia' viste, senza arrestarsi.
+Le cover aprono la scheda in collezione.html, non un catalogo nella landing.
+Zero cover: resta comunque il link testuale alla collezione.
+Dettagli in PRESENTAZIONI.md.
 
 ## URL e stati
 
@@ -138,8 +136,8 @@ Il dettaglio mostra titolo, artista e tutte le colonne relative alla copia.
 Le cover hanno una provenienza SEPARATA dai dati. `match:album` non promette una
 copertina fedele alla specifica edizione; `match:copy` si usa per una tua foto.
 
-Le frecce scorrono il contesto di apertura: l'artista aperto, i tre suggerimenti
-o tutti i risultati filtrati (anche oltre la pagina).
+Le frecce scorrono l'artista aperto o tutti i risultati filtrati (anche oltre la pagina).
+I vecchi link dischi.html con hash o filtri sono reindirizzati alla collezione.
 Altri dischi dell'artista apre il pannello; se la scheda proveniva dai tre
 suggerimenti e i filtri escludono quell'artista, questo comando li azzera
 per poterlo mostrare. Un normale clic nell'indice non azzera i filtri.
@@ -147,13 +145,13 @@ per poterlo mostrare. Un normale clic nell'indice non azzera i filtri.
 Comandi: X / Escape / sfondo per chiudere; frecce sinistra-destra per scorrere.
 Il testo si puo' selezionare senza chiudere accidentalmente la scheda.
 Tab e Shift+Tab rimangono nel dialog. / porta alla ricerca quando non stai scrivendo.
-Il comando Copia link produce `dischi.html#disco=VIN-XXXX` dopo la pubblicazione;
+Il comando Copia link produce `collezione.html#disco=VIN-XXXX` dopo la pubblicazione;
 se gli appunti non sono disponibili mostra un campo da copiare.
 Da file locale segnala che il collegamento non e' condivisibile online.
 
 ## Dove cambiare l'aspetto
 
-- `records-config.js`: testi, campione casuale, elementi per pagina, durata animazione, opzioni.
+- `records-config.js`: testi, scorrimento delle cover, elementi per pagina, durata animazione, opzioni.
 - `records.css`: solo dischi; tutte le classi iniziano con r-.
 - `theme.css`: palette e famiglie condivise con il portfolio.
 - `records-view.js`: struttura delle sezioni DISCHI-01..08 e scheda.

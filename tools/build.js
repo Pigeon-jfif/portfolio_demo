@@ -12,17 +12,23 @@ const fs = require('node:fs');
 const path = require('node:path');
 const { ROOT } = require('./catalog.js');
 const { check } = require('./check.js');
+const recordPages = require('./records-pages.js');
 require('./records-sync.js')();
 const { P, errors } = check();
-if (errors.length) {
-  errors.forEach(error => console.error(error));
+// Modalita' esplicita per uno ZIP che non contiene tutte le fotografie.
+// Non elimina le raccolte, non inventa immagini e lascia i riferimenti originali.
+const missing = errors.filter(error => /file assente: assets\/photos\//.test(error));
+const blocking = process.argv.includes('--allow-missing-photos') ? errors.filter(error => !missing.includes(error)) : errors;
+if (process.argv.includes('--allow-missing-photos') && missing.length) console.warn('ATTENZIONE: '+missing.length+' file fotografici assenti dalla copia ricevuta. Riferimenti conservati.');
+if (blocking.length) {
+  blocking.forEach(error => console.error(error));
   process.exit(1); // Non sovrascrive gli HTML se il catalogo e' incoerente.
 }
 const template = fs.readFileSync(path.join(ROOT, 'templates/page.html'), 'utf8');
 const pages = [
   { file: 'index.html', page: 'home', title: 'Spazio personale' },
   { file: 'raccolte.html', page: 'collections', title: 'Raccolte' },
-  { file: 'dischi.html', page: 'records', title: 'Plastic Pizzas - Dischi', description: 'La collezione personale di dischi di Nico. Ricerca, artisti, album e dettagli delle copie, dal catalogo CSV.' },
+  ...recordPages.PAGES,
   { file: 'info.html', page: 'about', title: 'Chi sono e setup' },
   { file: 'album.html', page: 'album', title: 'Raccolta', noindex: true },
   { file: '404.html', page: 'notfound', title: 'Pagina non trovata', noindex: true },
@@ -62,9 +68,7 @@ for (const page of pages) {
     AUTHOR: P.escape(P.site.brand.fullName),
     SOCIAL_IMAGE: P.escape(P.site.siteUrl ? new URL(P.site.meta.socialImage, P.site.siteUrl).href : base + P.site.meta.socialImage),
     SEO: seo, BASE: base, PAGE: page.page, ALBUM: page.albumId || '',
-    RECORD_CSS: page.page === 'records' ? `<link rel="stylesheet" href="${base}assets/css/records.css">` : '',
-    RECORD_PRE: page.page === 'records' ? ['assets/js/records-model.js', 'assets/data/records-config.js', 'assets/data/record-covers.js', 'assets/data/records.js', 'assets/js/records-view.js'].map(file => `<script defer src="${base}${file}"></script>`).join('\n  ') : '',
-    RECORD_POST: page.page === 'records' ? `<script defer src="${base}assets/js/records-app.js"></script>` : '',
+    ...recordPages.assets(page.page,base),
 
     HEADER: P.header(page.page), MAIN: P.renderPage(page.page, { albumId: page.albumId, view: P.site.gallery.defaultView }), FOOTER: P.footer(page.page)
   };

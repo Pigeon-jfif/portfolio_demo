@@ -1,0 +1,21 @@
+{
+  "environment": "Chromium, production scripts/CSS, local Blob image fixtures; no real HTTP or file URL navigation (blocked by environment).",
+  "checks": [
+    {
+      "test": "Small catalogue (1 cover): loops, no empty slots",
+      "passed": true
+    },
+    {
+      "test": "Small catalogue (1): all images decoded",
+      "passed": true
+    },
+    {
+      "test": "Small catalogue (3 cover): loops, no empty slots",
+      "passed": true
+    },
+    {
+      "test": "Small catalogue (3): all images decoded",
+      "passed": true
+    }
+  ]
+}

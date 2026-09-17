@@ -154,11 +154,12 @@ if (conegliano) {
   assert.equal(cover.width / cover.height, 1.5);
 }
 
-// Un solo tasto Home e due voci pubbliche di menu, su tutte le pagine.
-for (const page of ['home', 'collections', 'album', 'about', 'notfound']) {
+// Un solo tasto Home e tre voci pubbliche, compresa Plastic Pizzas.
+for (const page of ['home', 'collections', 'album', 'about', 'records', 'record-collection', 'notfound']) {
   const header = P.header(page);
   assert.equal([...header.matchAll(/href="\.\/index\.html"/g)].length, 1);
-  assert.equal([...header.matchAll(/class="nav-link"/g)].length, 2);
+  assert.equal([...header.matchAll(/class="nav-link"/g)].length, 3);
+  assert.ok(header.includes('>Plastic Pizzas</a>'));
   assert.ok(!header.includes('>Dischi</a>'));
   assert.ok(!header.includes('instagram.com'));
   assert.ok(!header.includes('nav-home'));
@@ -167,9 +168,10 @@ for (const page of ['home', 'collections', 'album', 'about', 'notfound']) {
 if (P.external(P.site.instagram)) assert.ok(P.footer('home').includes(P.escape(P.site.instagram)));
 for (const page of ['home', 'collections', 'album', 'about', 'records', 'notfound']) {
   const footer = P.footer(page);
-  assert.ok(footer.includes('class="footer-records-secret"'));
-  assert.ok(footer.includes('href="./dischi.html"'));
-  assert.ok(!footer.includes('>Plastic Pizzas '));
+  assert.ok(!footer.includes('footer-records-secret'));
+  assert.ok(footer.includes('<p>&copy;'));
+  if(page !== 'home') assert.ok(footer.includes('href="./dischi.html"'));
+  if(page !== 'home')assert.ok(footer.includes('>Plastic Pizzas '));
 }
-assert.equal(P.site.home.showRecordsLink, false);
-console.log(`OK: ${patterns} sequenze H/V + ${mixedPatterns} miste H/V/P, ${P.publicAlbums().length} album reali, filtri, viste, topnav e accesso nascosto ai dischi.`);
+assert.equal(P.site.home.showRecordsLink, true);
+console.log(`OK: ${patterns} sequenze H/V + ${mixedPatterns} miste H/V/P, ${P.publicAlbums().length} album reali, filtri, viste, topnav e accesso pubblico a Plastic Pizzas.`);

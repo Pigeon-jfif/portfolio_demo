@@ -1,0 +1,348 @@
+{
+  "version": "20260917-smooth4",
+  "environment": "Chromium, production JS/CSS, local Blob images. Direct HTTP and file URL navigation is blocked in the review environment; no real hosted navigation is claimed.",
+  "browser_checks": 51,
+  "browser_passed": true,
+  "reports": {
+    "native_motion_and_layout": {
+      "environment": "Chromium; production scripts and CSS with local Blob assets, no real HTTP/file navigation. Desktop viewport sizes are CSS pixels.",
+      "checks": [
+        {
+          "test": "Autoplay starts without a click",
+          "passed": true
+        },
+        {
+          "test": "Four persistent native linear animations",
+          "passed": true,
+          "animations": [
+            {
+              "duration": 18000,
+              "easing": "linear",
+              "iterations": "Infinity",
+              "start": -9202.434000000001,
+              "state": "running"
+            },
+            {
+              "duration": 18000,
+              "easing": "linear",
+              "iterations": "Infinity",
+              "start": -4702.434,
+              "state": "running"
+            },
+            {
+              "duration": 18000,
+              "easing": "linear",
+              "iterations": "Infinity",
+              "start": -202.4340000000002,
+              "state": "running"
+            },
+            {
+              "duration": 18000,
+              "easing": "linear",
+              "iterations": "Infinity",
+              "start": 4297.566,
+              "state": "running"
+            }
+          ]
+        },
+        {
+          "test": "The four timelines stay exactly one slot apart",
+          "passed": true
+        },
+        {
+          "test": "Motion remains linear over at least two native wraps",
+          "passed": true,
+          "wraps": 2,
+          "frames": 571,
+          "target_px_s": 43.731,
+          "min_px_s": 43.723,
+          "max_px_s": 43.741
+        },
+        {
+          "test": "No per-frame inline style writes",
+          "passed": true
+        },
+        {
+          "test": "New covers replace decoded content only outside the viewport",
+          "passed": true,
+          "swaps": [
+            {
+              "id": "VIN-0006",
+              "hidden": true,
+              "decoded": true
+            },
+            {
+              "id": "VIN-0007",
+              "hidden": true,
+              "decoded": true
+            }
+          ]
+        },
+        {
+          "test": "DOM stays at four cover links",
+          "passed": true
+        },
+        {
+          "test": "Only thumbnails are preloaded, not the full catalogue",
+          "passed": true,
+          "count": 7
+        },
+        {
+          "test": "Pause preserves the exact native animation times",
+          "passed": true
+        },
+        {
+          "test": "Resume continues from the held time",
+          "passed": true
+        },
+        {
+          "test": "Hover does not pause the carousel",
+          "passed": true
+        },
+        {
+          "test": "Keyboard focus safely pauses cover links",
+          "passed": true
+        },
+        {
+          "test": "Leaving cover focus restores playback",
+          "passed": true
+        },
+        {
+          "test": "The discreet collection word still has its destination",
+          "passed": true
+        },
+        {
+          "test": "Collection word has color only, without underline: normal",
+          "passed": true,
+          "style": {
+            "line": "none",
+            "color": "rgb(53, 94, 120)",
+            "cursor": "text",
+            "outline": "none"
+          }
+        },
+        {
+          "test": "Collection word has color only, without underline: hover",
+          "passed": true,
+          "style": {
+            "line": "none",
+            "color": "rgb(53, 94, 120)",
+            "cursor": "text",
+            "outline": "none"
+          }
+        },
+        {
+          "test": "Collection word has color only, without underline: focus",
+          "passed": true,
+          "style": {
+            "line": "none",
+            "color": "rgb(53, 94, 120)",
+            "cursor": "text",
+            "outline": "solid"
+          }
+        },
+        {
+          "test": "Keyboard users retain a visible focus outline",
+          "passed": true
+        },
+        {
+          "test": "Copyright is plain text, not a link",
+          "passed": true
+        },
+        {
+          "test": "Desktop 1366x650: content and footer fit without scroll or clipping",
+          "passed": true,
+          "scroll": 650,
+          "height": 650,
+          "width": 1366,
+          "viewportWidth": 1366,
+          "gap": 0,
+          "overflow": "visible"
+        },
+        {
+          "test": "Desktop 1280x720: content and footer fit without scroll or clipping",
+          "passed": true,
+          "scroll": 720,
+          "height": 720,
+          "width": 1280,
+          "viewportWidth": 1280,
+          "gap": 0,
+          "overflow": "visible"
+        },
+        {
+          "test": "Desktop 1366x768: content and footer fit without scroll or clipping",
+          "passed": true,
+          "scroll": 768,
+          "height": 768,
+          "width": 1366,
+          "viewportWidth": 1366,
+          "gap": 0,
+          "overflow": "visible"
+        },
+        {
+          "test": "Desktop 1440x900: content and footer fit without scroll or clipping",
+          "passed": true,
+          "scroll": 900,
+          "height": 900,
+          "width": 1440,
+          "viewportWidth": 1440,
+          "gap": 0,
+          "overflow": "visible"
+        },
+        {
+          "test": "Desktop 1536x864: content and footer fit without scroll or clipping",
+          "passed": true,
+          "scroll": 864,
+          "height": 864,
+          "width": 1536,
+          "viewportWidth": 1536,
+          "gap": 0,
+          "overflow": "visible"
+        },
+        {
+          "test": "Desktop 1920x1080: content and footer fit without scroll or clipping",
+          "passed": true,
+          "scroll": 1080,
+          "height": 1080,
+          "width": 1920,
+          "viewportWidth": 1920,
+          "gap": 0,
+          "overflow": "visible"
+        },
+        {
+          "test": "Desktop 1024x768: content and footer fit without scroll or clipping",
+          "passed": true,
+          "scroll": 768,
+          "height": 768,
+          "width": 1024,
+          "viewportWidth": 1024,
+          "gap": 0,
+          "overflow": "visible"
+        },
+        {
+          "test": "Mobile 390: no horizontal overflow or forced crop",
+          "passed": true
+        },
+        {
+          "test": "Mobile 320: no horizontal overflow or forced crop",
+          "passed": true
+        },
+        {
+          "test": "No JavaScript errors",
+          "passed": true,
+          "errors": []
+        }
+      ]
+    },
+    "catalog": {
+      "environment": "Chromium, production scripts/CSS, local Blob image fixtures; no real HTTP or file URL navigation (blocked by environment).",
+      "checks": [
+        {
+          "test": "Collection has no carousel and no landing metrics",
+          "passed": true
+        },
+        {
+          "test": "Title, listening note and random picker are together",
+          "passed": true
+        },
+        {
+          "test": "Statistics are the last content section",
+          "passed": true
+        },
+        {
+          "test": "20 artists on the first page",
+          "passed": true
+        },
+        {
+          "test": "Search still works on the new page",
+          "passed": true
+        },
+        {
+          "test": "Cosa ascolto opens a filtered record",
+          "passed": true
+        },
+        {
+          "test": "Record closes cleanly",
+          "passed": true
+        },
+        {
+          "test": "Album view retained",
+          "passed": true
+        },
+        {
+          "test": "Page size switch retained",
+          "passed": true
+        },
+        {
+          "test": "List view retained",
+          "passed": true
+        },
+        {
+          "test": "Artist panel still opens",
+          "passed": true
+        },
+        {
+          "test": "Artist album still opens a record",
+          "passed": true
+        },
+        {
+          "test": "Collection responsive 320",
+          "passed": true
+        },
+        {
+          "test": "Collection responsive 390",
+          "passed": true
+        },
+        {
+          "test": "Collection responsive 768",
+          "passed": true
+        },
+        {
+          "test": "Collection responsive 1024",
+          "passed": true
+        },
+        {
+          "test": "Collection responsive 1440",
+          "passed": true
+        },
+        {
+          "test": "Collection has no JS errors",
+          "passed": true,
+          "errors": []
+        }
+      ]
+    },
+    "small_catalog": {
+      "environment": "Chromium, production scripts/CSS, local Blob image fixtures; no real HTTP or file URL navigation (blocked by environment).",
+      "checks": [
+        {
+          "test": "Small catalogue (1 cover): loops, no empty slots",
+          "passed": true
+        },
+        {
+          "test": "Small catalogue (1): all images decoded",
+          "passed": true
+        },
+        {
+          "test": "Small catalogue (3 cover): loops, no empty slots",
+          "passed": true
+        },
+        {
+          "test": "Small catalogue (3): all images decoded",
+          "passed": true
+        }
+      ]
+    }
+  },
+  "node_tests": {
+    "records-test.js": 15,
+    "records-navigation-test.js": 10,
+    "records-routes-test.js": 18
+  },
+  "build": "node tools/build.js --allow-missing-photos; 10 generated HTML files; only the 32 pre-existing absent photo assets are allowed.",
+  "limits": [
+    "Performance on the user device has not been measured.",
+    "The full legacy all-in-one motion suite was not completed within the execution limit; the current dedicated suite and the catalog/small-catalog groups completed separately.",
+    "Phone-sized pages may scroll vertically; no content or scrollbar is hidden."
+  ]
+}

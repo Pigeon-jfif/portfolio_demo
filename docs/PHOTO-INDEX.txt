@@ -11,7 +11,7 @@ JES-001 | Aria, metallo, luce
   Export di riferimento: 7096 x 3042 px
   Confronto: nessuno
   Firma: tag presente nel file fornito
-  Parametri: camera=Fujifilm X-T5
+  Parametri: camera=X-T5; lens=XF55-200mmF3.5-4.8 R LM OIS; focalLength=200 mm; aperture=f/6.4; shutter=1/2000 s; iso=800
   Posizioni:
     - ALBUM-03 / serie/jesolo.html / posizione 12 / riga 7, colonna 1 di 1
 
@@ -22,7 +22,7 @@ JES-003 | Anatomia di un passaggio
   Export di riferimento: 3976 x 2656 px
   Confronto: nessuno
   Firma: tag presente nel file fornito
-  Parametri: camera=Fujifilm X-T5
+  Parametri: camera=X-T5; lens=XF55-200mmF3.5-4.8 R LM OIS; focalLength=200 mm; aperture=f/4.8; shutter=1/1000 s; iso=400
   Posizioni:
     - ALBUM-03 / serie/jesolo.html / posizione 14 / riga 8, colonna 2 di 2
 
@@ -33,7 +33,7 @@ JES-005 | Insieme
   Export di riferimento: 7752 x 5178 px
   Confronto: JES-006
   Firma: tag presente nel file fornito
-  Parametri: camera=Fujifilm X-T5
+  Parametri: camera=X-T5; lens=XF55-200mmF3.5-4.8 R LM OIS; focalLength=63.8 mm; aperture=f/6.4; shutter=1/2000 s; iso=640
   Posizioni:
     - ALBUM-03 / serie/jesolo.html / posizione 30 / riga 17, colonna 1 di 2
 
@@ -44,7 +44,7 @@ JES-006 | Uno, tra gli altri
   Export di riferimento: 2062 x 1378 px
   Confronto: JES-005
   Firma: tag presente nel file fornito
-  Parametri: camera=Fujifilm X-T5
+  Parametri: camera=X-T5; lens=XF55-200mmF3.5-4.8 R LM OIS; focalLength=63.8 mm; aperture=f/6.4; shutter=1/2000 s; iso=640
   Posizioni:
     - ALBUM-03 / serie/jesolo.html / posizione 31 / riga 17, colonna 2 di 2
 
@@ -55,7 +55,7 @@ JES-007 | Verso l’alto
   Export di riferimento: 6904 x 4603 px
   Confronto: nessuno
   Firma: tag presente nel file fornito
-  Parametri: camera=Fujifilm X-T5
+  Parametri: camera=X-T5; lens=XF55-200mmF3.5-4.8 R LM OIS; focalLength=200 mm; aperture=f/6.4; shutter=1/2000 s; iso=640
   Posizioni:
     - ALBUM-03 / serie/jesolo.html / posizione 34 / riga 19, colonna 1 di 2
 
@@ -66,7 +66,7 @@ JES-008 | Disegnare il cielo
   Export di riferimento: 7752 x 5178 px
   Confronto: nessuno
   Firma: tag presente nel file fornito
-  Parametri: camera=Fujifilm X-T5
+  Parametri: camera=X-T5; lens=XF55-200mmF3.5-4.8 R LM OIS; focalLength=70.5 mm; aperture=f/5.6; shutter=1/2000 s; iso=640
   Posizioni:
     - ALBUM-03 / serie/jesolo.html / posizione 35 / riga 19, colonna 2 di 2
 
@@ -77,7 +77,7 @@ JES-009 | La curva
   Export di riferimento: 7752 x 5178 px
   Confronto: nessuno
   Firma: tag presente nel file fornito
-  Parametri: camera=Fujifilm X-T5
+  Parametri: camera=X-T5; lens=XF55-200mmF3.5-4.8 R LM OIS; focalLength=55 mm; aperture=f/5.6; shutter=1/2000 s; iso=640
   Posizioni:
     - COLLECTIONS-02 / raccolte.html / copertina jesolo-2026
     - ALBUM-03 / serie/jesolo.html / posizione 36 / riga 20, colonna 1 di 2
@@ -89,7 +89,7 @@ JES-011 | Passaggio II
   Export di riferimento: 7752 x 4845 px
   Confronto: nessuno
   Firma: tag presente nel file fornito
-  Parametri: camera=Fujifilm X-T5
+  Parametri: camera=X-T5; lens=XF55-200mmF3.5-4.8 R LM OIS; focalLength=134.5 mm; aperture=f/5.6; shutter=1/2000 s; iso=640
   Posizioni:
     - ALBUM-03 / serie/jesolo.html / posizione 37 / riga 20, colonna 2 di 2
 
@@ -100,7 +100,7 @@ JES-012 | Solista, di profilo
   Export di riferimento: 6497 x 4340 px
   Confronto: nessuno
   Firma: tag presente nel file fornito
-  Parametri: camera=Fujifilm X-T5
+  Parametri: camera=X-T5; lens=XF55-200mmF3.5-4.8 R LM OIS; focalLength=200 mm; aperture=f/7.1; shutter=1/1000 s; iso=250
   Posizioni:
     - ALBUM-03 / serie/jesolo.html / posizione 26 / riga 14, colonna 2 di 2
 
@@ -111,7 +111,7 @@ JES-013 | Acrobazia nel blu
   Export di riferimento: 7561 x 4253 px
   Confronto: nessuno
   Firma: tag presente nel file fornito
-  Parametri: camera=Fujifilm X-T5
+  Parametri: camera=X-T5; lens=XF55-200mmF3.5-4.8 R LM OIS; focalLength=200 mm; aperture=f/6.4; shutter=1/1000 s; iso=250
   Posizioni:
     - ALBUM-03 / serie/jesolo.html / posizione 1 / riga 1, colonna 1 di 2
 
@@ -122,7 +122,7 @@ JES-014 | Passaggio del solista
   Export di riferimento: 7752 x 3323 px
   Confronto: nessuno
   Firma: tag presente nel file fornito
-  Parametri: camera=Fujifilm X-T5
+  Parametri: camera=X-T5; lens=XF55-200mmF3.5-4.8 R LM OIS; focalLength=200 mm; aperture=f/6.4; shutter=1/1000 s; iso=250
   Posizioni:
     - ALBUM-03 / serie/jesolo.html / posizione 27 / riga 15, colonna 1 di 1
 
@@ -133,7 +133,7 @@ JES-015 | Rotore
   Export di riferimento: 6108 x 4080 px
   Confronto: nessuno
   Firma: tag presente nel file fornito
-  Parametri: camera=Fujifilm X-T5
+  Parametri: camera=X-T5; lens=XF55-200mmF3.5-4.8 R LM OIS; focalLength=200 mm; aperture=f/16; shutter=1/125 s; iso=500
   Posizioni:
     - ALBUM-03 / serie/jesolo.html / posizione 2 / riga 1, colonna 2 di 2
 
@@ -144,7 +144,7 @@ JES-016 | Spartan, da vicino
   Export di riferimento: 6647 x 4440 px
   Confronto: nessuno
   Firma: tag presente nel file fornito
-  Parametri: camera=Fujifilm X-T5
+  Parametri: camera=X-T5; lens=XF55-200mmF3.5-4.8 R LM OIS; focalLength=200 mm; aperture=f/5.6; shutter=1/2000 s; iso=800
   Posizioni:
     - ALBUM-03 / serie/jesolo.html / posizione 3 / riga 2, colonna 1 di 2
 
@@ -155,7 +155,7 @@ JES-017 | Sotto lo Spartan
   Export di riferimento: 7752 x 5178 px
   Confronto: nessuno
   Firma: tag presente nel file fornito
-  Parametri: camera=Fujifilm X-T5
+  Parametri: camera=X-T5; lens=XF55-200mmF3.5-4.8 R LM OIS; focalLength=181.1 mm; aperture=f/7.1; shutter=1/2000 s; iso=800
   Posizioni:
     - ALBUM-03 / serie/jesolo.html / posizione 4 / riga 2, colonna 2 di 2
 
@@ -166,7 +166,7 @@ JES-018 | Tra le nuvole
   Export di riferimento: 7752 x 5178 px
   Confronto: nessuno
   Firma: tag presente nel file fornito
-  Parametri: camera=Fujifilm X-T5
+  Parametri: camera=X-T5; lens=XF55-200mmF3.5-4.8 R LM OIS; focalLength=200 mm; aperture=f/7.1; shutter=1/2000 s; iso=800
   Posizioni:
     - ALBUM-03 / serie/jesolo.html / posizione 5 / riga 3, colonna 1 di 2
 
@@ -177,7 +177,7 @@ JES-019 | In virata
   Export di riferimento: 7426 x 4961 px
   Confronto: nessuno
   Firma: tag presente nel file fornito
-  Parametri: camera=Fujifilm X-T5
+  Parametri: camera=X-T5; lens=XF55-200mmF3.5-4.8 R LM OIS; focalLength=200 mm; aperture=f/7.1; shutter=1/2000 s; iso=800
   Posizioni:
     - ALBUM-03 / serie/jesolo.html / posizione 6 / riga 3, colonna 2 di 2
 
@@ -188,7 +188,7 @@ JES-020 | Bank tra le nuvole
   Export di riferimento: 7099 x 4742 px
   Confronto: nessuno
   Firma: tag presente nel file fornito
-  Parametri: camera=Fujifilm X-T5
+  Parametri: camera=X-T5; lens=XF55-200mmF3.5-4.8 R LM OIS; focalLength=200 mm; aperture=f/6.4; shutter=1/2000 s; iso=800
   Posizioni:
     - ALBUM-03 / serie/jesolo.html / posizione 7 / riga 4, colonna 1 di 2
 
@@ -199,7 +199,7 @@ JES-021 | Virata alta
   Export di riferimento: 7630 x 5097 px
   Confronto: nessuno
   Firma: tag presente nel file fornito
-  Parametri: camera=Fujifilm X-T5
+  Parametri: camera=X-T5; lens=XF55-200mmF3.5-4.8 R LM OIS; focalLength=200 mm; aperture=f/6.4; shutter=1/2000 s; iso=800
   Posizioni:
     - ALBUM-03 / serie/jesolo.html / posizione 8 / riga 4, colonna 2 di 2
 
@@ -210,7 +210,7 @@ JES-022 | Sotto
   Export di riferimento: 7191 x 4803 px
   Confronto: nessuno
   Firma: tag presente nel file fornito
-  Parametri: camera=Fujifilm X-T5
+  Parametri: camera=X-T5; lens=XF55-200mmF3.5-4.8 R LM OIS; focalLength=200 mm; aperture=f/6.4; shutter=1/2000 s; iso=800
   Posizioni:
     - ALBUM-03 / serie/jesolo.html / posizione 9 / riga 5, colonna 1 di 2
 
@@ -221,7 +221,7 @@ JES-023 | Profilo nel cielo
   Export di riferimento: 7752 x 3323 px
   Confronto: nessuno
   Firma: tag presente nel file fornito
-  Parametri: camera=Fujifilm X-T5
+  Parametri: camera=X-T5; lens=XF55-200mmF3.5-4.8 R LM OIS; focalLength=200 mm; aperture=f/6.4; shutter=1/2000 s; iso=800
   Posizioni:
     - ALBUM-03 / serie/jesolo.html / posizione 10 / riga 6, colonna 1 di 1
 
@@ -232,7 +232,7 @@ JES-024 | Motori e nuvole
   Export di riferimento: 7752 x 5178 px
   Confronto: nessuno
   Firma: tag presente nel file fornito
-  Parametri: camera=Fujifilm X-T5
+  Parametri: camera=X-T5; lens=XF55-200mmF3.5-4.8 R LM OIS; focalLength=200 mm; aperture=f/6.4; shutter=1/2000 s; iso=800
   Posizioni:
     - ALBUM-03 / serie/jesolo.html / posizione 11 / riga 5, colonna 2 di 2
 
@@ -243,7 +243,7 @@ JES-025 | Delta
   Export di riferimento: 7052 x 4711 px
   Confronto: nessuno
   Firma: tag presente nel file fornito
-  Parametri: camera=Fujifilm X-T5
+  Parametri: camera=X-T5; lens=XF55-200mmF3.5-4.8 R LM OIS; focalLength=200 mm; aperture=f/6.4; shutter=1/2000 s; iso=800
   Posizioni:
     - ALBUM-03 / serie/jesolo.html / posizione 13 / riga 8, colonna 1 di 2
 
@@ -254,7 +254,7 @@ JES-026 | Nel blu
   Export di riferimento: 7598 x 5075 px
   Confronto: nessuno
   Firma: tag presente nel file fornito
-  Parametri: camera=Fujifilm X-T5
+  Parametri: camera=X-T5; lens=XF55-200mmF3.5-4.8 R LM OIS; focalLength=200 mm; aperture=f/4.8; shutter=1/1000 s; iso=400
   Posizioni:
     - ALBUM-03 / serie/jesolo.html / posizione 15 / riga 9, colonna 1 di 2
 
@@ -265,7 +265,7 @@ JES-027 | Passaggio
   Export di riferimento: 6806 x 4547 px
   Confronto: nessuno
   Firma: tag presente nel file fornito
-  Parametri: camera=Fujifilm X-T5
+  Parametri: camera=X-T5; lens=XF55-200mmF3.5-4.8 R LM OIS; focalLength=200 mm; aperture=f/4.8; shutter=1/1000 s; iso=400
   Posizioni:
     - ALBUM-03 / serie/jesolo.html / posizione 16 / riga 9, colonna 2 di 2
 
@@ -276,7 +276,7 @@ JES-028 | Postbruciatore
   Export di riferimento: 7427 x 4961 px
   Confronto: nessuno
   Firma: tag presente nel file fornito
-  Parametri: camera=Fujifilm X-T5
+  Parametri: camera=X-T5; lens=XF55-200mmF3.5-4.8 R LM OIS; focalLength=200 mm; aperture=f/6.4; shutter=1/2000 s; iso=800
   Posizioni:
     - ALBUM-03 / serie/jesolo.html / posizione 17 / riga 10, colonna 1 di 2
 
@@ -287,7 +287,7 @@ JES-029 | Lontano
   Export di riferimento: 7618 x 5089 px
   Confronto: nessuno
   Firma: tag presente nel file fornito
-  Parametri: camera=Fujifilm X-T5
+  Parametri: camera=X-T5; lens=XF55-200mmF3.5-4.8 R LM OIS; focalLength=200 mm; aperture=f/6.4; shutter=1/2000 s; iso=800
   Posizioni:
     - ALBUM-03 / serie/jesolo.html / posizione 18 / riga 10, colonna 2 di 2
 
@@ -298,7 +298,7 @@ JES-030 | Dal basso
   Export di riferimento: 6813 x 4551 px
   Confronto: nessuno
   Firma: tag presente nel file fornito
-  Parametri: camera=Fujifilm X-T5
+  Parametri: camera=X-T5; lens=XF55-200mmF3.5-4.8 R LM OIS; focalLength=200 mm; aperture=f/6.4; shutter=1/2000 s; iso=800
   Posizioni:
     - ALBUM-03 / serie/jesolo.html / posizione 19 / riga 11, colonna 1 di 2
 
@@ -309,7 +309,7 @@ JES-031 | Profilo ravvicinato
   Export di riferimento: 7163 x 4784 px
   Confronto: nessuno
   Firma: tag presente nel file fornito
-  Parametri: camera=Fujifilm X-T5
+  Parametri: camera=X-T5; lens=XF55-200mmF3.5-4.8 R LM OIS; focalLength=200 mm; aperture=f/6.4; shutter=1/2000 s; iso=800
   Posizioni:
     - ALBUM-03 / serie/jesolo.html / posizione 20 / riga 11, colonna 2 di 2
 
@@ -320,7 +320,7 @@ JES-032 | Scia
   Export di riferimento: 7275 x 4093 px
   Confronto: nessuno
   Firma: tag presente nel file fornito
-  Parametri: camera=Fujifilm X-T5
+  Parametri: camera=X-T5; lens=XF55-200mmF3.5-4.8 R LM OIS; focalLength=200 mm; aperture=f/6.4; shutter=1/2000 s; iso=800
   Posizioni:
     - ALBUM-03 / serie/jesolo.html / posizione 21 / riga 12, colonna 1 di 2
 
@@ -331,7 +331,7 @@ JES-033 | Ombra
   Export di riferimento: 7120 x 4005 px
   Confronto: nessuno
   Firma: tag presente nel file fornito
-  Parametri: camera=Fujifilm X-T5
+  Parametri: camera=X-T5; lens=XF55-200mmF3.5-4.8 R LM OIS; focalLength=200 mm; aperture=f/6.4; shutter=1/2000 s; iso=800
   Posizioni:
     - ALBUM-03 / serie/jesolo.html / posizione 22 / riga 12, colonna 2 di 2
 
@@ -342,7 +342,7 @@ JES-034 | Vicino
   Export di riferimento: 6930 x 4629 px
   Confronto: nessuno
   Firma: tag presente nel file fornito
-  Parametri: camera=Fujifilm X-T5
+  Parametri: camera=X-T5; lens=XF55-200mmF3.5-4.8 R LM OIS; focalLength=200 mm; aperture=f/5.6; shutter=1/2000 s; iso=800
   Posizioni:
     - ALBUM-03 / serie/jesolo.html / posizione 23 / riga 13, colonna 1 di 2
 
@@ -353,7 +353,7 @@ JES-035 | Salita
   Export di riferimento: 7276 x 4861 px
   Confronto: nessuno
   Firma: tag presente nel file fornito
-  Parametri: camera=Fujifilm X-T5
+  Parametri: camera=X-T5; lens=XF55-200mmF3.5-4.8 R LM OIS; focalLength=200 mm; aperture=f/5.6; shutter=1/2000 s; iso=800
   Posizioni:
     - ALBUM-03 / serie/jesolo.html / posizione 24 / riga 13, colonna 2 di 2
 
@@ -364,7 +364,7 @@ JES-036 | Passaggio F-35
   Export di riferimento: 7112 x 4751 px
   Confronto: nessuno
   Firma: tag presente nel file fornito
-  Parametri: camera=Fujifilm X-T5
+  Parametri: camera=X-T5; lens=XF55-200mmF3.5-4.8 R LM OIS; focalLength=134.5 mm; aperture=f/5.6; shutter=1/8000 s; iso=800
   Posizioni:
     - ALBUM-03 / serie/jesolo.html / posizione 25 / riga 14, colonna 1 di 2
 
@@ -375,7 +375,7 @@ JES-037 | Compatta
   Export di riferimento: 7752 x 5178 px
   Confronto: nessuno
   Firma: tag presente nel file fornito
-  Parametri: camera=Fujifilm X-T5
+  Parametri: camera=X-T5; lens=XF55-200mmF3.5-4.8 R LM OIS; focalLength=200 mm; aperture=f/6.4; shutter=1/2000 s; iso=640
   Posizioni:
     - ALBUM-03 / serie/jesolo.html / posizione 32 / riga 18, colonna 1 di 2
 
@@ -386,7 +386,7 @@ JES-038 | Scie parallele
   Export di riferimento: 7752 x 4361 px
   Confronto: nessuno
   Firma: tag presente nel file fornito
-  Parametri: camera=Fujifilm X-T5
+  Parametri: camera=X-T5; lens=XF55-200mmF3.5-4.8 R LM OIS; focalLength=115.9 mm; aperture=f/6.4; shutter=1/2000 s; iso=640
   Posizioni:
     - ALBUM-03 / serie/jesolo.html / posizione 33 / riga 18, colonna 2 di 2
 
@@ -397,7 +397,7 @@ JES-039 | Incrocio
   Export di riferimento: 7356 x 4138 px
   Confronto: nessuno
   Firma: tag presente nel file fornito
-  Parametri: camera=Fujifilm X-T5
+  Parametri: camera=X-T5; lens=XF55-200mmF3.5-4.8 R LM OIS; focalLength=200 mm; aperture=f/6.4; shutter=1/2000 s; iso=640
   Posizioni:
     - ALBUM-03 / serie/jesolo.html / posizione 29 / riga 16, colonna 2 di 2
 
@@ -408,7 +408,7 @@ JES-040 | Solista
   Export di riferimento: 7327 x 4121 px
   Confronto: nessuno
   Firma: tag presente nel file fornito
-  Parametri: camera=Fujifilm X-T5
+  Parametri: camera=X-T5; lens=XF55-200mmF3.5-4.8 R LM OIS; focalLength=200 mm; aperture=f/6.4; shutter=1/2000 s; iso=640
   Posizioni:
     - ALBUM-03 / serie/jesolo.html / posizione 28 / riga 16, colonna 1 di 2
 

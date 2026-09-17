@@ -1,0 +1,230 @@
+{
+  "environment": "Chromium; production scripts and CSS with local Blob assets, no real HTTP/file navigation. Desktop viewport sizes are CSS pixels.",
+  "checks": [
+    {
+      "test": "Autoplay starts without a click",
+      "passed": true
+    },
+    {
+      "test": "Four persistent native linear animations",
+      "passed": true,
+      "animations": [
+        {
+          "duration": 18000,
+          "easing": "linear",
+          "iterations": "Infinity",
+          "start": -9202.434000000001,
+          "state": "running"
+        },
+        {
+          "duration": 18000,
+          "easing": "linear",
+          "iterations": "Infinity",
+          "start": -4702.434,
+          "state": "running"
+        },
+        {
+          "duration": 18000,
+          "easing": "linear",
+          "iterations": "Infinity",
+          "start": -202.4340000000002,
+          "state": "running"
+        },
+        {
+          "duration": 18000,
+          "easing": "linear",
+          "iterations": "Infinity",
+          "start": 4297.566,
+          "state": "running"
+        }
+      ]
+    },
+    {
+      "test": "The four timelines stay exactly one slot apart",
+      "passed": true
+    },
+    {
+      "test": "Motion remains linear over at least two native wraps",
+      "passed": true,
+      "wraps": 2,
+      "frames": 571,
+      "target_px_s": 43.731,
+      "min_px_s": 43.723,
+      "max_px_s": 43.741
+    },
+    {
+      "test": "No per-frame inline style writes",
+      "passed": true
+    },
+    {
+      "test": "New covers replace decoded content only outside the viewport",
+      "passed": true,
+      "swaps": [
+        {
+          "id": "VIN-0006",
+          "hidden": true,
+          "decoded": true
+        },
+        {
+          "id": "VIN-0007",
+          "hidden": true,
+          "decoded": true
+        }
+      ]
+    },
+    {
+      "test": "DOM stays at four cover links",
+      "passed": true
+    },
+    {
+      "test": "Only thumbnails are preloaded, not the full catalogue",
+      "passed": true,
+      "count": 7
+    },
+    {
+      "test": "Pause preserves the exact native animation times",
+      "passed": true
+    },
+    {
+      "test": "Resume continues from the held time",
+      "passed": true
+    },
+    {
+      "test": "Hover does not pause the carousel",
+      "passed": true
+    },
+    {
+      "test": "Keyboard focus safely pauses cover links",
+      "passed": true
+    },
+    {
+      "test": "Leaving cover focus restores playback",
+      "passed": true
+    },
+    {
+      "test": "The discreet collection word still has its destination",
+      "passed": true
+    },
+    {
+      "test": "Collection word has color only, without underline: normal",
+      "passed": true,
+      "style": {
+        "line": "none",
+        "color": "rgb(53, 94, 120)",
+        "cursor": "text",
+        "outline": "none"
+      }
+    },
+    {
+      "test": "Collection word has color only, without underline: hover",
+      "passed": true,
+      "style": {
+        "line": "none",
+        "color": "rgb(53, 94, 120)",
+        "cursor": "text",
+        "outline": "none"
+      }
+    },
+    {
+      "test": "Collection word has color only, without underline: focus",
+      "passed": true,
+      "style": {
+        "line": "none",
+        "color": "rgb(53, 94, 120)",
+        "cursor": "text",
+        "outline": "solid"
+      }
+    },
+    {
+      "test": "Keyboard users retain a visible focus outline",
+      "passed": true
+    },
+    {
+      "test": "Copyright is plain text, not a link",
+      "passed": true
+    },
+    {
+      "test": "Desktop 1366x650: content and footer fit without scroll or clipping",
+      "passed": true,
+      "scroll": 650,
+      "height": 650,
+      "width": 1366,
+      "viewportWidth": 1366,
+      "gap": 0,
+      "overflow": "visible"
+    },
+    {
+      "test": "Desktop 1280x720: content and footer fit without scroll or clipping",
+      "passed": true,
+      "scroll": 720,
+      "height": 720,
+      "width": 1280,
+      "viewportWidth": 1280,
+      "gap": 0,
+      "overflow": "visible"
+    },
+    {
+      "test": "Desktop 1366x768: content and footer fit without scroll or clipping",
+      "passed": true,
+      "scroll": 768,
+      "height": 768,
+      "width": 1366,
+      "viewportWidth": 1366,
+      "gap": 0,
+      "overflow": "visible"
+    },
+    {
+      "test": "Desktop 1440x900: content and footer fit without scroll or clipping",
+      "passed": true,
+      "scroll": 900,
+      "height": 900,
+      "width": 1440,
+      "viewportWidth": 1440,
+      "gap": 0,
+      "overflow": "visible"
+    },
+    {
+      "test": "Desktop 1536x864: content and footer fit without scroll or clipping",
+      "passed": true,
+      "scroll": 864,
+      "height": 864,
+      "width": 1536,
+      "viewportWidth": 1536,
+      "gap": 0,
+      "overflow": "visible"
+    },
+    {
+      "test": "Desktop 1920x1080: content and footer fit without scroll or clipping",
+      "passed": true,
+      "scroll": 1080,
+      "height": 1080,
+      "width": 1920,
+      "viewportWidth": 1920,
+      "gap": 0,
+      "overflow": "visible"
+    },
+    {
+      "test": "Desktop 1024x768: content and footer fit without scroll or clipping",
+      "passed": true,
+      "scroll": 768,
+      "height": 768,
+      "width": 1024,
+      "viewportWidth": 1024,
+      "gap": 0,
+      "overflow": "visible"
+    },
+    {
+      "test": "Mobile 390: no horizontal overflow or forced crop",
+      "passed": true
+    },
+    {
+      "test": "Mobile 320: no horizontal overflow or forced crop",
+      "passed": true
+    },
+    {
+      "test": "No JavaScript errors",
+      "passed": true,
+      "errors": []
+    }
+  ]
+}
