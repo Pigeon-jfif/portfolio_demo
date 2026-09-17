@@ -12,7 +12,8 @@ Solo copie web firmate. Per Noale la firma e' PROVVISORIA: docs/NOALE.txt.
 ALBERO PRINCIPALE
 ----------------
 index.html                    Home: nome, biografia e setup gia' leggibili
-dischi.html                   Plastic Pizzas: catalogo, ricerca, viste, dettagli
+dischi.html                   Plastic Pizzas: intro, scorrimento, metriche
+collezione.html               La collezione: catalogo, ricerca, viste, dettagli
 raccolte.html                 Copertine piu' piccole, alternate sinistra/destra
 info.html                     Chi sono, setup e contatti; solo testo
 album.html                    Modello universale: ?id=ID-ALBUM
@@ -35,8 +36,9 @@ assets/js/records-model.js   Parser CSV, filtri, ordini, conteggi (browser + Nod
 assets/js/records-view.js    HTML del catalogo e del dettaglio
 assets/js/records-app.js     Ricerca, navigazione, dialog, CSV locale/HTTP
 assets/css/records.css      Stile SOLO della parte dischi (classi r-)
-assets/covers/full/         228 WebP principali; file condivisi fra copie duplicate
-assets/covers/thumbs/       228 miniature WebP delle cover fornite
+assets/covers/packs/full/   9 ZIP_STORED, blocchi VIN da 50, versioni principali
+assets/covers/packs/thumbs/ 9 ZIP_STORED, blocchi VIN da 50, miniature
+assets/covers/staging/      area temporanea locale per aggiornare i pacchetti (non necessaria online)
 tools/records-sync.js       CSV -> snapshot JS + indice dischi + conteggi
 tools/records-test.js       Test logici per parser, dati, ricerca, casuale
 tools/records-navigation-test.js  Test A-Z, pagine, pannelli e campione
@@ -218,7 +220,7 @@ NOA-009 | Di spalle                  | _DSF0717.jpg
 
 Gli ID identificano gli scatti; non vanno cambiati per riordinarli.
 Nessuna foto e' mostrata in Home o Chi sono. Tutte restano nelle raccolte.
-La parte dischi e' in dischi.html.
+La landing dischi e' in dischi.html; il catalogo e' in collezione.html.
 
 REGOLE
 ------
@@ -234,14 +236,15 @@ REGOLE
 
 PLASTIC PIZZAS / MAPPA DELLE SEZIONI
 =================================
-DISCHI-01 / r-intro
+DISCHI-01 / r-intro (solo dischi.html)
   Titolo/introduzione: records-config.js (titleFirst, titleAccent, intro, description).
-  Tre proposte: featuredCount=3. Solo album con cover, estratti a ogni caricamento.
-  Nessuna lista featuredIds. Stesso artista+titolo = un candidato, non due copie.
-  Durante filtri/pagine il campione non cambia. Meno di 3 candidati = meno schede.
-  R.featuredRecords / R.featured in records-view.js; M.sampleAlbums nel model.
+  Tre cover a scaletta, quarta fuori campo, una candidata successiva preparata.
+  Moto lineare continuo: featuredAnimationMs=4500. Autoplay; Pausa/Riprendi.
+  R.featuredRecords sceglie le prime cover valide, senza scaricare tutto il catalogo.
+  R.page genera la landing; R.collectionPage genera il catalogo separato.
+  La singola parola collezione e le schede portano a collezione.html.
 
-DISCHI-02 / records-metrics
+DISCHI-02 / records-metrics (solo dischi.html)
   Voci, artisti, dischi fisici e anni: dati del CSV, invariati nella v2.1.
   433 voci / 214 gruppi artista / 498 dischi / 1956-2026 nella consegna.
   Spazi esterni ignorati solo nella visualizzazione/raggruppamento.
@@ -265,7 +268,7 @@ DISCHI-05 / record-results + record-pagebar + record-pagination
   I dischi nel pannello non contano nel limite; Copertine/Elenco usano lo stesso selettore.
   Frecce compatte sopra, numeri/precedente/successiva sotto. Nessun Mostra altri.
   M.paginate e M.pageNumbers sono condivise fra browser e test Node.
-  Le viste album partono con order=title; sono disponibili shelf/recent/oldest.
+  Le viste album partono con order=shelf; sono disponibili shelf/recent/oldest.
   shelf = artista A-Z -> anno -> titolo -> ID; non e' una modifica al CSV.
 
 ARTISTA / r-artist-panel
@@ -278,10 +281,11 @@ ARTISTA / r-artist-panel
   Righe: 4 colonne >1120px; 3 fino a 1120; 2 fino a 780. Resize aggiorna il pannello.
   Funzioni: R.artistCard / R.artistPanelBody / selectArtist / animatePanel.
 
-DISCHI-06 / r-closing
-  Testi closingFirst/Accent/Text: la chiusura editoriale precede le statistiche.
+DISCHI-06 / r-collection-intro + r-collection-note (collezione.html)
+  Titolo La collezione + Cosa ascolto?. La nota I dischi si ascoltano. e' al fianco.
+  Testi closingFirst/Accent/Text conservati dalla precedente chiusura editoriale.
 
-DISCHI-07 / numeri + r-data-tools
+DISCHI-07 / numeri + r-data-tools (collezione.html; numeri in fondo)
   Distribuzioni anni e formati dell'intero CSV. showNumbers:false nasconde.
   Nessun prezzo, genere o dato di ascolto inventato.
   Pannello showDataTools: CSV locale temporaneo, nessun upload; Ripristina torna alla snapshot.
@@ -294,11 +298,11 @@ DISCHI-08 / r-static (noscript)
 SCHEDE / record-dialog
   Dati della copia: SOLO le 9 colonne originali del CSV.
   Copertine in record-covers.js: separate dai dati, mai usate per correggerli.
-  Frecce: contesto artista, tre proposte oppure risultati filtrati completi.
+  Frecce: contesto artista oppure risultati filtrati completi.
   Link diretto: #disco=VIN-XXXX. X, Escape, sfondo chiudono.
 
 COPERTINE LOCALI / aggiornamento
-  228 WebP principali + 228 thumb WebP nel payload pubblico; i JPG ricevuti restano sorgenti esterne.
+  228 WebP principali + 228 thumb WebP nel payload pubblico, racchiusi in 18 ZIP_STORED; i JPG ricevuti restano sorgenti esterne.
   235 voci del catalogo hanno una cover locale; le copie duplicate condividono il file.
   Resta attivo un solo artwork remoto precedente: Trench. Totale 236 ID abbinati.
   Tutte match:album. Non sono presentate come foto delle specifiche copie.

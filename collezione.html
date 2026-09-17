@@ -30,21 +30,22 @@
   <!-- Inter libero: unico caricamento font esterno. Disattivabile in fonts.css. -->
   <link rel="stylesheet" href="./assets/css/fonts.css?v=20260917-smooth4">
   <link rel="stylesheet" href="./assets/css/style.css?v=20260917-smooth4">
-  <link rel="stylesheet" href="./assets/css/records.css?v=20260917-smooth4">
+  <link rel="stylesheet" href="./assets/css/records.css?v=20260917-zipcovers1">
   <!-- Ordine importante: prima i dati, poi funzioni, pagine e interazioni. -->
   <script defer src="./assets/data/site.js?v=20260917-smooth4"></script>
   <script defer src="./assets/data/photos.js?v=20260917-smooth4"></script>
   <script defer src="./assets/data/albums.js?v=20260917-smooth4"></script>
   <script defer src="./assets/js/core.js?v=20260917-smooth4"></script>
   <script defer src="./assets/js/pages.js?v=20260917-smooth4"></script>
-  <script defer src="./assets/js/records-model.js?v=20260917-smooth4"></script>
-  <script defer src="./assets/data/records-config.js?v=20260917-smooth4"></script>
-  <script defer src="./assets/data/record-covers.js?v=20260917-smooth4"></script>
-  <script defer src="./assets/data/records.js?v=20260917-smooth4"></script>
-  <script defer src="./assets/js/records-view.js?v=20260917-smooth4"></script>
+  <script defer src="./assets/js/records-model.js?v=20260917-zipcovers1"></script>
+  <script defer src="./assets/data/records-config.js?v=20260917-zipcovers1"></script>
+  <script defer src="./assets/data/record-covers.js?v=20260917-zipcovers1"></script>
+  <script defer src="./assets/data/records.js?v=20260917-zipcovers1"></script>
+  <script defer src="./assets/js/records-cover-archives.js?v=20260917-zipcovers1"></script>
+  <script defer src="./assets/js/records-view.js?v=20260917-zipcovers1"></script>
   <script defer src="./assets/js/viewer.js?v=20260917-smooth4"></script>
   <script defer src="./assets/js/app.js?v=20260917-smooth4"></script>
-  <script defer src="./assets/js/records-app.js?v=20260917-smooth4"></script>
+  <script defer src="./assets/js/records-app.js?v=20260917-zipcovers1"></script>
 </head>
 <body id="top" data-page="record-collection" data-base="./" data-album="">
   <a class="skip-link" href="#main">Vai al contenuto</a>
@@ -90,28 +91,28 @@
       <span class="r-artist-indicator" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></span>
       <span class="r-artist-main"><span class="r-artist-name">A-ha</span><span class="r-art r-art--source" aria-hidden="true">
       <span class="r-placeholder"><span class="r-placeholder-code">VIN-0001</span><span class="r-placeholder-circle"></span><span class="r-placeholder-copy"><span>A-ha</span><strong>Hunting High And Low</strong></span><span class="r-placeholder-label">Copertina da aggiungere</span></span>
-      <img data-r-cover data-cover-id="VIN-0001" src="./assets/covers/thumbs/VIN-0001.webp" alt="" width="600" height="595" loading="lazy" decoding="async" referrerpolicy="no-referrer">
+      <img data-r-cover data-cover-id="VIN-0001" data-r-archive="assets/covers/packs/thumbs/covers-0001-0050.zip" data-r-entry="VIN-0001.webp" data-r-cover-key="zip:assets/covers/packs/thumbs/covers-0001-0050.zip#VIN-0001.webp" alt="" width="600" height="595" loading="lazy" decoding="async" referrerpolicy="no-referrer">
     </span></span>
       <span class="r-artist-bottom"><span>1 titolo</span></span>
     </button><button type="button" class="r-artist-card" id="artist-toggle-VIN-0002" data-r-artist="abba" aria-expanded="false" aria-controls="artist-panel-VIN-0002" aria-label="Apri i dischi di ABBA">
       <span class="r-artist-indicator" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></span>
       <span class="r-artist-main"><span class="r-artist-name">ABBA</span><span class="r-art r-art--source" aria-hidden="true">
       <span class="r-placeholder"><span class="r-placeholder-code">VIN-0002</span><span class="r-placeholder-circle"></span><span class="r-placeholder-copy"><span>ABBA</span><strong>ABBA</strong></span><span class="r-placeholder-label">Copertina da aggiungere</span></span>
-      <img data-r-cover data-cover-id="VIN-0002" src="./assets/covers/thumbs/VIN-0002.webp" alt="" width="600" height="592" loading="lazy" decoding="async" referrerpolicy="no-referrer">
+      <img data-r-cover data-cover-id="VIN-0002" data-r-archive="assets/covers/packs/thumbs/covers-0001-0050.zip" data-r-entry="VIN-0002.webp" data-r-cover-key="zip:assets/covers/packs/thumbs/covers-0001-0050.zip#VIN-0002.webp" alt="" width="600" height="592" loading="lazy" decoding="async" referrerpolicy="no-referrer">
     </span></span>
       <span class="r-artist-bottom"><span>2 titoli</span></span>
     </button><button type="button" class="r-artist-card" id="artist-toggle-VIN-0004" data-r-artist="abc" aria-expanded="false" aria-controls="artist-panel-VIN-0004" aria-label="Apri i dischi di ABC">
       <span class="r-artist-indicator" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></span>
       <span class="r-artist-main"><span class="r-artist-name">ABC</span><span class="r-art r-art--source" aria-hidden="true">
       <span class="r-placeholder"><span class="r-placeholder-code">VIN-0004</span><span class="r-placeholder-circle"></span><span class="r-placeholder-copy"><span>ABC</span><strong>UP</strong></span><span class="r-placeholder-label">Copertina da aggiungere</span></span>
-      <img data-r-cover data-cover-id="VIN-0004" src="./assets/covers/thumbs/VIN-0004.webp" alt="" width="600" height="600" loading="lazy" decoding="async" referrerpolicy="no-referrer">
+      <img data-r-cover data-cover-id="VIN-0004" data-r-archive="assets/covers/packs/thumbs/covers-0001-0050.zip" data-r-entry="VIN-0004.webp" data-r-cover-key="zip:assets/covers/packs/thumbs/covers-0001-0050.zip#VIN-0004.webp" alt="" width="600" height="600" loading="lazy" decoding="async" referrerpolicy="no-referrer">
     </span></span>
       <span class="r-artist-bottom"><span>1 titolo</span></span>
     </button><button type="button" class="r-artist-card" id="artist-toggle-VIN-0005" data-r-artist="alan parsons project" aria-expanded="false" aria-controls="artist-panel-VIN-0005" aria-label="Apri i dischi di Alan Parsons Project">
       <span class="r-artist-indicator" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></span>
       <span class="r-artist-main"><span class="r-artist-name">Alan Parsons Project</span><span class="r-art r-art--source" aria-hidden="true">
       <span class="r-placeholder"><span class="r-placeholder-code">VIN-0006</span><span class="r-placeholder-circle"></span><span class="r-placeholder-copy"><span>Alan Parsons Project</span><strong>I Robot</strong></span><span class="r-placeholder-label">Copertina da aggiungere</span></span>
-      <img data-r-cover data-cover-id="VIN-0006" src="./assets/covers/thumbs/VIN-0006.webp" alt="" width="600" height="571" loading="lazy" decoding="async" referrerpolicy="no-referrer">
+      <img data-r-cover data-cover-id="VIN-0006" data-r-archive="assets/covers/packs/thumbs/covers-0001-0050.zip" data-r-entry="VIN-0006.webp" data-r-cover-key="zip:assets/covers/packs/thumbs/covers-0001-0050.zip#VIN-0006.webp" alt="" width="600" height="571" loading="lazy" decoding="async" referrerpolicy="no-referrer">
     </span></span>
       <span class="r-artist-bottom"><span>10 titoli</span></span>
     </button><section class="r-artist-panel" id="artist-panel-VIN-0001" data-r-panel="a-ha" aria-labelledby="artist-toggle-VIN-0001" hidden></section><section class="r-artist-panel" id="artist-panel-VIN-0002" data-r-panel="abba" aria-labelledby="artist-toggle-VIN-0002" hidden></section><section class="r-artist-panel" id="artist-panel-VIN-0004" data-r-panel="abc" aria-labelledby="artist-toggle-VIN-0004" hidden></section><section class="r-artist-panel" id="artist-panel-VIN-0005" data-r-panel="alan parsons project" aria-labelledby="artist-toggle-VIN-0005" hidden></section></div><div class="r-artist-row"><button type="button" class="r-artist-card" id="artist-toggle-VIN-0015" data-r-artist="alceo gualtelli e la sua fisarmonica" aria-expanded="false" aria-controls="artist-panel-VIN-0015" aria-label="Apri i dischi di Alceo Gualtelli e la sua Fisarmonica">
@@ -125,14 +126,14 @@
       <span class="r-artist-indicator" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></span>
       <span class="r-artist-main"><span class="r-artist-name">Alice Merton</span><span class="r-art r-art--source" aria-hidden="true">
       <span class="r-placeholder"><span class="r-placeholder-code">VIN-0016</span><span class="r-placeholder-circle"></span><span class="r-placeholder-copy"><span>Alice Merton</span><strong>Mint</strong></span><span class="r-placeholder-label">Copertina da aggiungere</span></span>
-      <img data-r-cover data-cover-id="VIN-0016" src="./assets/covers/thumbs/VIN-0016.webp" alt="" width="600" height="600" loading="lazy" decoding="async" referrerpolicy="no-referrer">
+      <img data-r-cover data-cover-id="VIN-0016" data-r-archive="assets/covers/packs/thumbs/covers-0001-0050.zip" data-r-entry="VIN-0016.webp" data-r-cover-key="zip:assets/covers/packs/thumbs/covers-0001-0050.zip#VIN-0016.webp" alt="" width="600" height="600" loading="lazy" decoding="async" referrerpolicy="no-referrer">
     </span></span>
       <span class="r-artist-bottom"><span>1 titolo</span></span>
     </button><button type="button" class="r-artist-card" id="artist-toggle-VIN-0017" data-r-artist="alison moyet" aria-expanded="false" aria-controls="artist-panel-VIN-0017" aria-label="Apri i dischi di Alison Moyet">
       <span class="r-artist-indicator" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></span>
       <span class="r-artist-main"><span class="r-artist-name">Alison Moyet</span><span class="r-art r-art--source" aria-hidden="true">
       <span class="r-placeholder"><span class="r-placeholder-code">VIN-0017</span><span class="r-placeholder-circle"></span><span class="r-placeholder-copy"><span>Alison Moyet</span><strong>Alf</strong></span><span class="r-placeholder-label">Copertina da aggiungere</span></span>
-      <img data-r-cover data-cover-id="VIN-0017" src="./assets/covers/thumbs/VIN-0017.webp" alt="" width="598" height="600" loading="lazy" decoding="async" referrerpolicy="no-referrer">
+      <img data-r-cover data-cover-id="VIN-0017" data-r-archive="assets/covers/packs/thumbs/covers-0001-0050.zip" data-r-entry="VIN-0017.webp" data-r-cover-key="zip:assets/covers/packs/thumbs/covers-0001-0050.zip#VIN-0017.webp" alt="" width="598" height="600" loading="lazy" decoding="async" referrerpolicy="no-referrer">
     </span></span>
       <span class="r-artist-bottom"><span>2 titoli</span></span>
     </button><button type="button" class="r-artist-card" id="artist-toggle-VIN-0019" data-r-artist="amarcord" aria-expanded="false" aria-controls="artist-panel-VIN-0019" aria-label="Apri i dischi di Amarcord">
@@ -146,14 +147,14 @@
       <span class="r-artist-indicator" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></span>
       <span class="r-artist-main"><span class="r-artist-name">America</span><span class="r-art r-art--source" aria-hidden="true">
       <span class="r-placeholder"><span class="r-placeholder-code">VIN-0020</span><span class="r-placeholder-circle"></span><span class="r-placeholder-copy"><span>America</span><strong>History America&#39;s Greatest Hits</strong></span><span class="r-placeholder-label">Copertina da aggiungere</span></span>
-      <img data-r-cover data-cover-id="VIN-0020" src="./assets/covers/thumbs/VIN-0020.webp" alt="" width="600" height="600" loading="lazy" decoding="async" referrerpolicy="no-referrer">
+      <img data-r-cover data-cover-id="VIN-0020" data-r-archive="assets/covers/packs/thumbs/covers-0001-0050.zip" data-r-entry="VIN-0020.webp" data-r-cover-key="zip:assets/covers/packs/thumbs/covers-0001-0050.zip#VIN-0020.webp" alt="" width="600" height="600" loading="lazy" decoding="async" referrerpolicy="no-referrer">
     </span></span>
       <span class="r-artist-bottom"><span>1 titolo</span></span>
     </button><button type="button" class="r-artist-card" id="artist-toggle-VIN-0021" data-r-artist="amii stewart" aria-expanded="false" aria-controls="artist-panel-VIN-0021" aria-label="Apri i dischi di Amii Stewart">
       <span class="r-artist-indicator" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></span>
       <span class="r-artist-main"><span class="r-artist-name">Amii Stewart</span><span class="r-art r-art--source" aria-hidden="true">
       <span class="r-placeholder"><span class="r-placeholder-code">VIN-0021</span><span class="r-placeholder-circle"></span><span class="r-placeholder-copy"><span>Amii Stewart</span><strong>Time For Fantasy</strong></span><span class="r-placeholder-label">Copertina da aggiungere</span></span>
-      <img data-r-cover data-cover-id="VIN-0021" src="./assets/covers/thumbs/VIN-0021.webp" alt="" width="600" height="595" loading="lazy" decoding="async" referrerpolicy="no-referrer">
+      <img data-r-cover data-cover-id="VIN-0021" data-r-archive="assets/covers/packs/thumbs/covers-0001-0050.zip" data-r-entry="VIN-0021.webp" data-r-cover-key="zip:assets/covers/packs/thumbs/covers-0001-0050.zip#VIN-0021.webp" alt="" width="600" height="595" loading="lazy" decoding="async" referrerpolicy="no-referrer">
     </span></span>
       <span class="r-artist-bottom"><span>1 titolo</span></span>
     </button><button type="button" class="r-artist-card" id="artist-toggle-VIN-0022" data-r-artist="anna oxa" aria-expanded="false" aria-controls="artist-panel-VIN-0022" aria-label="Apri i dischi di Anna Oxa">
@@ -167,28 +168,28 @@
       <span class="r-artist-indicator" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></span>
       <span class="r-artist-main"><span class="r-artist-name">Anthony Braxton</span><span class="r-art r-art--source" aria-hidden="true">
       <span class="r-placeholder"><span class="r-placeholder-code">VIN-0023</span><span class="r-placeholder-circle"></span><span class="r-placeholder-copy"><span>Anthony Braxton</span><strong>B-X° / NO-I-47ᴬ</strong></span><span class="r-placeholder-label">Copertina da aggiungere</span></span>
-      <img data-r-cover data-cover-id="VIN-0023" src="./assets/covers/thumbs/VIN-0023.webp" alt="" width="600" height="599" loading="lazy" decoding="async" referrerpolicy="no-referrer">
+      <img data-r-cover data-cover-id="VIN-0023" data-r-archive="assets/covers/packs/thumbs/covers-0001-0050.zip" data-r-entry="VIN-0023.webp" data-r-cover-key="zip:assets/covers/packs/thumbs/covers-0001-0050.zip#VIN-0023.webp" alt="" width="600" height="599" loading="lazy" decoding="async" referrerpolicy="no-referrer">
     </span></span>
       <span class="r-artist-bottom"><span>1 titolo</span></span>
     </button><section class="r-artist-panel" id="artist-panel-VIN-0020" data-r-panel="america" aria-labelledby="artist-toggle-VIN-0020" hidden></section><section class="r-artist-panel" id="artist-panel-VIN-0021" data-r-panel="amii stewart" aria-labelledby="artist-toggle-VIN-0021" hidden></section><section class="r-artist-panel" id="artist-panel-VIN-0022" data-r-panel="anna oxa" aria-labelledby="artist-toggle-VIN-0022" hidden></section><section class="r-artist-panel" id="artist-panel-VIN-0023" data-r-panel="anthony braxton" aria-labelledby="artist-toggle-VIN-0023" hidden></section></div><div class="r-artist-row"><button type="button" class="r-artist-card" id="artist-toggle-VIN-0024" data-r-artist="antonello venditti" aria-expanded="false" aria-controls="artist-panel-VIN-0024" aria-label="Apri i dischi di Antonello Venditti">
       <span class="r-artist-indicator" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></span>
       <span class="r-artist-main"><span class="r-artist-name">Antonello Venditti</span><span class="r-art r-art--source" aria-hidden="true">
       <span class="r-placeholder"><span class="r-placeholder-code">VIN-0024</span><span class="r-placeholder-circle"></span><span class="r-placeholder-copy"><span>Antonello Venditti</span><strong>Sotto Il Segno Dei Pesci</strong></span><span class="r-placeholder-label">Copertina da aggiungere</span></span>
-      <img data-r-cover data-cover-id="VIN-0024" src="./assets/covers/thumbs/VIN-0024.webp" alt="" width="595" height="600" loading="lazy" decoding="async" referrerpolicy="no-referrer">
+      <img data-r-cover data-cover-id="VIN-0024" data-r-archive="assets/covers/packs/thumbs/covers-0001-0050.zip" data-r-entry="VIN-0024.webp" data-r-cover-key="zip:assets/covers/packs/thumbs/covers-0001-0050.zip#VIN-0024.webp" alt="" width="595" height="600" loading="lazy" decoding="async" referrerpolicy="no-referrer">
     </span></span>
       <span class="r-artist-bottom"><span>1 titolo</span></span>
     </button><button type="button" class="r-artist-card" id="artist-toggle-VIN-0025" data-r-artist="arcadia" aria-expanded="false" aria-controls="artist-panel-VIN-0025" aria-label="Apri i dischi di Arcadia">
       <span class="r-artist-indicator" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></span>
       <span class="r-artist-main"><span class="r-artist-name">Arcadia</span><span class="r-art r-art--source" aria-hidden="true">
       <span class="r-placeholder"><span class="r-placeholder-code">VIN-0025</span><span class="r-placeholder-circle"></span><span class="r-placeholder-copy"><span>Arcadia</span><strong>So Red The Rose</strong></span><span class="r-placeholder-label">Copertina da aggiungere</span></span>
-      <img data-r-cover data-cover-id="VIN-0025" src="./assets/covers/thumbs/VIN-0025.webp" alt="" width="591" height="600" loading="lazy" decoding="async" referrerpolicy="no-referrer">
+      <img data-r-cover data-cover-id="VIN-0025" data-r-archive="assets/covers/packs/thumbs/covers-0001-0050.zip" data-r-entry="VIN-0025.webp" data-r-cover-key="zip:assets/covers/packs/thumbs/covers-0001-0050.zip#VIN-0025.webp" alt="" width="591" height="600" loading="lazy" decoding="async" referrerpolicy="no-referrer">
     </span></span>
       <span class="r-artist-bottom"><span>1 titolo</span></span>
     </button><button type="button" class="r-artist-card" id="artist-toggle-VIN-0026" data-r-artist="art of noise" aria-expanded="false" aria-controls="artist-panel-VIN-0026" aria-label="Apri i dischi di Art Of Noise">
       <span class="r-artist-indicator" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></span>
       <span class="r-artist-main"><span class="r-artist-name">Art Of Noise</span><span class="r-art r-art--source" aria-hidden="true">
       <span class="r-placeholder"><span class="r-placeholder-code">VIN-0026</span><span class="r-placeholder-circle"></span><span class="r-placeholder-copy"><span>Art Of Noise</span><strong>In Visible Silence</strong></span><span class="r-placeholder-label">Copertina da aggiungere</span></span>
-      <img data-r-cover data-cover-id="VIN-0026" src="./assets/covers/thumbs/VIN-0026.webp" alt="" width="600" height="591" loading="lazy" decoding="async" referrerpolicy="no-referrer">
+      <img data-r-cover data-cover-id="VIN-0026" data-r-archive="assets/covers/packs/thumbs/covers-0001-0050.zip" data-r-entry="VIN-0026.webp" data-r-cover-key="zip:assets/covers/packs/thumbs/covers-0001-0050.zip#VIN-0026.webp" alt="" width="600" height="591" loading="lazy" decoding="async" referrerpolicy="no-referrer">
     </span></span>
       <span class="r-artist-bottom"><span>2 titoli</span></span>
     </button><button type="button" class="r-artist-card" id="artist-toggle-VIN-0028" data-r-artist="atlantic hazz" aria-expanded="false" aria-controls="artist-panel-VIN-0028" aria-label="Apri i dischi di Atlantic Hazz">
@@ -209,21 +210,21 @@
       <span class="r-artist-indicator" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></span>
       <span class="r-artist-main"><span class="r-artist-name">B-52&#39;s</span><span class="r-art r-art--source" aria-hidden="true">
       <span class="r-placeholder"><span class="r-placeholder-code">VIN-0031</span><span class="r-placeholder-circle"></span><span class="r-placeholder-copy"><span>B-52&#39;s</span><strong>The B-52&#39;s</strong></span><span class="r-placeholder-label">Copertina da aggiungere</span></span>
-      <img data-r-cover data-cover-id="VIN-0031" src="./assets/covers/thumbs/VIN-0031.webp" alt="" width="600" height="600" loading="lazy" decoding="async" referrerpolicy="no-referrer">
+      <img data-r-cover data-cover-id="VIN-0031" data-r-archive="assets/covers/packs/thumbs/covers-0001-0050.zip" data-r-entry="VIN-0031.webp" data-r-cover-key="zip:assets/covers/packs/thumbs/covers-0001-0050.zip#VIN-0031.webp" alt="" width="600" height="600" loading="lazy" decoding="async" referrerpolicy="no-referrer">
     </span></span>
       <span class="r-artist-bottom"><span>5 titoli</span></span>
     </button><button type="button" class="r-artist-card" id="artist-toggle-VIN-0036" data-r-artist="babymetal" aria-expanded="false" aria-controls="artist-panel-VIN-0036" aria-label="Apri i dischi di BabyMetal">
       <span class="r-artist-indicator" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></span>
       <span class="r-artist-main"><span class="r-artist-name">BabyMetal</span><span class="r-art r-art--source" aria-hidden="true">
       <span class="r-placeholder"><span class="r-placeholder-code">VIN-0037</span><span class="r-placeholder-circle"></span><span class="r-placeholder-copy"><span>BabyMetal</span><strong>Metal Galaxy</strong></span><span class="r-placeholder-label">Copertina da aggiungere</span></span>
-      <img data-r-cover data-cover-id="VIN-0037" src="./assets/covers/thumbs/VIN-0037.webp" alt="" width="600" height="600" loading="lazy" decoding="async" referrerpolicy="no-referrer">
+      <img data-r-cover data-cover-id="VIN-0037" data-r-archive="assets/covers/packs/thumbs/covers-0001-0050.zip" data-r-entry="VIN-0037.webp" data-r-cover-key="zip:assets/covers/packs/thumbs/covers-0001-0050.zip#VIN-0037.webp" alt="" width="600" height="600" loading="lazy" decoding="async" referrerpolicy="no-referrer">
     </span></span>
       <span class="r-artist-bottom"><span>2 titoli</span></span>
     </button><button type="button" class="r-artist-card" id="artist-toggle-VIN-0038" data-r-artist="bananarama" aria-expanded="false" aria-controls="artist-panel-VIN-0038" aria-label="Apri i dischi di Bananarama">
       <span class="r-artist-indicator" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></span>
       <span class="r-artist-main"><span class="r-artist-name">Bananarama</span><span class="r-art r-art--source" aria-hidden="true">
       <span class="r-placeholder"><span class="r-placeholder-code">VIN-0038</span><span class="r-placeholder-circle"></span><span class="r-placeholder-copy"><span>Bananarama</span><strong>Bananarama</strong></span><span class="r-placeholder-label">Copertina da aggiungere</span></span>
-      <img data-r-cover data-cover-id="VIN-0038" src="./assets/covers/thumbs/VIN-0038.webp" alt="" width="600" height="600" loading="lazy" decoding="async" referrerpolicy="no-referrer">
+      <img data-r-cover data-cover-id="VIN-0038" data-r-archive="assets/covers/packs/thumbs/covers-0001-0050.zip" data-r-entry="VIN-0038.webp" data-r-cover-key="zip:assets/covers/packs/thumbs/covers-0001-0050.zip#VIN-0038.webp" alt="" width="600" height="600" loading="lazy" decoding="async" referrerpolicy="no-referrer">
     </span></span>
       <span class="r-artist-bottom"><span>1 titolo</span></span>
     </button><section class="r-artist-panel" id="artist-panel-VIN-0030" data-r-panel="autori e interpreti della canzone italiana" aria-labelledby="artist-toggle-VIN-0030" hidden></section><section class="r-artist-panel" id="artist-panel-VIN-0031" data-r-panel="b-52&#39;s" aria-labelledby="artist-toggle-VIN-0031" hidden></section><section class="r-artist-panel" id="artist-panel-VIN-0036" data-r-panel="babymetal" aria-labelledby="artist-toggle-VIN-0036" hidden></section><section class="r-artist-panel" id="artist-panel-VIN-0038" data-r-panel="bananarama" aria-labelledby="artist-toggle-VIN-0038" hidden></section></div></div></div>

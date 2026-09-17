@@ -40,8 +40,9 @@ with sync_playwright() as p:
         swaps=page.evaluate('__swaps')
         check('New covers replace decoded content only outside the viewport',len(swaps)>=2 and all(s['hidden'] and s['decoded'] for s in swaps),swaps=swaps)
         check('DOM stays at four cover links',page.locator('[data-r-featured-card]').count()==4)
-        requested=page.evaluate('''()=>{const reverse=Object.fromEntries(Object.entries(__localAssets).map(([k,v])=>[v,k]));return [...new Set(__preloadRequests.map(u=>reverse[u]||u))];}''')
-        check('Only thumbnails are preloaded, not the full catalogue',len(requested)<12 and all('/thumbs/' in u for u in requested),count=len(requested))
+        requested=page.evaluate('''()=>{const reverse=Object.fromEntries(Object.entries(__localAssets).map(([k,v])=>[v,k]));return [...new Set((__fetchRequests||[]).map(u=>reverse[u]||u))];}''')
+        archive_requests=[u for u in requested if '/covers/packs/' in u]
+        check('Only thumbnail ZIP packs are fetched, not full cover packs',len(archive_requests)<12 and len(archive_requests)>0 and all('/packs/thumbs/' in u for u in archive_requests),requested=archive_requests)
         toggle=page.locator('[data-r-motion-toggle]')
         toggle.click();page.wait_for_timeout(50)
         times=page.evaluate('document.getAnimations().map(a=>a.currentTime)')

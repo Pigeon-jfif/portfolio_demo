@@ -10,10 +10,11 @@ def load_site(page, root, config=None, hook=None, page_name="dischi.html"):
     root=Path(root)
     page.set_content(('<!doctype html><html lang="it"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"></head><body id="top" data-page="records" data-base="./" data-album=""><header class="site-header" id="site-header"></header><main id="main" tabindex="-1"></main><footer class="site-footer" id="site-footer"></footer></body></html>').replace('data-page="records"',f'data-page="{page_type}"'))
     assets={}
-    for folder in ['assets/covers/thumbs','assets/brand'] + (['assets/covers/full'] if page_type == 'record-collection' else []):
+    for folder in ['assets/covers/packs/thumbs','assets/brand'] + (['assets/covers/packs/full'] if page_type == 'record-collection' else []):
         for f in (root/folder).rglob('*'):
-            if f.is_file() and f.suffix.lower() in {'.webp','.jpg','.jpeg','.png','.svg'}:
-                assets[str(f.relative_to(root))]=[mimetypes.guess_type(f.name)[0],base64.b64encode(f.read_bytes()).decode()]
+            if f.is_file() and f.suffix.lower() in {'.zip','.webp','.jpg','.jpeg','.png','.svg'}:
+                mime = 'application/zip' if f.suffix.lower() == '.zip' else mimetypes.guess_type(f.name)[0]
+                assets[str(f.relative_to(root))]=[mime,base64.b64encode(f.read_bytes()).decode()]
     f=root/'assets/favicon.svg'
     assets['assets/favicon.svg']=['image/svg+xml',base64.b64encode(f.read_bytes()).decode()]
     page.evaluate('''files => {
@@ -46,5 +47,14 @@ def load_site(page, root, config=None, hook=None, page_name="dischi.html"):
             page.evaluate('c => Object.assign(PIGEON_RECORDS_CONFIG,c)',config)
         if path=='assets/js/records-view.js':
             if hook: page.evaluate(hook)
-            page.evaluate('csv => { window.fetch = async () => new Response(csv,{status:200}); }',(root/'data/Dischi.csv').read_text())
+            page.evaluate('''csv => {
+              const nativeFetch = window.fetch.bind(window);
+              window.__fetchRequests = [];
+              window.fetch = async (input, init) => {
+                const value = typeof input === 'string' ? input : (input && input.url) || '';
+                window.__fetchRequests.push(String(value));
+                if (String(value).includes('data/Dischi.csv')) return new Response(csv,{status:200});
+                return nativeFetch(input, init);
+              };
+            }''',(root/'data/Dischi.csv').read_text())
     page.wait_for_timeout(350)

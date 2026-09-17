@@ -8,7 +8,7 @@ const SCRIPTS = [
   'assets/data/site.js', 'assets/data/photos.js', 'assets/data/albums.js',
   'assets/js/core.js', 'assets/js/pages.js',
   'assets/js/records-model.js', 'assets/data/records-config.js',
-  'assets/data/record-covers.js', 'assets/data/records.js', 'assets/js/records-view.js'
+  'assets/data/record-covers.js', 'assets/data/records.js', 'assets/js/records-cover-archives.js', 'assets/js/records-view.js'
 ];
 function load() {
   const sandbox = { window: {}, URL, URLSearchParams, console };

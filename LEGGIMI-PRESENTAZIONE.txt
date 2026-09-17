@@ -1,0 +1,59 @@
+PIGEON.JFIF / PLASTIC PIZZAS / SMOOTH4
+======================================
+
+Il sito e' pronto. Non servono Node, npm o comandi di pulizia.
+Questa revisione parte dal pacchetto completo precedente, gia' ripulito.
+
+AGGIORNARE LA CARTELLA CHE STAI GIA' USANDO
+------------------------------------------
+Il pacchetto patch contiene solo i file cambiati, non immagini o dati del CSV.
+Fai una copia di sicurezza, poi copia il contenuto della patch nella radice
+attuale del sito: dove si trovano index.html e dischi.html. Sovrascrivi i file,
+ma UNISCI le cartelle assets/tools/docs: non cancellare le cartelle esistenti.
+Le foto di Noale e Conegliano gia' presenti nella tua copia restano al loro posto.
+
+PARTIRE DAL PACCHETTO COMPLETO
+-------------------------------
+Estrai lo ZIP in una cartella nuova. Apri dischi.html, oppure avvia il tuo
+solito server locale in quella cartella. Apri index.html per partire dalla Home.
+La pulizia delle immagini del pacchetto precedente e' mantenuta: non c'e'
+nessuna operazione di manutenzione da eseguire.
+
+NOTA FOTO: nell'allegato originale mancavano gia' i 32 file di Noale/Conegliano.
+Per una nuova estrazione completa, riporta dalla tua copia SOLO:
+  assets/photos/birbs-of-noale/
+  assets/photos/conegliano-photo-safari/
+Non cancellare queste cartelle dalla tua copia e non sostituire tutta la vecchia
+assets: rientrerebbero anche le varianti gia' eliminate.
+
+COSA CAMBIA
+-------------
+- Movimento nativo del browser, lineare e continuo. Non ci sono piu' scritture
+  JavaScript dei transform a ogni fotogramma. Quattro nodi stabili, stessa
+  scaletta; le immagini gia' decodificate cambiano soltanto fuori campo.
+- Sfumature statiche ai due bordi; niente maschera applicata a tutto il nastro.
+- Velocita' invariata: una posizione in 4,5 secondi. Avvio automatico, Pausa /
+  Riprendi e pausa da tastiera conservati. Il semplice hover non ferma il moto.
+- Plastic Pizzas senza margine vuoto prima del footer. Gli spazi si adattano
+  all'altezza disponibile sul desktop. Su telefono o con forte zoom il contenuto
+  puo' scorrere naturalmente: non e' tagliato e le barre non vengono nascoste.
+- Copyright normale, senza collegamento nascosto, su tutte le pagine.
+- "collezione" resta cliccabile ma ha solo il colore diverso: niente sottolinea,
+  effetto hover o cursore a manina. Il focus da tastiera resta visibile.
+
+VELOCITA' E AVVIO
+------------------
+assets/data/records-config.js: featuredAnimationMs = 4500.
+Un valore maggiore rallenta. L'autoplay rimane attivo come richiesto.
+featuredRespectReducedMotion = true ripristina la preferenza del sistema;
+false conserva l'avvio automatico anche con movimento ridotto OS.
+
+CACHE
+-------
+CSS e script delle pagine generate hanno la nuova versione smooth4 nell'URL.
+Se riusi lo stesso indirizzo del server locale, fai anche un Ctrl+F5.
+
+VERIFICHE
+-----------
+Leggi VERIFICHE.txt. Il report corrente e' docs/records/PRESENTATION-TESTS.json.
+I file di test e build in tools sono facoltativi, destinati allo sviluppo.

@@ -8,6 +8,7 @@ const fs = require('node:fs');
 const path = require('node:path');
 const {load, ROOT} = require('./catalog.js');
 const M = require('../assets/js/records-model.js');
+const CoverArchives = require('./cover-archives.js');
 const P = load(), R = P.records, all = R.all, size = R.config.pageSize;
 let passed = 0;
 function test(name, fn) { fn(); passed++; console.log('OK ' + name); }
@@ -100,11 +101,20 @@ test('Campione vario; nessuna ripetizione di album in 200 estrazioni', () => {
   }
   assert.ok(outcomes.size>20);
 });
-test('Cover locali: esistenza, abbinamento e fallback sicuri', () => {
+test('Cover locali: esistenza nei pacchetti, abbinamento e fallback sicuri', () => {
+  const indexes=new Map();
   for(const [id,c] of Object.entries(R.covers)) {
     const record=R.all.find(r=>r.id===id);assert.ok(record);
-    for(const key of ['local','thumb'])if(c[key])assert.ok(fs.existsSync(path.join(ROOT,c[key])));
-    if(c.local)assert.ok(R.coverURL(record).endsWith(c.local));
+    for(const key of ['local','thumb'])if(c[key]) {
+      const source=CoverArchives.sourceFor(c[key],R.config);assert.ok(source);
+      const file=path.join(ROOT,source.archive);assert.ok(fs.existsSync(file));
+      if(!indexes.has(source.archive))indexes.set(source.archive,CoverArchives.entries(file));
+      assert.ok(indexes.get(source.archive).has(source.entry));
+    }
+    if(c.local) {
+      const source=CoverArchives.sourceFor(c.local,R.config);
+      assert.equal(R.coverURL(record),`zip:${source.archive}#${source.entry}`);
+    }
   }
   assert.equal(R.coverURL({...all[0],id:'VIN-0403',title:'Altro',artist:'Altro'}),'');
 });

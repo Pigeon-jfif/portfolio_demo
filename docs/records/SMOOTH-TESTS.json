@@ -13,28 +13,28 @@
           "duration": 18000,
           "easing": "linear",
           "iterations": "Infinity",
-          "start": -9202.434000000001,
+          "start": -12656.8,
           "state": "running"
         },
         {
           "duration": 18000,
           "easing": "linear",
           "iterations": "Infinity",
-          "start": -4702.434,
+          "start": -8156.8,
           "state": "running"
         },
         {
           "duration": 18000,
           "easing": "linear",
           "iterations": "Infinity",
-          "start": -202.4340000000002,
+          "start": -3656.8,
           "state": "running"
         },
         {
           "duration": 18000,
           "easing": "linear",
           "iterations": "Infinity",
-          "start": 4297.566,
+          "start": 843.1999999999999,
           "state": "running"
         }
       ]
@@ -49,7 +49,7 @@
       "wraps": 2,
       "frames": 571,
       "target_px_s": 43.731,
-      "min_px_s": 43.723,
+      "min_px_s": 43.725,
       "max_px_s": 43.741
     },
     {
@@ -77,9 +77,11 @@
       "passed": true
     },
     {
-      "test": "Only thumbnails are preloaded, not the full catalogue",
+      "test": "Only thumbnail ZIP packs are fetched, not full cover packs",
       "passed": true,
-      "count": 7
+      "requested": [
+        "assets/covers/packs/thumbs/covers-0001-0050.zip"
+      ]
     },
     {
       "test": "Pause preserves the exact native animation times",

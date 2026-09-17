@@ -9,6 +9,7 @@ const fs = require('node:fs');
 const path = require('node:path');
 const { ROOT, load } = require('./catalog.js');
 const M = require('../assets/js/records-model.js');
+const CoverArchives = require('./cover-archives.js');
 
 function check() {
   const P = load();
@@ -88,6 +89,25 @@ function check() {
     assert(JSON.stringify(records.map(r => r.raw)) === JSON.stringify(P.records.all.map(r => r.raw)),
       'Snapshot dischi non aggiornata: esegui node tools/records-sync.js oppure node tools/build.js.');
     const ids = new Set(records.map(r => r.id));
+    const archiveSettings = CoverArchives.settings(P.records.config);
+    const archiveIndexes = new Map();
+    if (archiveSettings.enabled) {
+      assert(Number.isSafeInteger(archiveSettings.packSize) && archiveSettings.packSize > 0, 'coverArchives.packSize non valido.');
+      for (const [label,dir] of [['fullDir',archiveSettings.fullDir],['thumbDir',archiveSettings.thumbDir]]) {
+        assert(/^assets\/covers\/packs\/[a-zA-Z0-9_./-]+$/.test(dir) && !dir.split('/').includes('..'), 'coverArchives.'+label+': percorso non sicuro.');
+      }
+    }
+    function coverFile(file,label) {
+      if (!archiveSettings.enabled) { safeFile(file,label); return; }
+      const source = CoverArchives.sourceFor(file,P.records.config);
+      assert(!!source,label+': percorso non compatibile con i pacchetti ZIP: '+file);
+      if (!source) return;
+      safeFile(source.archive,label+' archivio');
+      const archivePath=path.join(ROOT,source.archive);
+      if (!fs.existsSync(archivePath)) return;
+      if (!archiveIndexes.has(source.archive)) archiveIndexes.set(source.archive,CoverArchives.entries(archivePath));
+      assert(archiveIndexes.get(source.archive).has(source.entry),label+': file assente nel pacchetto '+source.archive+': '+source.entry);
+    }
     assert(Number.isInteger(P.records.config.featuredCount) && P.records.config.featuredCount > 0 && P.records.config.featuredCount <= 3, 'featuredCount: da 1 a 3 suggerimenti con cover.');
     assert(Number.isFinite(P.records.config.artistAnimationMs) && P.records.config.artistAnimationMs >= 0, 'artistAnimationMs deve essere un tempo positivo o zero.');
     assert(['artists', 'albums', 'list'].includes(P.records.config.defaultView), 'defaultView dischi non valido.');
@@ -101,7 +121,7 @@ function check() {
       assert(['album', 'copy'].includes(cover.match), id + ': match deve essere album o copy.');
       for (const key of ['local','thumb']) if (cover[key]) {
         assert(cover[key].startsWith('assets/covers/'), id + ': cover fuori da assets/covers.');
-        safeFile(cover[key], id + ' ' + key);
+        coverFile(cover[key], id + ' ' + key);
       }
       for (const key of ['remote','source']) if (cover[key]) assert(/^https:\/\//.test(cover[key]), id + ': URL cover non HTTPS.');
     }

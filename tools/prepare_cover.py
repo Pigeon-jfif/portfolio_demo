@@ -2,7 +2,7 @@
 """Prepara una COPERTINA locale per Plastic Pizzas (strumento opzionale).
 
 Non identifica album o edizioni e non modifica il CSV o il file di partenza.
-Richiede Pillow. Produce WebP full, miniatura WebP e una scheda JSON da copiare.
+Richiede Pillow. Produce WebP full + miniatura, aggiorna i pacchetti ZIP e stampa una scheda JSON da copiare.
 Uso: python tools/prepare_cover.py /percorso/cover.jpg --id VIN-0434 \
        --artist "Artista" --title "Titolo" --match copy
 Le foto della propria copia devono arrivare gia' firmate, se lo si desidera.
@@ -25,10 +25,13 @@ def prepare(source: Path, root: Path, code: str, artist: str, title: str,
     from PIL import Image, ImageOps, ImageCms
     if not re.fullmatch(r"[A-Za-z0-9_-]+", code):
         raise ValueError("ID non valido. Usa lettere, numeri, trattini o underscore.")
-    targets = [root / "assets/covers/full" / f"{code}.webp",
-               root / "assets/covers/thumbs" / f"{code}.webp"]
-    if any(target.exists() for target in targets) and not force:
-        raise FileExistsError("File gia' presente. Usa --force solo per sostituirlo intenzionalmente.")
+    filename = f"{code}.webp"
+    targets = [root / "assets/covers/staging/full" / filename,
+               root / "assets/covers/staging/thumbs" / filename]
+    from cover_packs import entry_exists
+    already_packed = entry_exists(root, "full", filename) or entry_exists(root, "thumbs", filename)
+    if (already_packed or any(target.exists() for target in targets)) and not force:
+        raise FileExistsError("Cover gia' presente nei pacchetti o nello staging. Usa --force solo per sostituirla intenzionalmente.")
     if source.resolve() in [target.resolve() for target in targets]:
         raise ValueError("La sorgente deve essere diversa dalla destinazione.")
     with Image.open(source) as raw:
@@ -52,8 +55,10 @@ def prepare(source: Path, root: Path, code: str, artist: str, title: str,
             temp = target.with_name(target.stem + '.tmp.webp')
             resized.save(temp, "WEBP", quality=quality, method=6, exif=b"")
             temp.replace(target)
-    return {code:{"artist":artist,"title":title,"local":str(targets[0].relative_to(root)).replace('\\','/'),
-                  "thumb":str(targets[1].relative_to(root)).replace('\\','/'),"remote":"",
+    from cover_packs import build_packs
+    build_packs(root, clear_staging=True)
+    return {code:{"artist":artist,"title":title,"local":f"assets/covers/full/{filename}",
+                  "thumb":f"assets/covers/thumbs/{filename}","remote":"",
                   "source":source_url,"match":match}}
 
 
@@ -71,7 +76,7 @@ def main() -> None:
         result=prepare(args.source,Path(__file__).resolve().parents[1],args.id,args.artist,args.title,args.match,args.source_url,args.force)
     except (OSError,ValueError,ImportError) as exc:
         parser.exit(1,"Errore: "+str(exc)+"\n")
-    print("Copertine create. Copia questa voce in assets/data/record-covers.js:")
+    print("Copertine create e pacchetti ZIP aggiornati. Copia questa voce in assets/data/record-covers.js:")
     print(json.dumps(result,ensure_ascii=False,indent=2))
     print("La sorgente e il CSV non sono stati modificati. Nessun metadato e' stato dedotto.")
 
