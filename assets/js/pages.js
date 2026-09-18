@@ -67,10 +67,10 @@
       <section class="archive-index" aria-labelledby="archive-title">
         <div class="archive-label"><h2 class="eyebrow" id="archive-title">L'archivio</h2><span class="eyebrow">${P.pad(albums.length)} ${albums.length === 1 ? 'raccolta' : 'raccolte'}</span></div>
         ${albums.map((album, index) => `<a class="archive-main${index % 2 ? ' archive-main--reverse' : ''}" href="${P.albumUrl(album.id)}" aria-label="Apri la raccolta ${text(album.title)}">
-          <div class="collection-image">${P.image(P.byId.get(album.coverId), { eager: index === 0 })}</div>
+          <div class="collection-image">${P.image(P.albumCover(album), { eager: index === 0 })}</div>
           <div class="archive-copy">
             <p class="eyebrow"><span class="archive-number">${P.pad(index + 1)}</span> &nbsp;/&nbsp; ${[album.category, album.monthLabel].filter(Boolean).map(text).join(' &nbsp;/&nbsp; ')}</p>
-            <h3>${text(album.headingFirst)}<br><em class="italic">${text(album.headingAccent)}</em></h3>
+            <h3>${text(album.headingFirst)}<br><em class="italic archive-place">${text(album.headingAccent)}</em></h3>
             <p class="archive-description">${text(album.shortDescription)}</p>
             <p class="archive-meta">${P.albumPhotos(album).length} immagini${album.location ? ` &middot; ${text(album.location)}` : ''}</p>
             <span class="arrow-link">Guarda le fotografie ${icon('ne')}</span>
@@ -91,7 +91,7 @@
     const needle = normalize(query.trim());
     return P.albumPhotos(album).filter(photo =>
       (filter === 'all' || photo.filter === filter) &&
-      (!needle || normalize([photo.id, photo.title, photo.subject, photo.note].join(' ')).includes(needle))
+      (!needle || normalize([photo.id, photo.title, photo.subject, photo.location, photo.note].join(' ')).includes(needle))
     );
   };
 
@@ -134,7 +134,7 @@
   // consecutive in coda possono invece chiudere insieme su una riga da tre.
   // La logica vale sull'ordine gia' scelto (categoria o casuale) e quindi su
   // qualsiasi raccolta, presente o futura.
-  P.galleryRows = photos => {
+  P.galleryRows = (photos, options = {}) => {
     const rows = [];
     const panorama = photo => photo.width && photo.height && photo.width / photo.height >= 2.05;
     const portrait = photo => !panorama(photo) && photo.width && photo.height && photo.height > photo.width;
@@ -152,32 +152,57 @@
     // ricevuto: l'unico riassetto e' locale e serve a non lasciare una verticale
     // da sola in fondo quando esiste una soluzione piu' equilibrata.
     const planned = [...normals];
-    let trioStart = -1;
-    if (planned.length % 2 === 1 && planned.length >= 3) {
-      const last = planned.length - 1;
-      const lastThreePortrait = planned.slice(-3).every(portrait);
-      if (lastThreePortrait) {
-        trioStart = planned.length - 3;
-      } else if (portrait(planned[last])) {
-        let swapIndex = -1;
-        for (let index = last - 1; index >= 0; index--) {
-          if (landscape(planned[index])) { swapIndex = index; break; }
-        }
-        if (swapIndex >= 0) [planned[swapIndex], planned[last]] = [planned[last], planned[swapIndex]];
-      }
-    }
-
     const normalRows = [];
-    for (let index = 0; index < planned.length;) {
-      if (index === trioStart) {
-        normalRows.push(planned.slice(index, index + 3));
-        index += 3;
-      } else if (index + 1 < planned.length) {
-        normalRows.push(planned.slice(index, index + 2));
-        index += 2;
-      } else {
-        normalRows.push([planned[index]]);
-        index += 1;
+    const portraitRowPattern = Array.isArray(options?.portraitRowPattern)
+      ? options.portraitRowPattern.map(Number).filter(size => size === 2 || size === 3)
+      : [];
+
+    // Alcune raccolte interamente verticali possono chiedere un ritmo piu' editoriale
+    // (es. 3 / 2 / 3 / 2). Il pattern viene usato solo se tutte le normali sono
+    // verticali; in ogni altro caso resta attiva la logica generale sotto.
+    if (portraitRowPattern.length && planned.length && planned.every(portrait)) {
+      let index = 0;
+      let patternIndex = 0;
+      while (index < planned.length) {
+        const remaining = planned.length - index;
+        if (remaining <= 3) {
+          normalRows.push(planned.slice(index));
+          break;
+        }
+        let size = portraitRowPattern[patternIndex % portraitRowPattern.length];
+        if (remaining - size === 1) size = size === 3 ? 2 : 3;
+        if (size > remaining) size = remaining;
+        normalRows.push(planned.slice(index, index + size));
+        index += size;
+        patternIndex += 1;
+      }
+    } else {
+      let trioStart = -1;
+      if (planned.length % 2 === 1 && planned.length >= 3) {
+        const last = planned.length - 1;
+        const lastThreePortrait = planned.slice(-3).every(portrait);
+        if (lastThreePortrait) {
+          trioStart = planned.length - 3;
+        } else if (portrait(planned[last])) {
+          let swapIndex = -1;
+          for (let index = last - 1; index >= 0; index--) {
+            if (landscape(planned[index])) { swapIndex = index; break; }
+          }
+          if (swapIndex >= 0) [planned[swapIndex], planned[last]] = [planned[last], planned[swapIndex]];
+        }
+      }
+
+      for (let index = 0; index < planned.length;) {
+        if (index === trioStart) {
+          normalRows.push(planned.slice(index, index + 3));
+          index += 3;
+        } else if (index + 1 < planned.length) {
+          normalRows.push(planned.slice(index, index + 2));
+          index += 2;
+        } else {
+          normalRows.push([planned[index]]);
+          index += 1;
+        }
       }
     }
 
@@ -218,7 +243,7 @@
     })).join('\n');
 
     let index = 0;
-    return P.galleryRows(photos).map((row, rowIndex) => {
+    return P.galleryRows(photos, album.sequence || {}).map((row, rowIndex) => {
       const panoramaRow = row.length === 1 && row[0].width / row[0].height >= 2.05;
       const rowClass = panoramaRow ? ' sequence-row--panorama' : row.length === 1 ? ' sequence-row--single' : '';
       return `<div class="sequence-row${rowClass}" data-sequence-count="${row.length}">${row.map(photo => P.figure(photo.id, ++index, {
@@ -238,7 +263,7 @@
     return `<div class="wrap">
       <!-- ALBUM-01 | Titolo, luogo, data: albums.js -->
       <header class="album-intro"><a class="breadcrumb" href="${P.url('raccolte.html')}">${icon('back')} Raccolte <span aria-hidden="true">/</span> ${text(album.category)}</a>
-        <div class="album-title-row"><h1 class="album-title">${text(album.headingFirst)}<br><em>${text(album.headingAccent)}</em></h1><p class="album-description">${text(album.description)}</p></div>
+        <div class="album-title-row"><h1 class="album-title">${text(album.headingFirst)}<br><em class="album-place">${text(album.headingAccent)}</em></h1><p class="album-description">${text(album.description)}</p></div>
         <div class="album-meta eyebrow"><span>${icon('pin')} ${text(album.location)}</span>${album.dateLabel ? `<span>${text(album.dateLabel)}</span>` : ''}<span>${all.length} immagini</span></div>
       </header>
       <!-- ALBUM-02 | Filtri configurabili; ricerca e vista: site.js > gallery -->
@@ -247,7 +272,7 @@
           ${filters.map(item => `<button type="button" class="filter-button" data-filter="${text(item.id)}" aria-pressed="${filter === item.id}" aria-controls="photo-gallery">${text(item.label)}<small>${item.id === 'all' ? all.length : all.filter(photo => photo.filter === item.id).length}</small></button>`).join('')}
         </div>
         <div class="toolbar-right">
-          ${P.site.gallery.showSearch ? `<label class="gallery-search">${icon('search')}<span class="sr-only">Cerca per titolo, soggetto o codice</span><input type="search" id="gallery-search" placeholder="Titolo, soggetto, codice" value="${text(query)}" autocomplete="off" aria-controls="photo-gallery"></label>` : ''}
+          ${P.site.gallery.showSearch ? `<label class="gallery-search">${icon('search')}<span class="sr-only">Cerca per titolo, soggetto, luogo o codice</span><input type="search" id="gallery-search" placeholder="Titolo, soggetto, luogo, codice" value="${text(query)}" autocomplete="off" aria-controls="photo-gallery"></label>` : ''}
           <div class="gallery-modes">
             <div class="view-controls" role="group" aria-label="Disposizione delle fotografie">
               <button type="button" class="view-button" data-view="sequence" aria-pressed="${view === 'sequence'}" aria-label="Vista sequenza, righe a altezza uniforme senza ritagli">${icon('sequence')}<span>Sequenza</span></button>

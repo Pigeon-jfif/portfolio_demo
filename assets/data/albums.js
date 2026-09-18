@@ -8,9 +8,12 @@
  * Le ~21:9 occupano una riga intera. Il controllo ordine puo raggruppare per categoria
  * o mescolare casualmente; dentro una categoria parte comunque da photoIds.
  * Le copertine si alternano a sinistra/destra automaticamente (in ordine).
- * coverId sceglie la copertina mostrata nella pagina Raccolte.
+ * coverId sceglie come copertina una foto gia' presente nella raccolta.
+ * cover permette invece una copertina dedicata (es. un crop solo per Raccolte):
+ * { file, thumb, width, height, thumbWidth, alt }. Usa cover OPPURE coverId.
  * filters contiene solo id e label: i pulsanti sono DENTRO ogni raccolta.
  * dateLabel/monthLabel/year: lascia vuoti quando non conosci la data.
+ * sequence.portraitRowPattern puo' dare un ritmo 3/2 a raccolte tutte verticali.
  * published:false toglie l'album dall'interfaccia; NON rende privati i suoi file.
  * page: "" usa album.html?id=IL-TUO-ID, senza creare un altro HTML.
  * page: "serie/nome.html" abilita una pagina dedicata creata da tools/build.js.
@@ -22,9 +25,9 @@ window.PIGEON_ALBUMS = [
     "id": "jesolo-2026",
     "published": true,
     "page": "serie/jesolo.html",
-    "title": "Jesolo Air Show",
-    "headingFirst": "Jesolo",
-    "headingAccent": "Air Show.",
+    "title": "Air Show — Jesolo",
+    "headingFirst": "Air Show",
+    "headingAccent": "Jesolo",
     "category": "Aviazione",
     "location": "Jesolo, Italia",
     "dateLabel": "11–12 settembre 2026",
@@ -50,24 +53,28 @@ window.PIGEON_ALBUMS = [
     "footnote": "Alcuni fotogrammi hanno due tagli diversi. Apri una foto e usa “Confronta”, quando disponibile, per guardarli insieme."
   },
   {
-    "id": "birbs-of-noale",
+    "id": "birbs-noale-verona",
     "published": true,
-    "page": "serie/birbs-of-noale.html",
-    "title": "Birbs of Noale",
-    "headingFirst": "Birbs of",
-    "headingAccent": "Noale.",
+    "page": "serie/birbs-noale-verona.html",
+    "title": "Birbs — Noale & Verona",
+    "headingFirst": "Birbs",
+    "headingAccent": "Noale & Verona",
     "category": "Animali",
-    "location": "Noale",
+    "location": "Noale & Verona, Italia",
     "dateLabel": "",
     "monthLabel": "",
     "year": "",
-    "description": "Piccoli incontri, da vicino. Sguardi, piume e riflessi lungo l’acqua.",
-    "shortDescription": "Anatre, piccioni e altri incontri. Un giro a Noale, all’altezza dei birbs.",
-    "coverId": "NOA-005",
+    "description": "Due passeggiate lontane nel tempo, tra Noale e Verona, tenendo gli occhi all’altezza dell’acqua: germani, gabbiani, piccioni e altri incontri.",
+    "shortDescription": "Piume, riflessi e piccoli incontri tra Noale e Verona.",
+    "coverId": "BNV-001",
     "filters": [
       {
         "id": "anatre",
         "label": "Anatre"
+      },
+      {
+        "id": "gabbiani",
+        "label": "Gabbiani"
       },
       {
         "id": "piccioni",
@@ -79,41 +86,56 @@ window.PIGEON_ALBUMS = [
       }
     ],
     "photoIds": [
-      "NOA-005",
-      "NOA-001",
-      "NOA-002",
-      "NOA-003",
-      "NOA-004",
-      "NOA-008",
-      "NOA-006",
-      "NOA-007",
-      "NOA-009"
+      "BNV-001",
+      "BNV-002",
+      "BNV-003",
+      "BNV-010",
+      "BNV-012",
+      "BNV-013",
+      "BNV-007",
+      "BNV-014",
+      "BNV-004",
+      "BNV-005",
+      "BNV-008",
+      "BNV-011",
+      "BNV-006",
+      "BNV-009"
     ],
     "footnote": ""
   },
   {
-    "id": "conegliano-photo-safari",
+    "id": "street-pordenone-verona",
     "published": true,
-    "page": "serie/conegliano.html",
-    "title": "Photo Safari Conegliano",
-    "headingFirst": "Photo Safari",
-    "headingAccent": "Conegliano.",
+    "page": "serie/street-pordenone-verona.html",
+    "title": "Street — Pordenone & Verona",
+    "headingFirst": "Street",
+    "headingAccent": "Pordenone & Verona",
     "category": "Street",
-    "location": "Conegliano, Italia",
+    "location": "Pordenone & Verona, Italia",
     "dateLabel": "",
     "monthLabel": "",
     "year": "",
-    "description": "Un giro a Conegliano tra barriere, dettagli, architettura e qualche momento dietro le quinte.",
-    "shortDescription": "Barriere, dettagli urbani e piccoli momenti da un Photo Safari a Conegliano.",
-    "coverId": "CON-005",
+    "description": "Due città percorse guardando in alto e ai margini: vicoli, torri, biciclette, insegne, statue e piccoli dettagli che tengono insieme la strada.",
+    "shortDescription": "Vicoli, torri, biciclette e dettagli urbani tra Pordenone e Verona.",
+    "sequence": {
+      "portraitRowPattern": [3, 2]
+    },
+    "cover": {
+      "file": "assets/photos/street-pordenone-verona/cover/SPV-COVER.webp",
+      "thumb": "assets/photos/street-pordenone-verona/cover/SPV-COVER-thumb.webp",
+      "width": 2047,
+      "height": 1365,
+      "thumbWidth": 960,
+      "alt": "Campanile in pietra incorniciato da rami sfocati, sotto un cielo azzurro."
+    },
     "filters": [
       {
-        "id": "urbano",
-        "label": "Urbano"
+        "id": "strada",
+        "label": "Strada"
       },
       {
-        "id": "persone",
-        "label": "Persone"
+        "id": "architetture",
+        "label": "Architetture"
       },
       {
         "id": "dettagli",
@@ -121,14 +143,22 @@ window.PIGEON_ALBUMS = [
       }
     ],
     "photoIds": [
-      "CON-002",
-      "CON-003",
-      "CON-004",
-      "CON-006",
-      "CON-001",
-      "CON-005",
-      "CON-007"
+      "SPV-001",
+      "SPV-006",
+      "SPV-012",
+      "SPV-010",
+      "SPV-011",
+      "SPV-002",
+      "SPV-007",
+      "SPV-008",
+      "SPV-005",
+      "SPV-004",
+      "SPV-003",
+      "SPV-013",
+      "SPV-014",
+      "SPV-009",
+      "SPV-015"
     ],
-    "footnote": ""
+    "footnote": "Quattro export di Pordenone non conservano gli EXIF tecnici di scatto: i campi mancanti restano vuoti."
   }
 ];

@@ -446,6 +446,18 @@ a:hover .collection-image img {
   letter-spacing: -.035em;
 }
 
+/* Nelle raccolte il titolo e' l'argomento; la seconda riga e' sempre il luogo.
+   Il luogo resta in corsivo/blu ma piu' piccolo, cosi' coppie di citta' come
+   Pordenone & Verona rimangono su una sola riga anche in spazi stretti. */
+.archive-copy h3 .archive-place {
+  display: inline-block;
+  color: var(--blue);
+  font-size: clamp(22px, 2.45vw, 39px);
+  line-height: 1.12;
+  letter-spacing: -.025em;
+  white-space: nowrap;
+}
+
 .archive-description {
   font-size: 13px;
   color: var(--muted);
@@ -520,6 +532,14 @@ a:hover .collection-image img {
 .album-title em {
   color: var(--blue);
   font-weight: 400;
+}
+
+.album-title .album-place {
+  display: inline-block;
+  font-size: clamp(28px, 4.05vw, 58px);
+  line-height: 1.08;
+  letter-spacing: -.035em;
+  white-space: nowrap;
 }
 
 .album-description {

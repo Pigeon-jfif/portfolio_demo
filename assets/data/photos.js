@@ -8,6 +8,7 @@
  * file / thumb        : percorsi dalla radice del sito, senza / iniziale.
  * width / height      : pixel del FILE WEB effettivamente pubblicato (full o large).
  * referenceExport     : pixel dell'export dichiarato, NON del file web pubblicato.
+ * location            : luogo del singolo scatto; utile per raccolte che uniscono piu citta.
  * capture             : parametri confermati del singolo scatto; "" = non noto.
  * Impaginazione        : automatica; coppie, trittici verticali quando utili, panoramiche full-width.
  * pairId              : id dell'altro taglio; relazione reciproca. "" = nessuno.
@@ -1244,282 +1245,499 @@ window.PIGEON_PHOTOS = [
   },
 
   // ------------------------------------------------------------------
-  // NOA-001 | A tu per tu | _DSF0812.jpg
-  // Copia firmata PROVVISORIA: sostituisci con il tuo export firmato.
-  // Nessun EXIF disponibile: campi lasciati vuoti, non ipotizzati.
+  // BNV-001 | Dal parapetto | DSCF1062_wm.jpg
   {
-    "id": "NOA-001",
-    "albumId": "birbs-of-noale",
-    "sourceFile": "_DSF0812.jpg",
-    "title": "A tu per tu",
-    "subject": "Anatre",
+    "id": "BNV-001",
+    "albumId": "birbs-noale-verona",
+    "sourceFile": "DSCF1062_wm.jpg",
+    "title": "Dal parapetto",
+    "subject": "Germano reale",
     "filter": "anatre",
-    "alt": "Primo piano di un’anatra, con lo sguardo rivolto verso l’obiettivo e il becco sporco.",
-    "note": "Lo sguardo, il becco e le piccole tracce di una passeggiata.",
+    "alt": "Germano reale femmina ripreso dall’alto mentre nuota vicino a un parapetto, nell’acqua scura.",
+    "note": "Una traiettoria semplice nell’acqua, vista quasi in verticale.",
     "variant": "wide",
     "pairId": "",
-    "file": "assets/photos/birbs-of-noale/large/NOA-001.jpg",
-    "thumb": "assets/photos/birbs-of-noale/thumbs/NOA-001.webp",
-    "width": 2047,
-    "height": 1367,
+    "file": "assets/photos/birbs-noale-verona/full/BNV-001.webp",
+    "thumb": "assets/photos/birbs-noale-verona/thumbs/BNV-001.webp",
+    "width": 2400,
+    "height": 1603,
     "thumbWidth": 960,
-    "webSignature": "provisional",
     "capture": {
-      "camera": "",
-      "lens": "",
-      "focalLength": "",
-      "aperture": "",
-      "shutter": "",
-      "iso": "",
+      "camera": "X-T5",
+      "lens": "XF55-200mmF3.5-4.8 R LM OIS",
+      "focalLength": "134.5 mm",
+      "aperture": "f/4.4",
+      "shutter": "1/500 s",
+      "iso": "400",
       "capturedAt": ""
-    }
+    },
+    "referenceExport": {
+      "width": 5178,
+      "height": 3459
+    },
+    "location": "Verona, Italia"
   },
 
   // ------------------------------------------------------------------
-  // NOA-002 | Un filo di blu | _DSF0853.jpg
-  // Copia firmata PROVVISORIA: sostituisci con il tuo export firmato.
-  // Nessun EXIF disponibile: campi lasciati vuoti, non ipotizzati.
+  // BNV-002 | Battere le ali | DSCF1138_wm.jpg
   {
-    "id": "NOA-002",
-    "albumId": "birbs-of-noale",
-    "sourceFile": "_DSF0853.jpg",
-    "title": "Un filo di blu",
-    "subject": "Anatre",
+    "id": "BNV-002",
+    "albumId": "birbs-noale-verona",
+    "sourceFile": "DSCF1138_wm.jpg",
+    "title": "Battere le ali",
+    "subject": "Germano reale",
     "filter": "anatre",
-    "alt": "Dettaglio ravvicinato delle piume di un’anatra, con una striscia blu tra i toni marroni.",
-    "note": "Trame sovrapposte, interrotte da una piccola zona blu.",
+    "alt": "Germano reale maschio nell’acqua con le ali aperte e mosse, rese morbide dal movimento.",
+    "note": "Il gesto dura un attimo; il mosso delle ali lo lascia leggere.",
     "variant": "wide",
     "pairId": "",
-    "file": "assets/photos/birbs-of-noale/large/NOA-002.jpg",
-    "thumb": "assets/photos/birbs-of-noale/thumbs/NOA-002.webp",
-    "width": 2047,
-    "height": 1367,
+    "file": "assets/photos/birbs-noale-verona/full/BNV-002.webp",
+    "thumb": "assets/photos/birbs-noale-verona/thumbs/BNV-002.webp",
+    "width": 2400,
+    "height": 1603,
     "thumbWidth": 960,
-    "webSignature": "provisional",
     "capture": {
-      "camera": "",
-      "lens": "",
-      "focalLength": "",
-      "aperture": "",
-      "shutter": "",
-      "iso": "",
+      "camera": "X-T5",
+      "lens": "XF55-200mmF3.5-4.8 R LM OIS",
+      "focalLength": "200 mm",
+      "aperture": "f/4.8",
+      "shutter": "1/60 s",
+      "iso": "400",
       "capturedAt": ""
-    }
+    },
+    "referenceExport": {
+      "width": 6514,
+      "height": 4351
+    },
+    "location": "Verona, Italia"
   },
 
   // ------------------------------------------------------------------
-  // NOA-003 | Sulla riva | _DSF0016.jpg
-  // Copia firmata PROVVISORIA: sostituisci con il tuo export firmato.
-  // Nessun EXIF disponibile: campi lasciati vuoti, non ipotizzati.
+  // BNV-003 | Acqua bassa | DSCF1163_wm.jpg
   {
-    "id": "NOA-003",
-    "albumId": "birbs-of-noale",
-    "sourceFile": "_DSF0016.jpg",
+    "id": "BNV-003",
+    "albumId": "birbs-noale-verona",
+    "sourceFile": "DSCF1163_wm.jpg",
+    "title": "Acqua bassa",
+    "subject": "Germano reale",
+    "filter": "anatre",
+    "alt": "Germano reale maschio fermo nell’acqua bassa, con le zampe e il riflesso visibili sul fondo.",
+    "note": "Verde, arancio e il fondale chiaro sotto pochi centimetri d’acqua.",
+    "variant": "wide",
+    "pairId": "",
+    "file": "assets/photos/birbs-noale-verona/full/BNV-003.webp",
+    "thumb": "assets/photos/birbs-noale-verona/thumbs/BNV-003.webp",
+    "width": 2400,
+    "height": 1603,
+    "thumbWidth": 960,
+    "capture": {
+      "camera": "X-T5",
+      "lens": "XF55-200mmF3.5-4.8 R LM OIS",
+      "focalLength": "200 mm",
+      "aperture": "f/4.8",
+      "shutter": "1/125 s",
+      "iso": "400",
+      "capturedAt": ""
+    },
+    "referenceExport": {
+      "width": 5178,
+      "height": 3459
+    },
+    "location": "Verona, Italia"
+  },
+
+  // ------------------------------------------------------------------
+  // BNV-004 | Di fronte | DSCF1223_wm.jpg
+  {
+    "id": "BNV-004",
+    "albumId": "birbs-noale-verona",
+    "sourceFile": "DSCF1223_wm.jpg",
+    "title": "Di fronte",
+    "subject": "Gabbiano",
+    "filter": "gabbiani",
+    "alt": "Gabbiano ripreso frontalmente in piedi su una superficie scura, con lo sfondo chiaro sfocato.",
+    "note": "Un ritratto quasi simmetrico, tutto sguardo e zampe.",
+    "variant": "wide",
+    "pairId": "",
+    "file": "assets/photos/birbs-noale-verona/full/BNV-004.webp",
+    "thumb": "assets/photos/birbs-noale-verona/thumbs/BNV-004.webp",
+    "width": 1603,
+    "height": 2400,
+    "thumbWidth": 641,
+    "capture": {
+      "camera": "X-T5",
+      "lens": "XF55-200mmF3.5-4.8 R LM OIS",
+      "focalLength": "200 mm",
+      "aperture": "f/4.8",
+      "shutter": "1/500 s",
+      "iso": "400",
+      "capturedAt": ""
+    },
+    "referenceExport": {
+      "width": 3720,
+      "height": 5568
+    },
+    "location": "Verona, Italia"
+  },
+
+  // ------------------------------------------------------------------
+  // BNV-005 | Profilo | DSCF1236_wm.jpg
+  {
+    "id": "BNV-005",
+    "albumId": "birbs-noale-verona",
+    "sourceFile": "DSCF1236_wm.jpg",
+    "title": "Profilo",
+    "subject": "Gabbiano",
+    "filter": "gabbiani",
+    "alt": "Gabbiano di profilo su una superficie scura, con il becco e le zampe rossastre.",
+    "note": "Poche linee e un profilo pulito.",
+    "variant": "wide",
+    "pairId": "",
+    "file": "assets/photos/birbs-noale-verona/full/BNV-005.webp",
+    "thumb": "assets/photos/birbs-noale-verona/thumbs/BNV-005.webp",
+    "width": 1604,
+    "height": 2400,
+    "thumbWidth": 642,
+    "capture": {
+      "camera": "X-T5",
+      "lens": "XF55-200mmF3.5-4.8 R LM OIS",
+      "focalLength": "200 mm",
+      "aperture": "f/4.8",
+      "shutter": "1/500 s",
+      "iso": "400",
+      "capturedAt": ""
+    },
+    "referenceExport": {
+      "width": 3203,
+      "height": 4794
+    },
+    "location": "Verona, Italia"
+  },
+
+  // ------------------------------------------------------------------
+  // BNV-006 | Sulla riva | _DSF0016_wm.jpg
+  {
+    "id": "BNV-006",
+    "albumId": "birbs-noale-verona",
+    "sourceFile": "_DSF0016_wm.jpg",
     "title": "Sulla riva",
-    "subject": "Altri incontri",
+    "subject": "Gallinella d’acqua",
     "filter": "altri",
-    "alt": "Un uccello scuro in piedi tra l’erba della riva, con l’acqua sullo sfondo.",
+    "alt": "Gallinella d’acqua giovane in piedi tra l’erba della riva, con l’acqua sullo sfondo.",
     "note": "Tra l’erba e l’acqua, per un momento fermo.",
     "variant": "wide",
     "pairId": "",
-    "file": "assets/photos/birbs-of-noale/large/NOA-003.jpg",
-    "thumb": "assets/photos/birbs-of-noale/thumbs/NOA-003.webp",
-    "width": 2048,
-    "height": 1368,
+    "file": "assets/photos/birbs-noale-verona/full/BNV-006.webp",
+    "thumb": "assets/photos/birbs-noale-verona/thumbs/BNV-006.webp",
+    "width": 2400,
+    "height": 1603,
     "thumbWidth": 960,
-    "webSignature": "provisional",
     "capture": {
-      "camera": "",
-      "lens": "",
-      "focalLength": "",
-      "aperture": "",
-      "shutter": "",
-      "iso": "",
+      "camera": "X-T5",
+      "lens": "XF55-200mmF3.5-4.8 R LM OIS",
+      "focalLength": "200 mm",
+      "aperture": "f/4.8",
+      "shutter": "1/1000 s",
+      "iso": "200",
       "capturedAt": ""
-    }
+    },
+    "referenceExport": {
+      "width": 5376,
+      "height": 3591
+    },
+    "location": "Noale, Italia"
   },
 
   // ------------------------------------------------------------------
-  // NOA-004 | Doppio sguardo | _DSF0043.jpg
-  // Copia firmata PROVVISORIA: sostituisci con il tuo export firmato.
-  // Nessun EXIF disponibile: campi lasciati vuoti, non ipotizzati.
+  // BNV-007 | Doppio sguardo | _DSF0043_wm.jpg
   {
-    "id": "NOA-004",
-    "albumId": "birbs-of-noale",
-    "sourceFile": "_DSF0043.jpg",
+    "id": "BNV-007",
+    "albumId": "birbs-noale-verona",
+    "sourceFile": "_DSF0043_wm.jpg",
     "title": "Doppio sguardo",
-    "subject": "Anatre",
+    "subject": "Germano reale",
     "filter": "anatre",
-    "alt": "Anatra di profilo sull’acqua, con il riflesso della testa nella parte bassa della foto verticale.",
+    "alt": "Germano reale femmina di profilo sull’acqua, con il riflesso della testa nella parte bassa della foto verticale.",
     "note": "Un profilo e il suo riflesso.",
     "variant": "wide",
     "pairId": "",
-    "file": "assets/photos/birbs-of-noale/large/NOA-004.jpg",
-    "thumb": "assets/photos/birbs-of-noale/thumbs/NOA-004.webp",
-    "width": 1535,
-    "height": 2048,
+    "file": "assets/photos/birbs-noale-verona/full/BNV-007.webp",
+    "thumb": "assets/photos/birbs-noale-verona/thumbs/BNV-007.webp",
+    "width": 1800,
+    "height": 2400,
     "thumbWidth": 720,
-    "webSignature": "provisional",
     "capture": {
-      "camera": "",
-      "lens": "",
-      "focalLength": "",
-      "aperture": "",
-      "shutter": "",
-      "iso": "",
+      "camera": "X-T5",
+      "lens": "XF55-200mmF3.5-4.8 R LM OIS",
+      "focalLength": "200 mm",
+      "aperture": "f/4.8",
+      "shutter": "1/1000 s",
+      "iso": "200",
       "capturedAt": ""
-    }
+    },
+    "referenceExport": {
+      "width": 3131,
+      "height": 4175
+    },
+    "location": "Noale, Italia"
   },
 
   // ------------------------------------------------------------------
-  // NOA-005 | Iridescenze | _DSF0333.jpg
-  // Copia firmata PROVVISORIA: sostituisci con il tuo export firmato.
-  // Nessun EXIF disponibile: campi lasciati vuoti, non ipotizzati.
+  // BNV-008 | Iridescenze | _DSF0333_wm.jpg
   {
-    "id": "NOA-005",
-    "albumId": "birbs-of-noale",
-    "sourceFile": "_DSF0333.jpg",
+    "id": "BNV-008",
+    "albumId": "birbs-noale-verona",
+    "sourceFile": "_DSF0333_wm.jpg",
     "title": "Iridescenze",
-    "subject": "Piccioni",
+    "subject": "Piccione",
     "filter": "piccioni",
     "alt": "Ritratto laterale di un piccione con occhio arancione e piume verdi e viola sul collo.",
     "note": "Verde, viola e un occhio arancione. Da vicino, il solito piccione cambia.",
     "variant": "wide",
     "pairId": "",
-    "file": "assets/photos/birbs-of-noale/large/NOA-005.jpg",
-    "thumb": "assets/photos/birbs-of-noale/thumbs/NOA-005.webp",
-    "width": 2047,
-    "height": 1367,
+    "file": "assets/photos/birbs-noale-verona/full/BNV-008.webp",
+    "thumb": "assets/photos/birbs-noale-verona/thumbs/BNV-008.webp",
+    "width": 2400,
+    "height": 1603,
     "thumbWidth": 960,
-    "webSignature": "provisional",
     "capture": {
-      "camera": "",
-      "lens": "",
-      "focalLength": "",
-      "aperture": "",
-      "shutter": "",
-      "iso": "",
+      "camera": "X-T5",
+      "lens": "XF55-200mmF3.5-4.8 R LM OIS",
+      "focalLength": "200 mm",
+      "aperture": "f/4.8",
+      "shutter": "1/125 s",
+      "iso": "200",
       "capturedAt": ""
-    }
+    },
+    "referenceExport": {
+      "width": 7752,
+      "height": 5178
+    },
+    "location": "Noale, Italia"
   },
 
   // ------------------------------------------------------------------
-  // NOA-006 | In bianco | _DSF0432.jpg
-  // Copia firmata PROVVISORIA: sostituisci con il tuo export firmato.
-  // Nessun EXIF disponibile: campi lasciati vuoti, non ipotizzati.
+  // BNV-009 | In bianco | _DSF0432_wm.jpg
   {
-    "id": "NOA-006",
-    "albumId": "birbs-of-noale",
-    "sourceFile": "_DSF0432.jpg",
+    "id": "BNV-009",
+    "albumId": "birbs-noale-verona",
+    "sourceFile": "_DSF0432_wm.jpg",
     "title": "In bianco",
-    "subject": "Altri incontri",
+    "subject": "Garzetta",
     "filter": "altri",
-    "alt": "Un uccello bianco dal becco lungo e scuro tra erba, foglie e zone d’ombra, in formato verticale.",
+    "alt": "Garzetta bianca in piedi sull’erba, con becco e zampe scuri, in formato verticale.",
     "note": "Una presenza bianca tra le ombre e le foglie.",
     "variant": "wide",
     "pairId": "",
-    "file": "assets/photos/birbs-of-noale/large/NOA-006.jpg",
-    "thumb": "assets/photos/birbs-of-noale/thumbs/NOA-006.webp",
-    "width": 1473,
-    "height": 2048,
-    "thumbWidth": 690,
-    "webSignature": "provisional",
+    "file": "assets/photos/birbs-noale-verona/full/BNV-009.webp",
+    "thumb": "assets/photos/birbs-noale-verona/thumbs/BNV-009.webp",
+    "width": 1727,
+    "height": 2400,
+    "thumbWidth": 691,
     "capture": {
-      "camera": "",
-      "lens": "",
-      "focalLength": "",
-      "aperture": "",
-      "shutter": "",
-      "iso": "",
+      "camera": "X-T5",
+      "lens": "XF55-200mmF3.5-4.8 R LM OIS",
+      "focalLength": "200 mm",
+      "aperture": "f/4.8",
+      "shutter": "1/1000 s",
+      "iso": "800",
       "capturedAt": ""
-    }
+    },
+    "referenceExport": {
+      "width": 2144,
+      "height": 2979
+    },
+    "location": "Noale, Italia"
   },
 
   // ------------------------------------------------------------------
-  // NOA-007 | A cercare qualcosa | _DSF0519.jpg
-  // Copia firmata PROVVISORIA: sostituisci con il tuo export firmato.
-  // Nessun EXIF disponibile: campi lasciati vuoti, non ipotizzati.
+  // BNV-010 | A cercare qualcosa | _DSF0519_wm.jpg
   {
-    "id": "NOA-007",
-    "albumId": "birbs-of-noale",
-    "sourceFile": "_DSF0519.jpg",
+    "id": "BNV-010",
+    "albumId": "birbs-noale-verona",
+    "sourceFile": "_DSF0519_wm.jpg",
     "title": "A cercare qualcosa",
-    "subject": "Anatre",
+    "subject": "Germano reale",
     "filter": "anatre",
-    "alt": "Anatra sulla riva, con il collo abbassato e le zampe arancioni illuminate.",
+    "alt": "Germano reale femmina sulla riva, con il collo abbassato verso terra e le zampe arancioni illuminate.",
     "note": "Il collo verso terra, le zampe nella luce.",
     "variant": "wide",
     "pairId": "",
-    "file": "assets/photos/birbs-of-noale/large/NOA-007.jpg",
-    "thumb": "assets/photos/birbs-of-noale/thumbs/NOA-007.webp",
-    "width": 2047,
-    "height": 1367,
+    "file": "assets/photos/birbs-noale-verona/full/BNV-010.webp",
+    "thumb": "assets/photos/birbs-noale-verona/thumbs/BNV-010.webp",
+    "width": 2400,
+    "height": 1603,
     "thumbWidth": 960,
-    "webSignature": "provisional",
     "capture": {
-      "camera": "",
-      "lens": "",
-      "focalLength": "",
-      "aperture": "",
-      "shutter": "",
-      "iso": "",
+      "camera": "X-T5",
+      "lens": "XF55-200mmF3.5-4.8 R LM OIS",
+      "focalLength": "172.4 mm",
+      "aperture": "f/4.7",
+      "shutter": "1/500 s",
+      "iso": "1600",
       "capturedAt": ""
-    }
+    },
+    "referenceExport": {
+      "width": 7752,
+      "height": 5178
+    },
+    "location": "Noale, Italia"
   },
 
   // ------------------------------------------------------------------
-  // NOA-008 | Puntini | _DSF0650.jpg
-  // Copia firmata PROVVISORIA: sostituisci con il tuo export firmato.
-  // Nessun EXIF disponibile: campi lasciati vuoti, non ipotizzati.
+  // BNV-011 | Puntini | _DSF0650_wm.jpg
   {
-    "id": "NOA-008",
-    "albumId": "birbs-of-noale",
-    "sourceFile": "_DSF0650.jpg",
+    "id": "BNV-011",
+    "albumId": "birbs-noale-verona",
+    "sourceFile": "_DSF0650_wm.jpg",
     "title": "Puntini",
-    "subject": "Piccioni",
+    "subject": "Piccione",
     "filter": "piccioni",
-    "alt": "Piccione inquadrato da vicino e frontalmente, con piumaggio grigio e bianco maculato.",
+    "alt": "Piccione inquadrato frontalmente e da vicino, con piumaggio grigio e bianco maculato.",
     "note": "Un altro sguardo, un altro disegno sulle piume.",
     "variant": "wide",
     "pairId": "",
-    "file": "assets/photos/birbs-of-noale/large/NOA-008.jpg",
-    "thumb": "assets/photos/birbs-of-noale/thumbs/NOA-008.webp",
-    "width": 1535,
-    "height": 2048,
+    "file": "assets/photos/birbs-noale-verona/full/BNV-011.webp",
+    "thumb": "assets/photos/birbs-noale-verona/thumbs/BNV-011.webp",
+    "width": 1800,
+    "height": 2400,
     "thumbWidth": 720,
-    "webSignature": "provisional",
     "capture": {
-      "camera": "",
-      "lens": "",
-      "focalLength": "",
-      "aperture": "",
-      "shutter": "",
-      "iso": "",
+      "camera": "X-T5",
+      "lens": "XF55-200mmF3.5-4.8 R LM OIS",
+      "focalLength": "200 mm",
+      "aperture": "f/8",
+      "shutter": "1/125 s",
+      "iso": "1600",
       "capturedAt": ""
-    }
+    },
+    "referenceExport": {
+      "width": 3752,
+      "height": 5003
+    },
+    "location": "Noale, Italia"
   },
 
   // ------------------------------------------------------------------
-  // NOA-009 | Di spalle | _DSF0717.jpg
-  // Copia firmata PROVVISORIA: sostituisci con il tuo export firmato.
-  // Nessun EXIF disponibile: campi lasciati vuoti, non ipotizzati.
+  // BNV-012 | Di spalle | _DSF0717_wm.jpg
   {
-    "id": "NOA-009",
-    "albumId": "birbs-of-noale",
-    "sourceFile": "_DSF0717.jpg",
+    "id": "BNV-012",
+    "albumId": "birbs-noale-verona",
+    "sourceFile": "_DSF0717_wm.jpg",
     "title": "Di spalle",
-    "subject": "Anatre",
+    "subject": "Germano reale",
     "filter": "anatre",
-    "alt": "Anatra vista di spalle sulla riva, con una striscia blu sull’ala e l’acqua davanti.",
+    "alt": "Germano reale femmina vista di spalle sulla riva, con la striscia blu dell’ala in evidenza e l’acqua davanti.",
     "note": "Le piume viste da dietro, sul bordo dell’acqua.",
     "variant": "wide",
     "pairId": "",
-    "file": "assets/photos/birbs-of-noale/large/NOA-009.jpg",
-    "thumb": "assets/photos/birbs-of-noale/thumbs/NOA-009.webp",
-    "width": 2047,
-    "height": 1367,
+    "file": "assets/photos/birbs-noale-verona/full/BNV-012.webp",
+    "thumb": "assets/photos/birbs-noale-verona/thumbs/BNV-012.webp",
+    "width": 2400,
+    "height": 1603,
     "thumbWidth": 960,
-    "webSignature": "provisional",
+    "capture": {
+      "camera": "X-T5",
+      "lens": "XF55-200mmF3.5-4.8 R LM OIS",
+      "focalLength": "172.4 mm",
+      "aperture": "f/4.7",
+      "shutter": "1/250 s",
+      "iso": "1600",
+      "capturedAt": ""
+    },
+    "referenceExport": {
+      "width": 7752,
+      "height": 5178
+    },
+    "location": "Noale, Italia"
+  },
+
+  // ------------------------------------------------------------------
+  // BNV-013 | A tu per tu | _DSF0812_wm.jpg
+  {
+    "id": "BNV-013",
+    "albumId": "birbs-noale-verona",
+    "sourceFile": "_DSF0812_wm.jpg",
+    "title": "A tu per tu",
+    "subject": "Germano reale",
+    "filter": "anatre",
+    "alt": "Primo piano di un germano reale femmina, con lo sguardo rivolto verso l’obiettivo e il becco sporco.",
+    "note": "Lo sguardo, il becco e le piccole tracce di una passeggiata.",
+    "variant": "wide",
+    "pairId": "",
+    "file": "assets/photos/birbs-noale-verona/full/BNV-013.webp",
+    "thumb": "assets/photos/birbs-noale-verona/thumbs/BNV-013.webp",
+    "width": 2400,
+    "height": 1603,
+    "thumbWidth": 960,
+    "capture": {
+      "camera": "X-T5",
+      "lens": "XF55-200mmF3.5-4.8 R LM OIS",
+      "focalLength": "200 mm",
+      "aperture": "f/4.8",
+      "shutter": "1/125 s",
+      "iso": "2000",
+      "capturedAt": ""
+    },
+    "referenceExport": {
+      "width": 7752,
+      "height": 5178
+    },
+    "location": "Noale, Italia"
+  },
+
+  // ------------------------------------------------------------------
+  // BNV-014 | Un filo di blu | _DSF0853_wm.jpg
+  {
+    "id": "BNV-014",
+    "albumId": "birbs-noale-verona",
+    "sourceFile": "_DSF0853_wm.jpg",
+    "title": "Un filo di blu",
+    "subject": "Germano reale",
+    "filter": "anatre",
+    "alt": "Dettaglio ravvicinato del piumaggio di un germano reale femmina, con una striscia blu tra i toni marroni.",
+    "note": "Trame sovrapposte, interrotte da una piccola zona blu.",
+    "variant": "wide",
+    "pairId": "",
+    "file": "assets/photos/birbs-noale-verona/full/BNV-014.webp",
+    "thumb": "assets/photos/birbs-noale-verona/thumbs/BNV-014.webp",
+    "width": 2400,
+    "height": 1603,
+    "thumbWidth": 960,
+    "capture": {
+      "camera": "X-T5",
+      "lens": "XF55-200mmF3.5-4.8 R LM OIS",
+      "focalLength": "200 mm",
+      "aperture": "f/4.8",
+      "shutter": "1/60 s",
+      "iso": "2000",
+      "capturedAt": ""
+    },
+    "referenceExport": {
+      "width": 7752,
+      "height": 5178
+    },
+    "location": "Noale, Italia"
+  },
+
+  // ------------------------------------------------------------------
+  // SPV-001 | Dentro il vicolo | DSCF0221_wm.jpg
+  {
+    "id": "SPV-001",
+    "albumId": "street-pordenone-verona",
+    "sourceFile": "DSCF0221_wm.jpg",
+    "title": "Dentro il vicolo",
+    "subject": "Strada",
+    "filter": "strada",
+    "alt": "Vicolo stretto tra facciate chiare e negozi, con una persona di spalle in primo piano e un edificio sul fondo.",
+    "note": "La strada si stringe e porta lo sguardo fino in fondo.",
+    "variant": "wide",
+    "pairId": "",
+    "file": "assets/photos/street-pordenone-verona/full/SPV-001.webp",
+    "thumb": "assets/photos/street-pordenone-verona/thumbs/SPV-001.webp",
+    "width": 1600,
+    "height": 2400,
+    "thumbWidth": 640,
     "capture": {
       "camera": "",
       "lens": "",
@@ -1528,251 +1746,487 @@ window.PIGEON_PHOTOS = [
       "shutter": "",
       "iso": "",
       "capturedAt": ""
-    }
+    },
+    "referenceExport": {
+      "width": 5152,
+      "height": 7728
+    },
+    "location": "Pordenone, Italia"
   },
 
   // ------------------------------------------------------------------
-  // CON-001 | Dietro lo scatto | DSCF1109.jpg
-  // Copia web ottimizzata dal file fornito; nessuna firma incorporata rilevata.
-{
-    "id": "CON-001",
-    "albumId": "conegliano-photo-safari",
-    "sourceFile": "DSCF1109.jpg",
-    "title": "Dietro lo scatto",
-    "subject": "Photo Safari",
-    "filter": "persone",
-    "alt": "Una partecipante ripresa da dietro mentre tiene la fotocamera, con un’altra persona più avanti.",
-    "note": "Un momento dietro le quinte del Photo Safari.",
+  // SPV-002 | Tra i rami | DSCF0277_wm.jpg
+  {
+    "id": "SPV-002",
+    "albumId": "street-pordenone-verona",
+    "sourceFile": "DSCF0277_wm.jpg",
+    "title": "Tra i rami",
+    "subject": "Campanile",
+    "filter": "architetture",
+    "alt": "Campanile in pietra visto tra rami e foglie, contro il cielo azzurro.",
+    "note": "La torre compare dentro una cornice naturale.",
     "variant": "wide",
     "pairId": "",
-    "file": "assets/photos/conegliano-photo-safari/full/CON-001.webp",
-    "thumb": "assets/photos/conegliano-photo-safari/thumbs/CON-001.webp",
+    "file": "assets/photos/street-pordenone-verona/full/SPV-002.webp",
+    "thumb": "assets/photos/street-pordenone-verona/thumbs/SPV-002.webp",
+    "width": 1600,
+    "height": 2400,
+    "thumbWidth": 640,
+    "capture": {
+      "camera": "",
+      "lens": "",
+      "focalLength": "",
+      "aperture": "",
+      "shutter": "",
+      "iso": "",
+      "capturedAt": ""
+    },
+    "referenceExport": {
+      "width": 5152,
+      "height": 7728
+    },
+    "location": "Pordenone, Italia"
+  },
+
+  // ------------------------------------------------------------------
+  // SPV-003 | Pietra e foglie | DSCF0294_wm.jpg
+  {
+    "id": "SPV-003",
+    "albumId": "street-pordenone-verona",
+    "sourceFile": "DSCF0294_wm.jpg",
+    "title": "Pietra e foglie",
+    "subject": "Scultura",
+    "filter": "dettagli",
+    "alt": "Statua in pietra di una figura umana ripresa dal basso, circondata da foglie verdi.",
+    "note": "La superficie segnata della pietra contro il fogliame.",
+    "variant": "wide",
+    "pairId": "",
+    "file": "assets/photos/street-pordenone-verona/full/SPV-003.webp",
+    "thumb": "assets/photos/street-pordenone-verona/thumbs/SPV-003.webp",
+    "width": 1600,
+    "height": 2400,
+    "thumbWidth": 640,
+    "capture": {
+      "camera": "",
+      "lens": "",
+      "focalLength": "",
+      "aperture": "",
+      "shutter": "",
+      "iso": "",
+      "capturedAt": ""
+    },
+    "referenceExport": {
+      "width": 5152,
+      "height": 7728
+    },
+    "location": "Pordenone, Italia"
+  },
+
+  // ------------------------------------------------------------------
+  // SPV-004 | Via del Cristo | DSCF0344_wm.jpg
+  {
+    "id": "SPV-004",
+    "albumId": "street-pordenone-verona",
+    "sourceFile": "DSCF0344_wm.jpg",
+    "title": "Via del Cristo",
+    "subject": "Segnaletica",
+    "filter": "dettagli",
+    "alt": "Targa stradale con la scritta Via del Cristo su una parete, con un arco sfocato sullo sfondo.",
+    "note": "Un nome, una parete, il resto della città fuori fuoco.",
+    "variant": "wide",
+    "pairId": "",
+    "file": "assets/photos/street-pordenone-verona/full/SPV-004.webp",
+    "thumb": "assets/photos/street-pordenone-verona/thumbs/SPV-004.webp",
+    "width": 1600,
+    "height": 2400,
+    "thumbWidth": 640,
+    "capture": {
+      "camera": "",
+      "lens": "",
+      "focalLength": "",
+      "aperture": "",
+      "shutter": "",
+      "iso": "",
+      "capturedAt": ""
+    },
+    "referenceExport": {
+      "width": 5152,
+      "height": 7728
+    },
+    "location": "Pordenone, Italia"
+  },
+
+  // ------------------------------------------------------------------
+  // SPV-005 | Parole sul muro | DSCF0350_wm.jpg
+  {
+    "id": "SPV-005",
+    "albumId": "street-pordenone-verona",
+    "sourceFile": "DSCF0350_wm.jpg",
+    "title": "Parole sul muro",
+    "subject": "Architettura",
+    "filter": "architetture",
+    "alt": "Facciata bianca contemporanea con testi poetici stampati su pannelli, sotto un cielo blu intenso.",
+    "note": "Testo e architettura diventano la stessa superficie.",
+    "variant": "wide",
+    "pairId": "",
+    "file": "assets/photos/street-pordenone-verona/full/SPV-005.webp",
+    "thumb": "assets/photos/street-pordenone-verona/thumbs/SPV-005.webp",
+    "width": 1553,
+    "height": 2400,
+    "thumbWidth": 621,
+    "capture": {
+      "camera": "X-T5",
+      "lens": "XF55-200mmF3.5-4.8 R LM OIS",
+      "focalLength": "55 mm",
+      "aperture": "f/4",
+      "shutter": "1/8000 s",
+      "iso": "200",
+      "capturedAt": ""
+    },
+    "referenceExport": {
+      "width": 4821,
+      "height": 7449
+    },
+    "location": "Pordenone, Italia"
+  },
+
+  // ------------------------------------------------------------------
+  // SPV-006 | Giallo su pietra | DSCF0949_wm.jpg
+  {
+    "id": "SPV-006",
+    "albumId": "street-pordenone-verona",
+    "sourceFile": "DSCF0949_wm.jpg",
+    "title": "Giallo su pietra",
+    "subject": "Bicicletta",
+    "filter": "strada",
+    "alt": "Bicicletta gialla con cestino appoggiata a una parete di pietra.",
+    "note": "Un colore acceso contro la trama del muro.",
+    "variant": "wide",
+    "pairId": "",
+    "file": "assets/photos/street-pordenone-verona/full/SPV-006.webp",
+    "thumb": "assets/photos/street-pordenone-verona/thumbs/SPV-006.webp",
     "width": 1603,
     "height": 2400,
     "thumbWidth": 641,
-    "webSignature": "none",
     "capture": {
-      "camera": "X-T50",
-      "lens": "XF16-50mmF2.8-4.8 R LM WR",
-      "focalLength": "33.3 mm",
-      "aperture": "f/3.8",
-      "shutter": "1/800 s",
-      "iso": "2000",
+      "camera": "X-T5",
+      "lens": "XF16-55mmF2.8 R LM WR",
+      "focalLength": "55 mm",
+      "aperture": "f/2.8",
+      "shutter": "1/500 s",
+      "iso": "400",
       "capturedAt": ""
     },
     "referenceExport": {
       "width": 5178,
       "height": 7752
-    }
-  },
-
-  // ------------------------------------------------------------------
-  // CON-002 | Rete | DSCF1117_1.jpg
-  // Copia web ottimizzata dal file fornito; nessuna firma incorporata rilevata.
-{
-    "id": "CON-002",
-    "albumId": "conegliano-photo-safari",
-    "sourceFile": "DSCF1117_1.jpg",
-    "title": "Rete",
-    "subject": "Barriere",
-    "filter": "urbano",
-    "alt": "Un edificio oltre un muro di pietra e una linea di filo spinato, sotto un cielo chiaro.",
-    "note": "Muro, filo spinato e architettura stratificati nello stesso frame.",
-    "variant": "wide",
-    "pairId": "",
-    "file": "assets/photos/conegliano-photo-safari/full/CON-002.webp",
-    "thumb": "assets/photos/conegliano-photo-safari/thumbs/CON-002.webp",
-    "width": 2400,
-    "height": 1200,
-    "thumbWidth": 960,
-    "webSignature": "none",
-    "capture": {
-      "camera": "X-T50",
-      "lens": "XF16-50mmF2.8-4.8 R LM WR",
-      "focalLength": "50 mm",
-      "aperture": "f/4.8",
-      "shutter": "1/800 s",
-      "iso": "2000",
-      "capturedAt": ""
     },
-    "referenceExport": {
-      "width": 7724,
-      "height": 3862
-    }
+    "location": "Verona, Italia"
   },
 
   // ------------------------------------------------------------------
-  // CON-003 | Cancello | DSCF1135.jpg
-  // Copia web ottimizzata dal file fornito; nessuna firma incorporata rilevata.
-{
-    "id": "CON-003",
-    "albumId": "conegliano-photo-safari",
-    "sourceFile": "DSCF1135.jpg",
-    "title": "Cancello",
-    "subject": "Geometrie",
-    "filter": "urbano",
-    "alt": "Una grata metallica arrugginita in primo piano incornicia una torre sfocata sullo sfondo.",
-    "note": "La struttura del cancello diventa il soggetto; la torre resta dietro.",
+  // SPV-007 | Tra due facciate | DSCF1047_wm.jpg
+  {
+    "id": "SPV-007",
+    "albumId": "street-pordenone-verona",
+    "sourceFile": "DSCF1047_wm.jpg",
+    "title": "Tra due facciate",
+    "subject": "Campanile",
+    "filter": "architetture",
+    "alt": "Campanile chiaro inquadrato nello spazio stretto tra due edifici.",
+    "note": "L’architettura lontana entra esattamente nel varco.",
     "variant": "wide",
     "pairId": "",
-    "file": "assets/photos/conegliano-photo-safari/full/CON-003.webp",
-    "thumb": "assets/photos/conegliano-photo-safari/thumbs/CON-003.webp",
-    "width": 1494,
-    "height": 2400,
-    "thumbWidth": 598,
-    "webSignature": "none",
-    "capture": {
-      "camera": "X-T50",
-      "lens": "XF16-50mmF2.8-4.8 R LM WR",
-      "focalLength": "48.6 mm",
-      "aperture": "f/4.8",
-      "shutter": "1/400 s",
-      "iso": "800",
-      "capturedAt": ""
-    },
-    "referenceExport": {
-      "width": 4609,
-      "height": 7402
-    }
-  },
-
-  // ------------------------------------------------------------------
-  // CON-004 | Torre | DSCF1147.jpg
-  // Copia web ottimizzata dal file fornito; nessuna firma incorporata rilevata.
-{
-    "id": "CON-004",
-    "albumId": "conegliano-photo-safari",
-    "sourceFile": "DSCF1147.jpg",
-    "title": "Torre",
-    "subject": "Architettura",
-    "filter": "urbano",
-    "alt": "Una torre chiara isolata contro il cielo grigio, con un margine scuro sfocato in basso.",
-    "note": "Una delle immagini più dirette della serie: la torre, il cielo e poco altro.",
-    "variant": "wide",
-    "pairId": "",
-    "file": "assets/photos/conegliano-photo-safari/full/CON-004.webp",
-    "thumb": "assets/photos/conegliano-photo-safari/thumbs/CON-004.webp",
+    "file": "assets/photos/street-pordenone-verona/full/SPV-007.webp",
+    "thumb": "assets/photos/street-pordenone-verona/thumbs/SPV-007.webp",
     "width": 1603,
     "height": 2400,
     "thumbWidth": 641,
-    "webSignature": "none",
     "capture": {
-      "camera": "X-T50",
-      "lens": "XF16-50mmF2.8-4.8 R LM WR",
-      "focalLength": "50 mm",
-      "aperture": "f/4.8",
-      "shutter": "1/800 s",
-      "iso": "1000",
+      "camera": "X-T5",
+      "lens": "XF55-200mmF3.5-4.8 R LM OIS",
+      "focalLength": "134.5 mm",
+      "aperture": "f/4.4",
+      "shutter": "1/2000 s",
+      "iso": "400",
       "capturedAt": ""
     },
     "referenceExport": {
-      "width": 2422,
-      "height": 3627
-    }
-  },
-
-  // ------------------------------------------------------------------
-  // CON-005 | Mani | DSCF1261.jpg
-  // Copia web ottimizzata dal file fornito; nessuna firma incorporata rilevata.
-{
-    "id": "CON-005",
-    "albumId": "conegliano-photo-safari",
-    "sourceFile": "DSCF1261.jpg",
-    "title": "Mani",
-    "subject": "Photo Safari",
-    "filter": "persone",
-    "alt": "Dettaglio delle mani di una persona che tiene una fotocamera Fujifilm, davanti a una camicia a fantasia.",
-    "note": "Una foto di chi sta fotografando.",
-    "variant": "wide",
-    "pairId": "",
-    "file": "assets/photos/conegliano-photo-safari/full/CON-005.webp",
-    "thumb": "assets/photos/conegliano-photo-safari/thumbs/CON-005.webp",
-    "width": 2400,
-    "height": 1600,
-    "thumbWidth": 960,
-    "webSignature": "none",
-    "capture": {
-      "camera": "X-T50",
-      "lens": "XF16-50mmF2.8-4.8 R LM WR",
-      "focalLength": "50 mm",
-      "aperture": "f/4.8",
-      "shutter": "1/150 s",
-      "iso": "320",
-      "capturedAt": ""
+      "width": 4928,
+      "height": 7378
     },
-    "referenceExport": {
-      "width": 7728,
-      "height": 5152
-    }
+    "location": "Verona, Italia"
   },
 
   // ------------------------------------------------------------------
-  // CON-006 | Semaforo | DSCF1294.jpg
-  // Copia web ottimizzata dal file fornito; nessuna firma incorporata rilevata.
-{
-    "id": "CON-006",
-    "albumId": "conegliano-photo-safari",
-    "sourceFile": "DSCF1294.jpg",
-    "title": "Semaforo",
-    "subject": "Street",
-    "filter": "urbano",
-    "alt": "Semaforo rosso e segnale pedonale accesi davanti alle facciate del centro cittadino.",
-    "note": "Segnali, colori e facciate nello stesso angolo di città.",
+  // SPV-008 | Giallo e blu | DSCF1050_wm.jpg
+  {
+    "id": "SPV-008",
+    "albumId": "street-pordenone-verona",
+    "sourceFile": "DSCF1050_wm.jpg",
+    "title": "Giallo e blu",
+    "subject": "Facciata",
+    "filter": "architetture",
+    "alt": "Spigolo di una facciata gialla contro un cielo blu, ripreso dal basso.",
+    "note": "Due campi di colore e una linea diagonale.",
     "variant": "wide",
     "pairId": "",
-    "file": "assets/photos/conegliano-photo-safari/full/CON-006.webp",
-    "thumb": "assets/photos/conegliano-photo-safari/thumbs/CON-006.webp",
-    "width": 1521,
+    "file": "assets/photos/street-pordenone-verona/full/SPV-008.webp",
+    "thumb": "assets/photos/street-pordenone-verona/thumbs/SPV-008.webp",
+    "width": 1529,
     "height": 2400,
-    "thumbWidth": 608,
-    "webSignature": "none",
+    "thumbWidth": 612,
     "capture": {
-      "camera": "X-T50",
-      "lens": "XF16-50mmF2.8-4.8 R LM WR",
-      "focalLength": "50 mm",
-      "aperture": "f/5",
-      "shutter": "1/320 s",
-      "iso": "800",
+      "camera": "X-T5",
+      "lens": "XF55-200mmF3.5-4.8 R LM OIS",
+      "focalLength": "81.9 mm",
+      "aperture": "f/3.8",
+      "shutter": "1/2000 s",
+      "iso": "400",
       "capturedAt": ""
     },
     "referenceExport": {
-      "width": 4724,
-      "height": 7456
-    }
+      "width": 4602,
+      "height": 7225
+    },
+    "location": "Verona, Italia"
   },
 
   // ------------------------------------------------------------------
-  // CON-007 | Albero | DSCF1331.jpg
-  // Copia web ottimizzata dal file fornito; nessuna firma incorporata rilevata.
-{
-    "id": "CON-007",
-    "albumId": "conegliano-photo-safari",
-    "sourceFile": "DSCF1331.jpg",
-    "title": "Albero",
-    "subject": "Dettaglio",
+  // SPV-009 | Un punto di colore | DSCF1294_wm.jpg
+  {
+    "id": "SPV-009",
+    "albumId": "street-pordenone-verona",
+    "sourceFile": "DSCF1294_wm.jpg",
+    "title": "Un punto di colore",
+    "subject": "Fiori",
     "filter": "dettagli",
-    "alt": "Un piccolo bonsai esposto su un supporto di legno, isolato contro una parete neutra.",
-    "note": "Un piccolo oggetto trattato quasi come una mini architettura.",
+    "alt": "Piccolo gruppo di fiori rossi, arancioni e gialli isolato contro foglie verdi scure.",
+    "note": "Un dettaglio acceso nel verde.",
     "variant": "wide",
     "pairId": "",
-    "file": "assets/photos/conegliano-photo-safari/full/CON-007.webp",
-    "thumb": "assets/photos/conegliano-photo-safari/thumbs/CON-007.webp",
-    "width": 1586,
+    "file": "assets/photos/street-pordenone-verona/full/SPV-009.webp",
+    "thumb": "assets/photos/street-pordenone-verona/thumbs/SPV-009.webp",
+    "width": 1603,
     "height": 2400,
-    "thumbWidth": 634,
-    "webSignature": "none",
+    "thumbWidth": 641,
     "capture": {
-      "camera": "X-T50",
-      "lens": "XF16-50mmF2.8-4.8 R LM WR",
-      "focalLength": "50 mm",
-      "aperture": "f/5",
-      "shutter": "1/200 s",
-      "iso": "1000",
+      "camera": "X-T5",
+      "lens": "XF55-200mmF3.5-4.8 R LM OIS",
+      "focalLength": "200 mm",
+      "aperture": "f/4.8",
+      "shutter": "1/250 s",
+      "iso": "400",
       "capturedAt": ""
     },
     "referenceExport": {
-      "width": 5017,
-      "height": 7591
-    }
+      "width": 5178,
+      "height": 7752
+    },
+    "location": "Verona, Italia"
+  },
+
+  // ------------------------------------------------------------------
+  // SPV-010 | Lampione | DSCF1313_wm.jpg
+  {
+    "id": "SPV-010",
+    "albumId": "street-pordenone-verona",
+    "sourceFile": "DSCF1313_wm.jpg",
+    "title": "Lampione",
+    "subject": "Arredo urbano",
+    "filter": "strada",
+    "alt": "Sagoma scura di un lampione in primo piano, con una torre sfocata sullo sfondo.",
+    "note": "Il lampione diventa quasi un segno grafico.",
+    "variant": "wide",
+    "pairId": "",
+    "file": "assets/photos/street-pordenone-verona/full/SPV-010.webp",
+    "thumb": "assets/photos/street-pordenone-verona/thumbs/SPV-010.webp",
+    "width": 1603,
+    "height": 2400,
+    "thumbWidth": 641,
+    "capture": {
+      "camera": "X-T5",
+      "lens": "XF55-200mmF3.5-4.8 R LM OIS",
+      "focalLength": "200 mm",
+      "aperture": "f/4.8",
+      "shutter": "1/4000 s",
+      "iso": "400",
+      "capturedAt": ""
+    },
+    "referenceExport": {
+      "width": 5178,
+      "height": 7752
+    },
+    "location": "Verona, Italia"
+  },
+
+  // ------------------------------------------------------------------
+  // SPV-011 | Luci accese | DSCF1364_wm.jpg
+  {
+    "id": "SPV-011",
+    "albumId": "street-pordenone-verona",
+    "sourceFile": "DSCF1364_wm.jpg",
+    "title": "Luci accese",
+    "subject": "Arredo urbano",
+    "filter": "strada",
+    "alt": "Due lampioni accesi fissati a una parete di pietra, con facciate cittadine sullo sfondo.",
+    "note": "La luce calda anticipa la sera.",
+    "variant": "wide",
+    "pairId": "",
+    "file": "assets/photos/street-pordenone-verona/full/SPV-011.webp",
+    "thumb": "assets/photos/street-pordenone-verona/thumbs/SPV-011.webp",
+    "width": 1603,
+    "height": 2400,
+    "thumbWidth": 641,
+    "capture": {
+      "camera": "X-T5",
+      "lens": "XF55-200mmF3.5-4.8 R LM OIS",
+      "focalLength": "200 mm",
+      "aperture": "f/4.8",
+      "shutter": "1/1000 s",
+      "iso": "400",
+      "capturedAt": ""
+    },
+    "referenceExport": {
+      "width": 4876,
+      "height": 7299
+    },
+    "location": "Verona, Italia"
+  },
+
+  // ------------------------------------------------------------------
+  // SPV-012 | Passaggio | DSCF1430_wm.jpg
+  {
+    "id": "SPV-012",
+    "albumId": "street-pordenone-verona",
+    "sourceFile": "DSCF1430_wm.jpg",
+    "title": "Passaggio",
+    "subject": "Bicicletta",
+    "filter": "strada",
+    "alt": "Parte anteriore di una bicicletta gialla con cestino, accanto a una persona ritagliata sul bordo del fotogramma.",
+    "note": "La bicicletta resta ferma, qualcuno attraversa la scena.",
+    "variant": "wide",
+    "pairId": "",
+    "file": "assets/photos/street-pordenone-verona/full/SPV-012.webp",
+    "thumb": "assets/photos/street-pordenone-verona/thumbs/SPV-012.webp",
+    "width": 1603,
+    "height": 2400,
+    "thumbWidth": 641,
+    "capture": {
+      "camera": "X-T5",
+      "lens": "XF55-200mmF3.5-4.8 R LM OIS",
+      "focalLength": "148.5 mm",
+      "aperture": "f/4.5",
+      "shutter": "1/250 s",
+      "iso": "400",
+      "capturedAt": ""
+    },
+    "referenceExport": {
+      "width": 5178,
+      "height": 7752
+    },
+    "location": "Verona, Italia"
+  },
+
+  // ------------------------------------------------------------------
+  // SPV-013 | Con un libro | DSCF1453_wm.jpg
+  {
+    "id": "SPV-013",
+    "albumId": "street-pordenone-verona",
+    "sourceFile": "DSCF1453_wm.jpg",
+    "title": "Con un libro",
+    "subject": "Scultura",
+    "filter": "dettagli",
+    "alt": "Statua di un uomo con baffi e barba che tiene un libro, davanti a una muratura decorata.",
+    "note": "La figura chiara si stacca dalla trama del muro.",
+    "variant": "wide",
+    "pairId": "",
+    "file": "assets/photos/street-pordenone-verona/full/SPV-013.webp",
+    "thumb": "assets/photos/street-pordenone-verona/thumbs/SPV-013.webp",
+    "width": 1549,
+    "height": 2400,
+    "thumbWidth": 620,
+    "capture": {
+      "camera": "X-T5",
+      "lens": "XF55-200mmF3.5-4.8 R LM OIS",
+      "focalLength": "200 mm",
+      "aperture": "f/4.8",
+      "shutter": "1/500 s",
+      "iso": "400",
+      "capturedAt": ""
+    },
+    "referenceExport": {
+      "width": 4877,
+      "height": 7555
+    },
+    "location": "Verona, Italia"
+  },
+
+  // ------------------------------------------------------------------
+  // SPV-014 | Mezza luce | DSCF1498_wm.jpg
+  {
+    "id": "SPV-014",
+    "albumId": "street-pordenone-verona",
+    "sourceFile": "DSCF1498_wm.jpg",
+    "title": "Mezza luce",
+    "subject": "Scultura",
+    "filter": "dettagli",
+    "alt": "Scultura femminile illuminata solo su volto e busto, mentre il resto rimane nell’ombra.",
+    "note": "La luce seleziona la figura e lascia scomparire tutto il resto.",
+    "variant": "wide",
+    "pairId": "",
+    "file": "assets/photos/street-pordenone-verona/full/SPV-014.webp",
+    "thumb": "assets/photos/street-pordenone-verona/thumbs/SPV-014.webp",
+    "width": 1603,
+    "height": 2400,
+    "thumbWidth": 641,
+    "capture": {
+      "camera": "X-T5",
+      "lens": "XF55-200mmF3.5-4.8 R LM OIS",
+      "focalLength": "200 mm",
+      "aperture": "f/4.8",
+      "shutter": "1/125 s",
+      "iso": "400",
+      "capturedAt": ""
+    },
+    "referenceExport": {
+      "width": 5178,
+      "height": 7752
+    },
+    "location": "Verona, Italia"
+  },
+
+  // ------------------------------------------------------------------
+  // SPV-015 | A | DSCF1499_wm.jpg
+  {
+    "id": "SPV-015",
+    "albumId": "street-pordenone-verona",
+    "sourceFile": "DSCF1499_wm.jpg",
+    "title": "A",
+    "subject": "Insegna",
+    "filter": "dettagli",
+    "alt": "Grande lettera A rossa illuminata su una parete scura.",
+    "note": "Una lettera sola diventa immagine.",
+    "variant": "wide",
+    "pairId": "",
+    "file": "assets/photos/street-pordenone-verona/full/SPV-015.webp",
+    "thumb": "assets/photos/street-pordenone-verona/thumbs/SPV-015.webp",
+    "width": 1603,
+    "height": 2400,
+    "thumbWidth": 641,
+    "capture": {
+      "camera": "X-T5",
+      "lens": "XF55-200mmF3.5-4.8 R LM OIS",
+      "focalLength": "200 mm",
+      "aperture": "f/4.8",
+      "shutter": "1/250 s",
+      "iso": "400",
+      "capturedAt": ""
+    },
+    "referenceExport": {
+      "width": 5178,
+      "height": 7752
+    },
+    "location": "Verona, Italia"
   }
 ];

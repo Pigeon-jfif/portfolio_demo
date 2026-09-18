@@ -90,7 +90,7 @@
         ['Fotocamera', capture.camera], ['Obiettivo', capture.lens],
         ['Focale', capture.focalLength], ['Diaframma', capture.aperture],
         ['Tempo', capture.shutter], ['ISO', capture.iso],
-        ['Data dello scatto', capture.capturedAt]
+        ['Luogo', photo.location], ['Data dello scatto', capture.capturedAt]
       ].filter(([, value]) => value !== '' && value !== null && value !== undefined);
       return `<div class="lb-note"><p>${text(photo.note)}</p>
           <p class="lb-file">${text(photo.id)} &middot; ${photo.width} &times; ${photo.height} px &middot; file web</p>
@@ -143,7 +143,8 @@
       action('next').disabled = ids.length < 2;
       dialog.querySelector('#lb-title').textContent = photo.title;
       const album = P.albumById.get(photo.albumId);
-      dialog.querySelector('#lb-subtitle').textContent = [photo.subject, album?.location, album?.year].filter(Boolean).join(' / ');
+      const capturedYear = String(photo.capture?.capturedAt || '').match(/\b(?:19|20)\d{2}\b/)?.[0];
+      dialog.querySelector('#lb-subtitle').textContent = [photo.subject, photo.location || album?.location, capturedYear || album?.year].filter(Boolean).join(' / ');
       dialog.querySelector('#lb-count').textContent = `${P.pad(index + 1)} / ${P.pad(ids.length)}`;
       infoArea.innerHTML = metadata(photo);
       infoArea.hidden = !showInfo;

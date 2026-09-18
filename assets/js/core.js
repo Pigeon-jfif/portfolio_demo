@@ -34,6 +34,8 @@
 
   P.publicAlbums = () => P.albums.filter(album => album.published !== false);
   P.albumPhotos = album => (album?.photoIds || []).map(id => P.byId.get(id)).filter(Boolean);
+  // Una raccolta puo' usare una foto interna (coverId) oppure un crop dedicato (cover).
+  P.albumCover = album => album?.cover ? { alt: album.title || '', ...album.cover } : P.byId.get(album?.coverId);
   P.isPublicPhoto = id => P.publicAlbums().some(album => album.photoIds.includes(id));
   P.publicPhoto = id => P.isPublicPhoto(id) ? P.byId.get(id) : null;
   P.visibleIds = () => [...new Set(P.publicAlbums().flatMap(album => album.photoIds))];
