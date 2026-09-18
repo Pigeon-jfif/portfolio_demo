@@ -62,7 +62,15 @@ function check() {
       assert(P.byId.has(id), album.id + ': fotografia inesistente ' + id);
       assert(P.byId.get(id)?.albumId === album.id, album.id + ': ' + id + ' appartiene a un altro album.');
     }
-    for (const id of [album.coverId].filter(Boolean)) assert(album.photoIds.includes(id), album.id + ': copertina fuori dalla raccolta ' + id);
+    assert(Boolean(album.coverId) !== Boolean(album.cover), album.id + ': usa esattamente una copertina: coverId oppure cover.');
+    if (album.coverId) assert(album.photoIds.includes(album.coverId), album.id + ': copertina fuori dalla raccolta ' + album.coverId);
+    if (album.cover) {
+      safeFile(album.cover.file, album.id + ' copertina');
+      if (album.cover.thumb) safeFile(album.cover.thumb, album.id + ' copertina thumbnail');
+      assert(Number.isInteger(album.cover.width) && album.cover.width > 0 && Number.isInteger(album.cover.height) && album.cover.height > 0, album.id + ': dimensioni copertina non valide.');
+      assert(!album.cover.thumb || (Number.isInteger(album.cover.thumbWidth) && album.cover.thumbWidth > 0 && album.cover.thumbWidth <= album.cover.width), album.id + ': thumbWidth copertina non valido.');
+      assert((album.cover.alt || album.title || '').trim(), album.id + ': alt copertina mancante.');
+    }
     const filterIds = (album.filters || []).map(filter => filter.id);
     assert(new Set(filterIds).size === filterIds.length && !filterIds.includes('all'), album.id + ': ID filtro duplicato o riservato.');
     for (const filter of album.filters || []) {
@@ -135,7 +143,7 @@ if (require.main === module) {
     console.log(`${result.P.photos.length} foto, ${result.P.albums.length} album fotografici, ${result.P.records.all.length} dischi. ${result.errors.length} errori.`);
     if (result.warnings.length) console.log(`${result.warnings.length} note sui metadati opzionali o sulle firme provvisorie; non sono errori.`);
     const provisional = result.P.photos.filter(photo => photo.webSignature === 'provisional').length;
-    if (provisional) console.log(`NOTA: ${provisional} foto di Noale hanno una firma provvisoria. Vedi docs/NOALE.txt.`);
+    if (provisional) console.log(`NOTA: ${provisional} foto hanno una firma provvisoria da sostituire prima della pubblicazione definitiva.`);
     process.exitCode = result.errors.length ? 1 : 0;
   } catch (error) { console.error(error.message); process.exitCode = 1; }
 }

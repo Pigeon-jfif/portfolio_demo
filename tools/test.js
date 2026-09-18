@@ -30,6 +30,10 @@ assert.deepEqual(rowSizes('VVV'), [3]);
 assert.deepEqual(rowSizes('VVVVV'), [2, 3]);
 assert.deepEqual(rowSizes('HHHHVVVHH'), [2, 2, 2, 2, 1]);
 assert.deepEqual(rowSizes('HHVVV'), [2, 3]);
+// Pattern editoriale opzionale per raccolte solo verticali: alterna trittici e coppie
+// evitando una foto singola residua.
+assert.deepEqual(Array.from(P.galleryRows(sample('VVVVVVVVVVVVVVV'), { portraitRowPattern: [3, 2] }), row => row.length), [3, 2, 3, 2, 3, 2]);
+assert.deepEqual(Array.from(P.galleryRows(sample('VVVVVV'), { portraitRowPattern: [3, 2] }), row => row.length), [3, 3]);
 assert.deepEqual(rowSizes('HVHV'), [2, 2]);
 // Le panoramiche circa 21:9 vivono sempre da sole, ma vengono agganciate
 // al confine di coppia piu' vicino. Quindi H-P-H diventa HH / P, non H / P / H.
@@ -118,7 +122,7 @@ for (const album of P.publicAlbums()) {
 
     const sequenceHTML = P.galleryHTML(album, filter, '', 'sequence', 'category');
     const sequenceActual = [...sequenceHTML.matchAll(/data-image-code="([^"]+)"/g)].map(match => match[1]);
-    const expectedSequence = Array.from(P.galleryRows(expectedPhotos).flat(), photo => photo.id);
+    const expectedSequence = Array.from(P.galleryRows(expectedPhotos, album.sequence || {}).flat(), photo => photo.id);
     assert.deepEqual(sequenceActual, expectedSequence);
     assert.deepEqual([...sequenceActual].sort(), [...expected].sort());
     assert.ok(!sequenceHTML.includes('is-wide'));
@@ -136,23 +140,19 @@ const hph = sample('HPH');
 assert.deepEqual(Array.from(P.galleryRows(hph).flat(), photo => photo.id), ['TEST-0', 'TEST-2', 'TEST-1']);
 assert.deepEqual(Array.from(P.galleryRows(sample('HHV')).flat(), photo => photo.id), ['TEST-0', 'TEST-2', 'TEST-1']);
 assert.deepEqual(rowSizes('HHVVV'), [2, 3]);
-const noale = P.albumById.get('birbs-of-noale');
-if (noale) {
-  const noaleRows = P.galleryRows(P.galleryPhotos(noale, 'all', '', 'category'));
-  const normalRows = noaleRows.filter(row => !(row.length === 1 && row[0].width / row[0].height >= 2.05));
-  const singleNormalRows = normalRows.filter(row => row.length === 1);
-  assert.ok(singleNormalRows.length <= 1);
-  if (singleNormalRows.length) {
-    assert.equal(normalRows[normalRows.length - 1], singleNormalRows[0]);
-    assert.ok(singleNormalRows[0][0].width >= singleNormalRows[0][0].height);
-  }
+// Pattern editoriale opzionale per raccolte solo verticali: alterna trittici e coppie
+// evitando una foto singola residua.
+assert.deepEqual(Array.from(P.galleryRows(sample('VVVVVVVVVVVVVVV'), { portraitRowPattern: [3, 2] }), row => row.length), [3, 2, 3, 2, 3, 2]);
+assert.deepEqual(Array.from(P.galleryRows(sample('VVVVVV'), { portraitRowPattern: [3, 2] }), row => row.length), [3, 3]);
+// Ogni raccolta pubblica deve risolvere una copertina valida, sia essa
+// una foto interna (coverId) o un asset dedicato (cover).
+for (const album of P.publicAlbums()) {
+  const cover = P.albumCover(album);
+  assert.ok(cover && cover.file && cover.width > 0 && cover.height > 0);
 }
-const conegliano = P.albumById.get('conegliano-photo-safari');
-if (conegliano) {
-  assert.equal(conegliano.coverId, 'CON-005');
-  const cover = P.byId.get(conegliano.coverId);
-  assert.equal(cover.width / cover.height, 1.5);
-}
+const dedicatedCover = P.albumCover({ title: 'Test cover', cover: { file: 'cover.webp', width: 1200, height: 800 } });
+assert.equal(dedicatedCover.file, 'cover.webp');
+assert.equal(dedicatedCover.alt, 'Test cover');
 
 // Un solo tasto Home e tre voci pubbliche, compresa Plastic Pizzas.
 for (const page of ['home', 'collections', 'album', 'about', 'records', 'record-collection', 'notfound']) {

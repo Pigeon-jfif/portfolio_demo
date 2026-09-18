@@ -35,3 +35,19 @@ published:false nasconde la raccolta dall'interfaccia, NON protegge i file.
 Lascia le date vuote quando non sono note. L'interfaccia omette i campi vuoti.
 L'alternanza delle copertine dipende dall'ordine in albums.js, non da un campo
 aggiuntivo. I filtri sono solo pulsanti interni: id e label sono sufficienti.
+
+COPERTINA DEDICATA (OPZIONALE)
+--------------------------------
+Se la copertina e' un crop che NON deve comparire nella galleria, togli coverId
+e usa invece:
+
+  "cover": {
+    "file": "assets/photos/nuova-raccolta/cover/NEW-COVER.webp",
+    "thumb": "assets/photos/nuova-raccolta/cover/NEW-COVER-thumb.webp",
+    "width": 1600,
+    "height": 1067,
+    "thumbWidth": 960,
+    "alt": "Descrizione della copertina."
+  },
+
+Usa cover OPPURE coverId, mai entrambi. Il file dedicato resta fuori da photoIds.

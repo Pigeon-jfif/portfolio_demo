@@ -4,8 +4,6 @@
  * Eseguire prima su una copia/branch del progetto. Non servono dipendenze.
  * Cancella solo le copie large ridondanti con un full esistente e le tre
  * vecchie thumbs Jesolo prive di riferimenti. Non ricomprime alcuna immagine.
- * Noale: quando i file esistono, sposta large -> full senza alterare i byte
- * e aggiorna i riferimenti. Se mancano, lascia tutto invariato e lo segnala.
  */
 'use strict';
 const fs = require('node:fs');
@@ -61,15 +59,6 @@ for (const from of filesUnder('assets/photos/jesolo-2026/large')) {
   }
   moves.push({from,to});
 }
-for (const photo of P.photos) {
-  if (!photo.file?.startsWith('assets/photos/birbs-of-noale/large/')) continue;
-  const from = photo.file, to = from.replace('/large/','/full/');
-  if (!fileExists(from)) { missing.push(from); continue; }
-  if (fileExists(to) && !fs.readFileSync(path.join(ROOT,from)).equals(fs.readFileSync(path.join(ROOT,to)))) {
-    conflicts.push(to); continue;
-  }
-  moves.push({from,to});
-}
 const bytes = removals.reduce((sum,file) => sum+fs.statSync(path.join(ROOT,file)).size,0);
 const updates = new Map();
 for (const [file,text] of texts) {
@@ -87,9 +76,8 @@ if (fileExists(index)) {
 console.log(apply ? 'PULIZIA APPLICATA' : 'ANTEPRIMA - nessun file modificato');
 console.log(`${removals.length} varianti ridondanti: ${(bytes/1e6).toFixed(2)} MB liberabili.`);
 console.log(`${moves.length} immagini spostabili da large a full, senza ricompressione.`);
-if (missing.length) console.log(`${missing.length} full Noale assenti da questa copia: riferimenti lasciati invariati.`);
 if (conflicts.length) console.log(`${conflicts.length} destinazioni diverse gia' presenti: NON sovrascritte.`);
-const report = {applied:apply,removedBytes:bytes,removed:removals,moved:moves,updatedReferences:[...updates.keys()],missingNoale:missing,conflicts};
+const report = {applied:apply,removedBytes:bytes,removed:removals,moved:moves,updatedReferences:[...updates.keys()],missingLegacy:missing,conflicts};
 if (apply) {
   // Prima copia i contenuti, poi aggiorna i riferimenti, soltanto alla fine elimina.
   for (const {from,to} of moves) {
@@ -102,7 +90,7 @@ if (apply) {
     fs.writeFileSync(temp,text); fs.renameSync(temp,target);
   }
   for (const file of [...removals,...moves.map(move => move.from)]) fs.unlinkSync(path.join(ROOT,file));
-  for (const folder of ['assets/covers/large','assets/photos/jesolo-2026/large','assets/photos/birbs-of-noale/large']) {
+  for (const folder of ['assets/covers/large','assets/photos/jesolo-2026/large']) {
     const directory = path.join(ROOT,folder);
     if (!fs.existsSync(directory)) continue;
     const contents = fs.readdirSync(directory);

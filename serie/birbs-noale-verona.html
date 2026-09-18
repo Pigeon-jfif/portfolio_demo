@@ -1,0 +1,317 @@
+<!doctype html>
+<!--
+  PIGEON.JFIF - HTML STATICO CON CONTENUTI GIA' PRESENTI
+  Modifica i testi in assets/data/site.js, gli scatti in photos.js,
+  le raccolte in albums.js e lo stile in assets/css.
+  Per i dischi: data/Dischi.csv e assets/data/records-config.js.
+  Struttura: assets/js/pages.js e assets/js/records-view.js.
+  node tools/build.js rigenera questa pagina; le modifiche dirette all'HTML
+  verrebbero sovrascritte. Il sito NON richiede Node per essere visitato.
+-->
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#f4f2ed">
+  <meta name="color-scheme" content="light">
+  <title>Birbs — Noale &amp; Verona - pigeon.jfif</title>
+  <meta name="description" content="Due passeggiate lontane nel tempo, tra Noale e Verona, tenendo gli occhi all’altezza dell’acqua: germani, gabbiani, piccioni e altri incontri.">
+  <meta name="author" content="pigeon.jfif">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Birbs — Noale &amp; Verona - pigeon.jfif">
+  <meta property="og:description" content="Due passeggiate lontane nel tempo, tra Noale e Verona, tenendo gli occhi all’altezza dell’acqua: germani, gabbiani, piccioni e altri incontri.">
+  <meta property="og:image" content="../assets/og-cover.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  
+  <link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
+  <link rel="stylesheet" href="../assets/css/theme.css?v=20260918-photoheadings1">
+  <!-- Inter libero: unico caricamento font esterno. Disattivabile in fonts.css. -->
+  <link rel="stylesheet" href="../assets/css/fonts.css?v=20260918-photoheadings1">
+  <link rel="stylesheet" href="../assets/css/style.css?v=20260918-photoheadings1">
+  
+  <!-- Ordine importante: prima i dati, poi funzioni, pagine e interazioni. -->
+  <script defer src="../assets/data/site.js?v=20260918-photoheadings1"></script>
+  <script defer src="../assets/data/photos.js?v=20260918-photoheadings1"></script>
+  <script defer src="../assets/data/albums.js?v=20260918-photoheadings1"></script>
+  <script defer src="../assets/js/core.js?v=20260918-photoheadings1"></script>
+  <script defer src="../assets/js/pages.js?v=20260918-photoheadings1"></script>
+  
+  <script defer src="../assets/js/viewer.js?v=20260918-photoheadings1"></script>
+  <script defer src="../assets/js/app.js?v=20260918-photoheadings1"></script>
+  
+</head>
+<body id="top" data-page="album" data-base="../" data-album="birbs-noale-verona">
+  <a class="skip-link" href="#main">Vai al contenuto</a>
+  <header class="site-header" id="site-header">
+    <div class="header-inner wrap">
+      <!-- HEADER-01 | Unico collegamento Home nella barra: il simbolo p. -->
+      <a href="../index.html" class="brand-home" aria-label="pigeon.jfif, pagina iniziale">
+        <img src="../assets/favicon.svg" width="44" height="44" alt="" decoding="async">
+      </a>
+      <button type="button" class="menu-toggle" data-action="menu" aria-controls="primary-nav" aria-expanded="false">Menu <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></button>
+      <!-- HEADER-02 | Raccolte, Plastic Pizzas e Chi sono. -->
+      <nav id="primary-nav" class="primary-nav" aria-label="Navigazione principale">
+        <a class="nav-link" href="../raccolte.html" aria-current="location">Raccolte</a>
+<a class="nav-link" href="../dischi.html">Plastic Pizzas</a>
+<a class="nav-link" href="../info.html">Chi sono</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main" tabindex="-1">
+    <div class="wrap">
+      <!-- ALBUM-01 | Titolo, luogo, data: albums.js -->
+      <header class="album-intro"><a class="breadcrumb" href="../raccolte.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 12H4m6-6-6 6 6 6"/></svg> Raccolte <span aria-hidden="true">/</span> Animali</a>
+        <div class="album-title-row"><h1 class="album-title">Birbs<br><em class="album-place">Noale &amp; Verona</em></h1><p class="album-description">Due passeggiate lontane nel tempo, tra Noale e Verona, tenendo gli occhi all’altezza dell’acqua: germani, gabbiani, piccioni e altri incontri.</p></div>
+        <div class="album-meta eyebrow"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 10c0 5-6 10-6 10s-6-5-6-10a6 6 0 1 1 12 0Z"/><circle cx="12" cy="10" r="2"/></svg> Noale &amp; Verona, Italia</span><span>14 immagini</span></div>
+      </header>
+      <!-- ALBUM-02 | Filtri configurabili; ricerca e vista: site.js > gallery -->
+      <div class="gallery-toolbar">
+        <div class="filter-bar" role="group" aria-label="Filtra le fotografie per soggetto">
+          <button type="button" class="filter-button" data-filter="all" aria-pressed="true" aria-controls="photo-gallery">Tutte<small>14</small></button><button type="button" class="filter-button" data-filter="anatre" aria-pressed="false" aria-controls="photo-gallery">Anatre<small>8</small></button><button type="button" class="filter-button" data-filter="gabbiani" aria-pressed="false" aria-controls="photo-gallery">Gabbiani<small>2</small></button><button type="button" class="filter-button" data-filter="piccioni" aria-pressed="false" aria-controls="photo-gallery">Piccioni<small>2</small></button><button type="button" class="filter-button" data-filter="altri" aria-pressed="false" aria-controls="photo-gallery">Altri incontri<small>2</small></button>
+        </div>
+        <div class="toolbar-right">
+          <label class="gallery-search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="10" cy="10" r="6"/><path d="m15 15 5 5"/></svg><span class="sr-only">Cerca per titolo, soggetto, luogo o codice</span><input type="search" id="gallery-search" placeholder="Titolo, soggetto, luogo, codice" value="" autocomplete="off" aria-controls="photo-gallery"></label>
+          <div class="gallery-modes">
+            <div class="view-controls" role="group" aria-label="Disposizione delle fotografie">
+              <button type="button" class="view-button" data-view="sequence" aria-pressed="true" aria-label="Vista sequenza, righe a altezza uniforme senza ritagli"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="4" width="16" height="7"/><rect x="4" y="15" width="7" height="5"/><rect x="15" y="15" width="5" height="5"/></svg><span>Sequenza</span></button>
+              <button type="button" class="view-button" data-view="grid" aria-pressed="false" aria-label="Vista griglia, fotografie centrate in cornici uniformi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="4" width="6" height="6"/><rect x="14" y="4" width="6" height="6"/><rect x="4" y="14" width="6" height="6"/><rect x="14" y="14" width="6" height="6"/></svg><span>Griglia</span></button>
+            </div>
+            <div class="order-controls" role="group" aria-label="Ordine delle fotografie">
+              <button type="button" class="order-button" data-order="category" aria-pressed="true">Per categoria</button>
+              <button type="button" class="order-button" data-order="random" aria-pressed="false">Casuale</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p class="sr-only" id="gallery-status" role="status">14 immagini visualizzate</p>
+      <!-- ALBUM-03 | Sequenza dinamica senza crop; panoramiche full-width. Ordine: categoria o casuale. -->
+      <section id="photo-gallery" class="gallery gallery--sequence" aria-label="Fotografie di Birbs — Noale &amp; Verona"><div class="sequence-row" data-sequence-count="2"><figure class="gallery-item" data-image-code="BNV-001" style="--photo-ratio:1.497193">
+      <a class="photo-button" href="../assets/photos/birbs-noale-verona/full/BNV-001.webp"
+      data-photo-id="BNV-001" data-context="album"
+      aria-label="Apri la fotografia: Dal parapetto">
+      <img src="../assets/photos/birbs-noale-verona/full/BNV-001.webp" srcset="../assets/photos/birbs-noale-verona/thumbs/BNV-001.webp 960w, ../assets/photos/birbs-noale-verona/full/BNV-001.webp 2400w" sizes="(max-width: 700px) 90vw, (min-width: 1620px) 710px, 44vw"
+      width="2400" height="1603" alt="Germano reale femmina ripreso dall’alto mentre nuota vicino a un parapetto, nell’acqua scura."
+      loading="eager" decoding="async" fetchpriority="high"
+      class="">
+      <span class="expand-indicator"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 4H4v5m11-5h5v5M4 15v5h5m11-5v5h-5"/></svg></span>
+    </a><figcaption class="photo-caption">
+      <span class="photo-caption-title"><span class="muted">01 &nbsp;</span>Dal parapetto</span>
+      <span class="eyebrow">Germano reale</span>
+    </figcaption>
+    </figure>
+<figure class="gallery-item" data-image-code="BNV-002" style="--photo-ratio:1.497193">
+      <a class="photo-button" href="../assets/photos/birbs-noale-verona/full/BNV-002.webp"
+      data-photo-id="BNV-002" data-context="album"
+      aria-label="Apri la fotografia: Battere le ali">
+      <img src="../assets/photos/birbs-noale-verona/full/BNV-002.webp" srcset="../assets/photos/birbs-noale-verona/thumbs/BNV-002.webp 960w, ../assets/photos/birbs-noale-verona/full/BNV-002.webp 2400w" sizes="(max-width: 700px) 90vw, (min-width: 1620px) 710px, 44vw"
+      width="2400" height="1603" alt="Germano reale maschio nell’acqua con le ali aperte e mosse, rese morbide dal movimento."
+      loading="eager" decoding="async" fetchpriority="high"
+      class="">
+      <span class="expand-indicator"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 4H4v5m11-5h5v5M4 15v5h5m11-5v5h-5"/></svg></span>
+    </a><figcaption class="photo-caption">
+      <span class="photo-caption-title"><span class="muted">02 &nbsp;</span>Battere le ali</span>
+      <span class="eyebrow">Germano reale</span>
+    </figcaption>
+    </figure></div>
+<div class="sequence-row" data-sequence-count="2"><figure class="gallery-item" data-image-code="BNV-003" style="--photo-ratio:1.497193">
+      <a class="photo-button" href="../assets/photos/birbs-noale-verona/full/BNV-003.webp"
+      data-photo-id="BNV-003" data-context="album"
+      aria-label="Apri la fotografia: Acqua bassa">
+      <img src="../assets/photos/birbs-noale-verona/full/BNV-003.webp" srcset="../assets/photos/birbs-noale-verona/thumbs/BNV-003.webp 960w, ../assets/photos/birbs-noale-verona/full/BNV-003.webp 2400w" sizes="(max-width: 700px) 90vw, (min-width: 1620px) 710px, 44vw"
+      width="2400" height="1603" alt="Germano reale maschio fermo nell’acqua bassa, con le zampe e il riflesso visibili sul fondo."
+      loading="lazy" decoding="async"
+      class="">
+      <span class="expand-indicator"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 4H4v5m11-5h5v5M4 15v5h5m11-5v5h-5"/></svg></span>
+    </a><figcaption class="photo-caption">
+      <span class="photo-caption-title"><span class="muted">03 &nbsp;</span>Acqua bassa</span>
+      <span class="eyebrow">Germano reale</span>
+    </figcaption>
+    </figure>
+<figure class="gallery-item" data-image-code="BNV-010" style="--photo-ratio:1.497193">
+      <a class="photo-button" href="../assets/photos/birbs-noale-verona/full/BNV-010.webp"
+      data-photo-id="BNV-010" data-context="album"
+      aria-label="Apri la fotografia: A cercare qualcosa">
+      <img src="../assets/photos/birbs-noale-verona/full/BNV-010.webp" srcset="../assets/photos/birbs-noale-verona/thumbs/BNV-010.webp 960w, ../assets/photos/birbs-noale-verona/full/BNV-010.webp 2400w" sizes="(max-width: 700px) 90vw, (min-width: 1620px) 710px, 44vw"
+      width="2400" height="1603" alt="Germano reale femmina sulla riva, con il collo abbassato verso terra e le zampe arancioni illuminate."
+      loading="lazy" decoding="async"
+      class="">
+      <span class="expand-indicator"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 4H4v5m11-5h5v5M4 15v5h5m11-5v5h-5"/></svg></span>
+    </a><figcaption class="photo-caption">
+      <span class="photo-caption-title"><span class="muted">04 &nbsp;</span>A cercare qualcosa</span>
+      <span class="eyebrow">Germano reale</span>
+    </figcaption>
+    </figure></div>
+<div class="sequence-row" data-sequence-count="2"><figure class="gallery-item" data-image-code="BNV-012" style="--photo-ratio:1.497193">
+      <a class="photo-button" href="../assets/photos/birbs-noale-verona/full/BNV-012.webp"
+      data-photo-id="BNV-012" data-context="album"
+      aria-label="Apri la fotografia: Di spalle">
+      <img src="../assets/photos/birbs-noale-verona/full/BNV-012.webp" srcset="../assets/photos/birbs-noale-verona/thumbs/BNV-012.webp 960w, ../assets/photos/birbs-noale-verona/full/BNV-012.webp 2400w" sizes="(max-width: 700px) 90vw, (min-width: 1620px) 710px, 44vw"
+      width="2400" height="1603" alt="Germano reale femmina vista di spalle sulla riva, con la striscia blu dell’ala in evidenza e l’acqua davanti."
+      loading="lazy" decoding="async"
+      class="">
+      <span class="expand-indicator"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 4H4v5m11-5h5v5M4 15v5h5m11-5v5h-5"/></svg></span>
+    </a><figcaption class="photo-caption">
+      <span class="photo-caption-title"><span class="muted">05 &nbsp;</span>Di spalle</span>
+      <span class="eyebrow">Germano reale</span>
+    </figcaption>
+    </figure>
+<figure class="gallery-item" data-image-code="BNV-013" style="--photo-ratio:1.497193">
+      <a class="photo-button" href="../assets/photos/birbs-noale-verona/full/BNV-013.webp"
+      data-photo-id="BNV-013" data-context="album"
+      aria-label="Apri la fotografia: A tu per tu">
+      <img src="../assets/photos/birbs-noale-verona/full/BNV-013.webp" srcset="../assets/photos/birbs-noale-verona/thumbs/BNV-013.webp 960w, ../assets/photos/birbs-noale-verona/full/BNV-013.webp 2400w" sizes="(max-width: 700px) 90vw, (min-width: 1620px) 710px, 44vw"
+      width="2400" height="1603" alt="Primo piano di un germano reale femmina, con lo sguardo rivolto verso l’obiettivo e il becco sporco."
+      loading="lazy" decoding="async"
+      class="">
+      <span class="expand-indicator"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 4H4v5m11-5h5v5M4 15v5h5m11-5v5h-5"/></svg></span>
+    </a><figcaption class="photo-caption">
+      <span class="photo-caption-title"><span class="muted">06 &nbsp;</span>A tu per tu</span>
+      <span class="eyebrow">Germano reale</span>
+    </figcaption>
+    </figure></div>
+<div class="sequence-row" data-sequence-count="2"><figure class="gallery-item is-portrait" data-image-code="BNV-007" style="--photo-ratio:0.750000">
+      <a class="photo-button" href="../assets/photos/birbs-noale-verona/full/BNV-007.webp"
+      data-photo-id="BNV-007" data-context="album"
+      aria-label="Apri la fotografia: Doppio sguardo">
+      <img src="../assets/photos/birbs-noale-verona/full/BNV-007.webp" srcset="../assets/photos/birbs-noale-verona/thumbs/BNV-007.webp 720w, ../assets/photos/birbs-noale-verona/full/BNV-007.webp 1800w" sizes="(max-width: 700px) 90vw, (min-width: 1620px) 710px, 44vw"
+      width="1800" height="2400" alt="Germano reale femmina di profilo sull’acqua, con il riflesso della testa nella parte bassa della foto verticale."
+      loading="lazy" decoding="async"
+      class="">
+      <span class="expand-indicator"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 4H4v5m11-5h5v5M4 15v5h5m11-5v5h-5"/></svg></span>
+    </a><figcaption class="photo-caption">
+      <span class="photo-caption-title"><span class="muted">07 &nbsp;</span>Doppio sguardo</span>
+      <span class="eyebrow">Germano reale</span>
+    </figcaption>
+    </figure>
+<figure class="gallery-item" data-image-code="BNV-014" style="--photo-ratio:1.497193">
+      <a class="photo-button" href="../assets/photos/birbs-noale-verona/full/BNV-014.webp"
+      data-photo-id="BNV-014" data-context="album"
+      aria-label="Apri la fotografia: Un filo di blu">
+      <img src="../assets/photos/birbs-noale-verona/full/BNV-014.webp" srcset="../assets/photos/birbs-noale-verona/thumbs/BNV-014.webp 960w, ../assets/photos/birbs-noale-verona/full/BNV-014.webp 2400w" sizes="(max-width: 700px) 90vw, (min-width: 1620px) 710px, 44vw"
+      width="2400" height="1603" alt="Dettaglio ravvicinato del piumaggio di un germano reale femmina, con una striscia blu tra i toni marroni."
+      loading="lazy" decoding="async"
+      class="">
+      <span class="expand-indicator"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 4H4v5m11-5h5v5M4 15v5h5m11-5v5h-5"/></svg></span>
+    </a><figcaption class="photo-caption">
+      <span class="photo-caption-title"><span class="muted">08 &nbsp;</span>Un filo di blu</span>
+      <span class="eyebrow">Germano reale</span>
+    </figcaption>
+    </figure></div>
+<div class="sequence-row" data-sequence-count="2"><figure class="gallery-item is-portrait" data-image-code="BNV-004" style="--photo-ratio:0.667917">
+      <a class="photo-button" href="../assets/photos/birbs-noale-verona/full/BNV-004.webp"
+      data-photo-id="BNV-004" data-context="album"
+      aria-label="Apri la fotografia: Di fronte">
+      <img src="../assets/photos/birbs-noale-verona/full/BNV-004.webp" srcset="../assets/photos/birbs-noale-verona/thumbs/BNV-004.webp 641w, ../assets/photos/birbs-noale-verona/full/BNV-004.webp 1603w" sizes="(max-width: 700px) 90vw, (min-width: 1620px) 710px, 44vw"
+      width="1603" height="2400" alt="Gabbiano ripreso frontalmente in piedi su una superficie scura, con lo sfondo chiaro sfocato."
+      loading="lazy" decoding="async"
+      class="">
+      <span class="expand-indicator"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 4H4v5m11-5h5v5M4 15v5h5m11-5v5h-5"/></svg></span>
+    </a><figcaption class="photo-caption">
+      <span class="photo-caption-title"><span class="muted">09 &nbsp;</span>Di fronte</span>
+      <span class="eyebrow">Gabbiano</span>
+    </figcaption>
+    </figure>
+<figure class="gallery-item is-portrait" data-image-code="BNV-005" style="--photo-ratio:0.668333">
+      <a class="photo-button" href="../assets/photos/birbs-noale-verona/full/BNV-005.webp"
+      data-photo-id="BNV-005" data-context="album"
+      aria-label="Apri la fotografia: Profilo">
+      <img src="../assets/photos/birbs-noale-verona/full/BNV-005.webp" srcset="../assets/photos/birbs-noale-verona/thumbs/BNV-005.webp 642w, ../assets/photos/birbs-noale-verona/full/BNV-005.webp 1604w" sizes="(max-width: 700px) 90vw, (min-width: 1620px) 710px, 44vw"
+      width="1604" height="2400" alt="Gabbiano di profilo su una superficie scura, con il becco e le zampe rossastre."
+      loading="lazy" decoding="async"
+      class="">
+      <span class="expand-indicator"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 4H4v5m11-5h5v5M4 15v5h5m11-5v5h-5"/></svg></span>
+    </a><figcaption class="photo-caption">
+      <span class="photo-caption-title"><span class="muted">10 &nbsp;</span>Profilo</span>
+      <span class="eyebrow">Gabbiano</span>
+    </figcaption>
+    </figure></div>
+<div class="sequence-row" data-sequence-count="2"><figure class="gallery-item" data-image-code="BNV-008" style="--photo-ratio:1.497193">
+      <a class="photo-button" href="../assets/photos/birbs-noale-verona/full/BNV-008.webp"
+      data-photo-id="BNV-008" data-context="album"
+      aria-label="Apri la fotografia: Iridescenze">
+      <img src="../assets/photos/birbs-noale-verona/full/BNV-008.webp" srcset="../assets/photos/birbs-noale-verona/thumbs/BNV-008.webp 960w, ../assets/photos/birbs-noale-verona/full/BNV-008.webp 2400w" sizes="(max-width: 700px) 90vw, (min-width: 1620px) 710px, 44vw"
+      width="2400" height="1603" alt="Ritratto laterale di un piccione con occhio arancione e piume verdi e viola sul collo."
+      loading="lazy" decoding="async"
+      class="">
+      <span class="expand-indicator"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 4H4v5m11-5h5v5M4 15v5h5m11-5v5h-5"/></svg></span>
+    </a><figcaption class="photo-caption">
+      <span class="photo-caption-title"><span class="muted">11 &nbsp;</span>Iridescenze</span>
+      <span class="eyebrow">Piccione</span>
+    </figcaption>
+    </figure>
+<figure class="gallery-item is-portrait" data-image-code="BNV-011" style="--photo-ratio:0.750000">
+      <a class="photo-button" href="../assets/photos/birbs-noale-verona/full/BNV-011.webp"
+      data-photo-id="BNV-011" data-context="album"
+      aria-label="Apri la fotografia: Puntini">
+      <img src="../assets/photos/birbs-noale-verona/full/BNV-011.webp" srcset="../assets/photos/birbs-noale-verona/thumbs/BNV-011.webp 720w, ../assets/photos/birbs-noale-verona/full/BNV-011.webp 1800w" sizes="(max-width: 700px) 90vw, (min-width: 1620px) 710px, 44vw"
+      width="1800" height="2400" alt="Piccione inquadrato frontalmente e da vicino, con piumaggio grigio e bianco maculato."
+      loading="lazy" decoding="async"
+      class="">
+      <span class="expand-indicator"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 4H4v5m11-5h5v5M4 15v5h5m11-5v5h-5"/></svg></span>
+    </a><figcaption class="photo-caption">
+      <span class="photo-caption-title"><span class="muted">12 &nbsp;</span>Puntini</span>
+      <span class="eyebrow">Piccione</span>
+    </figcaption>
+    </figure></div>
+<div class="sequence-row" data-sequence-count="2"><figure class="gallery-item" data-image-code="BNV-006" style="--photo-ratio:1.497193">
+      <a class="photo-button" href="../assets/photos/birbs-noale-verona/full/BNV-006.webp"
+      data-photo-id="BNV-006" data-context="album"
+      aria-label="Apri la fotografia: Sulla riva">
+      <img src="../assets/photos/birbs-noale-verona/full/BNV-006.webp" srcset="../assets/photos/birbs-noale-verona/thumbs/BNV-006.webp 960w, ../assets/photos/birbs-noale-verona/full/BNV-006.webp 2400w" sizes="(max-width: 700px) 90vw, (min-width: 1620px) 710px, 44vw"
+      width="2400" height="1603" alt="Gallinella d’acqua giovane in piedi tra l’erba della riva, con l’acqua sullo sfondo."
+      loading="lazy" decoding="async"
+      class="">
+      <span class="expand-indicator"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 4H4v5m11-5h5v5M4 15v5h5m11-5v5h-5"/></svg></span>
+    </a><figcaption class="photo-caption">
+      <span class="photo-caption-title"><span class="muted">13 &nbsp;</span>Sulla riva</span>
+      <span class="eyebrow">Gallinella d’acqua</span>
+    </figcaption>
+    </figure>
+<figure class="gallery-item is-portrait" data-image-code="BNV-009" style="--photo-ratio:0.719583">
+      <a class="photo-button" href="../assets/photos/birbs-noale-verona/full/BNV-009.webp"
+      data-photo-id="BNV-009" data-context="album"
+      aria-label="Apri la fotografia: In bianco">
+      <img src="../assets/photos/birbs-noale-verona/full/BNV-009.webp" srcset="../assets/photos/birbs-noale-verona/thumbs/BNV-009.webp 691w, ../assets/photos/birbs-noale-verona/full/BNV-009.webp 1727w" sizes="(max-width: 700px) 90vw, (min-width: 1620px) 710px, 44vw"
+      width="1727" height="2400" alt="Garzetta bianca in piedi sull’erba, con becco e zampe scuri, in formato verticale."
+      loading="lazy" decoding="async"
+      class="">
+      <span class="expand-indicator"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 4H4v5m11-5h5v5M4 15v5h5m11-5v5h-5"/></svg></span>
+    </a><figcaption class="photo-caption">
+      <span class="photo-caption-title"><span class="muted">14 &nbsp;</span>In bianco</span>
+      <span class="eyebrow">Garzetta</span>
+    </figcaption>
+    </figure></div></section>
+      <div class="gallery-ending"><p id="gallery-end-count">14 immagini visualizzate.</p><a class="text-link" href="../raccolte.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 12H4m6-6-6 6 6 6"/></svg> Tutte le raccolte</a></div>
+      
+    </div>
+  </main>
+  <footer class="site-footer" id="site-footer">
+    <div class="wrap">
+    <div class="footer-top">
+      <p class="footer-message">Fotografie, dischi. Un po’ alla volta.</p>
+      <div class="footer-links">
+        <a href="../raccolte.html">Le raccolte <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16m-6-6 6 6-6 6"/></svg></a>
+        <a href="../dischi.html">Plastic Pizzas <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16m-6-6 6 6-6 6"/></svg></a>
+        <a href="https://www.instagram.com/pigeon.jfif/" target="_blank" rel="noopener noreferrer">@pigeon.jfif <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 19 19 5M5 5h14v14"/></svg></a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 pigeon.jfif &nbsp;/&nbsp; Uno spazio personale.</p>
+      <a class="top-button" href="#top">Torna su <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 20V4m-6 6 6-6 6 6"/></svg></a>
+    </div>
+  </div>
+  </footer>
+  <noscript>
+    <style>
+      .menu-toggle, .gallery-toolbar { display: none; }
+      .site-header { height: auto; }
+      .header-inner { min-height: 87px; flex-wrap: wrap; gap: 20px; padding-block: 20px; }
+      .primary-nav { display: flex; position: static; flex-wrap: wrap; gap: 18px; padding: 0; border: 0; background: none; box-shadow: none; }
+      .nav-link { font: 13px var(--sans); }
+    </style>
+    <p class="wrap" style="padding-block:24px;font-size:12px">JavaScript e' disattivato. Puoi leggere le pagine e aprire le immagini; filtri, ricerca e visualizzatore richiedono JavaScript.</p>
+  </noscript>
+</body>
+</html>

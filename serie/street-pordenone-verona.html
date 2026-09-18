@@ -1,0 +1,331 @@
+<!doctype html>
+<!--
+  PIGEON.JFIF - HTML STATICO CON CONTENUTI GIA' PRESENTI
+  Modifica i testi in assets/data/site.js, gli scatti in photos.js,
+  le raccolte in albums.js e lo stile in assets/css.
+  Per i dischi: data/Dischi.csv e assets/data/records-config.js.
+  Struttura: assets/js/pages.js e assets/js/records-view.js.
+  node tools/build.js rigenera questa pagina; le modifiche dirette all'HTML
+  verrebbero sovrascritte. Il sito NON richiede Node per essere visitato.
+-->
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#f4f2ed">
+  <meta name="color-scheme" content="light">
+  <title>Street — Pordenone &amp; Verona - pigeon.jfif</title>
+  <meta name="description" content="Due città percorse guardando in alto e ai margini: vicoli, torri, biciclette, insegne, statue e piccoli dettagli che tengono insieme la strada.">
+  <meta name="author" content="pigeon.jfif">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Street — Pordenone &amp; Verona - pigeon.jfif">
+  <meta property="og:description" content="Due città percorse guardando in alto e ai margini: vicoli, torri, biciclette, insegne, statue e piccoli dettagli che tengono insieme la strada.">
+  <meta property="og:image" content="../assets/og-cover.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  
+  <link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
+  <link rel="stylesheet" href="../assets/css/theme.css?v=20260918-photoheadings1">
+  <!-- Inter libero: unico caricamento font esterno. Disattivabile in fonts.css. -->
+  <link rel="stylesheet" href="../assets/css/fonts.css?v=20260918-photoheadings1">
+  <link rel="stylesheet" href="../assets/css/style.css?v=20260918-photoheadings1">
+  
+  <!-- Ordine importante: prima i dati, poi funzioni, pagine e interazioni. -->
+  <script defer src="../assets/data/site.js?v=20260918-photoheadings1"></script>
+  <script defer src="../assets/data/photos.js?v=20260918-photoheadings1"></script>
+  <script defer src="../assets/data/albums.js?v=20260918-photoheadings1"></script>
+  <script defer src="../assets/js/core.js?v=20260918-photoheadings1"></script>
+  <script defer src="../assets/js/pages.js?v=20260918-photoheadings1"></script>
+  
+  <script defer src="../assets/js/viewer.js?v=20260918-photoheadings1"></script>
+  <script defer src="../assets/js/app.js?v=20260918-photoheadings1"></script>
+  
+</head>
+<body id="top" data-page="album" data-base="../" data-album="street-pordenone-verona">
+  <a class="skip-link" href="#main">Vai al contenuto</a>
+  <header class="site-header" id="site-header">
+    <div class="header-inner wrap">
+      <!-- HEADER-01 | Unico collegamento Home nella barra: il simbolo p. -->
+      <a href="../index.html" class="brand-home" aria-label="pigeon.jfif, pagina iniziale">
+        <img src="../assets/favicon.svg" width="44" height="44" alt="" decoding="async">
+      </a>
+      <button type="button" class="menu-toggle" data-action="menu" aria-controls="primary-nav" aria-expanded="false">Menu <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></button>
+      <!-- HEADER-02 | Raccolte, Plastic Pizzas e Chi sono. -->
+      <nav id="primary-nav" class="primary-nav" aria-label="Navigazione principale">
+        <a class="nav-link" href="../raccolte.html" aria-current="location">Raccolte</a>
+<a class="nav-link" href="../dischi.html">Plastic Pizzas</a>
+<a class="nav-link" href="../info.html">Chi sono</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main" tabindex="-1">
+    <div class="wrap">
+      <!-- ALBUM-01 | Titolo, luogo, data: albums.js -->
+      <header class="album-intro"><a class="breadcrumb" href="../raccolte.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 12H4m6-6-6 6 6 6"/></svg> Raccolte <span aria-hidden="true">/</span> Street</a>
+        <div class="album-title-row"><h1 class="album-title">Street<br><em class="album-place">Pordenone &amp; Verona</em></h1><p class="album-description">Due città percorse guardando in alto e ai margini: vicoli, torri, biciclette, insegne, statue e piccoli dettagli che tengono insieme la strada.</p></div>
+        <div class="album-meta eyebrow"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 10c0 5-6 10-6 10s-6-5-6-10a6 6 0 1 1 12 0Z"/><circle cx="12" cy="10" r="2"/></svg> Pordenone &amp; Verona, Italia</span><span>15 immagini</span></div>
+      </header>
+      <!-- ALBUM-02 | Filtri configurabili; ricerca e vista: site.js > gallery -->
+      <div class="gallery-toolbar">
+        <div class="filter-bar" role="group" aria-label="Filtra le fotografie per soggetto">
+          <button type="button" class="filter-button" data-filter="all" aria-pressed="true" aria-controls="photo-gallery">Tutte<small>15</small></button><button type="button" class="filter-button" data-filter="strada" aria-pressed="false" aria-controls="photo-gallery">Strada<small>5</small></button><button type="button" class="filter-button" data-filter="architetture" aria-pressed="false" aria-controls="photo-gallery">Architetture<small>4</small></button><button type="button" class="filter-button" data-filter="dettagli" aria-pressed="false" aria-controls="photo-gallery">Dettagli<small>6</small></button>
+        </div>
+        <div class="toolbar-right">
+          <label class="gallery-search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="10" cy="10" r="6"/><path d="m15 15 5 5"/></svg><span class="sr-only">Cerca per titolo, soggetto, luogo o codice</span><input type="search" id="gallery-search" placeholder="Titolo, soggetto, luogo, codice" value="" autocomplete="off" aria-controls="photo-gallery"></label>
+          <div class="gallery-modes">
+            <div class="view-controls" role="group" aria-label="Disposizione delle fotografie">
+              <button type="button" class="view-button" data-view="sequence" aria-pressed="true" aria-label="Vista sequenza, righe a altezza uniforme senza ritagli"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="4" width="16" height="7"/><rect x="4" y="15" width="7" height="5"/><rect x="15" y="15" width="5" height="5"/></svg><span>Sequenza</span></button>
+              <button type="button" class="view-button" data-view="grid" aria-pressed="false" aria-label="Vista griglia, fotografie centrate in cornici uniformi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="4" width="6" height="6"/><rect x="14" y="4" width="6" height="6"/><rect x="4" y="14" width="6" height="6"/><rect x="14" y="14" width="6" height="6"/></svg><span>Griglia</span></button>
+            </div>
+            <div class="order-controls" role="group" aria-label="Ordine delle fotografie">
+              <button type="button" class="order-button" data-order="category" aria-pressed="true">Per categoria</button>
+              <button type="button" class="order-button" data-order="random" aria-pressed="false">Casuale</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p class="sr-only" id="gallery-status" role="status">15 immagini visualizzate</p>
+      <!-- ALBUM-03 | Sequenza dinamica senza crop; panoramiche full-width. Ordine: categoria o casuale. -->
+      <section id="photo-gallery" class="gallery gallery--sequence" aria-label="Fotografie di Street — Pordenone &amp; Verona"><div class="sequence-row" data-sequence-count="3"><figure class="gallery-item is-portrait" data-image-code="SPV-001" style="--photo-ratio:0.666667">
+      <a class="photo-button" href="../assets/photos/street-pordenone-verona/full/SPV-001.webp"
+      data-photo-id="SPV-001" data-context="album"
+      aria-label="Apri la fotografia: Dentro il vicolo">
+      <img src="../assets/photos/street-pordenone-verona/full/SPV-001.webp" srcset="../assets/photos/street-pordenone-verona/thumbs/SPV-001.webp 640w, ../assets/photos/street-pordenone-verona/full/SPV-001.webp 1600w" sizes="(max-width: 700px) 90vw, (max-width: 1000px) 44vw, (min-width: 1620px) 467px, 29vw"
+      width="1600" height="2400" alt="Vicolo stretto tra facciate chiare e negozi, con una persona di spalle in primo piano e un edificio sul fondo."
+      loading="eager" decoding="async" fetchpriority="high"
+      class="">
+      <span class="expand-indicator"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 4H4v5m11-5h5v5M4 15v5h5m11-5v5h-5"/></svg></span>
+    </a><figcaption class="photo-caption">
+      <span class="photo-caption-title"><span class="muted">01 &nbsp;</span>Dentro il vicolo</span>
+      <span class="eyebrow">Strada</span>
+    </figcaption>
+    </figure>
+<figure class="gallery-item is-portrait" data-image-code="SPV-006" style="--photo-ratio:0.667917">
+      <a class="photo-button" href="../assets/photos/street-pordenone-verona/full/SPV-006.webp"
+      data-photo-id="SPV-006" data-context="album"
+      aria-label="Apri la fotografia: Giallo su pietra">
+      <img src="../assets/photos/street-pordenone-verona/full/SPV-006.webp" srcset="../assets/photos/street-pordenone-verona/thumbs/SPV-006.webp 641w, ../assets/photos/street-pordenone-verona/full/SPV-006.webp 1603w" sizes="(max-width: 700px) 90vw, (max-width: 1000px) 44vw, (min-width: 1620px) 467px, 29vw"
+      width="1603" height="2400" alt="Bicicletta gialla con cestino appoggiata a una parete di pietra."
+      loading="eager" decoding="async" fetchpriority="high"
+      class="">
+      <span class="expand-indicator"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 4H4v5m11-5h5v5M4 15v5h5m11-5v5h-5"/></svg></span>
+    </a><figcaption class="photo-caption">
+      <span class="photo-caption-title"><span class="muted">02 &nbsp;</span>Giallo su pietra</span>
+      <span class="eyebrow">Bicicletta</span>
+    </figcaption>
+    </figure>
+<figure class="gallery-item is-portrait" data-image-code="SPV-012" style="--photo-ratio:0.667917">
+      <a class="photo-button" href="../assets/photos/street-pordenone-verona/full/SPV-012.webp"
+      data-photo-id="SPV-012" data-context="album"
+      aria-label="Apri la fotografia: Passaggio">
+      <img src="../assets/photos/street-pordenone-verona/full/SPV-012.webp" srcset="../assets/photos/street-pordenone-verona/thumbs/SPV-012.webp 641w, ../assets/photos/street-pordenone-verona/full/SPV-012.webp 1603w" sizes="(max-width: 700px) 90vw, (max-width: 1000px) 44vw, (min-width: 1620px) 467px, 29vw"
+      width="1603" height="2400" alt="Parte anteriore di una bicicletta gialla con cestino, accanto a una persona ritagliata sul bordo del fotogramma."
+      loading="eager" decoding="async" fetchpriority="high"
+      class="">
+      <span class="expand-indicator"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 4H4v5m11-5h5v5M4 15v5h5m11-5v5h-5"/></svg></span>
+    </a><figcaption class="photo-caption">
+      <span class="photo-caption-title"><span class="muted">03 &nbsp;</span>Passaggio</span>
+      <span class="eyebrow">Bicicletta</span>
+    </figcaption>
+    </figure></div>
+<div class="sequence-row" data-sequence-count="2"><figure class="gallery-item is-portrait" data-image-code="SPV-010" style="--photo-ratio:0.667917">
+      <a class="photo-button" href="../assets/photos/street-pordenone-verona/full/SPV-010.webp"
+      data-photo-id="SPV-010" data-context="album"
+      aria-label="Apri la fotografia: Lampione">
+      <img src="../assets/photos/street-pordenone-verona/full/SPV-010.webp" srcset="../assets/photos/street-pordenone-verona/thumbs/SPV-010.webp 641w, ../assets/photos/street-pordenone-verona/full/SPV-010.webp 1603w" sizes="(max-width: 700px) 90vw, (min-width: 1620px) 710px, 44vw"
+      width="1603" height="2400" alt="Sagoma scura di un lampione in primo piano, con una torre sfocata sullo sfondo."
+      loading="lazy" decoding="async"
+      class="">
+      <span class="expand-indicator"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 4H4v5m11-5h5v5M4 15v5h5m11-5v5h-5"/></svg></span>
+    </a><figcaption class="photo-caption">
+      <span class="photo-caption-title"><span class="muted">04 &nbsp;</span>Lampione</span>
+      <span class="eyebrow">Arredo urbano</span>
+    </figcaption>
+    </figure>
+<figure class="gallery-item is-portrait" data-image-code="SPV-011" style="--photo-ratio:0.667917">
+      <a class="photo-button" href="../assets/photos/street-pordenone-verona/full/SPV-011.webp"
+      data-photo-id="SPV-011" data-context="album"
+      aria-label="Apri la fotografia: Luci accese">
+      <img src="../assets/photos/street-pordenone-verona/full/SPV-011.webp" srcset="../assets/photos/street-pordenone-verona/thumbs/SPV-011.webp 641w, ../assets/photos/street-pordenone-verona/full/SPV-011.webp 1603w" sizes="(max-width: 700px) 90vw, (min-width: 1620px) 710px, 44vw"
+      width="1603" height="2400" alt="Due lampioni accesi fissati a una parete di pietra, con facciate cittadine sullo sfondo."
+      loading="lazy" decoding="async"
+      class="">
+      <span class="expand-indicator"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 4H4v5m11-5h5v5M4 15v5h5m11-5v5h-5"/></svg></span>
+    </a><figcaption class="photo-caption">
+      <span class="photo-caption-title"><span class="muted">05 &nbsp;</span>Luci accese</span>
+      <span class="eyebrow">Arredo urbano</span>
+    </figcaption>
+    </figure></div>
+<div class="sequence-row" data-sequence-count="3"><figure class="gallery-item is-portrait" data-image-code="SPV-002" style="--photo-ratio:0.666667">
+      <a class="photo-button" href="../assets/photos/street-pordenone-verona/full/SPV-002.webp"
+      data-photo-id="SPV-002" data-context="album"
+      aria-label="Apri la fotografia: Tra i rami">
+      <img src="../assets/photos/street-pordenone-verona/full/SPV-002.webp" srcset="../assets/photos/street-pordenone-verona/thumbs/SPV-002.webp 640w, ../assets/photos/street-pordenone-verona/full/SPV-002.webp 1600w" sizes="(max-width: 700px) 90vw, (max-width: 1000px) 44vw, (min-width: 1620px) 467px, 29vw"
+      width="1600" height="2400" alt="Campanile in pietra visto tra rami e foglie, contro il cielo azzurro."
+      loading="lazy" decoding="async"
+      class="">
+      <span class="expand-indicator"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 4H4v5m11-5h5v5M4 15v5h5m11-5v5h-5"/></svg></span>
+    </a><figcaption class="photo-caption">
+      <span class="photo-caption-title"><span class="muted">06 &nbsp;</span>Tra i rami</span>
+      <span class="eyebrow">Campanile</span>
+    </figcaption>
+    </figure>
+<figure class="gallery-item is-portrait" data-image-code="SPV-007" style="--photo-ratio:0.667917">
+      <a class="photo-button" href="../assets/photos/street-pordenone-verona/full/SPV-007.webp"
+      data-photo-id="SPV-007" data-context="album"
+      aria-label="Apri la fotografia: Tra due facciate">
+      <img src="../assets/photos/street-pordenone-verona/full/SPV-007.webp" srcset="../assets/photos/street-pordenone-verona/thumbs/SPV-007.webp 641w, ../assets/photos/street-pordenone-verona/full/SPV-007.webp 1603w" sizes="(max-width: 700px) 90vw, (max-width: 1000px) 44vw, (min-width: 1620px) 467px, 29vw"
+      width="1603" height="2400" alt="Campanile chiaro inquadrato nello spazio stretto tra due edifici."
+      loading="lazy" decoding="async"
+      class="">
+      <span class="expand-indicator"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 4H4v5m11-5h5v5M4 15v5h5m11-5v5h-5"/></svg></span>
+    </a><figcaption class="photo-caption">
+      <span class="photo-caption-title"><span class="muted">07 &nbsp;</span>Tra due facciate</span>
+      <span class="eyebrow">Campanile</span>
+    </figcaption>
+    </figure>
+<figure class="gallery-item is-portrait" data-image-code="SPV-008" style="--photo-ratio:0.637083">
+      <a class="photo-button" href="../assets/photos/street-pordenone-verona/full/SPV-008.webp"
+      data-photo-id="SPV-008" data-context="album"
+      aria-label="Apri la fotografia: Giallo e blu">
+      <img src="../assets/photos/street-pordenone-verona/full/SPV-008.webp" srcset="../assets/photos/street-pordenone-verona/thumbs/SPV-008.webp 612w, ../assets/photos/street-pordenone-verona/full/SPV-008.webp 1529w" sizes="(max-width: 700px) 90vw, (max-width: 1000px) 44vw, (min-width: 1620px) 467px, 29vw"
+      width="1529" height="2400" alt="Spigolo di una facciata gialla contro un cielo blu, ripreso dal basso."
+      loading="lazy" decoding="async"
+      class="">
+      <span class="expand-indicator"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 4H4v5m11-5h5v5M4 15v5h5m11-5v5h-5"/></svg></span>
+    </a><figcaption class="photo-caption">
+      <span class="photo-caption-title"><span class="muted">08 &nbsp;</span>Giallo e blu</span>
+      <span class="eyebrow">Facciata</span>
+    </figcaption>
+    </figure></div>
+<div class="sequence-row" data-sequence-count="2"><figure class="gallery-item is-portrait" data-image-code="SPV-005" style="--photo-ratio:0.647083">
+      <a class="photo-button" href="../assets/photos/street-pordenone-verona/full/SPV-005.webp"
+      data-photo-id="SPV-005" data-context="album"
+      aria-label="Apri la fotografia: Parole sul muro">
+      <img src="../assets/photos/street-pordenone-verona/full/SPV-005.webp" srcset="../assets/photos/street-pordenone-verona/thumbs/SPV-005.webp 621w, ../assets/photos/street-pordenone-verona/full/SPV-005.webp 1553w" sizes="(max-width: 700px) 90vw, (min-width: 1620px) 710px, 44vw"
+      width="1553" height="2400" alt="Facciata bianca contemporanea con testi poetici stampati su pannelli, sotto un cielo blu intenso."
+      loading="lazy" decoding="async"
+      class="">
+      <span class="expand-indicator"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 4H4v5m11-5h5v5M4 15v5h5m11-5v5h-5"/></svg></span>
+    </a><figcaption class="photo-caption">
+      <span class="photo-caption-title"><span class="muted">09 &nbsp;</span>Parole sul muro</span>
+      <span class="eyebrow">Architettura</span>
+    </figcaption>
+    </figure>
+<figure class="gallery-item is-portrait" data-image-code="SPV-004" style="--photo-ratio:0.666667">
+      <a class="photo-button" href="../assets/photos/street-pordenone-verona/full/SPV-004.webp"
+      data-photo-id="SPV-004" data-context="album"
+      aria-label="Apri la fotografia: Via del Cristo">
+      <img src="../assets/photos/street-pordenone-verona/full/SPV-004.webp" srcset="../assets/photos/street-pordenone-verona/thumbs/SPV-004.webp 640w, ../assets/photos/street-pordenone-verona/full/SPV-004.webp 1600w" sizes="(max-width: 700px) 90vw, (min-width: 1620px) 710px, 44vw"
+      width="1600" height="2400" alt="Targa stradale con la scritta Via del Cristo su una parete, con un arco sfocato sullo sfondo."
+      loading="lazy" decoding="async"
+      class="">
+      <span class="expand-indicator"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 4H4v5m11-5h5v5M4 15v5h5m11-5v5h-5"/></svg></span>
+    </a><figcaption class="photo-caption">
+      <span class="photo-caption-title"><span class="muted">10 &nbsp;</span>Via del Cristo</span>
+      <span class="eyebrow">Segnaletica</span>
+    </figcaption>
+    </figure></div>
+<div class="sequence-row" data-sequence-count="3"><figure class="gallery-item is-portrait" data-image-code="SPV-003" style="--photo-ratio:0.666667">
+      <a class="photo-button" href="../assets/photos/street-pordenone-verona/full/SPV-003.webp"
+      data-photo-id="SPV-003" data-context="album"
+      aria-label="Apri la fotografia: Pietra e foglie">
+      <img src="../assets/photos/street-pordenone-verona/full/SPV-003.webp" srcset="../assets/photos/street-pordenone-verona/thumbs/SPV-003.webp 640w, ../assets/photos/street-pordenone-verona/full/SPV-003.webp 1600w" sizes="(max-width: 700px) 90vw, (max-width: 1000px) 44vw, (min-width: 1620px) 467px, 29vw"
+      width="1600" height="2400" alt="Statua in pietra di una figura umana ripresa dal basso, circondata da foglie verdi."
+      loading="lazy" decoding="async"
+      class="">
+      <span class="expand-indicator"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 4H4v5m11-5h5v5M4 15v5h5m11-5v5h-5"/></svg></span>
+    </a><figcaption class="photo-caption">
+      <span class="photo-caption-title"><span class="muted">11 &nbsp;</span>Pietra e foglie</span>
+      <span class="eyebrow">Scultura</span>
+    </figcaption>
+    </figure>
+<figure class="gallery-item is-portrait" data-image-code="SPV-013" style="--photo-ratio:0.645417">
+      <a class="photo-button" href="../assets/photos/street-pordenone-verona/full/SPV-013.webp"
+      data-photo-id="SPV-013" data-context="album"
+      aria-label="Apri la fotografia: Con un libro">
+      <img src="../assets/photos/street-pordenone-verona/full/SPV-013.webp" srcset="../assets/photos/street-pordenone-verona/thumbs/SPV-013.webp 620w, ../assets/photos/street-pordenone-verona/full/SPV-013.webp 1549w" sizes="(max-width: 700px) 90vw, (max-width: 1000px) 44vw, (min-width: 1620px) 467px, 29vw"
+      width="1549" height="2400" alt="Statua di un uomo con baffi e barba che tiene un libro, davanti a una muratura decorata."
+      loading="lazy" decoding="async"
+      class="">
+      <span class="expand-indicator"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 4H4v5m11-5h5v5M4 15v5h5m11-5v5h-5"/></svg></span>
+    </a><figcaption class="photo-caption">
+      <span class="photo-caption-title"><span class="muted">12 &nbsp;</span>Con un libro</span>
+      <span class="eyebrow">Scultura</span>
+    </figcaption>
+    </figure>
+<figure class="gallery-item is-portrait" data-image-code="SPV-014" style="--photo-ratio:0.667917">
+      <a class="photo-button" href="../assets/photos/street-pordenone-verona/full/SPV-014.webp"
+      data-photo-id="SPV-014" data-context="album"
+      aria-label="Apri la fotografia: Mezza luce">
+      <img src="../assets/photos/street-pordenone-verona/full/SPV-014.webp" srcset="../assets/photos/street-pordenone-verona/thumbs/SPV-014.webp 641w, ../assets/photos/street-pordenone-verona/full/SPV-014.webp 1603w" sizes="(max-width: 700px) 90vw, (max-width: 1000px) 44vw, (min-width: 1620px) 467px, 29vw"
+      width="1603" height="2400" alt="Scultura femminile illuminata solo su volto e busto, mentre il resto rimane nell’ombra."
+      loading="lazy" decoding="async"
+      class="">
+      <span class="expand-indicator"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 4H4v5m11-5h5v5M4 15v5h5m11-5v5h-5"/></svg></span>
+    </a><figcaption class="photo-caption">
+      <span class="photo-caption-title"><span class="muted">13 &nbsp;</span>Mezza luce</span>
+      <span class="eyebrow">Scultura</span>
+    </figcaption>
+    </figure></div>
+<div class="sequence-row" data-sequence-count="2"><figure class="gallery-item is-portrait" data-image-code="SPV-009" style="--photo-ratio:0.667917">
+      <a class="photo-button" href="../assets/photos/street-pordenone-verona/full/SPV-009.webp"
+      data-photo-id="SPV-009" data-context="album"
+      aria-label="Apri la fotografia: Un punto di colore">
+      <img src="../assets/photos/street-pordenone-verona/full/SPV-009.webp" srcset="../assets/photos/street-pordenone-verona/thumbs/SPV-009.webp 641w, ../assets/photos/street-pordenone-verona/full/SPV-009.webp 1603w" sizes="(max-width: 700px) 90vw, (min-width: 1620px) 710px, 44vw"
+      width="1603" height="2400" alt="Piccolo gruppo di fiori rossi, arancioni e gialli isolato contro foglie verdi scure."
+      loading="lazy" decoding="async"
+      class="">
+      <span class="expand-indicator"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 4H4v5m11-5h5v5M4 15v5h5m11-5v5h-5"/></svg></span>
+    </a><figcaption class="photo-caption">
+      <span class="photo-caption-title"><span class="muted">14 &nbsp;</span>Un punto di colore</span>
+      <span class="eyebrow">Fiori</span>
+    </figcaption>
+    </figure>
+<figure class="gallery-item is-portrait" data-image-code="SPV-015" style="--photo-ratio:0.667917">
+      <a class="photo-button" href="../assets/photos/street-pordenone-verona/full/SPV-015.webp"
+      data-photo-id="SPV-015" data-context="album"
+      aria-label="Apri la fotografia: A">
+      <img src="../assets/photos/street-pordenone-verona/full/SPV-015.webp" srcset="../assets/photos/street-pordenone-verona/thumbs/SPV-015.webp 641w, ../assets/photos/street-pordenone-verona/full/SPV-015.webp 1603w" sizes="(max-width: 700px) 90vw, (min-width: 1620px) 710px, 44vw"
+      width="1603" height="2400" alt="Grande lettera A rossa illuminata su una parete scura."
+      loading="lazy" decoding="async"
+      class="">
+      <span class="expand-indicator"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 4H4v5m11-5h5v5M4 15v5h5m11-5v5h-5"/></svg></span>
+    </a><figcaption class="photo-caption">
+      <span class="photo-caption-title"><span class="muted">15 &nbsp;</span>A</span>
+      <span class="eyebrow">Insegna</span>
+    </figcaption>
+    </figure></div></section>
+      <div class="gallery-ending"><p id="gallery-end-count">15 immagini visualizzate.</p><a class="text-link" href="../raccolte.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 12H4m6-6-6 6 6 6"/></svg> Tutte le raccolte</a></div>
+      <p class="album-footnote">Quattro export di Pordenone non conservano gli EXIF tecnici di scatto: i campi mancanti restano vuoti.</p>
+    </div>
+  </main>
+  <footer class="site-footer" id="site-footer">
+    <div class="wrap">
+    <div class="footer-top">
+      <p class="footer-message">Fotografie, dischi. Un po’ alla volta.</p>
+      <div class="footer-links">
+        <a href="../raccolte.html">Le raccolte <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16m-6-6 6 6-6 6"/></svg></a>
+        <a href="../dischi.html">Plastic Pizzas <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16m-6-6 6 6-6 6"/></svg></a>
+        <a href="https://www.instagram.com/pigeon.jfif/" target="_blank" rel="noopener noreferrer">@pigeon.jfif <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 19 19 5M5 5h14v14"/></svg></a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 pigeon.jfif &nbsp;/&nbsp; Uno spazio personale.</p>
+      <a class="top-button" href="#top">Torna su <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 20V4m-6 6 6-6 6 6"/></svg></a>
+    </div>
+  </div>
+  </footer>
+  <noscript>
+    <style>
+      .menu-toggle, .gallery-toolbar { display: none; }
+      .site-header { height: auto; }
+      .header-inner { min-height: 87px; flex-wrap: wrap; gap: 20px; padding-block: 20px; }
+      .primary-nav { display: flex; position: static; flex-wrap: wrap; gap: 18px; padding: 0; border: 0; background: none; box-shadow: none; }
+      .nav-link { font: 13px var(--sans); }
+    </style>
+    <p class="wrap" style="padding-block:24px;font-size:12px">JavaScript e' disattivato. Puoi leggere le pagine e aprire le immagini; filtri, ricerca e visualizzatore richiedono JavaScript.</p>
+  </noscript>
+</body>
+</html>

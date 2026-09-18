@@ -1,0 +1,35 @@
+PROSSIMO IMPORT FOTOGRAFICO - BASE PREPARATA 18/09/2026
+=========================================================
+Le vecchie raccolte Birbs of Noale e Photo Safari Conegliano sono state
+rimosse dal catalogo attivo e dai relativi asset pubblici. Jesolo resta invariata.
+
+RACCOLTA 1
+  Titolo di lavoro : Birbs Noale - Verona
+  album id         : birbs-noale-verona
+  pagina           : serie/birbs-noale-verona.html
+  prefisso foto    : BNV-001, BNV-002, ...
+  cover            : lo scatto sorgente che contiene 1062
+  asset            : assets/photos/birbs-noale-verona/{full,thumbs}/
+
+RACCOLTA 2
+  Titolo di lavoro : Street Pordenone - Verona
+  album id         : street-pordenone-verona
+  pagina           : serie/street-pordenone-verona.html
+  prefisso foto    : SPV-001, SPV-002, ...
+  cover            : crop dedicato DSCF0277_wm_crop.jpg
+  asset foto       : assets/photos/street-pordenone-verona/{full,thumbs}/
+  asset cover      : assets/photos/street-pordenone-verona/cover/
+
+La struttura supporta ora una cover dedicata tramite album.cover, separata da
+photoIds. Questo evita di inserire il crop della 0277 come fotografia duplicata
+nella galleria. Birbs usera' invece normalmente coverId sulla foto 1062.
+
+QUANDO ARRIVANO LE ZIP
+1. Leggere nomi, dimensioni e orientamento dei file; mantenere sourceFile.
+2. Ordinare la sequenza in modo curatoriale e stabile, senza basarsi sull'ID.
+3. Convertire gli export gia' firmati in WebP: full max 2400 px + thumb max 960 px.
+4. Assegnare BNV-/SPV- in ordine stabile e compilare photos.js.
+5. Compilare titoli, alt, soggetto, filtri e dati EXIF solo quando disponibili.
+6. Impostare cover 1062 per Birbs e la cover dedicata 0277 per Street.
+7. Aggiungere i due album in albums.js e generare le pagine dedicate.
+8. Eseguire build, check, test e records-test prima della consegna.

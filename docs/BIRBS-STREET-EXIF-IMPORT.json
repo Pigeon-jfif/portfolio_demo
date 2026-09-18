@@ -1,0 +1,781 @@
+{
+  "importDate": "2026-09-18",
+  "collections": [
+    {
+      "albumId": "birbs-noale-verona",
+      "sourceArchive": "Birbs Noale - Verona.zip",
+      "count": 14,
+      "ids": [
+        "BNV-001",
+        "BNV-002",
+        "BNV-003",
+        "BNV-004",
+        "BNV-005",
+        "BNV-006",
+        "BNV-007",
+        "BNV-008",
+        "BNV-009",
+        "BNV-010",
+        "BNV-011",
+        "BNV-012",
+        "BNV-013",
+        "BNV-014"
+      ]
+    },
+    {
+      "albumId": "street-pordenone-verona",
+      "sourceArchive": "Street Pordenone - Verona.zip",
+      "count": 15,
+      "ids": [
+        "SPV-001",
+        "SPV-002",
+        "SPV-003",
+        "SPV-004",
+        "SPV-005",
+        "SPV-006",
+        "SPV-007",
+        "SPV-008",
+        "SPV-009",
+        "SPV-010",
+        "SPV-011",
+        "SPV-012",
+        "SPV-013",
+        "SPV-014",
+        "SPV-015"
+      ]
+    }
+  ],
+  "notes": [
+    "I file web full sono WebP con lato lungo massimo 2400 px; le miniature hanno lato lungo massimo 960 px.",
+    "I metadati EXIF/GPS non vengono copiati nei WebP pubblici; i dati di scatto leggibili sono riportati nel catalogo.",
+    "SPV-001, SPV-002, SPV-003 e SPV-004 non conservano EXIF tecnici di scatto nell’export ricevuto; i campi restano vuoti.",
+    "La cover Street usa il crop dedicato DSCF0277_wm_crop.jpg e non compare come fotografia duplicata nella galleria."
+  ],
+  "photos": [
+    {
+      "id": "BNV-001",
+      "albumId": "birbs-noale-verona",
+      "sourceFile": "DSCF1062_wm.jpg",
+      "location": "Verona, Italia",
+      "title": "Dal parapetto",
+      "subject": "Germano reale",
+      "filter": "anatre",
+      "width": 2400,
+      "height": 1603,
+      "thumbWidth": 960,
+      "capture": {
+        "camera": "X-T5",
+        "lens": "XF55-200mmF3.5-4.8 R LM OIS",
+        "focalLength": "134.5 mm",
+        "aperture": "f/4.4",
+        "shutter": "1/500 s",
+        "iso": "400",
+        "capturedAt": "4 febbraio 2022, 17:45"
+      },
+      "referenceExport": {
+        "width": 5178,
+        "height": 3459
+      }
+    },
+    {
+      "id": "BNV-002",
+      "albumId": "birbs-noale-verona",
+      "sourceFile": "DSCF1138_wm.jpg",
+      "location": "Verona, Italia",
+      "title": "Battere le ali",
+      "subject": "Germano reale",
+      "filter": "anatre",
+      "width": 2400,
+      "height": 1603,
+      "thumbWidth": 960,
+      "capture": {
+        "camera": "X-T5",
+        "lens": "XF55-200mmF3.5-4.8 R LM OIS",
+        "focalLength": "200 mm",
+        "aperture": "f/4.8",
+        "shutter": "1/60 s",
+        "iso": "400",
+        "capturedAt": "4 febbraio 2022, 17:55"
+      },
+      "referenceExport": {
+        "width": 6514,
+        "height": 4351
+      }
+    },
+    {
+      "id": "BNV-003",
+      "albumId": "birbs-noale-verona",
+      "sourceFile": "DSCF1163_wm.jpg",
+      "location": "Verona, Italia",
+      "title": "Acqua bassa",
+      "subject": "Germano reale",
+      "filter": "anatre",
+      "width": 2400,
+      "height": 1603,
+      "thumbWidth": 960,
+      "capture": {
+        "camera": "X-T5",
+        "lens": "XF55-200mmF3.5-4.8 R LM OIS",
+        "focalLength": "200 mm",
+        "aperture": "f/4.8",
+        "shutter": "1/125 s",
+        "iso": "400",
+        "capturedAt": "4 febbraio 2022, 17:57"
+      },
+      "referenceExport": {
+        "width": 5178,
+        "height": 3459
+      }
+    },
+    {
+      "id": "BNV-004",
+      "albumId": "birbs-noale-verona",
+      "sourceFile": "DSCF1223_wm.jpg",
+      "location": "Verona, Italia",
+      "title": "Di fronte",
+      "subject": "Gabbiano",
+      "filter": "gabbiani",
+      "width": 1603,
+      "height": 2400,
+      "thumbWidth": 641,
+      "capture": {
+        "camera": "X-T5",
+        "lens": "XF55-200mmF3.5-4.8 R LM OIS",
+        "focalLength": "200 mm",
+        "aperture": "f/4.8",
+        "shutter": "1/500 s",
+        "iso": "400",
+        "capturedAt": "4 febbraio 2022, 18:01"
+      },
+      "referenceExport": {
+        "width": 3720,
+        "height": 5568
+      }
+    },
+    {
+      "id": "BNV-005",
+      "albumId": "birbs-noale-verona",
+      "sourceFile": "DSCF1236_wm.jpg",
+      "location": "Verona, Italia",
+      "title": "Profilo",
+      "subject": "Gabbiano",
+      "filter": "gabbiani",
+      "width": 1604,
+      "height": 2400,
+      "thumbWidth": 642,
+      "capture": {
+        "camera": "X-T5",
+        "lens": "XF55-200mmF3.5-4.8 R LM OIS",
+        "focalLength": "200 mm",
+        "aperture": "f/4.8",
+        "shutter": "1/500 s",
+        "iso": "400",
+        "capturedAt": "4 febbraio 2022, 18:01"
+      },
+      "referenceExport": {
+        "width": 3203,
+        "height": 4794
+      }
+    },
+    {
+      "id": "BNV-006",
+      "albumId": "birbs-noale-verona",
+      "sourceFile": "_DSF0016_wm.jpg",
+      "location": "Noale, Italia",
+      "title": "Sulla riva",
+      "subject": "Gallinella d’acqua",
+      "filter": "altri",
+      "width": 2400,
+      "height": 1603,
+      "thumbWidth": 960,
+      "capture": {
+        "camera": "X-T5",
+        "lens": "XF55-200mmF3.5-4.8 R LM OIS",
+        "focalLength": "200 mm",
+        "aperture": "f/4.8",
+        "shutter": "1/1000 s",
+        "iso": "200",
+        "capturedAt": "25 luglio 2026, 17:27"
+      },
+      "referenceExport": {
+        "width": 5376,
+        "height": 3591
+      }
+    },
+    {
+      "id": "BNV-007",
+      "albumId": "birbs-noale-verona",
+      "sourceFile": "_DSF0043_wm.jpg",
+      "location": "Noale, Italia",
+      "title": "Doppio sguardo",
+      "subject": "Germano reale",
+      "filter": "anatre",
+      "width": 1800,
+      "height": 2400,
+      "thumbWidth": 720,
+      "capture": {
+        "camera": "X-T5",
+        "lens": "XF55-200mmF3.5-4.8 R LM OIS",
+        "focalLength": "200 mm",
+        "aperture": "f/4.8",
+        "shutter": "1/1000 s",
+        "iso": "200",
+        "capturedAt": "25 luglio 2026, 17:28"
+      },
+      "referenceExport": {
+        "width": 3131,
+        "height": 4175
+      }
+    },
+    {
+      "id": "BNV-008",
+      "albumId": "birbs-noale-verona",
+      "sourceFile": "_DSF0333_wm.jpg",
+      "location": "Noale, Italia",
+      "title": "Iridescenze",
+      "subject": "Piccione",
+      "filter": "piccioni",
+      "width": 2400,
+      "height": 1603,
+      "thumbWidth": 960,
+      "capture": {
+        "camera": "X-T5",
+        "lens": "XF55-200mmF3.5-4.8 R LM OIS",
+        "focalLength": "200 mm",
+        "aperture": "f/4.8",
+        "shutter": "1/125 s",
+        "iso": "200",
+        "capturedAt": "25 luglio 2026, 17:33"
+      },
+      "referenceExport": {
+        "width": 7752,
+        "height": 5178
+      }
+    },
+    {
+      "id": "BNV-009",
+      "albumId": "birbs-noale-verona",
+      "sourceFile": "_DSF0432_wm.jpg",
+      "location": "Noale, Italia",
+      "title": "In bianco",
+      "subject": "Garzetta",
+      "filter": "altri",
+      "width": 1727,
+      "height": 2400,
+      "thumbWidth": 691,
+      "capture": {
+        "camera": "X-T5",
+        "lens": "XF55-200mmF3.5-4.8 R LM OIS",
+        "focalLength": "200 mm",
+        "aperture": "f/4.8",
+        "shutter": "1/1000 s",
+        "iso": "800",
+        "capturedAt": "25 luglio 2026, 18:49"
+      },
+      "referenceExport": {
+        "width": 2144,
+        "height": 2979
+      }
+    },
+    {
+      "id": "BNV-010",
+      "albumId": "birbs-noale-verona",
+      "sourceFile": "_DSF0519_wm.jpg",
+      "location": "Noale, Italia",
+      "title": "A cercare qualcosa",
+      "subject": "Germano reale",
+      "filter": "anatre",
+      "width": 2400,
+      "height": 1603,
+      "thumbWidth": 960,
+      "capture": {
+        "camera": "X-T5",
+        "lens": "XF55-200mmF3.5-4.8 R LM OIS",
+        "focalLength": "172.4 mm",
+        "aperture": "f/4.7",
+        "shutter": "1/500 s",
+        "iso": "1600",
+        "capturedAt": "25 luglio 2026, 18:55"
+      },
+      "referenceExport": {
+        "width": 7752,
+        "height": 5178
+      }
+    },
+    {
+      "id": "BNV-011",
+      "albumId": "birbs-noale-verona",
+      "sourceFile": "_DSF0650_wm.jpg",
+      "location": "Noale, Italia",
+      "title": "Puntini",
+      "subject": "Piccione",
+      "filter": "piccioni",
+      "width": 1800,
+      "height": 2400,
+      "thumbWidth": 720,
+      "capture": {
+        "camera": "X-T5",
+        "lens": "XF55-200mmF3.5-4.8 R LM OIS",
+        "focalLength": "200 mm",
+        "aperture": "f/8",
+        "shutter": "1/125 s",
+        "iso": "1600",
+        "capturedAt": "25 luglio 2026, 18:59"
+      },
+      "referenceExport": {
+        "width": 3752,
+        "height": 5003
+      }
+    },
+    {
+      "id": "BNV-012",
+      "albumId": "birbs-noale-verona",
+      "sourceFile": "_DSF0717_wm.jpg",
+      "location": "Noale, Italia",
+      "title": "Di spalle",
+      "subject": "Germano reale",
+      "filter": "anatre",
+      "width": 2400,
+      "height": 1603,
+      "thumbWidth": 960,
+      "capture": {
+        "camera": "X-T5",
+        "lens": "XF55-200mmF3.5-4.8 R LM OIS",
+        "focalLength": "172.4 mm",
+        "aperture": "f/4.7",
+        "shutter": "1/250 s",
+        "iso": "1600",
+        "capturedAt": "25 luglio 2026, 19:01"
+      },
+      "referenceExport": {
+        "width": 7752,
+        "height": 5178
+      }
+    },
+    {
+      "id": "BNV-013",
+      "albumId": "birbs-noale-verona",
+      "sourceFile": "_DSF0812_wm.jpg",
+      "location": "Noale, Italia",
+      "title": "A tu per tu",
+      "subject": "Germano reale",
+      "filter": "anatre",
+      "width": 2400,
+      "height": 1603,
+      "thumbWidth": 960,
+      "capture": {
+        "camera": "X-T5",
+        "lens": "XF55-200mmF3.5-4.8 R LM OIS",
+        "focalLength": "200 mm",
+        "aperture": "f/4.8",
+        "shutter": "1/125 s",
+        "iso": "2000",
+        "capturedAt": "25 luglio 2026, 19:11"
+      },
+      "referenceExport": {
+        "width": 7752,
+        "height": 5178
+      }
+    },
+    {
+      "id": "BNV-014",
+      "albumId": "birbs-noale-verona",
+      "sourceFile": "_DSF0853_wm.jpg",
+      "location": "Noale, Italia",
+      "title": "Un filo di blu",
+      "subject": "Germano reale",
+      "filter": "anatre",
+      "width": 2400,
+      "height": 1603,
+      "thumbWidth": 960,
+      "capture": {
+        "camera": "X-T5",
+        "lens": "XF55-200mmF3.5-4.8 R LM OIS",
+        "focalLength": "200 mm",
+        "aperture": "f/4.8",
+        "shutter": "1/60 s",
+        "iso": "2000",
+        "capturedAt": "25 luglio 2026, 19:13"
+      },
+      "referenceExport": {
+        "width": 7752,
+        "height": 5178
+      }
+    },
+    {
+      "id": "SPV-001",
+      "albumId": "street-pordenone-verona",
+      "sourceFile": "DSCF0221_wm.jpg",
+      "location": "Pordenone, Italia",
+      "title": "Dentro il vicolo",
+      "subject": "Strada",
+      "filter": "strada",
+      "width": 1600,
+      "height": 2400,
+      "thumbWidth": 640,
+      "capture": {
+        "camera": "",
+        "lens": "",
+        "focalLength": "",
+        "aperture": "",
+        "shutter": "",
+        "iso": "",
+        "capturedAt": ""
+      },
+      "referenceExport": {
+        "width": 5152,
+        "height": 7728
+      }
+    },
+    {
+      "id": "SPV-002",
+      "albumId": "street-pordenone-verona",
+      "sourceFile": "DSCF0277_wm.jpg",
+      "location": "Pordenone, Italia",
+      "title": "Tra i rami",
+      "subject": "Campanile",
+      "filter": "architetture",
+      "width": 1600,
+      "height": 2400,
+      "thumbWidth": 640,
+      "capture": {
+        "camera": "",
+        "lens": "",
+        "focalLength": "",
+        "aperture": "",
+        "shutter": "",
+        "iso": "",
+        "capturedAt": ""
+      },
+      "referenceExport": {
+        "width": 5152,
+        "height": 7728
+      }
+    },
+    {
+      "id": "SPV-003",
+      "albumId": "street-pordenone-verona",
+      "sourceFile": "DSCF0294_wm.jpg",
+      "location": "Pordenone, Italia",
+      "title": "Pietra e foglie",
+      "subject": "Scultura",
+      "filter": "dettagli",
+      "width": 1600,
+      "height": 2400,
+      "thumbWidth": 640,
+      "capture": {
+        "camera": "",
+        "lens": "",
+        "focalLength": "",
+        "aperture": "",
+        "shutter": "",
+        "iso": "",
+        "capturedAt": ""
+      },
+      "referenceExport": {
+        "width": 5152,
+        "height": 7728
+      }
+    },
+    {
+      "id": "SPV-004",
+      "albumId": "street-pordenone-verona",
+      "sourceFile": "DSCF0344_wm.jpg",
+      "location": "Pordenone, Italia",
+      "title": "Via del Cristo",
+      "subject": "Segnaletica",
+      "filter": "dettagli",
+      "width": 1600,
+      "height": 2400,
+      "thumbWidth": 640,
+      "capture": {
+        "camera": "",
+        "lens": "",
+        "focalLength": "",
+        "aperture": "",
+        "shutter": "",
+        "iso": "",
+        "capturedAt": ""
+      },
+      "referenceExport": {
+        "width": 5152,
+        "height": 7728
+      }
+    },
+    {
+      "id": "SPV-005",
+      "albumId": "street-pordenone-verona",
+      "sourceFile": "DSCF0350_wm.jpg",
+      "location": "Pordenone, Italia",
+      "title": "Parole sul muro",
+      "subject": "Architettura",
+      "filter": "architetture",
+      "width": 1553,
+      "height": 2400,
+      "thumbWidth": 621,
+      "capture": {
+        "camera": "X-T5",
+        "lens": "XF55-200mmF3.5-4.8 R LM OIS",
+        "focalLength": "55 mm",
+        "aperture": "f/4",
+        "shutter": "1/8000 s",
+        "iso": "200",
+        "capturedAt": "25 gennaio 2022, 18:31"
+      },
+      "referenceExport": {
+        "width": 4821,
+        "height": 7449
+      }
+    },
+    {
+      "id": "SPV-006",
+      "albumId": "street-pordenone-verona",
+      "sourceFile": "DSCF0949_wm.jpg",
+      "location": "Verona, Italia",
+      "title": "Giallo su pietra",
+      "subject": "Bicicletta",
+      "filter": "strada",
+      "width": 1603,
+      "height": 2400,
+      "thumbWidth": 641,
+      "capture": {
+        "camera": "X-T5",
+        "lens": "XF16-55mmF2.8 R LM WR",
+        "focalLength": "55 mm",
+        "aperture": "f/2.8",
+        "shutter": "1/500 s",
+        "iso": "400",
+        "capturedAt": "4 febbraio 2022, 17:09"
+      },
+      "referenceExport": {
+        "width": 5178,
+        "height": 7752
+      }
+    },
+    {
+      "id": "SPV-007",
+      "albumId": "street-pordenone-verona",
+      "sourceFile": "DSCF1047_wm.jpg",
+      "location": "Verona, Italia",
+      "title": "Tra due facciate",
+      "subject": "Campanile",
+      "filter": "architetture",
+      "width": 1603,
+      "height": 2400,
+      "thumbWidth": 641,
+      "capture": {
+        "camera": "X-T5",
+        "lens": "XF55-200mmF3.5-4.8 R LM OIS",
+        "focalLength": "134.5 mm",
+        "aperture": "f/4.4",
+        "shutter": "1/2000 s",
+        "iso": "400",
+        "capturedAt": "4 febbraio 2022, 17:43"
+      },
+      "referenceExport": {
+        "width": 4928,
+        "height": 7378
+      }
+    },
+    {
+      "id": "SPV-008",
+      "albumId": "street-pordenone-verona",
+      "sourceFile": "DSCF1050_wm.jpg",
+      "location": "Verona, Italia",
+      "title": "Giallo e blu",
+      "subject": "Facciata",
+      "filter": "architetture",
+      "width": 1529,
+      "height": 2400,
+      "thumbWidth": 612,
+      "capture": {
+        "camera": "X-T5",
+        "lens": "XF55-200mmF3.5-4.8 R LM OIS",
+        "focalLength": "81.9 mm",
+        "aperture": "f/3.8",
+        "shutter": "1/2000 s",
+        "iso": "400",
+        "capturedAt": "4 febbraio 2022, 17:43"
+      },
+      "referenceExport": {
+        "width": 4602,
+        "height": 7225
+      }
+    },
+    {
+      "id": "SPV-009",
+      "albumId": "street-pordenone-verona",
+      "sourceFile": "DSCF1294_wm.jpg",
+      "location": "Verona, Italia",
+      "title": "Un punto di colore",
+      "subject": "Fiori",
+      "filter": "dettagli",
+      "width": 1603,
+      "height": 2400,
+      "thumbWidth": 641,
+      "capture": {
+        "camera": "X-T5",
+        "lens": "XF55-200mmF3.5-4.8 R LM OIS",
+        "focalLength": "200 mm",
+        "aperture": "f/4.8",
+        "shutter": "1/250 s",
+        "iso": "400",
+        "capturedAt": "4 febbraio 2022, 18:05"
+      },
+      "referenceExport": {
+        "width": 5178,
+        "height": 7752
+      }
+    },
+    {
+      "id": "SPV-010",
+      "albumId": "street-pordenone-verona",
+      "sourceFile": "DSCF1313_wm.jpg",
+      "location": "Verona, Italia",
+      "title": "Lampione",
+      "subject": "Arredo urbano",
+      "filter": "strada",
+      "width": 1603,
+      "height": 2400,
+      "thumbWidth": 641,
+      "capture": {
+        "camera": "X-T5",
+        "lens": "XF55-200mmF3.5-4.8 R LM OIS",
+        "focalLength": "200 mm",
+        "aperture": "f/4.8",
+        "shutter": "1/4000 s",
+        "iso": "400",
+        "capturedAt": "4 febbraio 2022, 18:09"
+      },
+      "referenceExport": {
+        "width": 5178,
+        "height": 7752
+      }
+    },
+    {
+      "id": "SPV-011",
+      "albumId": "street-pordenone-verona",
+      "sourceFile": "DSCF1364_wm.jpg",
+      "location": "Verona, Italia",
+      "title": "Luci accese",
+      "subject": "Arredo urbano",
+      "filter": "strada",
+      "width": 1603,
+      "height": 2400,
+      "thumbWidth": 641,
+      "capture": {
+        "camera": "X-T5",
+        "lens": "XF55-200mmF3.5-4.8 R LM OIS",
+        "focalLength": "200 mm",
+        "aperture": "f/4.8",
+        "shutter": "1/1000 s",
+        "iso": "400",
+        "capturedAt": "4 febbraio 2022, 19:22"
+      },
+      "referenceExport": {
+        "width": 4876,
+        "height": 7299
+      }
+    },
+    {
+      "id": "SPV-012",
+      "albumId": "street-pordenone-verona",
+      "sourceFile": "DSCF1430_wm.jpg",
+      "location": "Verona, Italia",
+      "title": "Passaggio",
+      "subject": "Bicicletta",
+      "filter": "strada",
+      "width": 1603,
+      "height": 2400,
+      "thumbWidth": 641,
+      "capture": {
+        "camera": "X-T5",
+        "lens": "XF55-200mmF3.5-4.8 R LM OIS",
+        "focalLength": "148.5 mm",
+        "aperture": "f/4.5",
+        "shutter": "1/250 s",
+        "iso": "400",
+        "capturedAt": "4 febbraio 2022, 19:49"
+      },
+      "referenceExport": {
+        "width": 5178,
+        "height": 7752
+      }
+    },
+    {
+      "id": "SPV-013",
+      "albumId": "street-pordenone-verona",
+      "sourceFile": "DSCF1453_wm.jpg",
+      "location": "Verona, Italia",
+      "title": "Con un libro",
+      "subject": "Scultura",
+      "filter": "dettagli",
+      "width": 1549,
+      "height": 2400,
+      "thumbWidth": 620,
+      "capture": {
+        "camera": "X-T5",
+        "lens": "XF55-200mmF3.5-4.8 R LM OIS",
+        "focalLength": "200 mm",
+        "aperture": "f/4.8",
+        "shutter": "1/500 s",
+        "iso": "400",
+        "capturedAt": "4 febbraio 2022, 19:53"
+      },
+      "referenceExport": {
+        "width": 4877,
+        "height": 7555
+      }
+    },
+    {
+      "id": "SPV-014",
+      "albumId": "street-pordenone-verona",
+      "sourceFile": "DSCF1498_wm.jpg",
+      "location": "Verona, Italia",
+      "title": "Mezza luce",
+      "subject": "Scultura",
+      "filter": "dettagli",
+      "width": 1603,
+      "height": 2400,
+      "thumbWidth": 641,
+      "capture": {
+        "camera": "X-T5",
+        "lens": "XF55-200mmF3.5-4.8 R LM OIS",
+        "focalLength": "200 mm",
+        "aperture": "f/4.8",
+        "shutter": "1/125 s",
+        "iso": "400",
+        "capturedAt": "4 febbraio 2022, 20:07"
+      },
+      "referenceExport": {
+        "width": 5178,
+        "height": 7752
+      }
+    },
+    {
+      "id": "SPV-015",
+      "albumId": "street-pordenone-verona",
+      "sourceFile": "DSCF1499_wm.jpg",
+      "location": "Verona, Italia",
+      "title": "A",
+      "subject": "Insegna",
+      "filter": "dettagli",
+      "width": 1603,
+      "height": 2400,
+      "thumbWidth": 641,
+      "capture": {
+        "camera": "X-T5",
+        "lens": "XF55-200mmF3.5-4.8 R LM OIS",
+        "focalLength": "200 mm",
+        "aperture": "f/4.8",
+        "shutter": "1/250 s",
+        "iso": "400",
+        "capturedAt": "4 febbraio 2022, 20:07"
+      },
+      "referenceExport": {
+        "width": 5178,
+        "height": 7752
+      }
+    }
+  ]
+}

@@ -14,7 +14,7 @@ module.exports = function makeIndex(P, root) {
       if (album.coverId === photo.id) places.push('COLLECTIONS-02 / raccolte.html / copertina ' + album.id);
       const position = album.photoIds.indexOf(photo.id);
       if (position >= 0) {
-        const rows = P.galleryRows(P.galleryPhotos(album, 'all', '', 'category'), true);
+        const rows = P.galleryRows(P.galleryPhotos(album, 'all', '', 'category'), album.sequence || {});
         const rowIndex = rows.findIndex(row => row.some(item => item.id === photo.id));
         const row = rows[rowIndex];
         const column = row.findIndex(item => item.id === photo.id) + 1;

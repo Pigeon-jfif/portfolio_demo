@@ -14,6 +14,7 @@ I parametri sotto sono esempi di formato, NON i dati di uno scatto reale.
   "title": "Titolo della fotografia",
   "subject": "Eurofighter",
   "filter": "efa",
+  "location": "Jesolo, Italia",
   "alt": "Descrizione concreta di quello che si vede.",
   "note": "Una nota sul momento, sull'inquadratura o sul ritaglio.",
   "variant": "wide",
@@ -44,6 +45,7 @@ FORMATI DEI CAMPI, SOLO COME ESEMPIO:
   capturedAt:  "12 settembre 2026, 15:34"
 
 Non copiare questi valori se non sono quelli dello scatto.
+location e' opzionale: usalo soprattutto quando una raccolta unisce piu luoghi.
 Per mostrare la foto, aggiungi l'ID a photoIds in albums.js.
 
 webSignature e' una nota di lavoro: "author" per il tuo export firmato,

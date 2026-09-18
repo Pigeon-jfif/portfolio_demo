@@ -412,180 +412,322 @@ JES-040 | Solista
   Posizioni:
     - ALBUM-03 / serie/jesolo.html / posizione 28 / riga 16, colonna 1 di 2
 
-NOA-001 | A tu per tu
-  Sorgente precedente: _DSF0812.jpg
-  File pubblico: assets/photos/birbs-of-noale/large/NOA-001.jpg
-  WEB: 2047 x 1367 px
-  Export di riferimento: non comunicato
+BNV-001 | Dal parapetto
+  Sorgente precedente: DSCF1062_wm.jpg
+  File pubblico: assets/photos/birbs-noale-verona/full/BNV-001.webp
+  WEB: 2400 x 1603 px
+  Export di riferimento: 5178 x 3459 px
   Confronto: nessuno
-  Firma: provvisoria per la prova - sostituire con export firmato personale
+  Firma: tag presente nel file fornito
+  Parametri: camera=X-T5; lens=XF55-200mmF3.5-4.8 R LM OIS; focalLength=134.5 mm; aperture=f/4.4; shutter=1/500 s; iso=400
+  Posizioni:
+    - COLLECTIONS-02 / raccolte.html / copertina birbs-noale-verona
+    - ALBUM-03 / serie/birbs-noale-verona.html / posizione 1 / riga 1, colonna 1 di 2
+
+BNV-002 | Battere le ali
+  Sorgente precedente: DSCF1138_wm.jpg
+  File pubblico: assets/photos/birbs-noale-verona/full/BNV-002.webp
+  WEB: 2400 x 1603 px
+  Export di riferimento: 6514 x 4351 px
+  Confronto: nessuno
+  Firma: tag presente nel file fornito
+  Parametri: camera=X-T5; lens=XF55-200mmF3.5-4.8 R LM OIS; focalLength=200 mm; aperture=f/4.8; shutter=1/60 s; iso=400
+  Posizioni:
+    - ALBUM-03 / serie/birbs-noale-verona.html / posizione 2 / riga 1, colonna 2 di 2
+
+BNV-003 | Acqua bassa
+  Sorgente precedente: DSCF1163_wm.jpg
+  File pubblico: assets/photos/birbs-noale-verona/full/BNV-003.webp
+  WEB: 2400 x 1603 px
+  Export di riferimento: 5178 x 3459 px
+  Confronto: nessuno
+  Firma: tag presente nel file fornito
+  Parametri: camera=X-T5; lens=XF55-200mmF3.5-4.8 R LM OIS; focalLength=200 mm; aperture=f/4.8; shutter=1/125 s; iso=400
+  Posizioni:
+    - ALBUM-03 / serie/birbs-noale-verona.html / posizione 3 / riga 2, colonna 1 di 2
+
+BNV-004 | Di fronte
+  Sorgente precedente: DSCF1223_wm.jpg
+  File pubblico: assets/photos/birbs-noale-verona/full/BNV-004.webp
+  WEB: 1603 x 2400 px
+  Export di riferimento: 3720 x 5568 px
+  Confronto: nessuno
+  Firma: tag presente nel file fornito
+  Parametri: camera=X-T5; lens=XF55-200mmF3.5-4.8 R LM OIS; focalLength=200 mm; aperture=f/4.8; shutter=1/500 s; iso=400
+  Posizioni:
+    - ALBUM-03 / serie/birbs-noale-verona.html / posizione 9 / riga 5, colonna 1 di 2
+
+BNV-005 | Profilo
+  Sorgente precedente: DSCF1236_wm.jpg
+  File pubblico: assets/photos/birbs-noale-verona/full/BNV-005.webp
+  WEB: 1604 x 2400 px
+  Export di riferimento: 3203 x 4794 px
+  Confronto: nessuno
+  Firma: tag presente nel file fornito
+  Parametri: camera=X-T5; lens=XF55-200mmF3.5-4.8 R LM OIS; focalLength=200 mm; aperture=f/4.8; shutter=1/500 s; iso=400
+  Posizioni:
+    - ALBUM-03 / serie/birbs-noale-verona.html / posizione 10 / riga 5, colonna 2 di 2
+
+BNV-006 | Sulla riva
+  Sorgente precedente: _DSF0016_wm.jpg
+  File pubblico: assets/photos/birbs-noale-verona/full/BNV-006.webp
+  WEB: 2400 x 1603 px
+  Export di riferimento: 5376 x 3591 px
+  Confronto: nessuno
+  Firma: tag presente nel file fornito
+  Parametri: camera=X-T5; lens=XF55-200mmF3.5-4.8 R LM OIS; focalLength=200 mm; aperture=f/4.8; shutter=1/1000 s; iso=200
+  Posizioni:
+    - ALBUM-03 / serie/birbs-noale-verona.html / posizione 13 / riga 7, colonna 1 di 2
+
+BNV-007 | Doppio sguardo
+  Sorgente precedente: _DSF0043_wm.jpg
+  File pubblico: assets/photos/birbs-noale-verona/full/BNV-007.webp
+  WEB: 1800 x 2400 px
+  Export di riferimento: 3131 x 4175 px
+  Confronto: nessuno
+  Firma: tag presente nel file fornito
+  Parametri: camera=X-T5; lens=XF55-200mmF3.5-4.8 R LM OIS; focalLength=200 mm; aperture=f/4.8; shutter=1/1000 s; iso=200
+  Posizioni:
+    - ALBUM-03 / serie/birbs-noale-verona.html / posizione 7 / riga 4, colonna 1 di 2
+
+BNV-008 | Iridescenze
+  Sorgente precedente: _DSF0333_wm.jpg
+  File pubblico: assets/photos/birbs-noale-verona/full/BNV-008.webp
+  WEB: 2400 x 1603 px
+  Export di riferimento: 7752 x 5178 px
+  Confronto: nessuno
+  Firma: tag presente nel file fornito
+  Parametri: camera=X-T5; lens=XF55-200mmF3.5-4.8 R LM OIS; focalLength=200 mm; aperture=f/4.8; shutter=1/125 s; iso=200
+  Posizioni:
+    - ALBUM-03 / serie/birbs-noale-verona.html / posizione 11 / riga 6, colonna 1 di 2
+
+BNV-009 | In bianco
+  Sorgente precedente: _DSF0432_wm.jpg
+  File pubblico: assets/photos/birbs-noale-verona/full/BNV-009.webp
+  WEB: 1727 x 2400 px
+  Export di riferimento: 2144 x 2979 px
+  Confronto: nessuno
+  Firma: tag presente nel file fornito
+  Parametri: camera=X-T5; lens=XF55-200mmF3.5-4.8 R LM OIS; focalLength=200 mm; aperture=f/4.8; shutter=1/1000 s; iso=800
+  Posizioni:
+    - ALBUM-03 / serie/birbs-noale-verona.html / posizione 14 / riga 7, colonna 2 di 2
+
+BNV-010 | A cercare qualcosa
+  Sorgente precedente: _DSF0519_wm.jpg
+  File pubblico: assets/photos/birbs-noale-verona/full/BNV-010.webp
+  WEB: 2400 x 1603 px
+  Export di riferimento: 7752 x 5178 px
+  Confronto: nessuno
+  Firma: tag presente nel file fornito
+  Parametri: camera=X-T5; lens=XF55-200mmF3.5-4.8 R LM OIS; focalLength=172.4 mm; aperture=f/4.7; shutter=1/500 s; iso=1600
+  Posizioni:
+    - ALBUM-03 / serie/birbs-noale-verona.html / posizione 4 / riga 2, colonna 2 di 2
+
+BNV-011 | Puntini
+  Sorgente precedente: _DSF0650_wm.jpg
+  File pubblico: assets/photos/birbs-noale-verona/full/BNV-011.webp
+  WEB: 1800 x 2400 px
+  Export di riferimento: 3752 x 5003 px
+  Confronto: nessuno
+  Firma: tag presente nel file fornito
+  Parametri: camera=X-T5; lens=XF55-200mmF3.5-4.8 R LM OIS; focalLength=200 mm; aperture=f/8; shutter=1/125 s; iso=1600
+  Posizioni:
+    - ALBUM-03 / serie/birbs-noale-verona.html / posizione 12 / riga 6, colonna 2 di 2
+
+BNV-012 | Di spalle
+  Sorgente precedente: _DSF0717_wm.jpg
+  File pubblico: assets/photos/birbs-noale-verona/full/BNV-012.webp
+  WEB: 2400 x 1603 px
+  Export di riferimento: 7752 x 5178 px
+  Confronto: nessuno
+  Firma: tag presente nel file fornito
+  Parametri: camera=X-T5; lens=XF55-200mmF3.5-4.8 R LM OIS; focalLength=172.4 mm; aperture=f/4.7; shutter=1/250 s; iso=1600
+  Posizioni:
+    - ALBUM-03 / serie/birbs-noale-verona.html / posizione 5 / riga 3, colonna 1 di 2
+
+BNV-013 | A tu per tu
+  Sorgente precedente: _DSF0812_wm.jpg
+  File pubblico: assets/photos/birbs-noale-verona/full/BNV-013.webp
+  WEB: 2400 x 1603 px
+  Export di riferimento: 7752 x 5178 px
+  Confronto: nessuno
+  Firma: tag presente nel file fornito
+  Parametri: camera=X-T5; lens=XF55-200mmF3.5-4.8 R LM OIS; focalLength=200 mm; aperture=f/4.8; shutter=1/125 s; iso=2000
+  Posizioni:
+    - ALBUM-03 / serie/birbs-noale-verona.html / posizione 6 / riga 3, colonna 2 di 2
+
+BNV-014 | Un filo di blu
+  Sorgente precedente: _DSF0853_wm.jpg
+  File pubblico: assets/photos/birbs-noale-verona/full/BNV-014.webp
+  WEB: 2400 x 1603 px
+  Export di riferimento: 7752 x 5178 px
+  Confronto: nessuno
+  Firma: tag presente nel file fornito
+  Parametri: camera=X-T5; lens=XF55-200mmF3.5-4.8 R LM OIS; focalLength=200 mm; aperture=f/4.8; shutter=1/60 s; iso=2000
+  Posizioni:
+    - ALBUM-03 / serie/birbs-noale-verona.html / posizione 8 / riga 4, colonna 2 di 2
+
+SPV-001 | Dentro il vicolo
+  Sorgente precedente: DSCF0221_wm.jpg
+  File pubblico: assets/photos/street-pordenone-verona/full/SPV-001.webp
+  WEB: 1600 x 2400 px
+  Export di riferimento: 5152 x 7728 px
+  Confronto: nessuno
+  Firma: tag presente nel file fornito
   Parametri: 
   Posizioni:
-    - ALBUM-03 / serie/birbs-of-noale.html / posizione 2 / riga 2, colonna 1 di 2
+    - ALBUM-03 / serie/street-pordenone-verona.html / posizione 1 / riga 1, colonna 1 di 3
 
-NOA-002 | Un filo di blu
-  Sorgente precedente: _DSF0853.jpg
-  File pubblico: assets/photos/birbs-of-noale/large/NOA-002.jpg
-  WEB: 2047 x 1367 px
-  Export di riferimento: non comunicato
+SPV-002 | Tra i rami
+  Sorgente precedente: DSCF0277_wm.jpg
+  File pubblico: assets/photos/street-pordenone-verona/full/SPV-002.webp
+  WEB: 1600 x 2400 px
+  Export di riferimento: 5152 x 7728 px
   Confronto: nessuno
-  Firma: provvisoria per la prova - sostituire con export firmato personale
+  Firma: tag presente nel file fornito
   Parametri: 
   Posizioni:
-    - ALBUM-03 / serie/birbs-of-noale.html / posizione 3 / riga 2, colonna 2 di 2
+    - ALBUM-03 / serie/street-pordenone-verona.html / posizione 6 / riga 3, colonna 1 di 3
 
-NOA-003 | Sulla riva
-  Sorgente precedente: _DSF0016.jpg
-  File pubblico: assets/photos/birbs-of-noale/large/NOA-003.jpg
-  WEB: 2048 x 1368 px
-  Export di riferimento: non comunicato
+SPV-003 | Pietra e foglie
+  Sorgente precedente: DSCF0294_wm.jpg
+  File pubblico: assets/photos/street-pordenone-verona/full/SPV-003.webp
+  WEB: 1600 x 2400 px
+  Export di riferimento: 5152 x 7728 px
   Confronto: nessuno
-  Firma: provvisoria per la prova - sostituire con export firmato personale
+  Firma: tag presente nel file fornito
   Parametri: 
   Posizioni:
-    - ALBUM-03 / serie/birbs-of-noale.html / posizione 4 / riga 5, colonna 1 di 1
+    - ALBUM-03 / serie/street-pordenone-verona.html / posizione 11 / riga 5, colonna 1 di 3
 
-NOA-004 | Doppio sguardo
-  Sorgente precedente: _DSF0043.jpg
-  File pubblico: assets/photos/birbs-of-noale/large/NOA-004.jpg
-  WEB: 1535 x 2048 px
-  Export di riferimento: non comunicato
+SPV-004 | Via del Cristo
+  Sorgente precedente: DSCF0344_wm.jpg
+  File pubblico: assets/photos/street-pordenone-verona/full/SPV-004.webp
+  WEB: 1600 x 2400 px
+  Export di riferimento: 5152 x 7728 px
   Confronto: nessuno
-  Firma: provvisoria per la prova - sostituire con export firmato personale
+  Firma: tag presente nel file fornito
   Parametri: 
   Posizioni:
-    - ALBUM-03 / serie/birbs-of-noale.html / posizione 5 / riga 3, colonna 1 di 2
+    - ALBUM-03 / serie/street-pordenone-verona.html / posizione 10 / riga 4, colonna 2 di 2
 
-NOA-005 | Iridescenze
-  Sorgente precedente: _DSF0333.jpg
-  File pubblico: assets/photos/birbs-of-noale/large/NOA-005.jpg
-  WEB: 2047 x 1367 px
-  Export di riferimento: non comunicato
+SPV-005 | Parole sul muro
+  Sorgente precedente: DSCF0350_wm.jpg
+  File pubblico: assets/photos/street-pordenone-verona/full/SPV-005.webp
+  WEB: 1553 x 2400 px
+  Export di riferimento: 4821 x 7449 px
   Confronto: nessuno
-  Firma: provvisoria per la prova - sostituire con export firmato personale
-  Parametri: 
+  Firma: tag presente nel file fornito
+  Parametri: camera=X-T5; lens=XF55-200mmF3.5-4.8 R LM OIS; focalLength=55 mm; aperture=f/4; shutter=1/8000 s; iso=200
   Posizioni:
-    - COLLECTIONS-02 / raccolte.html / copertina birbs-of-noale
-    - ALBUM-03 / serie/birbs-of-noale.html / posizione 1 / riga 1, colonna 1 di 2
+    - ALBUM-03 / serie/street-pordenone-verona.html / posizione 9 / riga 4, colonna 1 di 2
 
-NOA-006 | In bianco
-  Sorgente precedente: _DSF0432.jpg
-  File pubblico: assets/photos/birbs-of-noale/large/NOA-006.jpg
-  WEB: 1473 x 2048 px
-  Export di riferimento: non comunicato
-  Confronto: nessuno
-  Firma: provvisoria per la prova - sostituire con export firmato personale
-  Parametri: 
-  Posizioni:
-    - ALBUM-03 / serie/birbs-of-noale.html / posizione 7 / riga 4, colonna 2 di 2
-
-NOA-007 | A cercare qualcosa
-  Sorgente precedente: _DSF0519.jpg
-  File pubblico: assets/photos/birbs-of-noale/large/NOA-007.jpg
-  WEB: 2047 x 1367 px
-  Export di riferimento: non comunicato
-  Confronto: nessuno
-  Firma: provvisoria per la prova - sostituire con export firmato personale
-  Parametri: 
-  Posizioni:
-    - ALBUM-03 / serie/birbs-of-noale.html / posizione 8 / riga 3, colonna 2 di 2
-
-NOA-008 | Puntini
-  Sorgente precedente: _DSF0650.jpg
-  File pubblico: assets/photos/birbs-of-noale/large/NOA-008.jpg
-  WEB: 1535 x 2048 px
-  Export di riferimento: non comunicato
-  Confronto: nessuno
-  Firma: provvisoria per la prova - sostituire con export firmato personale
-  Parametri: 
-  Posizioni:
-    - ALBUM-03 / serie/birbs-of-noale.html / posizione 6 / riga 1, colonna 2 di 2
-
-NOA-009 | Di spalle
-  Sorgente precedente: _DSF0717.jpg
-  File pubblico: assets/photos/birbs-of-noale/large/NOA-009.jpg
-  WEB: 2047 x 1367 px
-  Export di riferimento: non comunicato
-  Confronto: nessuno
-  Firma: provvisoria per la prova - sostituire con export firmato personale
-  Parametri: 
-  Posizioni:
-    - ALBUM-03 / serie/birbs-of-noale.html / posizione 9 / riga 4, colonna 1 di 2
-
-CON-001 | Dietro lo scatto
-  Sorgente precedente: DSCF1109.jpg
-  File pubblico: assets/photos/conegliano-photo-safari/full/CON-001.webp
+SPV-006 | Giallo su pietra
+  Sorgente precedente: DSCF0949_wm.jpg
+  File pubblico: assets/photos/street-pordenone-verona/full/SPV-006.webp
   WEB: 1603 x 2400 px
   Export di riferimento: 5178 x 7752 px
   Confronto: nessuno
-  Firma: nessuna firma incorporata nel file fornito
-  Parametri: camera=X-T50; lens=XF16-50mmF2.8-4.8 R LM WR; focalLength=33.3 mm; aperture=f/3.8; shutter=1/800 s; iso=2000
+  Firma: tag presente nel file fornito
+  Parametri: camera=X-T5; lens=XF16-55mmF2.8 R LM WR; focalLength=55 mm; aperture=f/2.8; shutter=1/500 s; iso=400
   Posizioni:
-    - ALBUM-03 / serie/conegliano.html / posizione 5 / riga 3, colonna 1 di 2
+    - ALBUM-03 / serie/street-pordenone-verona.html / posizione 2 / riga 1, colonna 2 di 3
 
-CON-002 | Rete
-  Sorgente precedente: DSCF1117_1.jpg
-  File pubblico: assets/photos/conegliano-photo-safari/full/CON-002.webp
-  WEB: 2400 x 1200 px
-  Export di riferimento: 7724 x 3862 px
-  Confronto: nessuno
-  Firma: nessuna firma incorporata nel file fornito
-  Parametri: camera=X-T50; lens=XF16-50mmF2.8-4.8 R LM WR; focalLength=50 mm; aperture=f/4.8; shutter=1/800 s; iso=2000
-  Posizioni:
-    - ALBUM-03 / serie/conegliano.html / posizione 1 / riga 1, colonna 1 di 2
-
-CON-003 | Cancello
-  Sorgente precedente: DSCF1135.jpg
-  File pubblico: assets/photos/conegliano-photo-safari/full/CON-003.webp
-  WEB: 1494 x 2400 px
-  Export di riferimento: 4609 x 7402 px
-  Confronto: nessuno
-  Firma: nessuna firma incorporata nel file fornito
-  Parametri: camera=X-T50; lens=XF16-50mmF2.8-4.8 R LM WR; focalLength=48.6 mm; aperture=f/4.8; shutter=1/400 s; iso=800
-  Posizioni:
-    - ALBUM-03 / serie/conegliano.html / posizione 2 / riga 1, colonna 2 di 2
-
-CON-004 | Torre
-  Sorgente precedente: DSCF1147.jpg
-  File pubblico: assets/photos/conegliano-photo-safari/full/CON-004.webp
+SPV-007 | Tra due facciate
+  Sorgente precedente: DSCF1047_wm.jpg
+  File pubblico: assets/photos/street-pordenone-verona/full/SPV-007.webp
   WEB: 1603 x 2400 px
-  Export di riferimento: 2422 x 3627 px
+  Export di riferimento: 4928 x 7378 px
   Confronto: nessuno
-  Firma: nessuna firma incorporata nel file fornito
-  Parametri: camera=X-T50; lens=XF16-50mmF2.8-4.8 R LM WR; focalLength=50 mm; aperture=f/4.8; shutter=1/800 s; iso=1000
+  Firma: tag presente nel file fornito
+  Parametri: camera=X-T5; lens=XF55-200mmF3.5-4.8 R LM OIS; focalLength=134.5 mm; aperture=f/4.4; shutter=1/2000 s; iso=400
   Posizioni:
-    - ALBUM-03 / serie/conegliano.html / posizione 3 / riga 2, colonna 1 di 2
+    - ALBUM-03 / serie/street-pordenone-verona.html / posizione 7 / riga 3, colonna 2 di 3
 
-CON-005 | Mani
-  Sorgente precedente: DSCF1261.jpg
-  File pubblico: assets/photos/conegliano-photo-safari/full/CON-005.webp
-  WEB: 2400 x 1600 px
-  Export di riferimento: 7728 x 5152 px
+SPV-008 | Giallo e blu
+  Sorgente precedente: DSCF1050_wm.jpg
+  File pubblico: assets/photos/street-pordenone-verona/full/SPV-008.webp
+  WEB: 1529 x 2400 px
+  Export di riferimento: 4602 x 7225 px
   Confronto: nessuno
-  Firma: nessuna firma incorporata nel file fornito
-  Parametri: camera=X-T50; lens=XF16-50mmF2.8-4.8 R LM WR; focalLength=50 mm; aperture=f/4.8; shutter=1/150 s; iso=320
+  Firma: tag presente nel file fornito
+  Parametri: camera=X-T5; lens=XF55-200mmF3.5-4.8 R LM OIS; focalLength=81.9 mm; aperture=f/3.8; shutter=1/2000 s; iso=400
   Posizioni:
-    - COLLECTIONS-02 / raccolte.html / copertina conegliano-photo-safari
-    - ALBUM-03 / serie/conegliano.html / posizione 6 / riga 4, colonna 1 di 1
+    - ALBUM-03 / serie/street-pordenone-verona.html / posizione 8 / riga 3, colonna 3 di 3
 
-CON-006 | Semaforo
-  Sorgente precedente: DSCF1294.jpg
-  File pubblico: assets/photos/conegliano-photo-safari/full/CON-006.webp
-  WEB: 1521 x 2400 px
-  Export di riferimento: 4724 x 7456 px
+SPV-009 | Un punto di colore
+  Sorgente precedente: DSCF1294_wm.jpg
+  File pubblico: assets/photos/street-pordenone-verona/full/SPV-009.webp
+  WEB: 1603 x 2400 px
+  Export di riferimento: 5178 x 7752 px
   Confronto: nessuno
-  Firma: nessuna firma incorporata nel file fornito
-  Parametri: camera=X-T50; lens=XF16-50mmF2.8-4.8 R LM WR; focalLength=50 mm; aperture=f/5; shutter=1/320 s; iso=800
+  Firma: tag presente nel file fornito
+  Parametri: camera=X-T5; lens=XF55-200mmF3.5-4.8 R LM OIS; focalLength=200 mm; aperture=f/4.8; shutter=1/250 s; iso=400
   Posizioni:
-    - ALBUM-03 / serie/conegliano.html / posizione 4 / riga 2, colonna 2 di 2
+    - ALBUM-03 / serie/street-pordenone-verona.html / posizione 14 / riga 6, colonna 1 di 2
 
-CON-007 | Albero
-  Sorgente precedente: DSCF1331.jpg
-  File pubblico: assets/photos/conegliano-photo-safari/full/CON-007.webp
-  WEB: 1586 x 2400 px
-  Export di riferimento: 5017 x 7591 px
+SPV-010 | Lampione
+  Sorgente precedente: DSCF1313_wm.jpg
+  File pubblico: assets/photos/street-pordenone-verona/full/SPV-010.webp
+  WEB: 1603 x 2400 px
+  Export di riferimento: 5178 x 7752 px
   Confronto: nessuno
-  Firma: nessuna firma incorporata nel file fornito
-  Parametri: camera=X-T50; lens=XF16-50mmF2.8-4.8 R LM WR; focalLength=50 mm; aperture=f/5; shutter=1/200 s; iso=1000
+  Firma: tag presente nel file fornito
+  Parametri: camera=X-T5; lens=XF55-200mmF3.5-4.8 R LM OIS; focalLength=200 mm; aperture=f/4.8; shutter=1/4000 s; iso=400
   Posizioni:
-    - ALBUM-03 / serie/conegliano.html / posizione 7 / riga 3, colonna 2 di 2
+    - ALBUM-03 / serie/street-pordenone-verona.html / posizione 4 / riga 2, colonna 1 di 2
+
+SPV-011 | Luci accese
+  Sorgente precedente: DSCF1364_wm.jpg
+  File pubblico: assets/photos/street-pordenone-verona/full/SPV-011.webp
+  WEB: 1603 x 2400 px
+  Export di riferimento: 4876 x 7299 px
+  Confronto: nessuno
+  Firma: tag presente nel file fornito
+  Parametri: camera=X-T5; lens=XF55-200mmF3.5-4.8 R LM OIS; focalLength=200 mm; aperture=f/4.8; shutter=1/1000 s; iso=400
+  Posizioni:
+    - ALBUM-03 / serie/street-pordenone-verona.html / posizione 5 / riga 2, colonna 2 di 2
+
+SPV-012 | Passaggio
+  Sorgente precedente: DSCF1430_wm.jpg
+  File pubblico: assets/photos/street-pordenone-verona/full/SPV-012.webp
+  WEB: 1603 x 2400 px
+  Export di riferimento: 5178 x 7752 px
+  Confronto: nessuno
+  Firma: tag presente nel file fornito
+  Parametri: camera=X-T5; lens=XF55-200mmF3.5-4.8 R LM OIS; focalLength=148.5 mm; aperture=f/4.5; shutter=1/250 s; iso=400
+  Posizioni:
+    - ALBUM-03 / serie/street-pordenone-verona.html / posizione 3 / riga 1, colonna 3 di 3
+
+SPV-013 | Con un libro
+  Sorgente precedente: DSCF1453_wm.jpg
+  File pubblico: assets/photos/street-pordenone-verona/full/SPV-013.webp
+  WEB: 1549 x 2400 px
+  Export di riferimento: 4877 x 7555 px
+  Confronto: nessuno
+  Firma: tag presente nel file fornito
+  Parametri: camera=X-T5; lens=XF55-200mmF3.5-4.8 R LM OIS; focalLength=200 mm; aperture=f/4.8; shutter=1/500 s; iso=400
+  Posizioni:
+    - ALBUM-03 / serie/street-pordenone-verona.html / posizione 12 / riga 5, colonna 2 di 3
+
+SPV-014 | Mezza luce
+  Sorgente precedente: DSCF1498_wm.jpg
+  File pubblico: assets/photos/street-pordenone-verona/full/SPV-014.webp
+  WEB: 1603 x 2400 px
+  Export di riferimento: 5178 x 7752 px
+  Confronto: nessuno
+  Firma: tag presente nel file fornito
+  Parametri: camera=X-T5; lens=XF55-200mmF3.5-4.8 R LM OIS; focalLength=200 mm; aperture=f/4.8; shutter=1/125 s; iso=400
+  Posizioni:
+    - ALBUM-03 / serie/street-pordenone-verona.html / posizione 13 / riga 5, colonna 3 di 3
+
+SPV-015 | A
+  Sorgente precedente: DSCF1499_wm.jpg
+  File pubblico: assets/photos/street-pordenone-verona/full/SPV-015.webp
+  WEB: 1603 x 2400 px
+  Export di riferimento: 5178 x 7752 px
+  Confronto: nessuno
+  Firma: tag presente nel file fornito
+  Parametri: camera=X-T5; lens=XF55-200mmF3.5-4.8 R LM OIS; focalLength=200 mm; aperture=f/4.8; shutter=1/250 s; iso=400
+  Posizioni:
+    - ALBUM-03 / serie/street-pordenone-verona.html / posizione 15 / riga 6, colonna 2 di 2
